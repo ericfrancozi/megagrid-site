@@ -391,7 +391,7 @@
         <span class="wt">PLD Semanal · Sudeste/Centro-Oeste</span>
         <div class="big" id="pld-val">R$ —</div>
         <span class="var" id="pld-var">vs. semana anterior</span>
-        <canvas id="pld-chart" height="84" style="margin-top:10px"></canvas>
+        <div style="position:relative;height:160px;margin-top:10px"><canvas id="pld-chart"></canvas></div>
         <div class="ft">Últimas 12 semanas · fonte <a href="https://dadosabertos.ccee.org.br" target="_blank" rel="noopener" style="color:var(--blue)">CCEE Dados Abertos</a></div>
       </div>
       <div class="card w-quotes">
@@ -864,7 +864,7 @@ function renderTermometro(termo){
   if(det&&termo&&termo.componentes){
     var c=termo.componentes;
     var bm={verde:'Verde 🟢',amarela:'Amarela 🟡',vermelha1:'Verm. P1 🔴',vermelha2:'Verm. P2 🔴',escassez:'Escassez ⚫'};
-    det.innerHTML='<div>🌊 Reservatórios: '+(c.ear&&c.ear.valor!=null?c.ear.valor.toFixed(1)+'% EAR':'—')+'</div><div>💰 PLD SE/CO: '+(c.pld_momentum&&c.pld_momentum.valor?'R$ '+Number(c.pld_momentum.valor).toFixed(2).replace('.',',')+'/MWh':'—')+'</div><div>🚦 Bandeira: '+(c.bandeira&&bm[c.bandeira.valor]||'—')+'</div>';
+    det.innerHTML='<div>🌊 Reservatórios: '+(c.ear&&c.ear.valor!=null?c.ear.valor.toFixed(1).replace('.',',')+'% EAR':'—')+'</div><div>💰 PLD SE/CO: '+(c.pld_momentum&&c.pld_momentum.valor?'R$ '+Number(c.pld_momentum.valor).toFixed(2).replace('.',',')+'/MWh':'—')+'</div><div>🚦 Bandeira: '+(c.bandeira&&bm[c.bandeira.valor]||'—')+'</div>';
   }
 }
 
