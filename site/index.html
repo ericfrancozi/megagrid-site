@@ -9,7 +9,7 @@
 <style>
   :root{
     --ink:#15212F;--mut:#5B6B7E;--dim:#8595A8;
-    --bg:#FFFFFF;--alt:#F4F6F9;--line:#E3E8EF;
+    --bg:#FFFFFF;--alt:#F4F6F9;--line:#E3E8EF
     --navy:#0A1426;--navy2:#101F3C;
     --blue:#1456D6;--blue-d:#0E3FA0;--blue-t:#EDF3FF;
     --ribbon:linear-gradient(90deg,#00E0FF 0%,#2E6BFF 28%,#B43DFF 52%,#FF2E92 76%,#FF7A00 100%);
@@ -793,8 +793,8 @@ function setEl(id,txt,color){
 function renderTicker(pld,ear,band,carga,termo){
   var subs=(pld&&pld.submercados)||{};
   var bi=bandInfo((band&&band.cor)||'amarela');
-  var earPct=(ear&&ear.ear_percentual!=null)?ear.ear_percentual.toFixed(1)+'%':'—';
-  var cargaVal=(carga&&carga.carga_mwmed)?(carga.carga_mwmed/1000).toFixed(1)+' GWmed':'—';
+  var earPct=(ear&&ear.ear_percentual!=null)?ear.ear_percentual.toFixed(1).replace('.',',')+'%':'—';
+  var cargaVal=(carga&&carga.carga_mwmed)?(carga.carga_mwmed/1000).toFixed(1).replace('.',',')+' GWmed':'—';
   var score=(termo&&termo.score!=null)?termo.score+'/100':'—';
   var h=new Date().getHours().toString().padStart(2,'0')+':'+new Date().getMinutes().toString().padStart(2,'0');
 
@@ -836,8 +836,8 @@ function renderQuotes(pld,ear,band,carga){
   if(subs['NE']){setEl('q-ne-val',pldFmt(subs['NE'].preco)+'/MWh');varFmt(subs['NE'].variacao,'q-ne-var');}
   if(subs['N']){setEl('q-n-val',pldFmt(subs['N'].preco)+'/MWh');varFmt(subs['N'].variacao,'q-n-var');}
   if(band){var bi=bandInfo(band.cor);setEl('q-band-val',bi.label,bi.color);}
-  if(ear&&ear.ear_percentual!=null) setEl('q-ear-val',ear.ear_percentual.toFixed(1)+'%');
-  if(carga&&carga.carga_mwmed) setEl('q-carga-val',(carga.carga_mwmed/1000).toFixed(1)+' GWmed');
+  if(ear&&ear.ear_percentual!=null) setEl('q-ear-val',ear.ear_percentual.toFixed(1).replace('.',',')+'%');
+  if(carga&&carga.carga_mwmed) setEl('q-carga-val',(carga.carga_mwmed/1000).toFixed(1).replace('.',',')+' GWmed');
   var se=subs['SE/CO'];
   if(se){
     var p=Number(se.preco).toFixed(2).split('.');
@@ -864,7 +864,7 @@ function renderTermometro(termo){
   if(det&&termo&&termo.componentes){
     var c=termo.componentes;
     var bm={verde:'Verde 🟢',amarela:'Amarela 🟡',vermelha1:'Verm. P1 🔴',vermelha2:'Verm. P2 🔴',escassez:'Escassez ⚫'};
-    det.innerHTML='<div>🌊 Reservatórios: '+(c.ear&&c.ear.valor!=null?c.ear.valor.toFixed(1)+'% EAR':'—')+'</div><div>💰 PLD SE/CO: '+(c.pld_momentum&&c.pld_momentum.valor?'R$ '+Number(c.pld_momentum.valor).toFixed(2)+'/MWh':'—')+'</div><div>🚦 Bandeira: '+(c.bandeira&&bm[c.bandeira.valor]||'—')+'</div>';
+    det.innerHTML='<div>🌊 Reservatórios: '+(c.ear&&c.ear.valor!=null?c.ear.valor.toFixed(1)+'% EAR':'—')+'</div><div>💰 PLD SE/CO: '+(c.pld_momentum&&c.pld_momentum.valor?'R$ '+Number(c.pld_momentum.valor).toFixed(2).replace('.',',')+'/MWh':'—')+'</div><div>🚦 Bandeira: '+(c.bandeira&&bm[c.bandeira.valor]||'—')+'</div>';
   }
 }
 
@@ -929,7 +929,7 @@ async function loadData(){
   var tsEl=document.getElementById('data-updated');
   if(tsEl){var ts=(pld&&pld.updated)||(news&&news.updated);if(ts){var d=new Date(ts);tsEl.textContent='CCEE · ONS · ANEEL — atualizado '+d.toLocaleDateString('pt-BR')+' às '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}}
   // Inicializa calculadoras com PLD real carregado
-  calcMigracao();calcPrecificacao();calcCusto();calcReversa();
+  calcMigracao();calcPrecificacao();calcCusto();
 }
 
 /* ══════════════════════════════════════════════════════════════════
@@ -963,6 +963,8 @@ function switchCalcTab(id){
   var panel=document.getElementById('tab-'+id);
   if(btn) btn.classList.add('active');
   if(panel) panel.classList.add('active');
+    if(id==='reversa') calcReversa();
+    if(id==='custo') calcCusto();
 }
 
 /* ── Calc 1: Migração ───────────────────────────────────────────── */
