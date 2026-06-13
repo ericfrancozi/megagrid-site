@@ -138,7 +138,7 @@
   .band-head{display:flex;align-items:baseline;gap:14px;margin-bottom:18px;flex-wrap:wrap}
   .band-head h2{font-size:1.15rem}
   .band-head span{font-size:.76rem;color:var(--dim)}
-  .band-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:18px;align-items:stretch}
+  .band-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:18px;align-items:start}
   @media(max-width:980px){.band-grid{grid-template-columns:1fr 1fr}}
   @media(max-width:680px){.band-grid{grid-template-columns:1fr}}
   .w-chart{padding:20px 22px}
@@ -391,7 +391,7 @@
         <span class="wt">PLD Semanal · Sudeste/Centro-Oeste</span>
         <div class="big" id="pld-val">R$ —</div>
         <span class="var" id="pld-var">vs. semana anterior</span>
-        <canvas id="pld-chart" height="84" style="margin-top:10px"></canvas>
+        <div style="position:relative;height:90px;margin-top:10px"><canvas id="pld-chart"></canvas></div>
         <div class="ft">Últimas 12 semanas · fonte <a href="https://dadosabertos.ccee.org.br" target="_blank" rel="noopener" style="color:var(--blue)">CCEE Dados Abertos</a></div>
       </div>
       <div class="card w-quotes">
