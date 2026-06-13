@@ -9,7 +9,7 @@
 <style>
   :root{
     --ink:#15212F;--mut:#5B6B7E;--dim:#8595A8;
-    --bg:#FFFFFF;--alt:#F4F6F9;--line:#E3E8EF
+    --bg:#FFFFFF;--alt:#F4F6F9;--line:#E3E8EF;
     --navy:#0A1426;--navy2:#101F3C;
     --blue:#1456D6;--blue-d:#0E3FA0;--blue-t:#EDF3FF;
     --ribbon:linear-gradient(90deg,#00E0FF 0%,#2E6BFF 28%,#B43DFF 52%,#FF2E92 76%,#FF7A00 100%);
@@ -302,10 +302,10 @@
     </div>
     <div class="menu-sec">Aprenda</div>
     <a class="mi" href="#entenda" onclick="menu(false)">Entenda o mercado</a>
-    <a class="mi" href="#" onclick="menu(false)">Metodologia</a>
+    <a class="mi" href="#entenda" onclick="menu(false)">Metodologia</a>
     <div class="menu-sec">Megagrid</div>
-    <a class="mi" href="#" onclick="menu(false)">Fontes oficiais</a>
-    <a class="mi" href="#" onclick="menu(false)">Anuncie aqui</a>
+    <a class="mi" href="#entenda" onclick="menu(false)">Fontes oficiais</a>
+    <a class="mi" href="/midia-kit-megagrid.pdf" target="_blank" rel="noopener" onclick="menu(false)">Anuncie aqui</a>
   </div>
   <div class="menu-foot">Dados: CCEE · ONS · ANEEL<br>© 2026 Megagrid</div>
 </aside>
@@ -391,7 +391,7 @@
         <span class="wt">PLD Semanal · Sudeste/Centro-Oeste</span>
         <div class="big" id="pld-val">R$ —</div>
         <span class="var" id="pld-var">vs. semana anterior</span>
-        <div style="position:relative;height:160px;margin-top:10px"><canvas id="pld-chart"></canvas></div>
+        <canvas id="pld-chart" height="84" style="margin-top:10px"></canvas>
         <div class="ft">Últimas 12 semanas · fonte <a href="https://dadosabertos.ccee.org.br" target="_blank" rel="noopener" style="color:var(--blue)">CCEE Dados Abertos</a></div>
       </div>
       <div class="card w-quotes">
@@ -415,7 +415,7 @@
         <div class="tv" id="thermo-score">—<span>/100</span></div>
         <div class="tl2" id="thermo-nivel">Calculando…</div>
         <div class="dr" id="thermo-detalhe"><div>Aguardando dados CCEE · ONS…</div></div>
-        <a href="#">Como calculamos →</a>
+        <a href="#entenda">Como calculamos →</a>
       </div>
     </div>
   </div>
@@ -424,7 +424,7 @@
 <!-- ===== EDITORIA: MERCADO LIVRE ===== -->
 <section class="edrow" id="ed-ml">
   <div class="wrap">
-    <div class="ed-head"><div><span class="kicker">Editoria</span><h2>Mercado Livre</h2><div class="rule"></div></div><a class="ver" href="#">Ver tudo →</a></div>
+    <div class="ed-head"><div><span class="kicker">Editoria</span><h2>Mercado Livre</h2><div class="rule"></div></div><a class="ver" href="#ed-ml">Ver tudo →</a></div>
     <div class="news" id="news-ml"></div>
   </div>
 </section>
@@ -437,7 +437,7 @@
 <!-- ===== EDITORIA: REGULAÇÃO ===== -->
 <section class="edrow" id="ed-reg">
   <div class="wrap">
-    <div class="ed-head"><div><span class="kicker">Editoria</span><h2>Regulação &amp; Política Energética</h2><div class="rule"></div></div><a class="ver" href="#">Ver tudo →</a></div>
+    <div class="ed-head"><div><span class="kicker">Editoria</span><h2>Regulação &amp; Política Energética</h2><div class="rule"></div></div><a class="ver" href="#ed-reg">Ver tudo →</a></div>
     <div class="news" id="news-reg"></div>
   </div>
 </section>
@@ -445,7 +445,7 @@
 <!-- ===== EDITORIA: TRANSIÇÃO ===== -->
 <section class="edrow" id="ed-trans">
   <div class="wrap">
-    <div class="ed-head"><div><span class="kicker">Editoria</span><h2>Transição &amp; Novos Mercados</h2><div class="rule"></div></div><a class="ver" href="#">Ver tudo →</a></div>
+    <div class="ed-head"><div><span class="kicker">Editoria</span><h2>Transição &amp; Novos Mercados</h2><div class="rule"></div></div><a class="ver" href="#ed-trans">Ver tudo →</a></div>
     <div class="news" id="news-trans"></div>
   </div>
 </section>
@@ -729,13 +729,13 @@
         <ul>
           <li><a href="#mercado">Termômetro do MWh</a></li>
           <li><a href="#calculadoras">Calculadoras</a></li>
-          <li><a href="#">Metodologia</a></li>
-          <li><a href="#">Anuncie aqui</a></li>
-          <li><a href="#">Privacidade</a></li>
+          <li><a href="#entenda">Metodologia</a></li>
+          <li><a href="/midia-kit-megagrid.pdf" target="_blank" rel="noopener">Anuncie aqui</a></li>
+          <li><a href="#privacidade">Privacidade</a></li>
         </ul>
       </div>
     </div>
-    <p class="legal"><b>Aviso importante:</b> todo o conteúdo tem caráter exclusivamente informativo e educacional, baseado em dados públicos oficiais (CCEE, ONS, ANEEL, MME, EPE). As simulações usam metodologia simplificada e declarada e <b>não constituem recomendação comercial, financeira ou jurídica</b>. Decisões de contratação de energia devem ser avaliadas com profissionais habilitados. Fotos: Unsplash (licença livre). © 2026 Megagrid</p>
+    <p class="legal" id="privacidade"><b>Aviso importante:</b> todo o conteúdo tem caráter exclusivamente informativo e educacional, baseado em dados públicos oficiais (CCEE, ONS, ANEEL, MME, EPE). As simulações usam metodologia simplificada e declarada e <b>não constituem recomendação comercial, financeira ou jurídica</b>. Decisões de contratação de energia devem ser avaliadas com profissionais habilitados. Fotos: Unsplash (licença livre). © 2026 Megagrid</p>
   </div>
 </footer>
 
@@ -793,8 +793,8 @@ function setEl(id,txt,color){
 function renderTicker(pld,ear,band,carga,termo){
   var subs=(pld&&pld.submercados)||{};
   var bi=bandInfo((band&&band.cor)||'amarela');
-  var earPct=(ear&&ear.ear_percentual!=null)?ear.ear_percentual.toFixed(1).replace('.',',')+'%':'—';
-  var cargaVal=(carga&&carga.carga_mwmed)?(carga.carga_mwmed/1000).toFixed(1).replace('.',',')+' GWmed':'—';
+  var earPct=(ear&&ear.ear_percentual!=null)?ear.ear_percentual.toFixed(1)+'%':'—';
+  var cargaVal=(carga&&carga.carga_mwmed)?(carga.carga_mwmed/1000).toFixed(1)+' GWmed':'—';
   var score=(termo&&termo.score!=null)?termo.score+'/100':'—';
   var h=new Date().getHours().toString().padStart(2,'0')+':'+new Date().getMinutes().toString().padStart(2,'0');
 
@@ -963,8 +963,9 @@ function switchCalcTab(id){
   var panel=document.getElementById('tab-'+id);
   if(btn) btn.classList.add('active');
   if(panel) panel.classList.add('active');
-    if(id==='reversa') calcReversa();
-    if(id==='custo') calcCusto();
+  // Re-renderiza gráficos que foram criados com painel oculto
+  if(id==='reversa') calcReversa();
+  if(id==='custo') calcCusto();
 }
 
 /* ── Calc 1: Migração ───────────────────────────────────────────── */
