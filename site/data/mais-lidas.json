@@ -1,0 +1,11 @@
+{
+  "updated": "2026-06-13T09:00:00Z",
+  "fallback": true,
+  "itens": [
+    { "rank": 1, "titulo": "PLD horário: como o preço da energia muda a cada hora do dia", "url": "#entenda" },
+    { "rank": 2, "titulo": "O passo a passo para migrar do cativo ao mercado livre", "url": "#calculadoras" },
+    { "rank": 3, "titulo": "Lei 15.269: o calendário completo da abertura até 2028", "url": "#entenda" },
+    { "rank": 4, "titulo": "Bandeira amarela em junho: o que muda na sua conta de luz", "url": "#mercado" },
+    { "rank": 5, "titulo": "Termômetro do MWh: como calculamos o índice de pressão de preços", "url": "#mercado" }
+  ]
+}

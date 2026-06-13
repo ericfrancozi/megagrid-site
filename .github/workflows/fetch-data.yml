@@ -1,0 +1,59 @@
+name: Megagrid — Robô de Dados
+
+on:
+  schedule:
+    # 09:00 UTC = 06:00 BRT (UTC-3)
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    inputs:
+      debug:
+        description: "Modo debug (verbose)"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write   # necessário para commit + push dos JSONs
+
+jobs:
+  fetch:
+    name: Buscar e gravar dados
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # 1. Checkout com token para poder fazer push
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Python 3.11
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # 3. Dependências
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      # 4. Executar robô
+      - name: Executar fetch_data.py
+        env:
+          GOATCOUNTER_API:  ${{ secrets.GOATCOUNTER_API }}
+          GOATCOUNTER_SITE: ${{ secrets.GOATCOUNTER_SITE }}
+        run: python scripts/fetch_data.py
+
+      # 5. Commit e push dos JSONs atualizados
+      - name: Commit & push dados
+        run: |
+          git config user.name  "megagrid-bot"
+          git config user.email "bot@megagrid.com.br"
+          git add site/data/
+          if git diff --staged --quiet; then
+            echo "Nenhuma mudança nos dados — sem commit"
+          else
+            git commit -m "chore(data): atualização automática $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

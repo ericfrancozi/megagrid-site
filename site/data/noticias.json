@@ -1,0 +1,126 @@
+{
+  "updated": "2026-06-13T09:00:00Z",
+  "total": 12,
+  "itens": [
+    {
+      "id": "aneel_001",
+      "titulo": "ANEEL mantém bandeira amarela em junho com reservatórios abaixo da média histórica",
+      "lead": "A Agência Nacional de Energia Elétrica manteve a bandeira tarifária amarela para junho de 2026, sinalizando condições de atenção nos reservatórios do Sistema Interligado Nacional.",
+      "fonte": "ANEEL",
+      "url": "https://www.aneel.gov.br",
+      "imagem": "https://images.unsplash.com/photo-1473800447596-01729482b8eb?auto=format&fit=crop&w=800&q=60",
+      "editoria": "tarifas",
+      "data": "2026-06-13T08:00:00Z"
+    },
+    {
+      "id": "mme_001",
+      "titulo": "MME abre consulta pública sobre regulamentação do Supridor de Última Instância",
+      "lead": "O Ministério de Minas e Energia publicou edital de consulta pública para regulamentar o SUI, figura criada pela Lei 15.269/2025 para garantir fornecimento a consumidores na transição ao mercado livre.",
+      "fonte": "MME",
+      "url": "https://www.gov.br/mme",
+      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=60",
+      "editoria": "regulacao",
+      "data": "2026-06-12T14:30:00Z"
+    },
+    {
+      "id": "ccee_001",
+      "titulo": "Migração ao mercado livre cresce 18% no primeiro semestre de 2026",
+      "lead": "A CCEE registrou um crescimento de 18% no número de migrações para o Ambiente de Contratação Livre no primeiro semestre de 2026 em relação ao mesmo período de 2025. Comercializadoras lideram adesões.",
+      "fonte": "CCEE",
+      "url": "https://dadosabertos.ccee.org.br",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=60",
+      "editoria": "mercado-livre",
+      "data": "2026-06-12T10:00:00Z"
+    },
+    {
+      "id": "epe_001",
+      "titulo": "EPE: data centers podem adicionar 2,4 GW de demanda ao SIN até 2029",
+      "lead": "Estudo da Empresa de Pesquisa Energética projeta crescimento expressivo da demanda de data centers, impulsionado pela expansão de IA e computação em nuvem no Brasil.",
+      "fonte": "EPE",
+      "url": "https://www.epe.gov.br",
+      "imagem": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=60",
+      "editoria": "transicao",
+      "data": "2026-06-11T16:00:00Z"
+    },
+    {
+      "id": "ons_001",
+      "titulo": "ONS eleva previsão de carga para o inverno com frente fria no Sul e Sudeste",
+      "lead": "O Operador Nacional do Sistema Elétrico revisou para cima a previsão de carga da semana em função de uma onda de frio que atinge as regiões Sul e Sudeste.",
+      "fonte": "ONS",
+      "url": "https://dados.ons.org.br",
+      "imagem": "https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?auto=format&fit=crop&w=800&q=60",
+      "editoria": "regulacao",
+      "data": "2026-06-11T09:00:00Z"
+    },
+    {
+      "id": "aneel_002",
+      "titulo": "ANEEL nega pedido de revisão extraordinária de tarifa de distribuidora no Sul",
+      "lead": "A agência indeferiu pedido de revisão extraordinária de tarifa apresentado por distribuidora da região Sul, determinando que os impactos sejam absorvidos no próximo ciclo regular de revisão.",
+      "fonte": "ANEEL",
+      "url": "https://www.aneel.gov.br",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=60",
+      "editoria": "tarifas",
+      "data": "2026-06-10T15:30:00Z"
+    },
+    {
+      "id": "ccee_002",
+      "titulo": "Comercializadoras ampliam portfólio de produtos para baixa tensão antes da abertura de 2027",
+      "lead": "Empresas do setor se preparam para a abertura do mercado livre para baixa tensão comercial e industrial prevista para dezembro de 2027, ampliando ofertas de contratos com novos perfis de clientes.",
+      "fonte": "CCEE",
+      "url": "https://dadosabertos.ccee.org.br",
+      "imagem": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=60",
+      "editoria": "mercado-livre",
+      "data": "2026-06-10T11:00:00Z"
+    },
+    {
+      "id": "epe_002",
+      "titulo": "Baterias entram no jogo: leilão de capacidade deve incluir armazenamento pela primeira vez",
+      "lead": "O Ministério de Minas e Energia e a EPE estudam a inclusão de sistemas de armazenamento por baterias no próximo leilão de capacidade, seguindo tendência internacional.",
+      "fonte": "EPE",
+      "url": "https://www.epe.gov.br",
+      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=800&q=60",
+      "editoria": "transicao",
+      "data": "2026-06-09T14:00:00Z"
+    },
+    {
+      "id": "ons_002",
+      "titulo": "Curtailment de eólicas e solares cai com novas linhas de escoamento no Nordeste",
+      "lead": "O corte de geração de fontes eólicas e solares no Nordeste recuou 34% em maio de 2026 após a energização de novos circuitos de transmissão na região.",
+      "fonte": "ONS",
+      "url": "https://dados.ons.org.br",
+      "imagem": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=60",
+      "editoria": "transicao",
+      "data": "2026-06-09T09:30:00Z"
+    },
+    {
+      "id": "mme_002",
+      "titulo": "Lei 15.269: regulamentação detalha cronograma de abertura até 2028",
+      "lead": "O Decreto regulamentador da Lei 15.269/2025 detalha o calendário de abertura do mercado livre — BT comercial e industrial até dezembro de 2027 e residencial até dezembro de 2028.",
+      "fonte": "MME",
+      "url": "https://www.gov.br/mme",
+      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=800&q=60",
+      "editoria": "politica-energetica",
+      "data": "2026-06-08T10:00:00Z"
+    },
+    {
+      "id": "ccee_003",
+      "titulo": "PLD horário: preço por hora muda estratégia de contratação de grandes consumidores",
+      "lead": "A adoção do PLD horário pela CCEE está transformando a forma como grandes consumidores estruturam seus contratos no mercado livre, com foco em flexibilidade e gestão de risco.",
+      "fonte": "CCEE",
+      "url": "https://dadosabertos.ccee.org.br",
+      "imagem": "https://images.unsplash.com/photo-1413882353314-73389f63b6fd?auto=format&fit=crop&w=800&q=60",
+      "editoria": "mercado-livre",
+      "data": "2026-06-07T16:00:00Z"
+    },
+    {
+      "id": "epe_003",
+      "titulo": "Carregadores de veículos elétricos: nova fronteira de demanda para distribuidoras",
+      "lead": "Estudo da EPE aponta que a proliferação de carregadores de VEs pode adicionar 3,8 GW de pico à demanda das distribuidoras até 2030, exigindo reforços na rede de distribuição.",
+      "fonte": "EPE",
+      "url": "https://www.epe.gov.br",
+      "imagem": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=800&q=60",
+      "editoria": "transicao",
+      "data": "2026-06-06T11:00:00Z"
+    }
+  ]
+}
