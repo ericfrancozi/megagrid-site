@@ -1,11 +1,31 @@
 {
-  "updated": "2026-06-13T09:00:00Z",
+  "updated": "2026-06-13T17:31:17Z",
   "fallback": true,
   "itens": [
-    { "rank": 1, "titulo": "PLD horário: como o preço da energia muda a cada hora do dia", "url": "#entenda" },
-    { "rank": 2, "titulo": "O passo a passo para migrar do cativo ao mercado livre", "url": "#calculadoras" },
-    { "rank": 3, "titulo": "Lei 15.269: o calendário completo da abertura até 2028", "url": "#entenda" },
-    { "rank": 4, "titulo": "Bandeira amarela em junho: o que muda na sua conta de luz", "url": "#mercado" },
-    { "rank": 5, "titulo": "Termômetro do MWh: como calculamos o índice de pressão de preços", "url": "#mercado" }
+    {
+      "rank": 1,
+      "titulo": "ANEEL mantém bandeira amarela em junho com reservatórios abaixo da média histórica",
+      "url": "https://www.aneel.gov.br"
+    },
+    {
+      "rank": 2,
+      "titulo": "MME abre consulta pública sobre regulamentação do Supridor de Última Instância",
+      "url": "https://www.gov.br/mme"
+    },
+    {
+      "rank": 3,
+      "titulo": "Migração ao mercado livre cresce 18% no primeiro semestre de 2026",
+      "url": "https://dadosabertos.ccee.org.br"
+    },
+    {
+      "rank": 4,
+      "titulo": "EPE: data centers podem adicionar 2,4 GW de demanda ao SIN até 2029",
+      "url": "https://www.epe.gov.br"
+    },
+    {
+      "rank": 5,
+      "titulo": "ONS eleva previsão de carga para o inverno com frente fria no Sul e Sudeste",
+      "url": "https://dados.ons.org.br"
+    }
   ]
 }
