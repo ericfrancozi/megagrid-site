@@ -1045,7 +1045,7 @@ function calcCusto(){
   var totalMes=totalMWh*consumo;
   setEl('c-total','R$ '+numFmt(totalMes,0)+'/mês');
   setEl('c-por-mwh','R$ '+numFmt(totalMWh,2).replace('.',',')+'/MWh efetivo');
-  var cores={'Energia (contrato)':'#1456D6','Perdas rede básica (8,2%)':'#5B8DEF','TUSD transporte (fio)':'#00C4B0','TUST transmissão':'#00A896','Taxa CCEE':'#7A2FBF','Encargos setoriais':'#B43DFF','ONS + P&D':'#C71E63','ICMS ('+( icmsRate*100).toFixed(0)+'%)':'#D63B3B','PIS + COFINS':'#FF7A00'};
+  var cores={'Energia (contrato)':'#1456D6','Perdas rede básica (8,2%)':'#5B8DEF','TUSD transporte (fio)':'#00C4B0','TUST transmissão':'#00A896','Taxa CCEE':'#7A2FBF','Encargos setoriais':'#B43DFF','ONS + P&D':'#C71E63',['ICMS ('+(icmsRate*100).toFixed(0)+'%)']:'#D63B3B','PIS + COFINS':'#FF7A00'};
   var vals=[preco,perdas,tusd,tust,ccee,encargos,ons,icms,pis+cofins];
   var labels=Object.keys(cores),cs=Object.values(cores);
   var html='';
