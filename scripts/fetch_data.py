@@ -50,12 +50,20 @@ HEADERS = {
     "Accept": "application/json",
 }
 
+# Google News RSS — confiável, não bloqueia bots, agrega fontes oficiais e jornalísticas
+_GN = "https://news.google.com/rss/search?hl=pt-BR&gl=BR&ceid=BR:pt-419&q="
 RSS_FEEDS = {
+    "Mercado Livre":  _GN + "mercado+livre+de+energia+el%C3%A9trica+CCEE",
+    "Regulação":      _GN + "ANEEL+energia+el%C3%A9trica+regula%C3%A7%C3%A3o",
+    "Política":       _GN + "MME+pol%C3%ADtica+energ%C3%A9tica+minist%C3%A9rio+energia",
+    "Tarifas":        _GN + "bandeira+tarif%C3%A1ria+conta+luz+ANEEL",
+    "Transição":      _GN + "energia+solar+e%C3%B3lica+renov%C3%A1vel+brasil+GD",
+}
+# Feeds institucionais diretos como fallback secundário
+RSS_FEEDS_FALLBACK = {
     "CCEE": "https://www.ccee.org.br/rss/pautas-e-destaques.xml",
     "ANEEL": "https://www.aneel.gov.br/rss.xml",
-    "ONS": "https://www.ons.org.br/rss.aspx",
     "MME": "https://www.gov.br/mme/pt-br/assuntos/noticias/RSS",
-    "EPE": "https://www.epe.gov.br/pt/rss",
 }
 
 EDITORIA_RULES = {
@@ -489,82 +497,94 @@ def calc_termometro(pld: dict, ear: dict, carga: dict, bandeira: dict) -> dict:
 
 # ── RSS — Notícias ──────────────────────────────────────────────────
 
+def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10):
+    """Parseia um feed RSS e retorna lista de itens novos."""
+    novos = []
+    try:
+        feed = feedparser.parse(feed_url)
+        entries = feed.entries or []
+        log.info("  %s: %d entradas", fonte, len(entries))
+        for entry in entries[:max_per_feed]:
+            url = entry.get("link", "")
+            if not url or url in seen_urls:
+                continue
+            titulo = entry.get("title", "").strip()
+            titulo = re.sub(r"\s+-\s+[\w\s]+$", "", titulo).strip()
+            if not titulo or len(titulo) < 10:
+                continue
+            lead = entry.get("summary", "") or entry.get("description", "")
+            lead = re.sub(r"<[^>]+>", "", lead).strip()[:300]
+            imagem = None
+            for mc in entry.get("media_content", []):
+                if mc.get("url"):
+                    imagem = mc["url"]
+                    break
+            if not imagem:
+                for enc in entry.get("enclosures", []):
+                    if enc.get("href"):
+                        imagem = enc["href"]
+                        break
+            editoria = classify_editoria(titulo + " " + lead + " " + fonte)
+            if not imagem:
+                imagem = IMAGENS_FALLBACK.get(editoria, IMAGENS_FALLBACK["mercado-livre"])
+            pub = entry.get("published_parsed") or entry.get("updated_parsed")
+            data_pub = datetime(*pub[:6]).strftime("%Y-%m-%dT%H:%M:%SZ") if pub else now_iso()
+            fonte_display = fonte
+            if "news.google.com" in feed_url:
+                src = entry.get("source", {}).get("title", "")
+                if src:
+                    fonte_display = src
+            novos.append({
+                "id": f"{fonte.lower().replace(' ','_')}_{abs(hash(url)) % 100000}",
+                "titulo": titulo,
+                "lead": lead,
+                "fonte": fonte_display,
+                "url": url,
+                "imagem": imagem,
+                "editoria": editoria,
+                "data": data_pub,
+            })
+            seen_urls.add(url)
+    except Exception as exc:
+        log.warning("  Erro %s: %s", fonte, exc)
+    return novos
+
+
 def fetch_noticias() -> dict:
-    log.info("RSS notícias…")
+    log.info("RSS noticias...")
     existing = load_existing("noticias.json")
     existing_items = existing.get("itens", [])
-    seen_urls = {item["url"] for item in existing_items}
-
     if not HAS_FEEDPARSER:
-        log.warning("  feedparser não instalado — mantendo existente")
+        log.warning("  feedparser nao instalado -- mantendo existente")
         return existing
-
+    # Descarta seed data (URLs de dominio raiz sem path real)
+    existing_real = [
+        it for it in existing_items
+        if it.get("url", "").count("/") > 3
+    ]
+    seen_urls = {item["url"] for item in existing_real}
     novos = []
+    # 1a tentativa: Google News RSS
     for fonte, feed_url in RSS_FEEDS.items():
-        log.info("  %s: %s", fonte, feed_url)
-        try:
-            feed = feedparser.parse(feed_url)
-            for entry in (feed.entries or [])[:12]:
-                url = entry.get("link", "")
-                if not url or url in seen_urls:
-                    continue
-                titulo = entry.get("title", "").strip()
-                if not titulo:
-                    continue
-
-                # Lead / summary — remove tags HTML
-                lead = entry.get("summary", "") or entry.get("description", "")
-                lead = re.sub(r"<[^>]+>", "", lead).strip()[:300]
-
-                # Imagem
-                imagem = None
-                for mc in entry.get("media_content", []):
-                    if mc.get("url"):
-                        imagem = mc["url"]
-                        break
-                if not imagem:
-                    for enc in entry.get("enclosures", []):
-                        if enc.get("href"):
-                            imagem = enc["href"]
-                            break
-
-                editoria = classify_editoria(titulo + " " + lead + " " + fonte)
-                if not imagem:
-                    imagem = IMAGENS_FALLBACK.get(editoria, IMAGENS_FALLBACK["mercado-livre"])
-
-                pub = entry.get("published_parsed") or entry.get("updated_parsed")
-                if pub:
-                    data_pub = datetime(*pub[:6]).strftime("%Y-%m-%dT%H:%M:%SZ")
-                else:
-                    data_pub = now_iso()
-
-                novos.append({
-                    "id": f"{fonte.lower()}_{abs(hash(url)) % 100000}",
-                    "titulo": titulo,
-                    "lead": lead,
-                    "fonte": fonte,
-                    "url": url,
-                    "imagem": imagem,
-                    "editoria": editoria,
-                    "data": data_pub,
-                })
-                seen_urls.add(url)
-        except Exception as exc:
-            log.warning("  Erro %s: %s", fonte, exc)
-
-    todos = novos + existing_items
+        items = _parse_feed(fonte, feed_url, seen_urls)
+        novos.extend(items)
+    # 2a tentativa: feeds diretos (se Google News falhou)
+    if not novos:
+        log.info("  Google News sem itens -- tentando feeds diretos...")
+        for fonte, feed_url in RSS_FEEDS_FALLBACK.items():
+            items = _parse_feed(fonte, feed_url, seen_urls)
+            novos.extend(items)
+    todos = novos + existing_real
     todos.sort(key=lambda x: x.get("data", ""), reverse=True)
     todos = todos[:60]
-
     data = {
         "updated": now_iso(),
         "total": len(todos),
         "itens": todos,
     }
     save("noticias.json", data)
-    log.info("  %d novas · %d total", len(novos), len(todos))
+    log.info("  %d novas . %d reais existentes . %d total", len(novos), len(existing_real), len(todos))
     return data
-
 
 # ── + Lidas (GoatCounter ou fallback por recência) ──────────────────
 
