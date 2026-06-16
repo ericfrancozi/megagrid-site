@@ -1,7 +1,37 @@
 {
-  "updated": "2026-06-15T20:31:41Z",
-  "total": 50,
+  "updated": "2026-06-16T14:14:32Z",
+  "total": 60,
   "itens": [
+    {
+      "id": "mercado_livre_79098",
+      "titulo": "Aneel abre consulta sobre endurecimento das regras do mercado de energia",
+      "lead": "Aneel abre consulta sobre endurecimento das regras do mercado de energia&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdkVUaGNjSGhILTFsdV8tOGxpZG5yU0pxQURLVVpSaEluYjF3ZTBtUnc2c1ZQWkF4TFI4WkVnTHFJeS1renRHSTZJRTl3NkpZRVJQSEx1YU1TaVYzOWlHcndDTGFFQkV4SDBhR0UxS3A1RWJsdEh4N2RsbzRyWl83ZXB0NVNNQzZIdFE0TF9yc19XcUJNbENYSHN2VlRUVjVrZ3VoZEh0X3Mwd2N5RmIwUw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-16T13:52:14Z"
+    },
+    {
+      "id": "regulação_40275",
+      "titulo": "Procuradoria da Aneel defende regulamentação sobre corte de geração de energia",
+      "lead": "Procuradoria da Aneel defende regulamentação sobre corte de geração de energia&nbsp;&nbsp;UOL Economia",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR0tqdk9TZUVSR2hLWUtmZldIOWFTVFhYOG9KaWs1TmVHTEZUNzdEa0ZjQjNyU3cwTVFEUHNxODdlOTQ5MzhwUHFSNzRfbGNkczJzWXBPNWpxMktJYnlDUngtU2lZNlkyY1RFckM1eEQ0Mm5VVFpEOFpBNm9JaW1LQ0labTdkYVhYTTVISS1zMWMyb3ZYR3FpSjE1eWtnejZGczl2RG5DLTNKalpkMUNsREU3OEVDdnhITmFYelhlWWU3OGdyUUFPYkw4azUya1BKS1Nya1lXNEZfUUFLMzV6OQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-15T21:00:00Z"
+    },
+    {
+      "id": "regulação_26473",
+      "titulo": "Procuradoria da Aneel defende regulamentação para cortes de geração de energia",
+      "lead": "Procuradoria da Aneel defende regulamentação para cortes de geração de energia&nbsp;&nbsp;Tribuna do Sertão",
+      "fonte": "Tribuna do Sertão",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVGdjWnZqZmFPanB3dEljR1pHU2p0VV9GeTZ5RUZaMktHaWt4T0sxQTRtZVJXdVUzZW1OMTVrR094Uy1PMXZHemgxN3NrTTZfZTladlhPbkE4ZkhkVlJzNUtFNFZVUDBRMExLd09MMzBWcU1iLXVpQktVMXRhMjduU0tGSUFqc25XU0E1SlZIWXYzUGFiOF9qdnBlZFlyZWg2TDlaTmRYWlpESzZQdDlrTmI5dUs2SFdRQVVaU01QU0JTcTB6WlVIUHlfU1dCeFpJbFIw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-15T21:00:00Z"
+    },
     {
       "id": "mercado_livre_21086",
       "titulo": "ANEEL abrirá consulta sobre regras para punir irregularidades no Mercado Livre de Energia",
@@ -21,6 +51,16 @@
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-06-15T16:25:17Z"
+    },
+    {
+      "id": "política_25055",
+      "titulo": "CNPE pauta aumento de etanol na gasolina e dívidas da Eletronuclear",
+      "lead": "CNPE pauta aumento de etanol na gasolina e dívidas da Eletronuclear&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOWJpLXZ5S29YWXlsWnBZa0NKWXlPa21za2Y3dHJJa0t5dUFKMnpJRjdTX1VOdUE1TTRfYnZPb1RvOVpyQlowNFctUl85cm5DN2JyWVhVOEdIcVVRZVJjVDZlUFhsdURWR0k4al80NHpDbjBNenZkdGlHX2FQSW1tZ2p5QVJ4eUlBa2lyOVRzNE12ZkNwdjBjQXpPcmdscVpzZS1yaGtMdzR2QmVmbzh1Q0lhc0dHMjg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-15T14:33:59Z"
     },
     {
       "id": "tarifas_91255",
@@ -83,6 +123,16 @@
       "data": "2026-06-11T10:03:48Z"
     },
     {
+      "id": "mercado_livre_83796",
+      "titulo": "CCEE impõe restrições ao registro de contratos para quatro comercializadoras",
+      "lead": "CCEE impõe restrições ao registro de contratos para quatro comercializadoras&nbsp;&nbsp;Canal Solar",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNUxnQUpsT2d6T3FJRHdWaC15cVZhZHdzWWtNdWhZZ2kwMVpyZTBTVGFwdU1aV210YW9keGFKRmNvLWFpUHEyb0RucnFLb1lYZHJqaksxNWxjN0NmVzJ4eHlDVjBBNS15dGw2OGo2ODZhR05qWDB2WjFGSW5UeE9ObXlB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-10T17:11:00Z"
+    },
+    {
       "id": "regulação_79796",
       "titulo": "ANEEL recebe Selo Ouro de Boas Práticas Regulatórias — Agência Nacional de Energia Elétrica - www.gov.br",
       "lead": "ANEEL recebe Selo Ouro de Boas Práticas Regulatórias — Agência Nacional de Energia Elétrica&nbsp;&nbsp;www.gov.br",
@@ -123,6 +173,26 @@
       "data": "2026-06-08T18:03:00Z"
     },
     {
+      "id": "mercado_livre_63790",
+      "titulo": "Migrações para o mercado livre de energia caem quase 40% no início de 2026",
+      "lead": "Migrações para o mercado livre de energia caem quase 40% no início de 2026&nbsp;&nbsp;CNN Brasil",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNXFYa1dMSmxZR3dILUxGX21ySW1jd0cwVHZKdWJCQ01GRGs0djEyMmEyTkY2ZEtrSHF4QzBHMUZnZW1ZV1owYmstMUJFOVlOWFlKZDhfRmdSX3BtLTliTEwtWERoYnZpZHFwd29ZMUFRODJfTHpzLTdubTRzUHBfdWlyLW1fSkx2YnMwbHdkckNOZ1ZYNDZ6RWMwMzRrdUIzLW5COEo0clhzaTN1X3c?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-06T07:00:00Z"
+    },
+    {
+      "id": "mercado_livre_17577",
+      "titulo": "Câmara está preparada para abertura em massa do mercado livre de energia",
+      "lead": "Câmara está preparada para abertura em massa do mercado livre de energia&nbsp;&nbsp;CNN Brasil",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOHVHSTlKcUVqbFlfMkU0UFhOc0hoVVRLTWs4Zk92Y2sxRkJRN1VoeEFGQ2h4bm5yUWZfWkJZclN5bld1ZE1wcHFpRUhGSm1ncDlKUEY4SlU1VVI0UEpxWjY0d3ZPSDRtN19IOFpVS3FaOEV5WXQ0ZTd1ay1GenA5YV9xTXFhYUZBdmVDMV9zYnJUa0FQR3dNRzJIVUIzY3JYUVlnREZtSXN6eW1j?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-05T07:00:00Z"
+    },
+    {
       "id": "regulação_31409",
       "titulo": "Sistemas de armazenamento de energia: novas regras para outorga e primeiro LRCAP de baterias - mattosfilho.com.br",
       "lead": "Sistemas de armazenamento de energia: novas regras para outorga e primeiro LRCAP de baterias&nbsp;&nbsp;mattosfilho.com.br",
@@ -133,6 +203,16 @@
       "data": "2026-06-05T07:00:00Z"
     },
     {
+      "id": "mercado_livre_39855",
+      "titulo": "Varejo lidera migração ao mercado livre de energia em abril de 2026, aponta CCEE",
+      "lead": "Varejo lidera migração ao mercado livre de energia em abril de 2026, aponta CCEE&nbsp;&nbsp;Portal do Agronegócio",
+      "fonte": "Portal do Agronegócio",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcDlMSlVpUF9fc0dVODZ1aGU1RXlVbElja1FRbWxWMHp1bUdEeWtJMk1sWGJDNlk0d3RqRVVaNGZ3TDJveEVYT1VqUjdPSW12YzdqSUlzMlZGMG1hZjVYNmxVSl90WlFvUTBFTzJpelhsX2JKcktEcVFEWEgxelNGeTVwQ3ZTN3ZObElzY21qNlJPNktQbG9NZjBnUms3S2JJY1pTNGZlXzUwWmhkSnhJVzhSZVZZbFU2SkJtYTR0aVpQT3lta3JIRnVOWE9mLWFYdjgzaUlRT0k1RmRiaWhUTUZodGduakZSdXc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-03T15:33:56Z"
+    },
+    {
       "id": "política_54594",
       "titulo": "MME divide contratação de baterias em dois leilões em dezembro",
       "lead": "MME divide contratação de baterias em dois leilões em dezembro&nbsp;&nbsp;MegaWhat",
@@ -141,6 +221,16 @@
       "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-06-03T07:00:00Z"
+    },
+    {
+      "id": "regulação_70150",
+      "titulo": "Armazenamento de Energia: ANEEL encerra Consulta Pública e aprova regras sobre a cobrança pelo uso da rede - www.gov.br",
+      "lead": "Armazenamento de Energia: ANEEL encerra Consulta Pública e aprova regras sobre a cobrança pelo uso da rede&nbsp;&nbsp;www.gov.br",
+      "fonte": "www.gov.br",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUG9SRUpLTHdsWHlJdjF6RFY3eXM4NUFxWnlNNExTc1B2X1ZNQUsyeWVpZE9hRzVWbDIzbmFfZnRfMlhLNVI5YVFlSXFKOFhxT29MNm5VNW1rUk9PTWdVVTdCVkw0Qm1GU21tNERRai1sRUZTXzB4LVNNNjI2NFNETVloV1JNTl84YlloMWFveHQzNzBucDRXRGJaVERTaEc0TFNiOXJKN1pJdjBSSDMyaVB2dDZwMUN2MEtPRW42NmVMOWNON2VaYzlaMmVBVGhVTm53MklWeGtjSHlkZ1RKdHhlWWNQRGdsZ3QtV3ZZZ1o?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-02T07:00:00Z"
     },
     {
       "id": "regulação_18094",
@@ -221,6 +311,16 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-01T07:00:00Z"
+    },
+    {
+      "id": "tarifas_41622",
+      "titulo": "Qual será a bandeira da conta de luz em junho, segundo a Aneel",
+      "lead": "Qual será a bandeira da conta de luz em junho, segundo a Aneel&nbsp;&nbsp;VEJA",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWZ0LUZNTE14aUxFd2JFaUliUVItRVkzd3g2Nzl0bE93Zm9zNl9YU0RoTDdCNW5HUUVhbFRoUjBfOEdkbWlKc2FWMVhQT2RoZzNCYWRfaHg1RjNMTzBvN0dxNVRjYmNxU0szRy02a3dZYkdVZGZPVHdpY2YzYVBDeFZNS190N1hwOWlJU3RLUXRKQ1NLZ1V1VXB2UDZyZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-05-29T07:00:00Z"
     },
     {
       "id": "mercado_livre_45016",
@@ -313,6 +413,16 @@
       "data": "2026-05-08T07:00:00Z"
     },
     {
+      "id": "política_3892",
+      "titulo": "Observatório reúne dados para orientar políticas de combate à pobreza energética no Brasil - www.gov.br",
+      "lead": "Observatório reúne dados para orientar políticas de combate à pobreza energética no Brasil&nbsp;&nbsp;www.gov.br",
+      "fonte": "www.gov.br",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNV1h1RUVtdl9zRVVsWE5GOVZzQS1Jb1ZxdXl0S3VnX2xWZjQtZHVRTy0xM0FZLU83SVA5WHlxQ0N0a0ZfU25OdzItdmJYWFdRYVg1WEdrVnZZbDVhM0oxanFPZkVUTXRndW1lYzFZQ0dxR0lXOWlxWGFfUjk4U3lpZVljdk0tMVVTNmJxb1JrVWh2d2lHSzZzTUVlQTVadUF4NTZVY2lpcFNxd3dfbkVEQ054bUJDYnljZmNhN2FtWW1tZzc1Q25lZ1NwRWNTX2NnbjQw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-05-04T07:00:00Z"
+    },
+    {
       "id": "política_82326",
       "titulo": "MME lança consulta pública do Plano Nacional de Transição Energética — Ministério de Minas e Energia - www.gov.br",
       "lead": "MME lança consulta pública do Plano Nacional de Transição Energética — Ministério de Minas e Energia&nbsp;&nbsp;www.gov.br",
@@ -393,6 +503,16 @@
       "data": "2026-02-25T08:00:00Z"
     },
     {
+      "id": "transição_86902",
+      "titulo": "PDE 2035 projeta salto de solar, eólica e baterias com R$ 3,5 tri em investimentos",
+      "lead": "PDE 2035 projeta salto de solar, eólica e baterias com R$ 3,5 tri em investimentos&nbsp;&nbsp;Canal Solar",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3WGVCai1tMHRibzg5Y3V6cDdSU3RtU3BQVFZxRXM4X1VObUIwNDBLTGNKZXBJUVVxaXhpV2s5RjdqQ3VaSXdpdVhOb1p5eUNUTXdvMkVMUnpfU2lxYzgxd21obi1oU0xlNkcxMmJQUUpERjlvV0pfamZHVQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-02-17T08:00:00Z"
+    },
+    {
       "id": "tarifas_66105",
       "titulo": "ANEEL anuncia bandeira tarifária verde em fevereiro — Agência Nacional de Energia Elétrica - www.gov.br",
       "lead": "ANEEL anuncia bandeira tarifária verde em fevereiro — Agência Nacional de Energia Elétrica&nbsp;&nbsp;www.gov.br",
@@ -421,6 +541,16 @@
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-01-19T08:00:00Z"
+    },
+    {
+      "id": "transição_25713",
+      "titulo": "Geração de energia no Brasil deve crescer 25% em 2026, sem contar GD",
+      "lead": "Geração de energia no Brasil deve crescer 25% em 2026, sem contar GD&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWFGREZwcnpGUHN4WUxtbWpOQlR4OWRGdmZ1YjkwUmg1NGFNMWY1UjkyUTdzM09pclhvNUNYNTdyZzFlVTUzcFBadWJldVFodmhEMTJGek80Z29wTm1rNzVIaldWd0NuRS1RWWRmU29aQ3RSdHpKd0dZMzFmbjhfOXY1NmpwX3NWUmI0OXNvOXNvem1Lc1J1LTNwMnUtSjFFMkVmT2Zn?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-01-13T08:00:00Z"
     },
     {
       "id": "transição_74557",
@@ -471,36 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
       "editoria": "transicao",
       "data": "2025-09-22T07:00:00Z"
-    },
-    {
-      "id": "transição_17365",
-      "titulo": "Aneel convoca reunião para tratar de risco de apagão por excesso de energia solar; veja o Radar Energia XP | Agosto",
-      "lead": "Aneel convoca reunião para tratar de risco de apagão por excesso de energia solar; veja o Radar Energia XP | Agosto&nbsp;&nbsp;XP Investimentos",
-      "fonte": "XP Investimentos",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNeVV4RUtHZUdtZTFUTDIzeTAtOFFjbEd2T3hTQVJjZ3BnbklVWFpYUTZ0em9VSmFxSUZjUVJMMTJYZm5Jc0NDeG1Ec3A4Ti1ubnEtNmtvYWFxak5QaDdZTEQyWmE3WUhRckpwOU83U0V5NmZoMGNvbXZLOGJiYjVobXB6dWVTbHcxZ19LMGpPdXRDckVuRFNwNGgyQ2I3STV0djg3clNQNjFKcGVuM1VUMVJVOHRhSzllbGhaQ1pWWW5zVXRuTmQ4WjZMUkdQakdPc05EcmUzdmFhbTJXRTVPbFNib1lUTFBSdEJuVnVqd0Y?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2025-09-16T11:53:51Z"
-    },
-    {
-      "id": "transição_7998",
-      "titulo": "'Excesso' de energia renovável desafia sistema e obriga cortes de geração - brasilagro.com.br",
-      "lead": "'Excesso' de energia renovável desafia sistema e obriga cortes de geração&nbsp;&nbsp;brasilagro.com.br",
-      "fonte": "brasilagro.com.br",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeUQ1S3VmV3dFMGZZNU5SSWdHbjdTaTBnSmR2emJXT3pLdUVZUzB0Z2ZabWxKcVdMRGl2a1RkeWpTdGhZSTl5V0tfR3dTSXBCeFhCWnpzSVBHdE9QUHpHazRpUk4ySTlidEZoNERWZ2k1WFlsVi1jT2lZaDQ3VVRuRzRhWDVua0hnZE1NaFpuRS1TbHRtYVZrblhxQXk0QTd0UmpoSTBPd040ZVlydEIyQUJiNThzZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2025-08-26T07:00:00Z"
-    },
-    {
-      "id": "transição_99647",
-      "titulo": "Por que a indústria eólica no Brasil enfrenta uma ‘crise dentro da crise’",
-      "lead": "Por que a indústria eólica no Brasil enfrenta uma ‘crise dentro da crise’&nbsp;&nbsp;Bloomberg Línea Brasil",
-      "fonte": "Bloomberg Línea Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRF9CRDkyRmU4WXk3RDZPM3VGdkh5STZsczZicHd3eV9LNlQ4b2RVYUprbHJpNjhDM2lQUFpuVUJsTXBzZ2puVVNITHktSzRmcTRFT1l6QUVnNDFHYUJKclUtWFZ4Tmg3ejNjckhFTXo2bl9jb1RqSXlPN1ZKcE4zb1NGM190MVdsbGxISnRuNURYUUJoWnpJN1Y1a0FyWkFmejNOTjNLTF9HeHNic3pIUzcyWmJ5UdIBygFBVV95cUxOelQ5ZFNoSW82U3pZRlE1ckxhWmR6LWZhdkR2d0dXZWZfb0lRd1VIRThiWi04WFN5RDd5dV8yeDljOXMxaUJtWDVneGdpQlM0S2N4dkY0VkhseEdoN0VONWlhaUNKMkRoVzVKaEJ5YlBEYVVFTkZBOGxiY0pWcXRrX3BRV0pzdlNFaDcxUEZGdmVBSmZQbWVMdzNORFpYem9aWFdzcTNIX1BGcDVHRDFnNzBHR25oWmJuVTJFQkRFM2d4eFpWV0x1bVJB?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2025-08-19T07:00:00Z"
     }
   ]
 }
