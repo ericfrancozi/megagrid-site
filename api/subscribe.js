@@ -2,35 +2,34 @@
  * MEGAGRID — Newsletter via Brevo (ex-Sendinblue)
  * Vercel Serverless Function: POST /api/subscribe
  *
- * Variáveis de ambiente necessárias (Vercel → Settings → Environment Variables):
- *   BREVO_API_KEY   → sua API key do Brevo (Settings → SMTP & API → API Keys)
- *   BREVO_LIST_ID   → ID da lista de contatos (número inteiro, ex: 3)
+ * Variáveis de ambiente (Vercel → Settings → Environment Variables):
+ *   BREVO_API_KEY          → API key do Brevo (Settings → SMTP & API → API Keys)   [obrigatória]
+ *   BREVO_LIST_ID          → ID da lista de contatos final (inteiro, ex: 3)         [obrigatória]
+ *   BREVO_DOI_TEMPLATE_ID  → ID do template de confirmação Double Opt-In (inteiro)  [opcional]
  *
  * Fluxo:
- *   1. Recebe { email } no body
- *   2. Valida e-mail
- *   3. Chama API Brevo para criar/atualizar contato na lista
- *   4. Retorna { ok: true } ou { error }
+ *   - Se BREVO_DOI_TEMPLATE_ID estiver setado → DOUBLE OPT-IN:
+ *       envia e-mail de confirmação; o contato só entra na lista após clicar.
+ *       Endpoint: POST /contacts/doubleOptinConfirmation
+ *   - Se NÃO estiver setado → fallback: adiciona direto na lista (POST /contacts).
  */
 
 const BREVO_API = 'https://api.brevo.com/v3';
+const REDIRECT_URL = 'https://megagrid.com.br/obrigado';
 
 export default async function handler(req, res) {
-  // Só aceita POST
   if (req.method !== 'POST') {
+    res.setHeader('Allow', 'POST, OPTIONS');
     return res.status(405).json({ message: 'Método não permitido' });
   }
 
-  // CORS — permite chamada do próprio domínio e localhost
+  // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  if (req.method === 'OPTIONS') return res.status(204).end();
 
-  if (req.method === 'OPTIONS') {
-    return res.status(204).end();
-  }
-
-  // Lê body
+  // Lê e valida e-mail
   let email;
   try {
     const body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;
@@ -38,35 +37,66 @@ export default async function handler(req, res) {
   } catch {
     return res.status(400).json({ message: 'Body inválido' });
   }
-
-  // Valida e-mail simples
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return res.status(400).json({ message: 'E-mail inválido' });
   }
 
-  // Checagem de variáveis de ambiente
-  const apiKey  = process.env.BREVO_API_KEY;
-  const listId  = parseInt(process.env.BREVO_LIST_ID || '0', 10);
+  // Variáveis de ambiente
+  const apiKey     = process.env.BREVO_API_KEY;
+  const listId     = parseInt(process.env.BREVO_LIST_ID || '0', 10);
+  const doiTplId   = parseInt(process.env.BREVO_DOI_TEMPLATE_ID || '0', 10);
 
   if (!apiKey || !listId) {
-    // Em desenvolvimento local, simula sucesso para facilitar testes
     console.warn('[subscribe] BREVO_API_KEY ou BREVO_LIST_ID não configurado — simulando sucesso');
     return res.status(200).json({ ok: true, simulated: true });
   }
 
+  const headers = {
+    'accept':       'application/json',
+    'content-type': 'application/json',
+    'api-key':      apiKey,
+  };
+
   try {
-    // Cria ou atualiza contato no Brevo
+    // ----- DOUBLE OPT-IN (confirmação por e-mail) -----
+    if (doiTplId) {
+      const doiRes = await fetch(`${BREVO_API}/contacts/doubleOptinConfirmation`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({
+          email,
+          includeListIds: [listId],
+          templateId: doiTplId,
+          redirectionUrl: REDIRECT_URL,
+          attributes: {
+            SOURCE: 'megagrid-site',
+            SIGNUP_DATE: new Date().toISOString().split('T')[0],
+          },
+        }),
+      });
+
+      // 201/204 = e-mail de confirmação enviado com sucesso
+      if (doiRes.status === 201 || doiRes.status === 204) {
+        return res.status(200).json({ ok: true, doi: true });
+      }
+
+      const errBody = await doiRes.json().catch(() => ({}));
+      console.error('[subscribe] Brevo DOI error:', doiRes.status, errBody);
+      // Contato já confirmado anteriormente — tratamos como sucesso
+      if (doiRes.status === 400 && /already|duplicate|exist/i.test(JSON.stringify(errBody))) {
+        return res.status(200).json({ ok: true, already: true });
+      }
+      return res.status(500).json({ message: 'Erro ao enviar confirmação. Tente novamente.' });
+    }
+
+    // ----- FALLBACK: adiciona direto na lista (sem confirmação) -----
     const brevoRes = await fetch(`${BREVO_API}/contacts`, {
       method: 'POST',
-      headers: {
-        'accept':       'application/json',
-        'content-type': 'application/json',
-        'api-key':      apiKey,
-      },
+      headers,
       body: JSON.stringify({
         email,
         listIds: [listId],
-        updateEnabled: true, // se já existir, só adiciona à lista
+        updateEnabled: true,
         attributes: {
           SOURCE: 'megagrid-site',
           SIGNUP_DATE: new Date().toISOString().split('T')[0],
@@ -74,20 +104,15 @@ export default async function handler(req, res) {
       }),
     });
 
-    // 201 = criado, 204 = já existia e foi atualizado — ambos são sucesso
     if (brevoRes.status === 201 || brevoRes.status === 204) {
       return res.status(200).json({ ok: true });
     }
 
-    // Erro da API Brevo
     const errBody = await brevoRes.json().catch(() => ({}));
     console.error('[subscribe] Brevo error:', brevoRes.status, errBody);
-
-    // Se o contato já existe na lista (duplicado) — ainda é "sucesso" para o usuário
     if (brevoRes.status === 400 && errBody.code === 'duplicate_parameter') {
       return res.status(200).json({ ok: true });
     }
-
     return res.status(500).json({ message: 'Erro ao cadastrar. Tente novamente.' });
 
   } catch (err) {
