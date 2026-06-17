@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-16T14:14:32Z",
+  "updated": "2026-06-17T12:53:45Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_82862",
+      "titulo": "Conta de luz deve subir 8,6% em 2026, projeta ANEEL",
+      "lead": "Conta de luz deve subir 8,6% em 2026, projeta ANEEL&nbsp;&nbsp;Gazeta Hoje",
+      "fonte": "Gazeta Hoje",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWVhKZ3dDaGxkNXNYdGI5RnB6OTJpcmswVEx2V0tha0FJdTQ0RTBLcnllN3JKYmVIUDFwQ1FvcVpNRTdXR3dHaWNYMTNKSFY2b29zMHdmMm5KbnhEZ1FGdFJKeV9RWHBUdUI5dmhTb2xTWGVmQm9oSVdESkFEVVdDRA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-16T18:25:07Z"
+    },
+    {
+      "id": "mercado_livre_13634",
+      "titulo": "Aneel Propõe Que CCEE Aplique Multas De Até R$ 50 Milhões No Mercado Livre",
+      "lead": "Aneel Propõe Que CCEE Aplique Multas De Até R$ 50 Milhões No Mercado Livre&nbsp;&nbsp;Cenário Energia",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFcwNGNuMHc4QUlydWpGdFRpRk0zRmZZY3BQdnY3S3lERGVyZ1JpVjFMSFR3d3JTaGIwbmR5bEVObjRORUxtQzI5RUJfRW9nOFFzRzVmZHJReDVhS0QxTVBYQjVPaGl0d3pEMnY0TElEdjJKZm1XaDVWRWJUTm0zYWZ4MF9kek9Tak1SamhjUEwxWVBzTEZkdkdIcmZScFpickpicnQ3Y3BlQjFaR2w2N0dQTlUyZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-16T16:37:47Z"
+    },
     {
       "id": "mercado_livre_79098",
       "titulo": "Aneel abre consulta sobre endurecimento das regras do mercado de energia",
@@ -313,6 +333,36 @@
       "data": "2026-06-01T07:00:00Z"
     },
     {
+      "id": "tarifas_59726",
+      "titulo": "Bandeira tarifária de junho mantém conta de luz mais cara e reforça pressão da inflação",
+      "lead": "Bandeira tarifária de junho mantém conta de luz mais cara e reforça pressão da inflação&nbsp;&nbsp;Economic News Brasil",
+      "fonte": "Economic News Brasil",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbGkyQmU5cGRuZEVQQlRLbndjNXgtbXV6aEEtRXFmNk15WFpKdlJFdnI5RkNGVlFic0ktVGNFbk9UMkd2akdCdzlfMlI3U3h5N3FYSm5pcGZsajJmdzhvQ3VPbWVjSHpHQzM3blBxRURyMEV4MWhzTDVSbUdzN3RjdndyTU1XS2dxeVl2T2ZveWoybVBGUTRDemZR?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-05-30T07:00:00Z"
+    },
+    {
+      "id": "tarifas_64419",
+      "titulo": "Conta de luz terá bandeira tarifária amarela em junho",
+      "lead": "Conta de luz terá bandeira tarifária amarela em junho&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWTNIUVdGYlNFM0FnTE9EeWxhbWpUeHhaM3pmcGIxMnRRSzBHU1c5ek9fS3BWcmEtaFA2WU9GOXk1dnlYc1hMOG9BODhMTGJuQ242amlrMWU4eERZaU5yTkdrSFVEZ2IxS3FCclh5VGhRMUZVNmFvMHBBbkxtT3FVVlN0QV93Rlp3VkVrRU1fY0NLa2RHbVl2cHEzeENLX0N5Q01nQjNSOXo2MWxEREE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-05-29T07:00:00Z"
+    },
+    {
+      "id": "tarifas_52166",
+      "titulo": "Aneel mantém bandeira tarifária amarela para junho",
+      "lead": "Aneel mantém bandeira tarifária amarela para junho&nbsp;&nbsp;Canal Rural",
+      "fonte": "Canal Rural",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcTFnN3RWWllfaDgtWWY3Uy04bGdDc2NpVEJGcjc1UDZMVnpmbEgxaTd3MTk2VVgxVC01WHFfZnc3aTNDRUpTMUk0bWVPRTk5MzJ5ckFyN1Y0eF96c2ExQksyTy1TdFo1cE5ham52Mmh6T3dIWjRLYzBScHkwWTk0V29fVFRTaFJTeW9QcXRiY3pkaXpH?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-05-29T07:00:00Z"
+    },
+    {
       "id": "tarifas_41622",
       "titulo": "Qual será a bandeira da conta de luz em junho, segundo a Aneel",
       "lead": "Qual será a bandeira da conta de luz em junho, segundo a Aneel&nbsp;&nbsp;VEJA",
@@ -403,6 +453,16 @@
       "data": "2026-05-18T07:00:00Z"
     },
     {
+      "id": "mercado_livre_7005",
+      "titulo": "Mais cautela no mercado livre de energia",
+      "lead": "Mais cautela no mercado livre de energia&nbsp;&nbsp;Valor Econômico",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlNQSDVQT1A3T2JzQUZNZk5WWDZmVXVZUm8wM1BlNnV6OHRBalR6aVRDTXpXLUt3dk9nMk1uT0FjVzM0Sk1UczBpMTZBX0VFZ2xRWDFxNGVVblRPRDVrZy1UYkVKNjNpV3VOTUY2UG1FQkI3ZUd1bzAzcnhQdVNHRzlFemdHcDlxdExFUVJVSFlWUDJyMDFiQnkzRXg4UzIzWWc5VGJMazdKXzlOcXhyOdIBvwFBVV95cUxPaGIxc0g4SWp0cEwydlZwQWY4V2RDd0ZiMVVabTNfNU1SVXlMSXNmc2FXbDlHNERKVDUyOHNzc1YwdzNWV3VPcWRXZzRXRlhFS3pJZGIzTHFlTmtneUxRLVo4Y2FUNzRJbDVqMFIxUWJ1U0VoOTJBQ0xCcFExRHRfSktsLTdUNkFQN1ktUDBLT3NBRV9tckt6TkNZdm9tejI1S2g5QTRSR0QzSmdKandRR1pwWUs0RXpzUDVqVVFRdw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-05-14T07:00:00Z"
+    },
+    {
       "id": "mercado_livre_48603",
       "titulo": "Mercado livre de energia em tensão: Há espaço para reequilíbrio contratual?",
       "lead": "Mercado livre de energia em tensão: Há espaço para reequilíbrio contratual?&nbsp;&nbsp;Migalhas",
@@ -431,6 +491,16 @@
       "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-04-29T07:00:00Z"
+    },
+    {
+      "id": "política_77200",
+      "titulo": "MME convoca 1ª reunião extraordinária do CNPE e pauta aumento do etanol na gasolina",
+      "lead": "MME convoca 1ª reunião extraordinária do CNPE e pauta aumento do etanol na gasolina&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTlNOUnFIbWtyeTV2WXltcXBRcjM1RF9jckM4UjQ0RUhRNjRrYUhpM244OVdHTjJ0alU1djczeS1ncmxlUHZhRmJaU0xiRVgyWTkzdW9EVHJTODNpQmpwTXQ0U2FydWhnR2dtUEFWU2xkSHRMOHE1ZTliNF9PdC1fTld4eUQ4TkVXS0kzYUFRcWdmZER4NzJ1M25vbGFQVGl4OXUzYWtTUEVDZ1p2RTF4RlhFMVo1SndzdTdBc2s5OEVwc3R4Sm4xUXk4U1Y?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-04-28T07:00:00Z"
     },
     {
       "id": "política_73582",
@@ -471,6 +541,16 @@
       "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-03-24T07:00:00Z"
+    },
+    {
+      "id": "mercado_livre_89174",
+      "titulo": "Mais de 21,7 mil consumidores migraram para o mercado livre em 2025",
+      "lead": "Mais de 21,7 mil consumidores migraram para o mercado livre em 2025&nbsp;&nbsp;Portal Solar",
+      "fonte": "Portal Solar",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZlBCQlEtRHIyN1FYSko4Q2JYajF0S2VnWVRGQW9rYkExbGJrWDJ3YzRtSHpqc1RQR01hVDJqY1ZzaW1SUk5OS1dsQ085dTNfMUYwOW9odktnWUt5VTFrVmZNbTlXd2FvYTJqdGtudkh2ZWhFR0kzdnV2TkE1S0l4ZmlNMEwzYmhjajJWS2ZpQjQ4V3VTWW9aZ0tsWmQwanV4VkRpbnY1ODF3cnlrTl9aUlIyNDBPWWh6X19wbkdOcmxMTmlZbmtUQw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-03-11T07:00:00Z"
     },
     {
       "id": "política_35161",
@@ -521,86 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-01-30T08:00:00Z"
-    },
-    {
-      "id": "tarifas_99548",
-      "titulo": "Fevereiro seguirá com bandeira tarifária verde na conta de luz",
-      "lead": "Fevereiro seguirá com bandeira tarifária verde na conta de luz&nbsp;&nbsp;Agência Brasil",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdzRDcGxxdDFyQ09hOTFEdDlId21fWERVY2YxcTQtV2J5YkZVSTFILVVUbUo5YlZJSnM0U0o4OVlnQ3NBUnRUX1NJOTFUaEdPN1BNdXltVDFKakF2YTV6eXpNbzhjVUxzY0JBVjdGS3lPUzJhVzJ6OUpHc2NDQVpwU2FHZ280OE96Z2tKdnlKblJJRUZNcXludjBSRDE5V0wwdmRYMHZWYjB6YXdyOWg3WUVpY3ZoNGhZMEhaeQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-01-30T08:00:00Z"
-    },
-    {
-      "id": "mercado_livre_50909",
-      "titulo": "Mercado livre de energia registra mais de 21,7 mil novos consumidores brasileiros em 2025 - www.gov.br",
-      "lead": "Mercado livre de energia registra mais de 21,7 mil novos consumidores brasileiros em 2025&nbsp;&nbsp;www.gov.br",
-      "fonte": "www.gov.br",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQS294X3gzaFNCZU5tX0ZIN3ZVaExiQkU5Y3FWU1hRQnB2Q3VqWTBRTUZwaWhYVzNLeDdaR1JoV09rSlJHNnFqMFhwcEpydGpwZXlqaXVfTjFzWmZDcE9TQ1g5MEhuT1loc0xPQXRlbDYyUEpjWVhUano5enNPaGpiS3FhSkt1M2lzVTJCeVVjNmVtUmlRekdUQU1xS2xITGg1c1RWdHR6UTRCVkVZY1hQUzhTSlNIa25mb0xxTktvRXhaeldjWnVNbHppTTVuNlhOcDI4c2s4X3dQYWtPVHg5VUhVZ2JScFlXMG5R?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-01-19T08:00:00Z"
-    },
-    {
-      "id": "transição_25713",
-      "titulo": "Geração de energia no Brasil deve crescer 25% em 2026, sem contar GD",
-      "lead": "Geração de energia no Brasil deve crescer 25% em 2026, sem contar GD&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWFGREZwcnpGUHN4WUxtbWpOQlR4OWRGdmZ1YjkwUmg1NGFNMWY1UjkyUTdzM09pclhvNUNYNTdyZzFlVTUzcFBadWJldVFodmhEMTJGek80Z29wTm1rNzVIaldWd0NuRS1RWWRmU29aQ3RSdHpKd0dZMzFmbjhfOXY1NmpwX3NWUmI0OXNvOXNvem1Lc1J1LTNwMnUtSjFFMkVmT2Zn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-01-13T08:00:00Z"
-    },
-    {
-      "id": "transição_74557",
-      "titulo": "Energia solar volta a crescer em 2026, enquanto eólica desacelera, indica Aneel",
-      "lead": "Energia solar volta a crescer em 2026, enquanto eólica desacelera, indica Aneel&nbsp;&nbsp;Agência eixos",
-      "fonte": "Agência eixos",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVzJVbGI1MHktdWl1VnFhUUVDTkRYN0lJZjBobEdVRGVpOE05cl95MHJNVmJYUHZUM0liYXpydGRQZEI0ampNM21tMU5vVTVlNXgySWx2MDhhWnRqZzFBbThXUW5fNjR6NHp6Yy1ramhnWkIxeFlsOVFXR2hHV1NsWm1UcENranhtb0xzU2lNd3JfZ2o2TU95MkdiWjRKb0dULTBKbms2ODkxN0hpQ292RGMyQlNjbThtdVBz?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-01-13T08:00:00Z"
-    },
-    {
-      "id": "transição_92209",
-      "titulo": "Brasil enfrentará novo ano difícil em renováveis",
-      "lead": "Brasil enfrentará novo ano difícil em renováveis&nbsp;&nbsp;BNamericas",
-      "fonte": "BNamericas",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb0dicnYxZkxZQlQ1ZDJMdlowMDdOajhLWFJmY29Cb1ZFOGlCbHpyTjhUUGtkUF9pX3hRb0RSczZVdFdqVExRR0xLR3A0ak1TbUk0Ml9XMFg1cXRuS0c3Uno2Ukw1RFFweXhIUExfc1lVTXJzeWhsV0dHazc2Ykx6eWRTTzFjYzk0TnhpakpzVQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2025-12-29T08:00:00Z"
-    },
-    {
-      "id": "transição_49517",
-      "titulo": "Brasil alcança marco histórico: matriz energética com 50% de fontes renováveis - vermelho.org.br",
-      "lead": "Brasil alcança marco histórico: matriz energética com 50% de fontes renováveis&nbsp;&nbsp;vermelho.org.br",
-      "fonte": "vermelho.org.br",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMlM0d3k3UVUyRHA5YXItQlFkcHpObHlpeEZWWDFkQkY0enozcC1qSU1NTllFQlpjZjJNOTI4M01EQnh2dlpPVWVsb2hwcENNaXpwM0VBR2ZCeUpMR1gtWWNSSFZ2aDNtaDNvNWZiVUhSVGwyNlpjclZXSEd2TS1iOEM4enZHMnN6U0ZLa3ptc0VMVFYtUFBNaXhqNmFKMHo4T09hWTlDME9lLUtITC1pazZR?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2025-12-03T08:00:00Z"
-    },
-    {
-      "id": "transição_55625",
-      "titulo": "Crescimento desordenado da energia solar e eólica pressiona operação do sistema elétrico - Times Brasil | CNBC",
-      "lead": "Crescimento desordenado da energia solar e eólica pressiona operação do sistema elétrico&nbsp;&nbsp;Times Brasil | CNBC",
-      "fonte": "Times Brasil | CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNzNGRGVVLWJ4SXhNcWRjT2h6eHBMNkJIbXdKZjZmYk9OMFVZMkpHMXFGRkUxOFhEelFKY0VLZ1J1QnktUUdfYlBISHgxZURIc21TVFhEUzlpLXIwdnVPY2VaYnJKMzBBM0hXT2xOWkRpN3BKQmZ4U3lwZjNWbXNwcnhGVXNTWUFMZkV6NFRGQnNRdUZnWHFsTEdrSUNXT2xnRVAxSUZ0Z0k0R0JrT3RoU0FhUk1BSDRiZ094UjlmRGJlS2VhVXNYaVdNZHZaYjJ3aXU1aGpubUo2S2M?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2025-10-14T07:00:00Z"
-    },
-    {
-      "id": "transição_43210",
-      "titulo": "Camila Maia: Por que o excesso de energia renovável virou risco para o sistema elétrico",
-      "lead": "Camila Maia: Por que o excesso de energia renovável virou risco para o sistema elétrico&nbsp;&nbsp;UOL Economia",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbFF3ZFBpRjRpQ1UtQ0xSS3p2SFFIR05pcnhhOHd2TXlZbF82QWc2bDZoRXBQcEx5OXpUSXZkaWNhNEYtM2ZnNDhQS3FSTzJUYmxzTlhsa0E2SEVzZ2dvS0w5U3ZQUXphTlBXSkpDcVFmNkk4ZkdQTTBTdzVjVlZRVFJXak9JYXgtYkRRamw4OEhrd0RscmxQM3pWR2VRM25JZS1raEwxMzBCQXduRTZ4RHByaTNLOC1JeWFtdDhjZU5ieDYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2025-09-22T07:00:00Z"
     }
   ]
 }
