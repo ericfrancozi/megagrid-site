@@ -214,7 +214,7 @@ def build_html(pld, term, band, reserv, carga, noticias):
 
 def main():
     api_key = os.environ.get("BREVO_API_KEY")
-    list_id = int(os.environ.get("BREVO_LIST_ID", "4"))
+    list_id = int((os.environ.get("BREVO_LIST_ID") or "4").strip() or "4")
     dry_run = os.environ.get("DRY_RUN", "").lower() == "true"
 
     pld      = load("pld.json")
