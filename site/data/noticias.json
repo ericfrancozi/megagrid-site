@@ -1,7 +1,37 @@
 {
-  "updated": "2026-06-17T12:53:45Z",
+  "updated": "2026-06-18T12:28:57Z",
   "total": 60,
   "itens": [
+    {
+      "id": "política_22179",
+      "titulo": "MME quer rever encargo de reserva de capacidade e melhora do sinal de preço",
+      "lead": "MME quer rever encargo de reserva de capacidade e melhora do sinal de preço&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUFdGZ1BmTkRNenlwV2F0dS1YUUktZUFKUlJkeVo3d0NoUUJvWWFYbkQyZVA3RGhJZ1VxSTFweEdMd3NESmVrakNoTnNraXJMX1FNWnBKUVQ3UnlaQ2RRUXdaQTh0LWtRRmlBb2FUQVMzbDU3WGx6T3ZJcmRMQ1ZHbUhLdkZDYmhqMktZcllxUEJucWV1RHNrUnNxTW1VNl8yekZXY0hXSy04S0tLYm5xQUo1aFBUVFN1NjBiY1MtODE4Zw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-06-17T21:57:17Z"
+    },
+    {
+      "id": "mercado_livre_51639",
+      "titulo": "ONS e CCEE pedem cautela na inclusão da resposta da demanda no Dessem",
+      "lead": "ONS e CCEE pedem cautela na inclusão da resposta da demanda no Dessem&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPc0pOWF9NbTkwcEhOQlpiSExwZjJkck9JNnNwa2E0QnZYMklpdGp2VUZyZ2pDMmF4Tm5kd0YyWnFCX2ZrYkJiR1I2S1QxZzNvYzBnWXJmRTNCTzNicmRpQVl6cXBQSy1FcGU3Qzk1SGN4SWlUWWoxNzhwcHAyYlBtb1FOODktVVJJQ21JV1JCemlFSEMzS2gyUEdkVS1OX2N4R1o3YkR4MXFpb0NIUHE0QWZjb0xmaEE0?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-17T18:40:00Z"
+    },
+    {
+      "id": "mercado_livre_5337",
+      "titulo": "MME institui comissão para análise e acompanhamento do mercado de energia elétrica",
+      "lead": "MME institui comissão para análise e acompanhamento do mercado de energia elétrica&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN0EtYnhaLWJmOTVVd3ZLYUl0RXQ1YWRYc2pUSWJqdzhqdGozUHU1dS1WZzZaMWxKX0hwX1lZM2pnSExTUWNycS1LRGhJdWV0WGpNV1d2WGpaUDEzNkUxdmRucU4tN2diZjVwLUR2Tk9XY25UNlpRWUE4LWVhZ3lDOVhCc0tUQ0lDSS14M1JrWmhfMWNNeXBpZlVWQ0Y2MVBuUkthQ3R6bVhrc2c?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-17T12:52:16Z"
+    },
     {
       "id": "tarifas_82862",
       "titulo": "Conta de luz deve subir 8,6% em 2026, projeta ANEEL",
@@ -101,6 +131,16 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-06-12T17:58:18Z"
+    },
+    {
+      "id": "transição_70030",
+      "titulo": "Financiamento para renováveis segue 22% abaixo do pico histórico de 2022, aponta CELA",
+      "lead": "Financiamento para renováveis segue 22% abaixo do pico histórico de 2022, aponta CELA&nbsp;&nbsp;Canal Solar",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcXZ5eVNEdTBUZmZVMFlUODNadnloLVhFME5wWU9SZlFHdWhOQ25OWXFyQTJlRXF3UEFZWkV3VzA2a052RHE4Y1ppUjJlYWFwM0hyRnpqLWY5aGJkc0puaEdmWnkxOVVOV2liOUp6c214cGdtM04wdFpabEhCblAxLU13SHN0WVU?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-06-12T15:30:47Z"
     },
     {
       "id": "mercado_livre_74102",
@@ -221,6 +261,16 @@
       "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-06-05T07:00:00Z"
+    },
+    {
+      "id": "mercado_livre_30293",
+      "titulo": "Varejo lidera migração ao mercado livre de energia em abril de 2026, aponta CCEE",
+      "lead": "Varejo lidera migração ao mercado livre de energia em abril de 2026, aponta CCEE&nbsp;&nbsp;RADAR DIGITAL BRASÍLIA",
+      "fonte": "RADAR DIGITAL BRASÍLIA",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQ2RtWmMxWWk2aU5weEhDWUlxSkFkWk1mNGNyN21oMGpLYWtodDRGMDQ2NU5EbndaX080UzJFakhHMmlEVVYyVm5WcmJOaWlsb0xyMVpIWmUtbWdhbzUzeHpDLV9oZGJMRVM3WDdCYUhjRk1PTWNjY3BpNHhrdExNTGFnY0FneUNBRlVLX3huVTI5elNoX05sbTRrclh1QjBzaEtlcHFGMmU1MEh5VXFqekNjdDQ4ZERFMWh1ZzNsQU5ZRWM5ZWpN?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-03T16:36:37Z"
     },
     {
       "id": "mercado_livre_39855",
@@ -513,6 +563,16 @@
       "data": "2026-04-24T07:00:00Z"
     },
     {
+      "id": "transição_21054",
+      "titulo": "Nordeste volta a sofrer restrição expressiva de geração renovável",
+      "lead": "Nordeste volta a sofrer restrição expressiva de geração renovável&nbsp;&nbsp;Canal Solar",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPN2RUaV9KaDZ0LUFNd0ZCMDNOcVZhN0paQnB6Z095MU92WllNaGx0elVrRkdVREM4c0ZpaUhZS01qckJTVk9NUmVyVVNxSU9Bd2ZUS1poSWt3a042aUtyNEhYVG9WbnZGUHFxUDFaYmJwa2tMZEZYMnhBTENudXZEQ3BDck55Z0dm?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-04-15T07:00:00Z"
+    },
+    {
       "id": "política_57899",
       "titulo": "CNPE determina a retomada de estudos e desenvolvimento de projetos hidrelétricos com capacidade de armazenamento — Ministério de Minas e Energia - www.gov.br",
       "lead": "CNPE determina a retomada de estudos e desenvolvimento de projetos hidrelétricos com capacidade de armazenamento — Ministério de Minas e Energia&nbsp;&nbsp;www.gov.br",
@@ -541,66 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-03-24T07:00:00Z"
-    },
-    {
-      "id": "mercado_livre_89174",
-      "titulo": "Mais de 21,7 mil consumidores migraram para o mercado livre em 2025",
-      "lead": "Mais de 21,7 mil consumidores migraram para o mercado livre em 2025&nbsp;&nbsp;Portal Solar",
-      "fonte": "Portal Solar",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZlBCQlEtRHIyN1FYSko4Q2JYajF0S2VnWVRGQW9rYkExbGJrWDJ3YzRtSHpqc1RQR01hVDJqY1ZzaW1SUk5OS1dsQ085dTNfMUYwOW9odktnWUt5VTFrVmZNbTlXd2FvYTJqdGtudkh2ZWhFR0kzdnV2TkE1S0l4ZmlNMEwzYmhjajJWS2ZpQjQ4V3VTWW9aZ0tsWmQwanV4VkRpbnY1ODF3cnlrTl9aUlIyNDBPWWh6X19wbkdOcmxMTmlZbmtUQw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-03-11T07:00:00Z"
-    },
-    {
-      "id": "política_35161",
-      "titulo": "MME define nova data para reunião do CNPE, diz ministro",
-      "lead": "MME define nova data para reunião do CNPE, diz ministro&nbsp;&nbsp;Agência eixos",
-      "fonte": "Agência eixos",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTmMteHZPM244T2hGOWJmLUdyc3pVSFA2d0lsRmU1RVVGLVd1azRVMkkwSlpzUVROejVBcnpjcXpWOUpfV1FBcGh5MjgwV19tOU9JMmZIdi15QVg1SndIYTI4NUhDN0JnNHBkVmY4T3FUT0c3M3dxRjREczZ5V3llY0dXTTg2eWhwT05YbHFR?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-03-11T07:00:00Z"
-    },
-    {
-      "id": "política_42633",
-      "titulo": "MME apresenta nova estrutura do Plano Nacional de Transição Energética em workshop com o Fonte - www.gov.br",
-      "lead": "MME apresenta nova estrutura do Plano Nacional de Transição Energética em workshop com o Fonte&nbsp;&nbsp;www.gov.br",
-      "fonte": "www.gov.br",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSllER2tjYjNKTTZqM1ZZeXkzeWZTR2xBNjRFUllWTXdPSVNSN0Q2cS1IUm45YUNNV1d0X2dIQ0JPWkNDVmZWWFFVbWdiRnd1MGY0dEJXd2wtSExFY3lNWTJISGFfUDBSWjhJOG9jMWp2cXlzRlE0b0x1TXl0NTkwNEtHbnBCalNEalNiRUFYR2JWcXBJei1XZmJiZEJUVlhNalNyZDYxajhuNUFUSmN3c2tDQnk5VUR1U2ZUSjQ5RVVlanNoWGJpMXNpZlhQWGl1VmR2RzFFU2I?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-02-27T08:00:00Z"
-    },
-    {
-      "id": "transição_84329",
-      "titulo": "Brasil desperdiça 20% de sua energia renovável e gera prejuízos bilionários a empresas do setor elétrico",
-      "lead": "Brasil desperdiça 20% de sua energia renovável e gera prejuízos bilionários a empresas do setor elétrico&nbsp;&nbsp;NeoFeed",
-      "fonte": "NeoFeed",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYWZUdmhxTG8wU2NyQ3hQQ0FwR2cxdS0zOEh2Rm1zTGV2Z1puSHVEMnFRMFpWUEdXV3FMSzM5ZHdpVzZlMFJ3UGlNdno0RWwyZFk5WHJwcWFBdVlFU2VSVG9YRWllZ0FjanBDR3BfRmY0LXNsS0hhZUtSYjZDeWNucHpZNFhDNWt5OXlQQy14cHFhTXFGMTM5RV9UbHZ2WFJ4WW4xQ1JtODI3Vkg0SjllY3hDamJ2YU9GdEtUTlNyS3dDb1NVT0F2VGZ6aWVKdWNVdmc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
-      "editoria": "empresas",
-      "data": "2026-02-25T08:00:00Z"
-    },
-    {
-      "id": "transição_86902",
-      "titulo": "PDE 2035 projeta salto de solar, eólica e baterias com R$ 3,5 tri em investimentos",
-      "lead": "PDE 2035 projeta salto de solar, eólica e baterias com R$ 3,5 tri em investimentos&nbsp;&nbsp;Canal Solar",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3WGVCai1tMHRibzg5Y3V6cDdSU3RtU3BQVFZxRXM4X1VObUIwNDBLTGNKZXBJUVVxaXhpV2s5RjdqQ3VaSXdpdVhOb1p5eUNUTXdvMkVMUnpfU2lxYzgxd21obi1oU0xlNkcxMmJQUUpERjlvV0pfamZHVQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-02-17T08:00:00Z"
-    },
-    {
-      "id": "tarifas_66105",
-      "titulo": "ANEEL anuncia bandeira tarifária verde em fevereiro — Agência Nacional de Energia Elétrica - www.gov.br",
-      "lead": "ANEEL anuncia bandeira tarifária verde em fevereiro — Agência Nacional de Energia Elétrica&nbsp;&nbsp;www.gov.br",
-      "fonte": "www.gov.br",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMVZpdmdjaWdPUkE0TThvd29KOVZfX2dMUnJpV2t3b196ZENwQjZTQkZ2NEFwVWk3ckp2dmNPYXMxOUpib0djODgxZWFXYUVBTUZDTGZXNm1MblRpdDFtNmlmUnVObk4ySEJjWHhYMlN1bXNIMFVWMEdWaWpsRWRGQnp2Zm03c1VFUHJwb1VsN1hDa0pkYTFmWUs5UWljRWtXZ1A4V2JzeHE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-01-30T08:00:00Z"
     }
   ]
 }
