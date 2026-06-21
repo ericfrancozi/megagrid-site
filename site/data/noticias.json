@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T11:21:03Z",
+  "updated": "2026-06-21T11:47:45Z",
   "total": 60,
   "itens": [
     {
@@ -513,6 +513,16 @@
       "data": "2026-05-30T07:00:00Z"
     },
     {
+      "id": "tarifas_21354",
+      "titulo": "Bandeira tarifária em junho permanece amarela — Agência Nacional de Energia Elétrica - www.gov.br",
+      "lead": "Bandeira tarifária em junho permanece amarela — Agência Nacional de Energia Elétrica&nbsp;&nbsp;www.gov.br",
+      "fonte": "www.gov.br",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3NCampkZE9CUjNxR25FTzZ5Z1FOdFRJd3BDcS1NQXNzODdETjZBTmFYQUUzdGlwYVVzaHBHa0RNNzk4dFVIN1Y4MV9sZFAyUDdmWUNmZnd6UGtjUGloclBHQkw4ZWRoLW5xR2xYRng3dU9LNnpHaFQzenk1ZW11TTVEZEplRzhtVFpvTGRYYkY4UzRnbXo2UEcwWWlabHBt?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-05-29T07:00:00Z"
+    },
+    {
       "id": "tarifas_64419",
       "titulo": "Conta de luz terá bandeira tarifária amarela em junho",
       "lead": "Conta de luz terá bandeira tarifária amarela em junho&nbsp;&nbsp;MegaWhat",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "regulação_21057",
-      "titulo": "Governo do Amapá e ANEEL firmam cooperação técnica para ampliar regulação do setor elétrico",
-      "lead": "Governo do Amapá e ANEEL firmam cooperação técnica para ampliar regulação do setor elétrico&nbsp;&nbsp;Agência de Notícias do Amapá",
-      "fonte": "Agência de Notícias do Amapá",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWFRPWkJNTnRDMjlGbFd0VlhnU1FCVjJCZDFNdFNPNWhaUi1zNVNUNEtMQms0XzdTYVlWX1RoRW9sQVl3NkpjelNsMnI5MlAzc0JqVWVvVVU3UGpkSC15MHVQTmVFNllKWkZjdHdUbWpWQnlLR1BLa3pCVVdtZXFiNkx4Z3hIS2ktX3ptMV9MT0sweXJnd3JrOUh6bW5BRTYzR0RxVUdGNmZEZUV2ZG5IVmVOSEpVRDBPeUNKSmo0cjBSbkx4X3dhdERfWQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-05-28T07:00:00Z"
     }
   ]
 }
