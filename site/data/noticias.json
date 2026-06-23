@@ -1,7 +1,47 @@
 {
-  "updated": "2026-06-22T14:44:00Z",
+  "updated": "2026-06-23T12:10:02Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_17271",
+      "titulo": "Aneel adia decisão sobre regulação de cortes de energia",
+      "lead": "Aneel adia decisão sobre regulação de cortes de energia&nbsp;&nbsp;Poder360",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaVpyWEV1SEV1Q1pXX3FzX0FEVUZGQXhJMlZuQ1dJN2RVcTM3WW5paElaemZVY19teGREN3VZMGV5eW9CU0tUS2hrOWUyWFp5dHFNUnEyS2d0VTdOVV9ueG40WmtLMEdHVlV6Q3U5dDVTczR0QUQ3ZlVrVVdzQTdickhkOVE1MUNCWnB0Y3B1Wm1jalpCXzNnRkdGS3QyVWc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-23T00:39:24Z"
+    },
+    {
+      "id": "regulação_3332",
+      "titulo": "Hidrelétricas, eólicas e solares disputam rateio na nova regra de curtailment",
+      "lead": "Hidrelétricas, eólicas e solares disputam rateio na nova regra de curtailment&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa3dyendBaUl0N3NZZ2xja2gxMWVZeEg0aWRiRXhPeEY4aTF0VVFVeE5DTnN4WVNhaU9YNFF2VVZfTWFGRFZqVWpkeHQzams5QUI0ZDlhSDczSGNjekNtRVI2aHZXTUVoNmRUNzRNNV9EeTM3RTRxNWpDd3AwbXg2RmxRYndhMVlUX3VwQi1CS3BIT2R0VndodFJGRGlFOXJNZXliOWxwczdTeXpERHZKSm5oM1FKZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-06-22T22:29:43Z"
+    },
+    {
+      "id": "regulação_41219",
+      "titulo": "Agentes pressionam Aneel por ajustes antes da decisão sobre curtailment",
+      "lead": "Agentes pressionam Aneel por ajustes antes da decisão sobre curtailment&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVnFkTDVBbW4zWk5YNktEbVUzdG95ci11MXYzY21WaVF4T2JHX0t3Qmw4TXJjeFl4WXoxc29UaTJ1Y0s3ajBkRHFJYzBOcUgzc05lTGRRWi0xdFY5cTJvVlREMVFXMmdqaXNlVWhSeDRWVXVuWlFTbGxCMHltZjBRLXZQbWgwQUJjTlZ4dGsyWlpENG5XamgxdC05M2ZaMmt5ZHowLUZmOGU0eXVzNWN3?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-22T15:11:31Z"
+    },
+    {
+      "id": "mercado_livre_72443",
+      "titulo": "EVEx Brasil 2026 reúne CEOs do setor elétrico e Fórum CCEE em João Pessoa",
+      "lead": "EVEx Brasil 2026 reúne CEOs do setor elétrico e Fórum CCEE em João Pessoa&nbsp;&nbsp;Paraíba Total",
+      "fonte": "Paraíba Total",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYXp1ODlmaXM4aGprYzgyRmt5Vnk2ZmRoQkdSbDVqMFJHXzgyaHFvNlZVTGZwejVteDRWclFhN1UzRGExNEZ2aE5JS25oRF9pV09jOG1uNkk3M2RhLXRqVC1hc3V5dlFWNTI5WTRtOVNXRVdkS0xSWXQtTjg1blVJNkkzeDNvYlhhVC1yRk9EbTFCUGpsT0ZnckluT0V3LW1iRnRDaDFpRVkyalJlRFJkanQxVQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-22T14:47:24Z"
+    },
     {
       "id": "regulação_28652",
       "titulo": "Aneel pede apoio da CCEE para regulamentação do ressarcimento do curtailment",
@@ -558,46 +598,6 @@
       "lead": "Qual será a bandeira da conta de luz em junho, segundo a Aneel&nbsp;&nbsp;VEJA",
       "fonte": "VEJA",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWZ0LUZNTE14aUxFd2JFaUliUVItRVkzd3g2Nzl0bE93Zm9zNl9YU0RoTDdCNW5HUUVhbFRoUjBfOEdkbWlKc2FWMVhQT2RoZzNCYWRfaHg1RjNMTzBvN0dxNVRjYmNxU0szRy02a3dZYkdVZGZPVHdpY2YzYVBDeFZNS190N1hwOWlJU3RLUXRKQ1NLZ1V1VXB2UDZyZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "mercado_livre_45016",
-      "titulo": "Autoprodução no mercado livre após a Lei 15.269 e novas regras da ANEEL e CCEE",
-      "lead": "Autoprodução no mercado livre após a Lei 15.269 e novas regras da ANEEL e CCEE&nbsp;&nbsp;Canal Solar",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE01YXZyamZZZkxUS2YwcV9tVk5EdTJQY24zOE1fTHJPNXNDM2NzdFdZOTNzX2tuUXdrSzRSTGJjR09FQV8xc1FyRmVXMmxFZ3hQSHZEV2w2UThER3l6UklDQnlTLV85WlpSN1N1QWw1cFhrNTZDelE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "tarifas_99323",
-      "titulo": "Conta de luz: com menos chuvas, Aneel mantém bandeira tarifária amarela para junho",
-      "lead": "Conta de luz: com menos chuvas, Aneel mantém bandeira tarifária amarela para junho&nbsp;&nbsp;G1",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd09rTjd3TlQzQlUwa0VPb0k4cmZDWmpCUm41dWNfRWVSaVFjQkJ6RW9qTkdpVVhvUnZ3Q0pGOUdxNW9uQ3BwV3dmWkZPNC15UjdtRVkzelZBcDJZVEhZck1VWThNN0UzUm8tM2t0VDduSTl6TlFaSWhsS0dKMHZpaXFLVXdJTHBCemlGQzFTTkE2Nkt0aWhSdlQ1QUstYTFYYloxV1VvajFEQm9aLUJMR0hoc09JdWx2M3JNcm82d3lyclVKUjZsdlZWdldIQdIB3AFBVV95cUxQMVgtdkwwTzdWLXBEQnU1aWR0VU9IbXJHeW5CcHVYNHJ6UFU1dmdQY3dBcDNHVGFaaWhPWVdFOGpGWWxtNjA2bHF1X1BKdE9vaFdfY0lWaC1nOWN0UldZak5vRWhoTm5JLVlraVlCc0NTRWlYQlJEYjFRLVUyNHpKUk5SNlpTN204dWlhcFp0QjNlc2tVVld3aWVQYW95TXA1UkNBUEx5Q0tuOVRpZlAwMFV2ZnRrMlFMMWdpcE5wc1AxQmhDUFdla3NPNkRqUXRiMi1qRk5vWEFRM0li?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "tarifas_43400",
-      "titulo": "Aneel mantém bandeira amarela para conta de luz em junho devido à redução de chuvas no país - Folha de S.Paulo",
-      "lead": "Aneel mantém bandeira amarela para conta de luz em junho devido à redução de chuvas no país&nbsp;&nbsp;Folha de S.Paulo",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNV1hVM2NvcjZSX0ZDa0RwanJHYU9qMzI0LTdiaEo5eXV2ZkZvYjdfUndSbkx1M2J5UXNpSTZIWGZFSy1GVUN5aFNzVk9jbFhVTUl1NnJielZZQnExdFo4Vm5yUlJCYnJiMEQ5TDh0NzVxYlNiRlJFRHNlOVh2TFdwWXZDQ0JyN29LYXY5Ty01Uml4a2VHc01yTGJScUszM3pndjdoeF9fS1NPRE1FcGhXRzhmRDdaSnB4LTRoOUpxWTRFaDBXZl9wSUhINjJpUXdVSURCV2pmeUp2RjQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "tarifas_89183",
-      "titulo": "Período seco leva ANEEL a manter bandeira amarela em junho",
-      "lead": "Período seco leva ANEEL a manter bandeira amarela em junho&nbsp;&nbsp;Agência iNFRA",
-      "fonte": "Agência iNFRA",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTM0U0Q3b1V3VGVjaXB0bV9Sekw2ckxhaTF0bWlqa3hGOURuNGVLV1JleXRkdnBQRXJpQklYMHczOTVSLUZFRndoRl95RFM2Y0pxR3JHOXdkdlZGQTRQZ1hLOFZUTFhiWC1wWlZrenJRdzREZDNQdDRtWEhTX1czQjIwYl9FNURvakRSSk5xbGtoNm8?oc=5",
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-05-29T07:00:00Z"
