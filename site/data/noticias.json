@@ -1,7 +1,17 @@
 {
-  "updated": "2026-06-23T12:10:02Z",
+  "updated": "2026-06-24T11:47:30Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_38606",
+      "titulo": "Aneel adia decisão sobre regulação de cortes de energia; veja o Radar Energia XP | Junho",
+      "lead": "Aneel adia decisão sobre regulação de cortes de energia; veja o Radar Energia XP | Junho&nbsp;&nbsp;XP Investimentos",
+      "fonte": "XP Investimentos",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLWZ2RXRob2ZvUlQ0RHQ5ZGg3UXc3WW02YUU3WktUd2JUNzgyREV1YmsxSElGdWh2QzI5S3RXZlliYlVINlRPNTFRU2lMMDR6RHcxaWR2S3RoekNjWUltSk5Zdko5OHB4WWlzRUxJdmx3NVhhazM1ZkJfWFJsVHlyaWo4QTZFNHFoVXhGdTR1eGFHX1J3a2l3ZmZqMmV3RXN3LTRfWThrNm5hUmg4UUQ4bGp5alRDU1RfcTFHMmV4ekdWdzhYSTdYcVJKZTI?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-23T11:42:19Z"
+    },
     {
       "id": "regulação_17271",
       "titulo": "Aneel adia decisão sobre regulação de cortes de energia",
@@ -563,41 +573,31 @@
       "data": "2026-05-30T07:00:00Z"
     },
     {
-      "id": "tarifas_21354",
-      "titulo": "Bandeira tarifária em junho permanece amarela — Agência Nacional de Energia Elétrica - www.gov.br",
-      "lead": "Bandeira tarifária em junho permanece amarela — Agência Nacional de Energia Elétrica&nbsp;&nbsp;www.gov.br",
-      "fonte": "www.gov.br",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3NCampkZE9CUjNxR25FTzZ5Z1FOdFRJd3BDcS1NQXNzODdETjZBTmFYQUUzdGlwYVVzaHBHa0RNNzk4dFVIN1Y4MV9sZFAyUDdmWUNmZnd6UGtjUGloclBHQkw4ZWRoLW5xR2xYRng3dU9LNnpHaFQzenk1ZW11TTVEZEplRzhtVFpvTGRYYkY4UzRnbXo2UEcwWWlabHBt?oc=5",
+      "id": "tarifas_45121",
+      "titulo": "Conta de luz: com menos chuvas, Aneel mantém bandeira tarifária amarela para junho",
+      "lead": "Conta de luz: com menos chuvas, Aneel mantém bandeira tarifária amarela para junho&nbsp;&nbsp;G1",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd09rTjd3TlQzQlUwa0VPb0k4cmZDWmpCUm41dWNfRWVSaVFjQkJ6RW9qTkdpVVhvUnZ3Q0pGOUdxNW9uQ3BwV3dmWkZPNC15UjdtRVkzelZBcDJZVEhZck1VWThNN0UzUm8tM2t0VDduSTl6TlFaSWhsS0dKMHZpaXFLVXdJTHBCemlGQzFTTkE2Nkt0aWhSdlQ1QUstYTFYYloxV1VvajFEQm9aLUJMR0hoc09JdWx2M3JNcm82d3lyclVKUjZsdlZWdldIQdIB3AFBVV95cUxQMVgtdkwwTzdWLXBEQnU1aWR0VU9IbXJHeW5CcHVYNHJ6UFU1dmdQY3dBcDNHVGFaaWhPWVdFOGpGWWxtNjA2bHF1X1BKdE9vaFdfY0lWaC1nOWN0UldZak5vRWhoTm5JLVlraVlCc0NTRWlYQlJEYjFRLVUyNHpKUk5SNlpTN204dWlhcFp0QjNlc2tVVld3aWVQYW95TXA1UkNBUEx5Q0tuOVRpZlAwMFV2ZnRrMlFMMWdpcE5wc1AxQmhDUFdla3NPNkRqUXRiMi1qRk5vWEFRM0li?oc=5",
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-05-29T07:00:00Z"
     },
     {
-      "id": "tarifas_64419",
-      "titulo": "Conta de luz terá bandeira tarifária amarela em junho",
-      "lead": "Conta de luz terá bandeira tarifária amarela em junho&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWTNIUVdGYlNFM0FnTE9EeWxhbWpUeHhaM3pmcGIxMnRRSzBHU1c5ek9fS3BWcmEtaFA2WU9GOXk1dnlYc1hMOG9BODhMTGJuQ242amlrMWU4eERZaU5yTkdrSFVEZ2IxS3FCclh5VGhRMUZVNmFvMHBBbkxtT3FVVlN0QV93Rlp3VkVrRU1fY0NLa2RHbVl2cHEzeENLX0N5Q01nQjNSOXo2MWxEREE?oc=5",
+      "id": "tarifas_21103",
+      "titulo": "Período seco leva ANEEL a manter bandeira amarela em junho",
+      "lead": "Período seco leva ANEEL a manter bandeira amarela em junho&nbsp;&nbsp;Agência iNFRA",
+      "fonte": "Agência iNFRA",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTM0U0Q3b1V3VGVjaXB0bV9Sekw2ckxhaTF0bWlqa3hGOURuNGVLV1JleXRkdnBQRXJpQklYMHczOTVSLUZFRndoRl95RFM2Y0pxR3JHOXdkdlZGQTRQZ1hLOFZUTFhiWC1wWlZrenJRdzREZDNQdDRtWEhTX1czQjIwYl9FNURvakRSSk5xbGtoNm8?oc=5",
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-05-29T07:00:00Z"
     },
     {
-      "id": "tarifas_52166",
-      "titulo": "Aneel mantém bandeira tarifária amarela para junho",
-      "lead": "Aneel mantém bandeira tarifária amarela para junho&nbsp;&nbsp;Canal Rural",
-      "fonte": "Canal Rural",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcTFnN3RWWllfaDgtWWY3Uy04bGdDc2NpVEJGcjc1UDZMVnpmbEgxaTd3MTk2VVgxVC01WHFfZnc3aTNDRUpTMUk0bWVPRTk5MzJ5ckFyN1Y0eF96c2ExQksyTy1TdFo1cE5ham52Mmh6T3dIWjRLYzBScHkwWTk0V29fVFRTaFJTeW9QcXRiY3pkaXpH?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "tarifas_41622",
-      "titulo": "Qual será a bandeira da conta de luz em junho, segundo a Aneel",
-      "lead": "Qual será a bandeira da conta de luz em junho, segundo a Aneel&nbsp;&nbsp;VEJA",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWZ0LUZNTE14aUxFd2JFaUliUVItRVkzd3g2Nzl0bE93Zm9zNl9YU0RoTDdCNW5HUUVhbFRoUjBfOEdkbWlKc2FWMVhQT2RoZzNCYWRfaHg1RjNMTzBvN0dxNVRjYmNxU0szRy02a3dZYkdVZGZPVHdpY2YzYVBDeFZNS190N1hwOWlJU3RLUXRKQ1NLZ1V1VXB2UDZyZw?oc=5",
+      "id": "tarifas_7206",
+      "titulo": "Conta de luz: Aneel mantém bandeira amarela em junho, com adicional; entenda",
+      "lead": "Conta de luz: Aneel mantém bandeira amarela em junho, com adicional; entenda&nbsp;&nbsp;Estadão",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmVSWWd2X3Q2eEZKN3BMaW82OG94Vkhja3ptTHJFbkhPYkJhMzNxOVBFR2NfWmMzbzFXdG5SMHJSVGFjOThjZmdJdE9Fdkw5UllDVWY2VnNNb29PUFFINTNQMUFPVUE4dHZpQkZHRFBiS0NXWDRFZW9ZWlFVdUs2M2UzQ1NIcVFQeVBiR1g5YTNXWFB6bEVXb01XVlVjU3ktY3ZtcHA3SjlaZ0JtZzhr0gG0AUFVX3lxTFBzUG9ERDVONnRzSjdtR1IzSHZBRmFWOWtCcjBUT0RQUjFlb3BmNDMyV2ZOV2xOWVlBVzhlNnJIRWlsR1E2Q3RuSHNLYTZJX0g1UXVaWUJYeC16am55MFlvN1dYQm10QlZVYXNoVzlvTGlLMlJteldNcFhqWS1YZnZZS3VjQ1VZVEgzdDd6U09WVnJnVlV5Uk1GbTdkRHFfeGd1TnlEMG56dzNZM1BMeFlYenNDQg?oc=5",
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-05-29T07:00:00Z"
