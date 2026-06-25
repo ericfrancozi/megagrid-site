@@ -1,7 +1,27 @@
 {
-  "updated": "2026-06-24T11:47:30Z",
+  "updated": "2026-06-25T11:42:02Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_88668",
+      "titulo": "ANEEL conclui cálculo das tarifas de transmissão para o ciclo 2026/2027 com maior estabilidade e sinal econômico mais eficiente - GOV.BR",
+      "lead": "ANEEL conclui cálculo das tarifas de transmissão para o ciclo 2026/2027 com maior estabilidade e sinal econômico mais eficiente&nbsp;&nbsp;GOV.BR",
+      "fonte": "GOV.BR",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQak5nQXkxbEJsemJTR2pNTUVjTzYwWUZONzB2Qm9wd3NXelg0cTV6dlFtMldETG5iS3RIM3ZoUExROWJHNjFSQVFJUktCVHRYLVBWN19OZVpMQzZjMDVpZE8zOW9uR2V5UEVIXzZiTXFnSmxFbjBnYk0wcFg0aExfaEtkUGk5YjNFWkJhZXRTYmNaUHJXbWduSWFzdjkxTC0yWmFQSU9MbG91RkR5b2N2TUdYdldoaWNIS2s0WFVBY1Z4MlgxQVU3WlJya3lRb1pJcXBKYThCN0RYbVVGazFOT1Y2bnM0U1FGcUlvY1NwUWdPSXR5RGlYS0FwQzcxQ191bFBCYk5kM0N3Y3dTQmc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-24T12:20:31Z"
+    },
+    {
+      "id": "política_34048",
+      "titulo": "MME cancela reunião do CNPE que retomaria discussão de dívida de Angra 3",
+      "lead": "MME cancela reunião do CNPE que retomaria discussão de dívida de Angra 3&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOT3g2aEluQVJzQUthQURxNlBaQ0VEX21jeERjbVl3N1Z2UVhzaEo4T19FSGRFSXN0aWd2SFNQNE9uajF5SmVyVDVoS3FzS1BnNDVRTkVkczdnU0l2YWhQNXlrUkFNRE1pemxFN0U5ejdIdnk4Um4zb3lkNUVoWHRzQmgzSTJLa2RaZVVoUnVkVDBnMWZRdlE4OEswY3FJZEN4enJzMlhjRjlWb05rS01KV05keVUxZHFyVFZWY3Y4YTh6VzJ2UVVZSQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-06-23T20:21:44Z"
+    },
     {
       "id": "regulação_38606",
       "titulo": "Aneel adia decisão sobre regulação de cortes de energia; veja o Radar Energia XP | Junho",
@@ -453,6 +473,16 @@
       "data": "2026-06-03T15:33:56Z"
     },
     {
+      "id": "tarifas_84452",
+      "titulo": "CONTA DE LUZ TERÁ TAXA EXTRA EM JUNHO; VEJA QUANTO SERÁ COBRADO -",
+      "lead": "CONTA DE LUZ TERÁ TAXA EXTRA EM JUNHO; VEJA QUANTO SERÁ COBRADO&nbsp;&nbsp;- Bahia Economica",
+      "fonte": "- Bahia Economica",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQ0VoVkVKbEpTalJCZWphOHVBVTFqMlFaT3FYSmxRaGxobHlGSy1sVmI3OVA5LUtGZEtmSl9UblFtZjlPMGM2X214OGpkTHB1ZkNLVWlKV1hsampkV01zQnNBNTJ3b1NnVVJBVkw2Njk2SDh2elczdTZXXzY3WGVoNC1VTjFEMzdGemlJWmM2SDZ4M2pGeFhQbXhqVXB1aXN4VlA3Wl9FLWRPWU0?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-03T07:00:00Z"
+    },
+    {
       "id": "política_54594",
       "titulo": "MME divide contratação de baterias em dois leilões em dezembro",
       "lead": "MME divide contratação de baterias em dois leilões em dezembro&nbsp;&nbsp;MegaWhat",
@@ -461,6 +491,16 @@
       "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-06-03T07:00:00Z"
+    },
+    {
+      "id": "tarifas_30060",
+      "titulo": "Conta de luz: como será a bandeira tarifária em junho? Veja",
+      "lead": "Conta de luz: como será a bandeira tarifária em junho? Veja&nbsp;&nbsp;Riomafra Mix",
+      "fonte": "Riomafra Mix",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM0JlZFk2bEVvMHA3UnFFbHNYelZfMWE0eHJfZ3ZBY2tZN2pLelZIVVQyUEoxQWJNMUEtS1lQc2FxSGZoRm1SUTYwQ1BrMnVBR0czU1BxckoyZ0w2cVl2U3hZN3VINEdEOVVNT05lcVdTeG1mQ1hBR0dkLTMwWVNZTVBYYzdMOG5MQVlmdzIzbV94WE9KWnlKQVM2bnJrVkQ3MVh1QnF3?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-02T15:14:00Z"
     },
     {
       "id": "regulação_70150",
@@ -561,46 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-01T07:00:00Z"
-    },
-    {
-      "id": "tarifas_59726",
-      "titulo": "Bandeira tarifária de junho mantém conta de luz mais cara e reforça pressão da inflação",
-      "lead": "Bandeira tarifária de junho mantém conta de luz mais cara e reforça pressão da inflação&nbsp;&nbsp;Economic News Brasil",
-      "fonte": "Economic News Brasil",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbGkyQmU5cGRuZEVQQlRLbndjNXgtbXV6aEEtRXFmNk15WFpKdlJFdnI5RkNGVlFic0ktVGNFbk9UMkd2akdCdzlfMlI3U3h5N3FYSm5pcGZsajJmdzhvQ3VPbWVjSHpHQzM3blBxRURyMEV4MWhzTDVSbUdzN3RjdndyTU1XS2dxeVl2T2ZveWoybVBGUTRDemZR?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-30T07:00:00Z"
-    },
-    {
-      "id": "tarifas_45121",
-      "titulo": "Conta de luz: com menos chuvas, Aneel mantém bandeira tarifária amarela para junho",
-      "lead": "Conta de luz: com menos chuvas, Aneel mantém bandeira tarifária amarela para junho&nbsp;&nbsp;G1",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOd09rTjd3TlQzQlUwa0VPb0k4cmZDWmpCUm41dWNfRWVSaVFjQkJ6RW9qTkdpVVhvUnZ3Q0pGOUdxNW9uQ3BwV3dmWkZPNC15UjdtRVkzelZBcDJZVEhZck1VWThNN0UzUm8tM2t0VDduSTl6TlFaSWhsS0dKMHZpaXFLVXdJTHBCemlGQzFTTkE2Nkt0aWhSdlQ1QUstYTFYYloxV1VvajFEQm9aLUJMR0hoc09JdWx2M3JNcm82d3lyclVKUjZsdlZWdldIQdIB3AFBVV95cUxQMVgtdkwwTzdWLXBEQnU1aWR0VU9IbXJHeW5CcHVYNHJ6UFU1dmdQY3dBcDNHVGFaaWhPWVdFOGpGWWxtNjA2bHF1X1BKdE9vaFdfY0lWaC1nOWN0UldZak5vRWhoTm5JLVlraVlCc0NTRWlYQlJEYjFRLVUyNHpKUk5SNlpTN204dWlhcFp0QjNlc2tVVld3aWVQYW95TXA1UkNBUEx5Q0tuOVRpZlAwMFV2ZnRrMlFMMWdpcE5wc1AxQmhDUFdla3NPNkRqUXRiMi1qRk5vWEFRM0li?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "tarifas_21103",
-      "titulo": "Período seco leva ANEEL a manter bandeira amarela em junho",
-      "lead": "Período seco leva ANEEL a manter bandeira amarela em junho&nbsp;&nbsp;Agência iNFRA",
-      "fonte": "Agência iNFRA",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdTM0U0Q3b1V3VGVjaXB0bV9Sekw2ckxhaTF0bWlqa3hGOURuNGVLV1JleXRkdnBQRXJpQklYMHczOTVSLUZFRndoRl95RFM2Y0pxR3JHOXdkdlZGQTRQZ1hLOFZUTFhiWC1wWlZrenJRdzREZDNQdDRtWEhTX1czQjIwYl9FNURvakRSSk5xbGtoNm8?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-29T07:00:00Z"
-    },
-    {
-      "id": "tarifas_7206",
-      "titulo": "Conta de luz: Aneel mantém bandeira amarela em junho, com adicional; entenda",
-      "lead": "Conta de luz: Aneel mantém bandeira amarela em junho, com adicional; entenda&nbsp;&nbsp;Estadão",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmVSWWd2X3Q2eEZKN3BMaW82OG94Vkhja3ptTHJFbkhPYkJhMzNxOVBFR2NfWmMzbzFXdG5SMHJSVGFjOThjZmdJdE9Fdkw5UllDVWY2VnNNb29PUFFINTNQMUFPVUE4dHZpQkZHRFBiS0NXWDRFZW9ZWlFVdUs2M2UzQ1NIcVFQeVBiR1g5YTNXWFB6bEVXb01XVlVjU3ktY3ZtcHA3SjlaZ0JtZzhr0gG0AUFVX3lxTFBzUG9ERDVONnRzSjdtR1IzSHZBRmFWOWtCcjBUT0RQUjFlb3BmNDMyV2ZOV2xOWVlBVzhlNnJIRWlsR1E2Q3RuSHNLYTZJX0g1UXVaWUJYeC16am55MFlvN1dYQm10QlZVYXNoVzlvTGlLMlJteldNcFhqWS1YZnZZS3VjQ1VZVEgzdDd6U09WVnJnVlV5Uk1GbTdkRHFfeGd1TnlEMG56dzNZM1BMeFlYenNDQg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-05-29T07:00:00Z"
     }
   ]
 }
