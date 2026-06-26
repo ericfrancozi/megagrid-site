@@ -1,7 +1,17 @@
 {
-  "updated": "2026-06-25T11:42:02Z",
+  "updated": "2026-06-26T11:46:36Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_5445",
+      "titulo": "ANEEL define regras para outorga de sistemas de armazenamento",
+      "lead": "ANEEL define regras para outorga de sistemas de armazenamento&nbsp;&nbsp;Canal Solar",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaUdqblNtVkk2TXRQeFB5d1Z1cnJPUUptSUZWU1FjXzdrNk9FQ3R2cVI4QzdsZG8teG52Zm9VQ1d1WTZJQ2Q0SWl0MHh5dGVLWnExOW80M3U0MEpXdnNCZVB4Q09zbUdfcWpyelZRcTNRRmloRGVnUnU1VjZFeFh2T1FEOTFFMm8?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-24T18:14:00Z"
+    },
     {
       "id": "regulação_88668",
       "titulo": "ANEEL conclui cálculo das tarifas de transmissão para o ciclo 2026/2027 com maior estabilidade e sinal econômico mais eficiente - GOV.BR",
@@ -31,6 +41,16 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-06-23T11:42:19Z"
+    },
+    {
+      "id": "regulação_15382",
+      "titulo": "ANEEL adia regulamentação do curtailment e suspende decisão sobre cortes de geração",
+      "lead": "ANEEL adia regulamentação do curtailment e suspende decisão sobre cortes de geração&nbsp;&nbsp;Canal Solar",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ2JoV0FBaUZ6X2ZQczc1RGVVLU5UUDliRUtPcVlqU0h2cFJTUmpfVTg5ZlBiOVZITGFPQ0IxUG9oZDJHcml1eF9pV3JLYzluQ2VCYUdkcGpLaEZVTTk1RExPUFRsMG9VZGVZcWhpdFRINms5RXhILXVkVGNhM1Ewa1FybV8?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-23T11:20:00Z"
     },
     {
       "id": "regulação_17271",
@@ -433,6 +453,16 @@
       "data": "2026-06-06T07:00:00Z"
     },
     {
+      "id": "regulação_24916",
+      "titulo": "Regulamentação da Aneel prejudica alguns usos de baterias, diz Absolar",
+      "lead": "Regulamentação da Aneel prejudica alguns usos de baterias, diz Absolar&nbsp;&nbsp;Monitor Mercantil",
+      "fonte": "Monitor Mercantil",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOUpMNlQ1NzRnV20yY2kyMU96OHNXRjNqWFdCVnVZUnFIMWJjWmNrRDNBeFR5QWU5Y0tiejIteU05aDVLRzE5cFhYVC0yVHZHTm1nY2dLWXlPX2MyWTNzSW9rcktaWDV4UTBHRjlOUHFOMUthRnZ2dGNCWHlTWTN5cFNxT3RCMzE0U3ZKa19LTEdsbzBYcG9rTDgzV0g3RXY1c1I1ZQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-05T07:00:00Z"
+    },
+    {
       "id": "mercado_livre_17577",
       "titulo": "Câmara está preparada para abertura em massa do mercado livre de energia",
       "lead": "Câmara está preparada para abertura em massa do mercado livre de energia&nbsp;&nbsp;CNN Brasil",
@@ -568,36 +598,6 @@
       "lead": "Bandeira tarifária para junho segue amarela: veja o que significa&nbsp;&nbsp;Enel",
       "fonte": "Enel",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON191Y3dOZkNkd3d0bDdaQnFFT3ROc29kWTY0cjh5U3BCT24yRzZrb0pUZURDMVl5dmRXVmZnc1ZGc28wSTAyYWVWU0QwZkxNQ0xyWFQ4WGNsQkNsY0xiYTFWYWR3b1hTR3FxdC1WREVjTkRpanlqZHg3c2c3WWw1WC1fVE9iMVJ5dTY2ZnF5cnN0VDJtQkZ2UWItZzhzQVV6eXVGdFdFNmsyZ21xNVJV?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-01T07:00:00Z"
-    },
-    {
-      "id": "tarifas_9182",
-      "titulo": "Conta de luz continuará mais cara com bandeira amarela em junho",
-      "lead": "Conta de luz continuará mais cara com bandeira amarela em junho&nbsp;&nbsp;Canal Solar",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNXzB6djRWZHJWSGUwVjV5VGRERUpsOFcyaHhyYnpCVlFEdGw0cXMtWFdGQWlva1gxaG5pbGIwUS1HLXNHWmZCSFZ3ZHcwVE5ZcXN6dWd4MkFvelJ4MzBSUjBXdDRkclNBMHpFQWxUZ2JVa0RKdGZNUXpFRDdJVkpxbFM2QUM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-01T07:00:00Z"
-    },
-    {
-      "id": "tarifas_88386",
-      "titulo": "Aneel mantém bandeira amarela para contas de luz no mês de junho",
-      "lead": "Aneel mantém bandeira amarela para contas de luz no mês de junho&nbsp;&nbsp;CNN Brasil",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnNxVmxZOUgyelBDZzU5Z3NiMnpGTkdXMTRtMG0wdmdYdXB2NVZRZVRGN1F3ek5mZDA1c3dma1hzdEpiTkVQNUtLcFU3ZFJWUVNnRldVcHhOSzhBVnV5b3M1M01tMEtoSnNTTWRzanhxRlhwaFpBRDlmMURnYnVfWjNwWVk3T0xPb0wxU3FCUC14bHRILTdmNldxZ2pKQkdPWmc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-01T07:00:00Z"
-    },
-    {
-      "id": "tarifas_19562",
-      "titulo": "Bandeira tarifária para junho segue amarela: veja o que significa",
-      "lead": "Bandeira tarifária para junho segue amarela: veja o que significa&nbsp;&nbsp;Enel",
-      "fonte": "Enel",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWE5LaEZSWXZFbFpfN0tNV05ITzBoT0ZtNUFuOHJORmlLSWI0Z204NTFXeDJIR19GN1FnbzJVVkZnM3B4Z1F5QXZmeVRVSVdtUmRPUUp0TjFVeEZITktVU2lpOXJLVE1IbWlkNzlCODItZEtoMU9tTVJ0S3Y1cEhaRHJsc1B3TFhPR3BCYldnSGloZ0NXYXc0ZjdBcHB0ZjltUWIzdjNNZE41TS1YYnJjV0JDYUxPNEE?oc=5",
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-01T07:00:00Z"
