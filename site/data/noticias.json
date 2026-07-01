@@ -1,7 +1,87 @@
 {
-  "updated": "2026-06-30T11:47:25Z",
+  "updated": "2026-07-01T12:10:48Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_20145",
+      "titulo": "Bandeira tarifária de energia elétrica será amarela em julho - liberdade.com.br",
+      "lead": "Bandeira tarifária de energia elétrica será amarela em julho&nbsp;&nbsp;liberdade.com.br",
+      "fonte": "liberdade.com.br",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ0ExLWZGUUdSLWU2LXUzclctZEY5WE9vZGhETU5kV0lIQl9hRHk3RUFXUUtJeFFob1BGYmxTdjdnMm1qOGx3TFp3MlcyTmZXMjc0aEx0R3MySzhNNk9OX3BQbU9Oa0ZPa3dXNTByYktvQzhhZmtLOWpEVGtkV1hJTGhZcXhjX1Q0cDdXVW9Gaw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-01T11:47:00Z"
+    },
+    {
+      "id": "tarifas_70419",
+      "titulo": "Aneel mantém bandeira amarela para a conta de luz e tarifa segue mais cara",
+      "lead": "Aneel mantém bandeira amarela para a conta de luz e tarifa segue mais cara&nbsp;&nbsp;G1",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaDlKc2FvSnRmTU1VM3BKakgzbk5iTWwxY1dWNllreXRCTUFyMGhCYzBYR0ZNRHJadE9iX19JdUI5X1RMdEFpZ3BmMlNzSjJOVUdRMmMtMER3MzZXLVBDWkhCYjFfSXMyTGhieE41Uk1STTNoRWdsVjJsN3RFVFFSZlJkNXRYZ2cwaGxGcUp2WnlGb1dGVFFvQmp5ZWHSAasBQVVfeXFMT1dVTkhya2ZZeUFjeGh2UXplbU13SG1UUUpyN0t6TEZGMHdhZkZhVU9COE1IdDB2VHNlQklTclFYa2ItSjEtaFo1SDFIXzhpU2x0MUlHTUFROGRySXA3Z0pkYW51OFE3Y1ZJSC1scFM2ZVpKSVJjUUxRel9Xa2pvb0NLN2gtMU9iRmlZTFI1ZXRXZ3pPd1BsazZ0dDRZVjBCU3dqUXRRYm1uanNR?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-01T10:38:19Z"
+    },
+    {
+      "id": "tarifas_93843",
+      "titulo": "Conta de luz terá reajuste de até 8,11%; veja quanto a tarifa vai subir",
+      "lead": "Conta de luz terá reajuste de até 8,11%; veja quanto a tarifa vai subir&nbsp;&nbsp;Jornal do Tocantins",
+      "fonte": "Jornal do Tocantins",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdE4yTDE1aDlCbEJkQm56d0wzaUl5andhX1NLVFJrSVNCc3YyRGdhZlRneGVZUjZfYzlVVnByeU9nMFlXS0xpZ3Utd28tVXdHVjZxV2xhT3g2R01aUHhtYTMzMGZSTWxseGVITEstdjVqZmh0QmUwMWRnMjg2MUh3SkJ5dHR4dTFfV2tWdDFkY0k3MVF5WVZpdE5HUU5zRVdmZko3Rm5kSWJaakEwcjRlamc4Nk95aEczRHhSemNpWHFsdzA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-01T09:00:00Z"
+    },
+    {
+      "id": "tarifas_50754",
+      "titulo": "Brasileiros recebem péssima notícia sobre a conta de luz em julho - jornalcruzeiro.com.br",
+      "lead": "Brasileiros recebem péssima notícia sobre a conta de luz em julho&nbsp;&nbsp;jornalcruzeiro.com.br",
+      "fonte": "jornalcruzeiro.com.br",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRU1mRmhnRTRjUmVGTFNzc2NzU0RaWmgyLVR4UDBDUGJ0S1hkXzNjQzMtSWwzcG1EUlVZakxpejFGeGt5cmE2VmVMMTZvRTMycjBDUUF6Rzk2UVpPZ1NLanduZlM3UV9Lb1pTNnV4dUVwYmhIT1RlQ040ZnZuZGRlUEZSb3Fxc2xOZmxiVENsWWlWaVdCSUVBbEJvcWtPY1V4aUprbFpVYl9ZdGpHMnd6bA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-30T22:33:00Z"
+    },
+    {
+      "id": "regulação_36482",
+      "titulo": "Aneel passará a avaliar se distribuidoras empenharam esforço máximo para recuperar créditos",
+      "lead": "Aneel passará a avaliar se distribuidoras empenharam esforço máximo para recuperar créditos&nbsp;&nbsp;Folha PE",
+      "fonte": "Folha PE",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUNQeDlnb01OUmlRNlpBYmprajNucW9OVVJWT1dXTXFwZXBMWlp2RUR4Y1QtRmRidUxUb3J1OHgzTC0xN3ZDY0JUUlVURktQcXFUdUtzTTEtejNLVUdKYjdnUXJaNHI1N0QyYlZTWTk1UDRiTGZjYnMwQUJ2WkNlUkFobnlzcHVXLUI5UXJGSHZ3bFJwSnFGMEdGUjRhcF9SMnpfTFNGeWdwMXJkTklnYlBINnrSAbQBQVVfeXFMUC1DUHg5Z29NTlJpUTZaQWJqa2ozbnFvTlVSVk9XV01xcGVwTFpadkVEeGNULUZkYnVMVG9ydTh4M0wtMTd2Q2NCVFJVVEZLUHFxVHVLc00xLXozS1VHSmI3Z1FyWjRyNTdEMmJWU1k5NVA0YkxmY2JzMEFCdlpDZVJBaG55c3B1Vy1COVFyRkh2d2xScEpxRjBHRlI0YXBfUjJ6X0xTRnlncDFyZE5JZ2JQSDZ6?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-06-30T22:31:09Z"
+    },
+    {
+      "id": "tarifas_45400",
+      "titulo": "Contas de luz: Bandeira tarifária vai continuar amarela em julho",
+      "lead": "Contas de luz: Bandeira tarifária vai continuar amarela em julho&nbsp;&nbsp;Jornal A Voz da Serra",
+      "fonte": "Jornal A Voz da Serra",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN1p2OEw2RXN4VEtOMk9MWTluOWxYR3FxYndUNUZvQVNpWW9OZE9sMVBuR3hha0ItQmc3WkpIMjVJdTlkVWlWSGlIVVRpVUI5RkI3cW1wYzNwamJfWlE4bkpvMXJlVmhVQlVSVXY2QWZmY0h4NHY5eVhud1pFam9oTXF2Z0g2SlY5R0gxWTBKNHhSQzNlejFZLTZzS0hyM0F6?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-30T17:39:41Z"
+    },
+    {
+      "id": "tarifas_90061",
+      "titulo": "A bandeira tarifária do mês de julho irá permanecer amarela",
+      "lead": "A bandeira tarifária do mês de julho irá permanecer amarela&nbsp;&nbsp;CBN Caruaru",
+      "fonte": "CBN Caruaru",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1NreFdUVTBVYURLR0ZqN0I0YXNOb09DUDdOVVk5WUw2MnpYS2cyS181SGZXVVpqNS10R25qd21vOThxSzE3TDViSldmS0ZCeDhaQm95RVBMbkxfb0VsNHdRSnkwTVZTZThMWV9wb1RHQVFETWs0NkhxNzN0Ti1VTWFPV09yWUs2YlU4Rjk5MTUyR2phWDlWbjNB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-30T16:48:04Z"
+    },
+    {
+      "id": "mercado_livre_22804",
+      "titulo": "Mercado livre amplia disputa por consumidores de energia",
+      "lead": "Mercado livre amplia disputa por consumidores de energia&nbsp;&nbsp;Estadão",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzh5aG4tNzJueGZNMURPVzY3bnhCWUlzeU9PQ1BFUjhjcElyLTN1Q0xsRkJ5NVl0M014UEJ1QjBuUzNLSThPYkFwalFDN1RvT3B0M3N2aTFmc3N2d3FhMmdGQVpTVEZZcVp2S2NmalMySGItSkJ1REo5OXhxdXAycXgwYUIyZ3VMZ3FNZnN2RzVLWE1LeDl5dVIyZWlaSHNpbnlHY9IBqgFBVV95cUxPNnBHSU5yNTI3SmRWd08xSUF3TklDUS1ZOEdQVkEtZ0EzNzJvOS10SGlLTkpfS3JaSFdyU2xZdDZ2OGhkSEkybnpuRmotUWREMHlqUWlvUUlpTzBPcnAtMHNrUnhUX1AtSEhER3JUMDdScC1wMEZPeTVEVU5RYmdHUUNCQmw5M3BCTWlveE0zaWU2S2Iwb3FQOWZlSXBLSEF3cUVIelpYXzdnUQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-30T12:39:32Z"
+    },
     {
       "id": "tarifas_98081",
       "titulo": "Cobrança extra? Bandeira tarifária de energia permanece amarela em julho, diz Aneel",
@@ -41,6 +121,16 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-29T14:48:28Z"
+    },
+    {
+      "id": "política_35532",
+      "titulo": "Mariana Espécie é nomeada secretária de Transição Energética do MME",
+      "lead": "Mariana Espécie é nomeada secretária de Transição Energética do MME&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV0JxWkswQWhfcHJpOERLUmdBTVIyX1hZMDBsUzJGRG11SFY2VXo2cDN2YXZ0SS1LSC0zWlZ1VTBoc2pPSjNxODdUQi1uM3hfRWg4ZS1haVdidUo5Nmg1OTg1bHhlVS1wQnN4YUl3ankwRUFCcXVQRmdVLWpCeFJWWHZyWXVGYmd3eTltOEJmWnBqVU1ZU3o4T3BsQjRLRWoyaVNpYzczLTlJUQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-06-29T12:20:43Z"
     },
     {
       "id": "tarifas_33746",
@@ -511,96 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-06-15T18:03:00Z"
-    },
-    {
-      "id": "mercado_livre_30839",
-      "titulo": "CCEE poderá aplicar multa de até R$ 50 milhões em novo processo sancionador",
-      "lead": "CCEE poderá aplicar multa de até R$ 50 milhões em novo processo sancionador&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzZEbDVjWWxpQWdhTWF2a0lJb2pCRWlSeGJfRmdtU01QcU5KNW9lZU5HeTMyZWlkSzFFZk9OYkpicHNBTXBlbVk5bTRtcms0WENLamQ3cDNMbG8zLTJHRXpab250ZTBqRHBTZWhoRG1UaVZDUHZIQzdVWm5xak9BWTFEY3hlNTNQeUdiSEtjek9tdVo3U19WOV9Zc2lIZUgxQUdfeGhoSGpmNTJDa1VwSmtwSQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-15T16:25:17Z"
-    },
-    {
-      "id": "política_25055",
-      "titulo": "CNPE pauta aumento de etanol na gasolina e dívidas da Eletronuclear",
-      "lead": "CNPE pauta aumento de etanol na gasolina e dívidas da Eletronuclear&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOWJpLXZ5S29YWXlsWnBZa0NKWXlPa21za2Y3dHJJa0t5dUFKMnpJRjdTX1VOdUE1TTRfYnZPb1RvOVpyQlowNFctUl85cm5DN2JyWVhVOEdIcVVRZVJjVDZlUFhsdURWR0k4al80NHpDbjBNenZkdGlHX2FQSW1tZ2p5QVJ4eUlBa2lyOVRzNE12ZkNwdjBjQXpPcmdscVpzZS1yaGtMdzR2QmVmbzh1Q0lhc0dHMjg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-15T14:33:59Z"
-    },
-    {
-      "id": "regulação_31254",
-      "titulo": "Procuradoria da Aneel defende regulamentação sobre corte de geração de energia",
-      "lead": "Procuradoria da Aneel defende regulamentação sobre corte de geração de energia&nbsp;&nbsp;SBA1",
-      "fonte": "SBA1",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaU91eWl3a0Vwc04yNklOUU95ZkIzZDVMMk91MlFLMlVHUjVmMi1kLVFJS1IwWDdOSkFieGQ0OHN6cGRtaHk2SFFhNWVPSW8zandMb21MWTRYTDBGaENkNU0xWEZROUVLeDhjZHpuWHZpWnZYSEp5bU1lbWNmaW93Q1dJbnNsQU1YemNzOEF1NGxtYzJSYmFZMy1OTGFDdExQSHlhd2pHWVZoeW1BUWJJdWNoSHZPVEgyMGc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-15T14:00:00Z"
-    },
-    {
-      "id": "tarifas_91255",
-      "titulo": "Aneel eleva para 8,6% previsão de aumento da conta de luz em 2026",
-      "lead": "Aneel eleva para 8,6% previsão de aumento da conta de luz em 2026&nbsp;&nbsp;Tribuna do Sertão",
-      "fonte": "Tribuna do Sertão",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVlZVVlkzc1VTUFBQUWV6aUl1ajhVbnQyMDNNa1dDODdGZmp3b015MjBKeXN2b0M5QWkxaFVJYlJmRl9FTTlyOFo1VUhoajB3SU45ckR0REZ3QTIwUTVaWHFuVTBwdVY5Ti1PN3VBazkyNWczR1JvNzV6TWxkWDJ0TlFCdDZmRHpkdWZYTl9HZXpmbjFvckJxMGFYMXQ4SDVyWXVjMjh2RjE4UDZWOXFfWE1aVWlEdFVTMnZfX1RBM2pZVzA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-12T18:17:00Z"
-    },
-    {
-      "id": "regulação_68387",
-      "titulo": "Aneel pauta votação de regra que cria fila e rateio para cortes de geração",
-      "lead": "Aneel pauta votação de regra que cria fila e rateio para cortes de geração&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY2JLRWRZVXBQWnlBeEt5LTJJcTBBQ0xfaEZiMzY1NjhrNVp6RVIzTEVpdkFhdjdacmlqekJxdnJKcF9rSnN6VTNpeGRBSmp6OTFOVnU5X2lOQnBaY09KSExmeHdJelVWYlRsTnZSQzlXSTVJMlpYbTFDbUtMckVMNHB5U2tVWlJBN2VQOHpiZ0txaWdlTWNGVHU2NWp2T3lpX3dabnZ4eDlLeVd2S2hmVUhZOA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-12T17:58:18Z"
-    },
-    {
-      "id": "transição_70030",
-      "titulo": "Financiamento para renováveis segue 22% abaixo do pico histórico de 2022, aponta CELA",
-      "lead": "Financiamento para renováveis segue 22% abaixo do pico histórico de 2022, aponta CELA&nbsp;&nbsp;Canal Solar",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcXZ5eVNEdTBUZmZVMFlUODNadnloLVhFME5wWU9SZlFHdWhOQ25OWXFyQTJlRXF3UEFZWkV3VzA2a052RHE4Y1ppUjJlYWFwM0hyRnpqLWY5aGJkc0puaEdmWnkxOVVOV2liOUp6c214cGdtM04wdFpabEhCblAxLU13SHN0WVU?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-06-12T15:30:47Z"
-    },
-    {
-      "id": "mercado_livre_74102",
-      "titulo": "CCEE mantém exclusão de 2W Varejista e Diferencial e reforça rigor contra inadimplência no mercado livre de energia",
-      "lead": "CCEE mantém exclusão de 2W Varejista e Diferencial e reforça rigor contra inadimplência no mercado livre de energia&nbsp;&nbsp;Cenário Energia",
-      "fonte": "Cenário Energia",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOGVaR1E3YzNZMmVkMjhCcU9ydDh0WGlnaGFBQUZZd08zaEJ1Yldyb0ZvUEdONkhJVHo3N240RURlTVpobWc2a3VkcWJmQVZrd1B2WGZRMHFTUGlBZUdzYlZlMnJwWkFiU3dHdDlSQTJaR0NkRXA2Zk1Ob29aVzZ6ZkwwNFNrRlhlM1gtWlBtT2RvQVRmTDZYam5Zc3EzQlNxeHFFZmd5dGVId29iaktNbGNyU1BRTGY1M19ybFlhRGZXU3A5aXkwV2xpZ0lKdVFHQUl3Y3hPNmZ6V0dnY005R0IxYk5KZ3hNejFlRXdB?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-11T18:38:51Z"
-    },
-    {
-      "id": "mercado_livre_58627",
-      "titulo": "CCEE rejeita recursos e mantém desligamento da 2W e Diferencial",
-      "lead": "CCEE rejeita recursos e mantém desligamento da 2W e Diferencial&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbWRmWWFaU2tyWlcyN3hid3RJaHVvZUpjN0JiejNPX0RKRlVJQnRTaG9xRjV5VWFpYVd0RW42QWVMNEhOU25KUXYzdmszeDE4bDBFUjlUVS04ZHNUQlNLaTBpeF9qc1U2QUdDQzNOMTRaOFVZSlZFeHlJRm9GNkNHSjk5bzBJMEYtM0pUekx4LVBMYjd0aHRPMGlIZlNJdXdlbEJsVTJwRk1Xc0tTaEpscQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-11T17:44:53Z"
-    },
-    {
-      "id": "mercado_livre_72735",
-      "titulo": "CCEE registra queda de 39% na inadimplência documental e prepara transição para modelo prudencial no mercado livre",
-      "lead": "CCEE registra queda de 39% na inadimplência documental e prepara transição para modelo prudencial no mercado livre&nbsp;&nbsp;Cenário Energia",
-      "fonte": "Cenário Energia",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOaVdaa0Mzd3BuQ0JzYlZBTkFMVXlZRm93VTdIcnBVMDcxSjZqdXMtNHYtWDdZSzhHakxMTnVRcm5nSUdycEFSVjExT09ERVdGWkR6eUN1WTBEbXNHUGRmNHdpSkV5MG5OVGxKSHhwcUFyV2oySl9VNVpsVngzRHgwbGZObjJIUl9nRDVZRjJITU03YndaeUZyQXB4b3RheHdwbkJlWjdiOUpGZHZtZjNSSWRWU2ktSDQzR0pyaEZiSlFBY08xNzZMRjAyTGU3ek1maV9vdEZHQTQ0LUJleURtWGl3aUlDLUV0ai1F?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-11T14:08:04Z"
     }
   ]
 }
