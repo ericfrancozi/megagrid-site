@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-01T12:10:48Z",
+  "updated": "2026-07-02T11:36:49Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_65687",
+      "titulo": "Entidades sindicais repudiam 'demora' da Aneel na regulação de postes",
+      "lead": "Entidades sindicais repudiam 'demora' da Aneel na regulação de postes&nbsp;&nbsp;TELETIME News",
+      "fonte": "TELETIME News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqT3VmNi0zV0ltZzRjaE12bk82S21pV3l6Wk5uWHhaU1NLaHZoZFJnSkQ2WG8xRlhuS3dPRkJQb2ZiNDNTRVluYXlpOHhCVjhENG0ySG1KLVN6SDhWdmRmemo2eHFEVGhVQlRxRUJNMA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-01T23:07:33Z"
+    },
+    {
+      "id": "regulação_18683",
+      "titulo": "Anatel e Aneel avançam em comissão de resolução de conflitos por postes",
+      "lead": "Anatel e Aneel avançam em comissão de resolução de conflitos por postes&nbsp;&nbsp;TELETIME News",
+      "fonte": "TELETIME News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOX3gxV0NwUE1CWjFYYTU0RHYxVjJybFBuSU1IZzJjdndya1Z4SXNOYXVWZGRoUHh5OWJyZzBZQnhzdmpyYVBLYVpReUlrb2tHRkJ6Q0hSWFdZeEpDX2g1T3VSS3UxcjJRbzJwV3RDM3l2Q0VGRElrMUtnVV8wdmJzcVdxOWc4Rm9uZ2pUNE5oWHhvVm1NT0Z6MjJkbHVsUEJMVmtxQTZhV0E2Tms?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-01T22:31:51Z"
+    },
+    {
+      "id": "tarifas_70801",
+      "titulo": "Bandeira tarifária de julho é amarela: veja o que significa",
+      "lead": "Bandeira tarifária de julho é amarela: veja o que significa&nbsp;&nbsp;Enel",
+      "fonte": "Enel",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaGNCODVhaG5DZm5FM0JyNzBvRjdvTFVDaTg4eGxWQW92YTBCdlNGRHEwZ1JUTWpnTE1vY2NMX0J3WHI5LW4tWTV1NEoyTG54QmR5ZDhheXJ1dWY1elRaSDl6aVMxMTItNUlBa1NyVFBfMDRmcFkxRmRMWDVqYnRNNjZyZmp3d01WajlBZm1oZ1B5cFNCY1Z4NTI3aTdMQXZnX0pJaFJ6aU1XME5oYmc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-01T20:14:25Z"
+    },
     {
       "id": "tarifas_20145",
       "titulo": "Bandeira tarifária de energia elétrica será amarela em julho - liberdade.com.br",
@@ -71,6 +101,26 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-30T16:48:04Z"
+    },
+    {
+      "id": "tarifas_63852",
+      "titulo": "Conta de luz segue com bandeira amarela em julho e pesa no bolso do consumidor",
+      "lead": "Conta de luz segue com bandeira amarela em julho e pesa no bolso do consumidor&nbsp;&nbsp;A Cidade Costa Verde",
+      "fonte": "A Cidade Costa Verde",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSTkxUFNEMnJYTGtVYlI5NW5ta0JCWlR6WS0zaXdXS0dad2c1LXNyN3gtNDc4RmtlWGY2OHM1UHZMd0hwVnppbXE4U05JanlPNG5OREI4b3lrNk5jT2xsRkpyV1gybExjaUY3UjhRaUpxQk9oQWFrYk1EbENpUlRpLUdrQnRMYm4xb0hxRngyRnhGWG9YUmh1MVVyVW05Vk45UnFLOXptZEFKTFYtUlRFVjU5RWZwdTBvYjlZ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-30T13:53:00Z"
+    },
+    {
+      "id": "tarifas_63443",
+      "titulo": "Conta de luz terá cobrança extra de R$ 1,885 a cada 100 kWh consumidos em julho",
+      "lead": "Conta de luz terá cobrança extra de R$ 1,885 a cada 100 kWh consumidos em julho&nbsp;&nbsp;Portal Solar",
+      "fonte": "Portal Solar",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS1VTN2MzUjlTbExqSnFrUWdwcE05RVZ3bHVEUkgxLTZGdXRmLV82ak0teTJJdmNnQ2dsY0V6U1FRYTBkdjVsQnY0T2hOeHZmc0RQYWliUGNsOC1lVGM2VFFvaXB0WU9HVTJvM0ZLMjBQU2E2bHhKWFU1ODBIU0t1N1QwTFRJYl9NeUVNM1FyYloyVmRpeUFnUWo4aFNva0FOZHdBYS1uVW81NXpJWnRYcUdLeTRpTkxrMmMyNkhpaFloejF1Mk02bWZ3SVNQak96bkVj?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-30T12:45:15Z"
     },
     {
       "id": "mercado_livre_22804",
@@ -513,6 +563,16 @@
       "data": "2026-06-18T15:06:31Z"
     },
     {
+      "id": "política_23978",
+      "titulo": "Silveira conversa sobre política brasileira de governança nuclear com AIEA",
+      "lead": "Silveira conversa sobre política brasileira de governança nuclear com AIEA&nbsp;&nbsp;Agência eixos",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPY1BQdWhUMGozV0RTTk9wNDdUYm1ZTGNSTG5zRXhIUzUzc1RCM18wNHZ6N2Rha3NjV1VodGFWVGNfdG9UNjhGQTZjZ1RLdTQ1c1FXdElET0RVTHE0QXRVRDM3V1hjTTgzazR5STFHbUxJTjNyV0tqV0ZST1c2SFdxb1ZBNWYweG81QlFaWEdZYjVLaGdrcU1QSnY0U0ZiME1Bd21rcTZpZmJiMEl3cGtEN1BQOFV6RW45T1NqeUotd25rSUtsd2lERXYxLU53X2tFZUtnR1ZGTQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-06-18T07:00:00Z"
+    },
+    {
       "id": "política_22179",
       "titulo": "MME quer rever encargo de reserva de capacidade e melhora do sinal de preço",
       "lead": "MME quer rever encargo de reserva de capacidade e melhora do sinal de preço&nbsp;&nbsp;MegaWhat",
@@ -541,66 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-06-17T12:52:16Z"
-    },
-    {
-      "id": "tarifas_82862",
-      "titulo": "Conta de luz deve subir 8,6% em 2026, projeta ANEEL",
-      "lead": "Conta de luz deve subir 8,6% em 2026, projeta ANEEL&nbsp;&nbsp;Gazeta Hoje",
-      "fonte": "Gazeta Hoje",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWVhKZ3dDaGxkNXNYdGI5RnB6OTJpcmswVEx2V0tha0FJdTQ0RTBLcnllN3JKYmVIUDFwQ1FvcVpNRTdXR3dHaWNYMTNKSFY2b29zMHdmMm5KbnhEZ1FGdFJKeV9RWHBUdUI5dmhTb2xTWGVmQm9oSVdESkFEVVdDRA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-16T18:25:07Z"
-    },
-    {
-      "id": "mercado_livre_13634",
-      "titulo": "Aneel Propõe Que CCEE Aplique Multas De Até R$ 50 Milhões No Mercado Livre",
-      "lead": "Aneel Propõe Que CCEE Aplique Multas De Até R$ 50 Milhões No Mercado Livre&nbsp;&nbsp;Cenário Energia",
-      "fonte": "Cenário Energia",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFcwNGNuMHc4QUlydWpGdFRpRk0zRmZZY3BQdnY3S3lERGVyZ1JpVjFMSFR3d3JTaGIwbmR5bEVObjRORUxtQzI5RUJfRW9nOFFzRzVmZHJReDVhS0QxTVBYQjVPaGl0d3pEMnY0TElEdjJKZm1XaDVWRWJUTm0zYWZ4MF9kek9Tak1SamhjUEwxWVBzTEZkdkdIcmZScFpickpicnQ3Y3BlQjFaR2w2N0dQTlUyZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-16T16:37:47Z"
-    },
-    {
-      "id": "mercado_livre_79098",
-      "titulo": "Aneel abre consulta sobre endurecimento das regras do mercado de energia",
-      "lead": "Aneel abre consulta sobre endurecimento das regras do mercado de energia&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdkVUaGNjSGhILTFsdV8tOGxpZG5yU0pxQURLVVpSaEluYjF3ZTBtUnc2c1ZQWkF4TFI4WkVnTHFJeS1renRHSTZJRTl3NkpZRVJQSEx1YU1TaVYzOWlHcndDTGFFQkV4SDBhR0UxS3A1RWJsdEh4N2RsbzRyWl83ZXB0NVNNQzZIdFE0TF9yc19XcUJNbENYSHN2VlRUVjVrZ3VoZEh0X3Mwd2N5RmIwUw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-16T13:52:14Z"
-    },
-    {
-      "id": "regulação_40275",
-      "titulo": "Procuradoria da Aneel defende regulamentação sobre corte de geração de energia",
-      "lead": "Procuradoria da Aneel defende regulamentação sobre corte de geração de energia&nbsp;&nbsp;UOL Economia",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQR0tqdk9TZUVSR2hLWUtmZldIOWFTVFhYOG9KaWs1TmVHTEZUNzdEa0ZjQjNyU3cwTVFEUHNxODdlOTQ5MzhwUHFSNzRfbGNkczJzWXBPNWpxMktJYnlDUngtU2lZNlkyY1RFckM1eEQ0Mm5VVFpEOFpBNm9JaW1LQ0labTdkYVhYTTVISS1zMWMyb3ZYR3FpSjE1eWtnejZGczl2RG5DLTNKalpkMUNsREU3OEVDdnhITmFYelhlWWU3OGdyUUFPYkw4azUya1BKS1Nya1lXNEZfUUFLMzV6OQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-15T21:00:00Z"
-    },
-    {
-      "id": "regulação_26473",
-      "titulo": "Procuradoria da Aneel defende regulamentação para cortes de geração de energia",
-      "lead": "Procuradoria da Aneel defende regulamentação para cortes de geração de energia&nbsp;&nbsp;Tribuna do Sertão",
-      "fonte": "Tribuna do Sertão",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVGdjWnZqZmFPanB3dEljR1pHU2p0VV9GeTZ5RUZaMktHaWt4T0sxQTRtZVJXdVUzZW1OMTVrR094Uy1PMXZHemgxN3NrTTZfZTladlhPbkE4ZkhkVlJzNUtFNFZVUDBRMExLd09MMzBWcU1iLXVpQktVMXRhMjduU0tGSUFqc25XU0E1SlZIWXYzUGFiOF9qdnBlZFlyZWg2TDlaTmRYWlpESzZQdDlrTmI5dUs2SFdRQVVaU01QU0JTcTB6WlVIUHlfU1dCeFpJbFIw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-15T21:00:00Z"
-    },
-    {
-      "id": "mercado_livre_21086",
-      "titulo": "ANEEL abrirá consulta sobre regras para punir irregularidades no Mercado Livre de Energia",
-      "lead": "ANEEL abrirá consulta sobre regras para punir irregularidades no Mercado Livre de Energia&nbsp;&nbsp;Canal Solar",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSnFyMVhhYnNnWkVKSmV0WUw5dHB4X3VIOFNJanBlZFVhbVFSWkgtQW5LZDJQb3RrcEpYS09ZZE03TGlOSGtRSENQY0RKVjZ0OXd2RG1mRzhTUjI0MWo0b05pazdoMkR3UDZhUkNQMS1LNG5faGZHMTZ5YnZQY3ZZQXVnVlVIaVBtU0E?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-15T18:03:00Z"
     }
   ]
 }
