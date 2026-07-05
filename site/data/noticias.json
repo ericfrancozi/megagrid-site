@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-04T10:55:31Z",
+  "updated": "2026-07-05T11:06:27Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_35611",
+      "titulo": "Decisão da Aneel mantém a energia mais cara em julho. Confira o valor da cobrança extra",
+      "lead": "Decisão da Aneel mantém a energia mais cara em julho. Confira o valor da cobrança extra&nbsp;&nbsp;Jornal Folha do Progresso",
+      "fonte": "Jornal Folha do Progresso",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd1d4cTExSFFlS1FjTDB1aURyUEpYcmRGWTcwMXRHalNjejl1WUEtNTJXU0Ewc0J1bkRHZWFTWngtQ1RWdEdYWVZaazV0UkQxWjNMbDJsM1ZzNDhjMC16aUNHaVU4bERJNzdHdFptLUtWNWluZnk3Y1BDcjNrX0E4V2d0YnBtcF9ncjV2V2VMekZ3S0pVYTZXWWFoei1URmJEMmEwR1NGVmVfWklSSk1WQ21mWWFxeDZTZ3lMay1UUFJQZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-04T13:31:08Z"
+    },
     {
       "id": "tarifas_23598",
       "titulo": "Conta de luz segue mais cara em julho com bandeira amarela, diz Aneel",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-06-22T15:11:31Z"
-    },
-    {
-      "id": "mercado_livre_72443",
-      "titulo": "EVEx Brasil 2026 reúne CEOs do setor elétrico e Fórum CCEE em João Pessoa",
-      "lead": "EVEx Brasil 2026 reúne CEOs do setor elétrico e Fórum CCEE em João Pessoa&nbsp;&nbsp;Paraíba Total",
-      "fonte": "Paraíba Total",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYXp1ODlmaXM4aGprYzgyRmt5Vnk2ZmRoQkdSbDVqMFJHXzgyaHFvNlZVTGZwejVteDRWclFhN1UzRGExNEZ2aE5JS25oRF9pV09jOG1uNkk3M2RhLXRqVC1hc3V5dlFWNTI5WTRtOVNXRVdkS0xSWXQtTjg1blVJNkkzeDNvYlhhVC1yRk9EbTFCUGpsT0ZnckluT0V3LW1iRnRDaDFpRVkyalJlRFJkanQxVQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-22T14:47:24Z"
     }
   ]
 }
