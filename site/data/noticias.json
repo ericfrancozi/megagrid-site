@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T11:06:27Z",
+  "updated": "2026-07-06T12:51:24Z",
   "total": 60,
   "itens": [
     {
@@ -523,6 +523,16 @@
       "data": "2026-06-26T12:46:00Z"
     },
     {
+      "id": "tarifas_73883",
+      "titulo": "Bandeira tarifária das contas de luz segue amarela em julho",
+      "lead": "Bandeira tarifária das contas de luz segue amarela em julho&nbsp;&nbsp;CartaCapital",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaFFkdWJ1UTFTbkE3NVNhUktFc0dVMm13QTlrRGNkZ2JqUjNXbG81bTNoeTExaHUxNGtfZHdFbHVKSnlUbnZyWjFoS2p6ZnB3c2E5UmZrZGtLRmc3eW5kUVViWXRfcU9hb1VTbVF0TTVNT3dwTlNfMVNKWVFoWFRtWFVtRUhUQlJ1dHI0N09qMXI1bEp6SkFzc0N0aDVlTFYta2tJ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-26T07:00:00Z"
+    },
+    {
       "id": "regulação_5445",
       "titulo": "ANEEL define regras para outorga de sistemas de armazenamento",
       "lead": "ANEEL define regras para outorga de sistemas de armazenamento&nbsp;&nbsp;Canal Solar",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-06-22T22:29:43Z"
-    },
-    {
-      "id": "regulação_41219",
-      "titulo": "Agentes pressionam Aneel por ajustes antes da decisão sobre curtailment",
-      "lead": "Agentes pressionam Aneel por ajustes antes da decisão sobre curtailment&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVnFkTDVBbW4zWk5YNktEbVUzdG95ci11MXYzY21WaVF4T2JHX0t3Qmw4TXJjeFl4WXoxc29UaTJ1Y0s3ajBkRHFJYzBOcUgzc05lTGRRWi0xdFY5cTJvVlREMVFXMmdqaXNlVWhSeDRWVXVuWlFTbGxCMHltZjBRLXZQbWgwQUJjTlZ4dGsyWlpENG5XamgxdC05M2ZaMmt5ZHowLUZmOGU0eXVzNWN3?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-22T15:11:31Z"
     }
   ]
 }
