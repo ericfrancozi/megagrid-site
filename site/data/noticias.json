@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T12:51:24Z",
+  "updated": "2026-07-07T11:53:23Z",
   "total": 60,
   "itens": [
     {
@@ -373,6 +373,16 @@
       "data": "2026-06-27T10:34:24Z"
     },
     {
+      "id": "tarifas_89495",
+      "titulo": "Aneel mantém bandeira tarifária amarela nas contas de energia elétrica no mês de julho",
+      "lead": "Aneel mantém bandeira tarifária amarela nas contas de energia elétrica no mês de julho&nbsp;&nbsp;Agora MT",
+      "fonte": "Agora MT",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb29sUkY1UHNUb0ZES3A1OS1vY1hVSE93WWtiOVZVN0hMa2kxODRoeVdpVTFLZFpVcmdoUl9sMEI2VUM2V2RRbDV0UjRHbkh2d3FEaTZWYXRUZURnazRPYXFTeE83QXBSZlN4TG1WRk5qRkhwcnRPRzBUUVF4ZmFHcUMyNnE5QUU3Y2lIZmxDTkNrMHVaVzktRklITQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-27T07:00:00Z"
+    },
+    {
       "id": "tarifas_32181",
       "titulo": "A bandeira tarifária permanecerá amarela em julho, informou a Agência Nacional de Energia Elétrica (Aneel). Com isso, será mantido o acréscimo de R$ 1,885 a cada 100 quilowatts-hora (kWh) consumidos na conta de luz, no próximo mês, de todos os cons - instagram.com",
       "lead": "A bandeira tarifária permanecerá amarela em julho, informou a Agência Nacional de Energia Elétrica (Aneel). Com isso, será mantido o acréscimo de R$ 1,885 a cada 100 quilowatts-hora (kWh) consumidos na conta de luz, no próximo mês, de todos os cons&nbsp;&nbsp;instagram.com",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-06-23T00:39:24Z"
-    },
-    {
-      "id": "regulação_3332",
-      "titulo": "Hidrelétricas, eólicas e solares disputam rateio na nova regra de curtailment",
-      "lead": "Hidrelétricas, eólicas e solares disputam rateio na nova regra de curtailment&nbsp;&nbsp;MegaWhat",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa3dyendBaUl0N3NZZ2xja2gxMWVZeEg0aWRiRXhPeEY4aTF0VVFVeE5DTnN4WVNhaU9YNFF2VVZfTWFGRFZqVWpkeHQzams5QUI0ZDlhSDczSGNjekNtRVI2aHZXTUVoNmRUNzRNNV9EeTM3RTRxNWpDd3AwbXg2RmxRYndhMVlUX3VwQi1CS3BIT2R0VndodFJGRGlFOXJNZXliOWxwczdTeXpERHZKSm5oM1FKZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-06-22T22:29:43Z"
     }
   ]
 }
