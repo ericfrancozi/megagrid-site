@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-09T12:07:40Z",
+  "updated": "2026-07-10T11:54:49Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_87019",
+      "titulo": "FÉRIAS DE JULHO COM BANDEIRA AMARELA: USO CONSCIENTE DA ENERGIA GARANTE ECONOMIA",
+      "lead": "FÉRIAS DE JULHO COM BANDEIRA AMARELA: USO CONSCIENTE DA ENERGIA GARANTE ECONOMIA&nbsp;&nbsp;Jornal O Impacto",
+      "fonte": "Jornal O Impacto",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlJsTlc0NEJRNVNheXFPWFI1TDdJQjFtcW5wYng4M09Ld1RGcHBKSS1sTDIyZmVOMGhxanJ0RlV3TjVyZXdxak1KY3RFUFhocTB0Z3R3YU1nQUV5MXZzd18zejRtU2lWOGdqQnVhdUEtRXlkMzJWYnJkSFNaVV9vUEc1dGNfRHJaTlV5NmVVMFZwS240TldpOV9ET0dlRGNoeEVBenBjUGVybnlxZHd2b0tB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-09T14:15:12Z"
+    },
     {
       "id": "política_99032",
       "titulo": "Governo adia reunião sobre mistura de etanol na gasolina",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-06-24T18:14:00Z"
-    },
-    {
-      "id": "regulação_88668",
-      "titulo": "ANEEL conclui cálculo das tarifas de transmissão para o ciclo 2026/2027 com maior estabilidade e sinal econômico mais eficiente - GOV.BR",
-      "lead": "ANEEL conclui cálculo das tarifas de transmissão para o ciclo 2026/2027 com maior estabilidade e sinal econômico mais eficiente&nbsp;&nbsp;GOV.BR",
-      "fonte": "GOV.BR",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQak5nQXkxbEJsemJTR2pNTUVjTzYwWUZONzB2Qm9wd3NXelg0cTV6dlFtMldETG5iS3RIM3ZoUExROWJHNjFSQVFJUktCVHRYLVBWN19OZVpMQzZjMDVpZE8zOW9uR2V5UEVIXzZiTXFnSmxFbjBnYk0wcFg0aExfaEtkUGk5YjNFWkJhZXRTYmNaUHJXbWduSWFzdjkxTC0yWmFQSU9MbG91RkR5b2N2TUdYdldoaWNIS2s0WFVBY1Z4MlgxQVU3WlJya3lRb1pJcXBKYThCN0RYbVVGazFOT1Y2bnM0U1FGcUlvY1NwUWdPSXR5RGlYS0FwQzcxQ191bFBCYk5kM0N3Y3dTQmc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-24T12:20:31Z"
     }
   ]
 }
