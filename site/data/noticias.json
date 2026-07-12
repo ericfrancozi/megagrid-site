@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-11T10:17:21Z",
+  "updated": "2026-07-12T10:38:01Z",
   "total": 60,
   "itens": [
+    {
+      "id": "política_29060",
+      "titulo": "MME oficializa convocação do CNPE, após anúncio de Hugo Motta",
+      "lead": "MME oficializa convocação do CNPE, após anúncio de Hugo Motta&nbsp;&nbsp;Agência eixos",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN1kyTkh1aTNxcDV3a2gzQ2QtZWQ2bWRta3p1S0dud1l5Vlk4cHlRSi11UG4zUFZxeVU0V3AtRWxjVGMzZWt2X2VPcDFVOHAtcGY4c1VjanBCSUtiSzlEUk1TT2w0RTVVSkpVT0FueFdJQVJhOGdad1cxMFJueFBjNUQtT21ZckNtU0xnNA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-07-09T20:52:19Z"
+    },
     {
       "id": "tarifas_87019",
       "titulo": "FÉRIAS DE JULHO COM BANDEIRA AMARELA: USO CONSCIENTE DA ENERGIA GARANTE ECONOMIA",
@@ -583,24 +593,14 @@
       "data": "2026-06-26T12:46:00Z"
     },
     {
-      "id": "tarifas_73883",
-      "titulo": "Bandeira tarifária das contas de luz segue amarela em julho",
-      "lead": "Bandeira tarifária das contas de luz segue amarela em julho&nbsp;&nbsp;CartaCapital",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaFFkdWJ1UTFTbkE3NVNhUktFc0dVMm13QTlrRGNkZ2JqUjNXbG81bTNoeTExaHUxNGtfZHdFbHVKSnlUbnZyWjFoS2p6ZnB3c2E5UmZrZGtLRmc3eW5kUVViWXRfcU9hb1VTbVF0TTVNT3dwTlNfMVNKWVFoWFRtWFVtRUhUQlJ1dHI0N09qMXI1bEp6SkFzc0N0aDVlTFYta2tJ?oc=5",
+      "id": "tarifas_96531",
+      "titulo": "Bandeira tarifária continua amarela em julho, e conta de luz terá custo extra pelo terceiro mês consecutivo - Folha de S.Paulo",
+      "lead": "Bandeira tarifária continua amarela em julho, e conta de luz terá custo extra pelo terceiro mês consecutivo&nbsp;&nbsp;Folha de S.Paulo",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb3duMXFScmRHNnhXR0VxaHJPbXN5czNKTlhkY3FlYUkxaWlWckVWWHlsVGt4bks3Xzh3V0hYU1IxaEZKdlRIQTJHS2ZBeXdKbm84VDVRUGdvTDBNV0toalFXWUFOZTVfMTB3S0h0amFUQnRhS2QwR0Q2M1c0ZE9GRFZVWFkxU2FZaW40blB6ZXg5QVBUMWlYblJlbUl2WEFlOTF4VXhBNFJVbHlVYUs0Ym9hT2JieVRnNXU4T19Xdmp5ano3OVBTb1ViUmQzTERORW1acW5LRFVkYUkwTWJSWXhaSFZLTHhqYXVIRFdFSdIB9AFBVV95cUxNalhza0UwanIyNFg1NUswWlJESVp6RTZGVnd0aE5hT3kzb1BZaXZxMFRBNmNMaHJXS2k1bGtOQmYxWFhxT3p1c2ZwR3hQejdjUWZTTVBlWHl6eklFMXMzLTVQeGZ0cFc1Yjc0SUpaNk1xWkFMVTRFMGFZRTBVa1dnU1hnMXk5SnlfeElPQnBsR2lXR09NUHBSWDJtdUZSSzY3ZFcwWENfcU55Q3piUF9lV1dfZnFZNWpFektUM19qSU84aHNRUTFSUzE0VTFxek9wUkpTR1dvTC1nYjZBbkdDVHhKQUFOWXVVdmk4SXdLUTF3dVRE?oc=5",
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-26T07:00:00Z"
-    },
-    {
-      "id": "regulação_76743",
-      "titulo": "Aneel revisa Fator X e pode redesenhar vencedoras e perdedoras no setor elétrico",
-      "lead": "Aneel revisa Fator X e pode redesenhar vencedoras e perdedoras no setor elétrico&nbsp;&nbsp;InfoMoney",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaFN4RWVUMkNhMEhzZnpzMDRnSFFmejY4dG80ZTZtcHI0N1ZMZFQ2Rl9tWkdGNGI2dVZUYm5WUm9jQ1FPM29UQzlHU2tHLWYzMVZOa3VKczNFRWJiMGxzUEl3T0htODFpNDJ4OVVONHRLbEg4OWtlWk5XOFU2WU9HcmpIVEoyYjlfVThscWhVRG1ialZmYjFCZE5FbVFubnZOYnhvZWpXc0xEeTVnNDJXNHR3R1E3MmhCNjkw0gHAAUFVX3lxTE1JUkxycWVEZGd1VzhId0ZSVUZmeVlXamhUOE45ejBmQ3lfZjU2NXlFajJ0QS1CX092OUFxMklHRERsMzJKdDNpb2pvdEFyQ25mRW5oOXVFNy1LWDhNMmFndTJac21JQm96RGV0OWdQbkhkSDluZHZHd2oyUDNucmVxUWlSTVVlQzhUREg2ZU5kZklOakI1RUE4Tm9ja3EyR09mMmJvU3VqeVdYWXZ1ZlBmVjJEM3NlRDAweC1zMThJdA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-25T07:00:00Z"
     }
   ]
 }
