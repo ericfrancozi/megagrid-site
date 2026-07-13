@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-12T10:38:01Z",
+  "updated": "2026-07-13T12:08:55Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_98344",
+      "titulo": "CONTA DE LUZ NA BAHIA DEVE SEGUIR MAIS CARA; VEJA DICAS PARA ECONOMIZAR -",
+      "lead": "CONTA DE LUZ NA BAHIA DEVE SEGUIR MAIS CARA; VEJA DICAS PARA ECONOMIZAR&nbsp;&nbsp;- Bahia Economica",
+      "fonte": "- Bahia Economica",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0VRTVdlMldTNEIwRXpJV1R6aV8wWFNZZDlxRWdQRTVOeTlhYzhfSjhIQ1N6RmFCSlhTNXlmOWJVS0FCMHN3MnQyekhibVVOR0tIa2syaXJCNkoyRUhGU1ptUDZrYVAwOHctVWhRVkFYZ0w4alZkQWV6V3Nfbkpla0VvM0FmdG9IMno1ZFdUNkRJdUdSZC1SSnpVc1p5YmlVbERwQ0ZORkNBN0xaRjVEOHU2WTQ1dw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-10T15:57:00Z"
+    },
     {
       "id": "política_29060",
       "titulo": "MME oficializa convocação do CNPE, após anúncio de Hugo Motta",
@@ -21,6 +31,16 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-07-09T14:15:12Z"
+    },
+    {
+      "id": "mercado_livre_62565",
+      "titulo": "Quais serão as consequências da crise das comercializadoras de energia? Entenda",
+      "lead": "Quais serão as consequências da crise das comercializadoras de energia? Entenda&nbsp;&nbsp;Agência eixos",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM2dVWGdib1pUc0FYeU9iZ3VyaV9WOWJNcUp2Y0JBSzlaLVZNcW5yUDItRGVqd3ZDaXN2TkhRRm5UYkZWR2dXUlo4Zy0zZDgwd0I4dEV1Q1lHU2ZMRXZlNXpXck8wa3RNOWxsbmFPODI3c0k3S01MbkJXeWFFWXl3VXVfRDZBTXZTS0VYWWRRSjZQcGY3YjJkcjFNd1hxQ2o0UUZXX3VUTEdiUlAyX1JxQ1Bsak9SS2Zz?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-09T12:00:00Z"
     },
     {
       "id": "política_99032",
@@ -581,26 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-06-26T15:26:39Z"
-    },
-    {
-      "id": "regulação_13828",
-      "titulo": "Armazenamento de energia como ativo regulado: o que muda com a nova resolução da ANEEL?",
-      "lead": "Armazenamento de energia como ativo regulado: o que muda com a nova resolução da ANEEL?&nbsp;&nbsp;Canal Solar",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMS1pNm1aSUsyRVFaUjUwbExLcmRkQUhOTXZwalp6NE9WcXpvYjlqUXdYZHp0VE5FOXZ4RE1OdmQtXzNVVkpfMnlXZy1EbG9sUURuWXlraHR4UkE0TkNTLUNRUUE4Qld2dFlQWDZqY1gtZmxCR3gzREVpZnVlbkt4bVNmMG4wZ2R2?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-26T12:46:00Z"
-    },
-    {
-      "id": "tarifas_96531",
-      "titulo": "Bandeira tarifária continua amarela em julho, e conta de luz terá custo extra pelo terceiro mês consecutivo - Folha de S.Paulo",
-      "lead": "Bandeira tarifária continua amarela em julho, e conta de luz terá custo extra pelo terceiro mês consecutivo&nbsp;&nbsp;Folha de S.Paulo",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPb3duMXFScmRHNnhXR0VxaHJPbXN5czNKTlhkY3FlYUkxaWlWckVWWHlsVGt4bks3Xzh3V0hYU1IxaEZKdlRIQTJHS2ZBeXdKbm84VDVRUGdvTDBNV0toalFXWUFOZTVfMTB3S0h0amFUQnRhS2QwR0Q2M1c0ZE9GRFZVWFkxU2FZaW40blB6ZXg5QVBUMWlYblJlbUl2WEFlOTF4VXhBNFJVbHlVYUs0Ym9hT2JieVRnNXU4T19Xdmp5ano3OVBTb1ViUmQzTERORW1acW5LRFVkYUkwTWJSWXhaSFZLTHhqYXVIRFdFSdIB9AFBVV95cUxNalhza0UwanIyNFg1NUswWlJESVp6RTZGVnd0aE5hT3kzb1BZaXZxMFRBNmNMaHJXS2k1bGtOQmYxWFhxT3p1c2ZwR3hQejdjUWZTTVBlWHl6eklFMXMzLTVQeGZ0cFc1Yjc0SUpaNk1xWkFMVTRFMGFZRTBVa1dnU1hnMXk5SnlfeElPQnBsR2lXR09NUHBSWDJtdUZSSzY3ZFcwWENfcU55Q3piUF9lV1dfZnFZNWpFektUM19qSU84aHNRUTFSUzE0VTFxek9wUkpTR1dvTC1nYjZBbkdDVHhKQUFOWXVVdmk4SXdLUTF3dVRE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T07:00:00Z"
     }
   ]
 }
