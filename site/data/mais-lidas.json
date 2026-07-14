@@ -1,31 +1,31 @@
 {
-  "updated": "2026-07-13T12:08:55Z",
+  "updated": "2026-07-14T10:49:47Z",
   "fallback": true,
   "itens": [
     {
       "rank": 1,
+      "titulo": "Dívida bilionária acende alerta no mercado de energia",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT1pOSUg4LXZCV3hfV1IwUGpKQWltVEJ5UXJiNGNLSjQ2WFBtYlZGTU5fSmxoeENWNzVGa3NkU3JmMUMzcGJxSHNTZUh2d2tkelJubWFrM0VBYVlZUGNiUkZSUjZfR2QwZ243THY1U3JlVS04N0NkOW84S0NUWEtobTdfbUNnS0dDZzlYYTZBMm9aZFdZdWY0UDFFNW9VWWJjX3c?oc=5"
+    },
+    {
+      "rank": 2,
+      "titulo": "Na energia solar, pararam de investir no Brasil. E o governo não pode reclamar",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNFVfUnJ5eWZYSG1WOXZ6R2hzaU8xOWVMQkEyTjA2VUtBX2Zjd2V6elYxVEdPU2M2S3dsOThxTXcxNmFqQnZlWXM3Y3FLU183TmF5Vm9qTXpNN1d6VjJSSEF1cHlBcFY3bWxubklCOUoyVGEwUkVWUlFxUWN1dE1UVXpMMi1WR0kwdlI2VER3emNONmZtbVZkWk9KVkRTeWJOLUFiTlQ0RS1jY25pMHc?oc=5"
+    },
+    {
+      "rank": 3,
       "titulo": "CONTA DE LUZ NA BAHIA DEVE SEGUIR MAIS CARA; VEJA DICAS PARA ECONOMIZAR -",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPX0VRTVdlMldTNEIwRXpJV1R6aV8wWFNZZDlxRWdQRTVOeTlhYzhfSjhIQ1N6RmFCSlhTNXlmOWJVS0FCMHN3MnQyekhibVVOR0tIa2syaXJCNkoyRUhGU1ptUDZrYVAwOHctVWhRVkFYZ0w4alZkQWV6V3Nfbkpla0VvM0FmdG9IMno1ZFdUNkRJdUdSZC1SSnpVc1p5YmlVbERwQ0ZORkNBN0xaRjVEOHU2WTQ1dw?oc=5"
     },
     {
-      "rank": 2,
+      "rank": 4,
       "titulo": "MME oficializa convocação do CNPE, após anúncio de Hugo Motta",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN1kyTkh1aTNxcDV3a2gzQ2QtZWQ2bWRta3p1S0dud1l5Vlk4cHlRSi11UG4zUFZxeVU0V3AtRWxjVGMzZWt2X2VPcDFVOHAtcGY4c1VjanBCSUtiSzlEUk1TT2w0RTVVSkpVT0FueFdJQVJhOGdad1cxMFJueFBjNUQtT21ZckNtU0xnNA?oc=5"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "titulo": "FÉRIAS DE JULHO COM BANDEIRA AMARELA: USO CONSCIENTE DA ENERGIA GARANTE ECONOMIA",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdlJsTlc0NEJRNVNheXFPWFI1TDdJQjFtcW5wYng4M09Ld1RGcHBKSS1sTDIyZmVOMGhxanJ0RlV3TjVyZXdxak1KY3RFUFhocTB0Z3R3YU1nQUV5MXZzd18zejRtU2lWOGdqQnVhdUEtRXlkMzJWYnJkSFNaVV9vUEc1dGNfRHJaTlV5NmVVMFZwS240TldpOV9ET0dlRGNoeEVBenBjUGVybnlxZHd2b0tB?oc=5"
-    },
-    {
-      "rank": 4,
-      "titulo": "Quais serão as consequências da crise das comercializadoras de energia? Entenda",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM2dVWGdib1pUc0FYeU9iZ3VyaV9WOWJNcUp2Y0JBSzlaLVZNcW5yUDItRGVqd3ZDaXN2TkhRRm5UYkZWR2dXUlo4Zy0zZDgwd0I4dEV1Q1lHU2ZMRXZlNXpXck8wa3RNOWxsbmFPODI3c0k3S01MbkJXeWFFWXl3VXVfRDZBTXZTS0VYWWRRSjZQcGY3YjJkcjFNd1hxQ2o0UUZXX3VUTEdiUlAyX1JxQ1Bsak9SS2Zz?oc=5"
-    },
-    {
-      "rank": 5,
-      "titulo": "Governo adia reunião sobre mistura de etanol na gasolina",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQnhuV0RqMjhBNFZ1cVBGeFhFa1BoMjVycU92endOSndWTjBneVA4ay1UZzRzWTkycEJ1cXV6Ry1WMlBsSXpvczVtZDdtaElYV09TMTVqMEZUZlkyS0s3NDFEZks0Ym9mUGhPMk0xQ21Ca0RCTV9mbkdkUmJEXzkzRkQ3dW9wNmZIdmIzdzR1aFBNeXlfbEE?oc=5"
     }
   ]
 }
