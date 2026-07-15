@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-14T10:49:47Z",
+  "updated": "2026-07-15T10:53:05Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado_livre_38473",
+      "titulo": "Consumidores livres tentam socorro na Aneel contra Electra, mas agência nega pedido",
+      "lead": "Consumidores livres tentam socorro na Aneel contra Electra, mas agência nega pedido&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVViZEJUV3V1M1FtNHhFX0N3cVMxZlU2YVUxdTdBeGlrZ21YRVU2djBSQkEydHZLU1YzdUJXU2htWHlSeFBBQ0hlYl8zYU03WHBhbUNoMXZQNGx6SUNhMENlcTFRTW5hQVVmdkhvYjRFNDMyODZHa0xudFRiS09Rdk5sd0FRMEltQmtMNGxOSGYyekkxajctSHV0eDV5ZHlkNnRwQ1dzN2JiSDhZVF9uOW5yUF83ZlFVaFBCQk9iOHgzUEk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-14T14:40:20Z"
+    },
     {
       "id": "mercado_livre_15202",
       "titulo": "Dívida bilionária acende alerta no mercado de energia",
@@ -588,16 +598,6 @@
       "lead": "Conta de luz: Aneel mantém bandeira amarela em julho, com adicional; entenda&nbsp;&nbsp;Estadão",
       "fonte": "Estadão",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWlY5dmFhQzZCend5SG10bFZpNERmdThWUk5lOVZfN0ZNVEdSVE1uNWFSdmJjNnJRV2QwWlZULVZJV1U0ZlNRZmN3azFlYlBiT1pWWlRxc0xNeUUwYUpBenNGMmtWY2w2YlduRGlINU1RaWhWV2RpRnA4Rnl5LXJ6T3JPbWNmRzU0UFVvNWtPY1BqTzUwSWwtMnZiaU1NbXNiUmNZSUFGaWZJWE9qenRj0gG0AUFVX3lxTE51UGlKVndZMzRQLWltelB4a1dxd2hHaXlTYjRxNjdDX3RmSFZiazA0a2YyTjM3OEJUTVI5M2dhQWRJcGlrMnh5YTlSTFNxc2NySmhaVENDeEk3NW1JNmJHbTREVGZtQjFqMHg4Yi12UjFoS0RReW1LeDBGeEpEVGtNQ2w4VXJRRFBzOGJiUEQ1bkJ0b2tlYmk4U2RpM3pna1NhQms5QXE3ejg1Sno5Nk0xa05ZZA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T19:45:00Z"
-    },
-    {
-      "id": "tarifas_74334",
-      "titulo": "Conta de luz: Aneel mantém bandeira amarela em julho, com adicional; entenda",
-      "lead": "Conta de luz: Aneel mantém bandeira amarela em julho, com adicional; entenda&nbsp;&nbsp;Estadão",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdVBpSlZ3WTM0UC1pbXpQeGtXcXdoR2l5U2I0cTY3Q190ZkhWYmswNGtmMk4zNzhCVE1SOTNnYUFkSXBpazJ4eWE5UkxTcXNjckpoWlRDQ3hJNzVtSTZiR200RFRmbUIxajB4OGItdlIxaEtEUXltS3gwRnhKRFRrTUNsOFVyUURQczhiYlBENW5CdG9rZWJpOFNkaTN6Z2tTYUJrOUFxN3o4NUp6OTZNMWtOWWTSAbQBQVVfeXFMTnVQaUpWd1kzNFAtaW16UHhrV3F3aEdpeVNiNHE2N0NfdGZIVmJrMDRrZjJOMzc4QlRNUjkzZ2FBZElwaWsyeHlhOVJMU3FzY3JKaFpUQ0N4STc1bUk2YkdtNERUZm1CMWoweDhiLXZSMWhLRFF5bUt4MEZ4SkRUa01DbDhVclFEUHM4YmJQRDVuQnRva2ViaThTZGkzemdrU2FCazlBcTd6ODVKejk2TTFrTllk?oc=5",
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-26T19:45:00Z"
