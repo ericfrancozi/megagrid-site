@@ -60,3 +60,8 @@ jobs:
             git commit -m "chore(data): atualização automática $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      # 6. Sentinela: falha VISÍVEL (run vermelho) se alguma fonte estiver parada.
+      #    Roda depois do commit para nunca bloquear os dados que atualizaram.
+      - name: Verificar frescor das fontes
+        run: python scripts/check_freshness.py

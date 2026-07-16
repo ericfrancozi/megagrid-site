@@ -42,12 +42,15 @@ ONS_API   = "https://dados.ons.org.br/api/3/action"
 ONS_S3    = "https://ons-aws-prod-opendata.s3.amazonaws.com"
 ANEEL_API = "https://dadosabertos.aneel.gov.br/api/3/action"
 
+# UA de navegador: WAFs dos portais gov (CCEE/ANEEL) bloqueiam UAs de bot,
+# o que fazia todas as chamadas falharem no GitHub Actions (2026-07).
 HEADERS = {
     "User-Agent": (
-        "Megagrid-DataBot/1.0 "
-        "(github.com/megagrid-br; contato@megagrid.com.br)"
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
     ),
-    "Accept": "application/json",
+    "Accept": "application/json, text/csv;q=0.9, */*;q=0.8",
+    "Accept-Language": "pt-BR,pt;q=0.9",
 }
 
 # Google News RSS — confiável, não bloqueia bots, agrega fontes oficiais e jornalísticas
@@ -120,14 +123,25 @@ CCEE_PLD_SEMANAL = {
 
 # ── Helpers ─────────────────────────────────────────────────────────
 
-def get(url, params=None, timeout=25):
-    try:
-        r = requests.get(url, headers=HEADERS, params=params, timeout=timeout)
-        r.raise_for_status()
-        return r
-    except Exception as exc:
-        log.warning("GET falhou: %s → %s", url, exc)
-        return None
+def get(url, params=None, timeout=30, retries=3):
+    """GET com retry/backoff. Loga status HTTP e início do body em falha
+    para diagnóstico visível no log do GitHub Actions."""
+    last_err = ""
+    for attempt in range(1, retries + 1):
+        try:
+            r = requests.get(url, headers=HEADERS, params=params, timeout=timeout)
+            if r.status_code >= 400:
+                last_err = f"HTTP {r.status_code}: {r.text[:160]!r}"
+                log.warning("GET %s → %s (tentativa %d/%d)", url, last_err, attempt, retries)
+            else:
+                return r
+        except Exception as exc:
+            last_err = f"{type(exc).__name__}: {exc}"
+            log.warning("GET %s → %s (tentativa %d/%d)", url, last_err, attempt, retries)
+        if attempt < retries:
+            time.sleep(2 * attempt)
+    log.error("GET esgotou tentativas: %s → %s", url, last_err)
+    return None
 
 
 def load_existing(name: str) -> dict:
@@ -162,17 +176,41 @@ def classify_editoria(text: str) -> str:
 
 # ── CCEE — PLD Semanal ──────────────────────────────────────────────
 
+def _ccee_discover_pld_resource(year: str):
+    """Descobre dinamicamente o resource_id do pld_media_semanal para o ano
+    (auto-heal quando a CCEE publicar o recurso de um ano novo)."""
+    r = get(f"{CCEE_API}/package_show", {"id": "pld_media_semanal"})
+    if not r:
+        return None
+    try:
+        for res in r.json()["result"]["resources"]:
+            if year in (res.get("name") or ""):
+                log.info("  resource descoberto p/ %s: %s", year, res["id"])
+                return res["id"]
+    except Exception as exc:
+        log.warning("  package_show parse: %s", exc)
+    return None
+
+
 def fetch_pld() -> dict:
     log.info("CCEE PLD semanal…")
     existing = load_existing("pld.json")
     year = str(datetime.utcnow().year)
-    res_id = CCEE_PLD_SEMANAL.get(year, CCEE_PLD_SEMANAL["2026"])
+    res_id = CCEE_PLD_SEMANAL.get(year) or _ccee_discover_pld_resource(year) \
+        or CCEE_PLD_SEMANAL["2026"]
 
     r = get(f"{CCEE_API}/datastore_search", {
         "resource_id": res_id,
         "limit": 300,
         "sort": "_id asc",
     })
+    if not r:
+        # último recurso: redescobrir o resource (id pode ter mudado)
+        alt = _ccee_discover_pld_resource(year)
+        if alt and alt != res_id:
+            r = get(f"{CCEE_API}/datastore_search", {
+                "resource_id": alt, "limit": 300, "sort": "_id asc",
+            })
     if not r:
         log.warning("  PLD fetch falhou — mantendo existente")
         return existing
@@ -239,90 +277,103 @@ def fetch_pld() -> dict:
 
 # ── ONS — Reservatórios (EAR) ───────────────────────────────────────
 
+def _ons_csv_url(package: str, year: int):
+    """Resolve a URL do CSV anual de um dataset ONS via package_show.
+    ONS não tem datastore ativo — os dados vivem em CSVs no S3."""
+    r = get(f"{ONS_API}/package_show", {"id": package}, timeout=30)
+    if not r:
+        return None
+    try:
+        csvs = [res["url"] for res in r.json()["result"]["resources"]
+                if (res.get("format") or "").upper() == "CSV" and res.get("url")]
+    except Exception as exc:
+        log.warning("  ONS package_show parse: %s", exc)
+        return None
+    for y in (year, year - 1):  # fallback: ano anterior (virada de ano)
+        for u in csvs:
+            if str(y) in u:
+                return u
+    return None
+
+
+def _parse_ons_csv(text: str):
+    """DictReader defensivo p/ CSVs ONS (separador ';' padrão, fallback ',')."""
+    header = text.split("\n", 1)[0]
+    sep = ";" if header.count(";") >= header.count(",") else ","
+    return list(csv.DictReader(io.StringIO(text), delimiter=sep))
+
+
+_ONS_SUB_MAP = {"SE": "SE/CO", "S": "S", "NE": "NE", "N": "N"}
+
+
+def _ons_sub_key(row: dict):
+    """Mapeia subsistema ONS → chave do site (SE/CO, S, NE, N)."""
+    sid = (row.get("id_subsistema") or "").strip().upper()
+    if sid in _ONS_SUB_MAP:
+        return _ONS_SUB_MAP[sid]
+    nome = (row.get("nom_subsistema") or "").strip().upper()
+    if "SUDESTE" in nome:
+        return "SE/CO"
+    if "NORDESTE" in nome:
+        return "NE"
+    if "NORTE" in nome:
+        return "N"
+    if "SUL" in nome:
+        return "S"
+    return None
+
+
 def fetch_reservatorios() -> dict:
     log.info("ONS reservatórios (EAR)…")
     existing = load_existing("reservatorios.json")
-    today = datetime.utcnow().strftime("%Y-%m-%d")
-
-    # Tenta CKAN ONS
-    for res_id in [
-        "7d475b7a-2a0b-4a6a-a22e-2834a61c5b73",
-        "ear_diario_subsistema",
-        "ear-subsistema-diario",
-    ]:
-        r = get(f"{ONS_API}/datastore_search", {
-            "resource_id": res_id,
-            "limit": 10,
-            "sort": "dat_referencia desc",
-        })
-        if r and r.json().get("success"):
-            records = r.json()["result"].get("records", [])
-            if records:
-                sub_ear: dict = {}
-                for rec in records:
-                    sub = rec.get("nom_subsistema", rec.get("SUBSISTEMA", ""))
-                    pct_key = next(
-                        (k for k in rec if "percentual" in k.lower() and "ear" in k.lower()), None
-                    )
-                    if pct_key and sub:
-                        try:
-                            sub_ear[sub] = round(float(rec[pct_key]), 1)
-                        except (ValueError, TypeError):
-                            pass
-                if sub_ear:
-                    avg = round(sum(sub_ear.values()) / len(sub_ear), 1)
-                    data = {
-                        "updated": now_iso(),
-                        "data_ref": records[0].get("dat_referencia", today),
-                        "fonte": "ONS — Dados Abertos (dados.ons.org.br)",
-                        "ear_percentual": avg,
-                        "subsistemas": sub_ear,
-                    }
-                    save("reservatorios.json", data)
-                    log.info("  EAR: %.1f%%", avg)
-                    return data
-
-    # Tenta CSV no S3 da ONS
     year = datetime.utcnow().year
-    for fname in [f"ear_subsistema_{year}.csv", f"EAR_DiarioSubsistema_{year}.csv"]:
-        r = get(f"{ONS_S3}/dataset/ear_subsistema/{fname}")
-        if r:
-            try:
-                reader = csv.DictReader(io.StringIO(r.text))
-                rows = list(reader)
-                if rows:
-                    date_key = next((k for k in rows[0] if "data" in k.lower() or "dat" in k.lower()), None)
-                    if date_key:
-                        rows.sort(key=lambda x: x.get(date_key, ""), reverse=True)
-                        latest_date = rows[0][date_key]
-                        latest_rows = [rw for rw in rows if rw[date_key] == latest_date]
-                        sub_ear = {}
-                        for rw in latest_rows:
-                            sub = rw.get("nom_subsistema", rw.get("Subsistema", ""))
-                            pct_key = next(
-                                (k for k in rw if "percentual" in k.lower() and "ear" in k.lower()), None
-                            )
-                            if pct_key and sub:
-                                try:
-                                    sub_ear[sub] = round(float(rw[pct_key].replace(",", ".")), 1)
-                                except (ValueError, AttributeError):
-                                    pass
-                        if sub_ear:
-                            avg = round(sum(sub_ear.values()) / len(sub_ear), 1)
-                            data = {
-                                "updated": now_iso(),
-                                "data_ref": latest_date,
-                                "fonte": "ONS — S3 opendata",
-                                "ear_percentual": avg,
-                                "subsistemas": sub_ear,
-                            }
-                            save("reservatorios.json", data)
-                            return data
-            except Exception as exc:
-                log.warning("  CSV ONS: %s", exc)
 
-    log.warning("  EAR fetch falhou — mantendo existente")
-    return existing
+    url = _ons_csv_url("ear-diario-por-subsistema", year) or \
+        f"{ONS_S3}/dataset/ear_subsistema_di/EAR_DIARIO_SUBSISTEMA_{year}.csv"
+    r = get(url, timeout=60)
+    if not r:
+        log.warning("  EAR fetch falhou — mantendo existente")
+        return existing
+
+    try:
+        rows = _parse_ons_csv(r.text)
+        if not rows:
+            raise ValueError("CSV vazio")
+        date_key = next((k for k in rows[0] if "data" in k.lower()), None)
+        pct_key = next((k for k in rows[0]
+                        if "percentual" in k.lower() and "ear" in k.lower()), None)
+        if not date_key or not pct_key:
+            raise ValueError(f"colunas não encontradas; header={list(rows[0])}")
+
+        latest_date = max(rw[date_key] for rw in rows if rw.get(date_key))
+        sub_ear = {}
+        for rw in rows:
+            if rw.get(date_key) != latest_date:
+                continue
+            sub = _ons_sub_key(rw)
+            if not sub:
+                continue
+            try:
+                sub_ear[sub] = round(float(str(rw[pct_key]).replace(",", ".")), 1)
+            except (ValueError, TypeError):
+                pass
+        if not sub_ear:
+            raise ValueError("nenhum subsistema reconhecido")
+
+        avg = round(sum(sub_ear.values()) / len(sub_ear), 1)
+        data = {
+            "updated": now_iso(),
+            "data_ref": latest_date,
+            "fonte": "ONS — Dados Abertos (dados.ons.org.br)",
+            "ear_percentual": avg,
+            "subsistemas": sub_ear,
+        }
+        save("reservatorios.json", data)
+        log.info("  EAR %s: %.1f%% %s", latest_date, avg, sub_ear)
+        return data
+    except Exception as exc:
+        log.warning("  EAR parse falhou (%s) — mantendo existente", exc)
+        return existing
 
 
 # ── ONS — Carga do SIN ──────────────────────────────────────────────
@@ -330,99 +381,124 @@ def fetch_reservatorios() -> dict:
 def fetch_carga() -> dict:
     log.info("ONS carga verificada…")
     existing = load_existing("carga.json")
+    year = datetime.utcnow().year
 
-    for res_id in ["carga_energia_verificada", "carga-verificada-diario"]:
-        r = get(f"{ONS_API}/datastore_search", {
-            "resource_id": res_id,
-            "limit": 5,
-            "sort": "dat_referencia desc",
-        })
-        if r and r.json().get("success"):
-            records = r.json()["result"].get("records", [])
-            if records:
-                rec = records[0]
-                val_key = next(
-                    (k for k in rec if "carga" in k.lower() and "mw" in k.lower()), None
-                )
-                if val_key:
-                    try:
-                        val = float(rec[val_key])
-                        var = 0
-                        if len(records) >= 2:
-                            prev_val = float(records[1].get(val_key, val))
-                            if prev_val:
-                                var = round((val - prev_val) / prev_val * 100, 1)
-                        data = {
-                            "updated": now_iso(),
-                            "data_ref": rec.get("dat_referencia", ""),
-                            "fonte": "ONS — Dados Abertos",
-                            "carga_mwmed": round(val),
-                            "variacao": var,
-                        }
-                        save("carga.json", data)
-                        log.info("  Carga: %.0f MWmed", val)
-                        return data
-                    except (ValueError, TypeError):
-                        pass
+    url = _ons_csv_url("carga-energia", year) or \
+        f"{ONS_S3}/dataset/carga_energia_di/CARGA_ENERGIA_{year}.csv"
+    r = get(url, timeout=60)
+    if not r:
+        log.warning("  Carga fetch falhou — mantendo existente")
+        return existing
 
-    log.warning("  Carga fetch falhou — mantendo existente")
-    return existing
+    try:
+        rows = _parse_ons_csv(r.text)
+        if not rows:
+            raise ValueError("CSV vazio")
+        date_key = next((k for k in rows[0]
+                         if "instante" in k.lower() or "data" in k.lower()), None)
+        val_key = next((k for k in rows[0]
+                        if "carga" in k.lower() and "mw" in k.lower()), None)
+        if not date_key or not val_key:
+            raise ValueError(f"colunas não encontradas; header={list(rows[0])}")
+
+        # soma dos subsistemas por dia = carga do SIN
+        por_dia: dict = {}
+        for rw in rows:
+            d = (rw.get(date_key) or "")[:10]
+            try:
+                v = float(str(rw[val_key]).replace(",", "."))
+            except (ValueError, TypeError):
+                continue
+            if d:
+                por_dia[d] = por_dia.get(d, 0.0) + v
+        if not por_dia:
+            raise ValueError("nenhum dia agregado")
+
+        dias = sorted(por_dia)
+        ultimo = dias[-1]
+        val = por_dia[ultimo]
+        var = 0.0
+        if len(dias) >= 2 and por_dia[dias[-2]]:
+            var = round((val - por_dia[dias[-2]]) / por_dia[dias[-2]] * 100, 1)
+
+        data = {
+            "updated": now_iso(),
+            "data_ref": ultimo,
+            "fonte": "ONS — Carga Verificada",
+            "carga_mwmed": round(val),
+            "variacao": var,
+        }
+        save("carga.json", data)
+        log.info("  Carga %s: %.0f MWmed (%+.1f%%)", ultimo, val, var)
+        return data
+    except Exception as exc:
+        log.warning("  Carga parse falhou (%s) — mantendo existente", exc)
+        return existing
 
 
 # ── ANEEL — Bandeira Tarifária ──────────────────────────────────────
+
+# Resource verificado em 2026-07: dataset "bandeiras-tarifarias",
+# recurso "Bandeira Tarifária - Acionamento" (datastore ativo).
+ANEEL_BANDEIRA_RES = "0591b8f6-fe54-437b-b72b-1aa2efd46e42"
+
+_MESES_PT = ["janeiro", "fevereiro", "março", "abril", "maio", "junho",
+             "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+
 
 def fetch_bandeira() -> dict:
     log.info("ANEEL bandeira tarifária…")
     existing = load_existing("bandeira.json")
 
-    for res_id in ["bandeiras-tarifarias", "bandeira_tarifaria"]:
-        r = get(f"{ANEEL_API}/datastore_search", {
-            "resource_id": res_id,
-            "limit": 3,
-            "sort": "dat_vigencia desc",
-        })
-        if r and r.json().get("success"):
-            records = r.json()["result"].get("records", [])
-            if records:
-                rec = records[0]
-                cor_raw = str(rec.get("dsc_bandeira", rec.get("cor", "amarela"))).lower()
-                cor_key = next(
-                    (k for k in BANDEIRA_META if k in cor_raw.replace(" ", "")),
-                    "amarela"
-                )
-                mes_ref = rec.get("dat_vigencia", datetime.utcnow().strftime("%Y-%m"))
-                data = {
-                    "updated": now_iso(),
-                    "mes": mes_ref,
-                    "fonte": "ANEEL — Dados Abertos",
-                    "cor": cor_key,
-                    "adicional_kwh": BANDEIRA_META[cor_key]["adicional"],
-                    "descricao": BANDEIRA_META[cor_key]["descricao"],
-                }
-                save("bandeira.json", data)
-                log.info("  Bandeira: %s", cor_key)
-                return data
-
-    # Fallback: scrape da página pública ANEEL
-    r = get("https://www.aneel.gov.br/bandeiras-tarifarias")
+    r = get(f"{ANEEL_API}/datastore_search", {
+        "resource_id": ANEEL_BANDEIRA_RES,
+        "limit": 3,
+        "sort": "_id desc",
+    })
     if r:
-        text = r.text.lower()
-        for cor in ["escassez", "vermelha2", "vermelha 2", "vermelha1", "vermelha 1", "amarela", "verde"]:
-            if cor.replace(" ", "") in text.replace(" ", ""):
-                cor_key = cor.replace(" ", "")
-                if cor_key not in BANDEIRA_META:
-                    cor_key = "amarela"
-                data = {
-                    "updated": now_iso(),
-                    "mes": datetime.utcnow().strftime("%B/%Y"),
-                    "fonte": "ANEEL — bandeiras-tarifarias",
-                    "cor": cor_key,
-                    "adicional_kwh": BANDEIRA_META[cor_key]["adicional"],
-                    "descricao": BANDEIRA_META[cor_key]["descricao"],
-                }
-                save("bandeira.json", data)
-                log.info("  Bandeira (scrape): %s", cor_key)
-                return data
+        try:
+            records = r.json()["result"]["records"]
+            rec = records[0]
+            raw = str(rec.get("NomBandeiraAcionada", "")).lower()
+            if "escassez" in raw:
+                cor_key = "escassez"
+            elif "vermelha" in raw:
+                cor_key = "vermelha2" if "2" in raw else "vermelha1"
+            elif "verde" in raw:
+                cor_key = "verde"
+            else:
+                cor_key = "amarela"
+
+            # VlrAdicionalBandeira vem em R$/MWh com vírgula (ex.: "18,85")
+            adicional = BANDEIRA_META[cor_key]["adicional"]
+            try:
+                adicional = round(
+                    float(str(rec.get("VlrAdicionalBandeira", "")).replace(".", "").replace(",", ".")) / 1000,
+                    5,
+                )
+            except (ValueError, TypeError):
+                pass
+
+            comp = str(rec.get("DatCompetencia", ""))[:7]  # YYYY-MM
+            try:
+                y, m = comp.split("-")
+                mes_ref = f"{_MESES_PT[int(m)-1]}/{y}"
+            except Exception:
+                mes_ref = datetime.utcnow().strftime("%m/%Y")
+
+            data = {
+                "updated": now_iso(),
+                "mes": mes_ref,
+                "fonte": "ANEEL — Dados Abertos",
+                "cor": cor_key,
+                "adicional_kwh": adicional,
+                "descricao": BANDEIRA_META[cor_key]["descricao"],
+            }
+            save("bandeira.json", data)
+            log.info("  Bandeira %s: %s (R$ %.5f/kWh)", mes_ref, cor_key, adicional)
+            return data
+        except Exception as exc:
+            log.warning("  Bandeira parse falhou: %s", exc)
 
     log.warning("  Bandeira fetch falhou — mantendo existente")
     return existing

@@ -17,6 +17,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
@@ -246,37 +247,50 @@ def main():
         "accept": "application/json",
         "content-type": "application/json",
         "api-key": api_key,
+        # UA explícito: o default "Python-urllib" sofre bloqueio intermitente
+        # em CDNs — causa provável das falhas de 22/06 e 13/07.
+        "user-agent": "Megagrid-Newsletter/1.1 (+https://megagrid.com.br)",
     }
 
+    def brevo_post(url, payload=None, tentativas=3, timeout=30):
+        """POST com timeout explícito e retry/backoff (Brevo pode dar 5xx/timeout transitório)."""
+        data = json.dumps(payload).encode("utf-8") if payload is not None else None
+        ultimo = ""
+        for i in range(1, tentativas + 1):
+            req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+            try:
+                with urllib.request.urlopen(req, timeout=timeout) as resp:
+                    corpo = resp.read().decode("utf-8", "ignore")
+                    return resp.status, (json.loads(corpo) if corpo.strip() else {})
+            except urllib.error.HTTPError as e:
+                corpo = e.read().decode("utf-8", "ignore")[:300]
+                ultimo = f"HTTP {e.code}: {corpo}"
+                # 4xx (exceto 429) não adianta repetir
+                if e.code < 500 and e.code != 429:
+                    break
+            except Exception as e:
+                ultimo = f"{type(e).__name__}: {e}"
+            print(f"[newsletter] tentativa {i}/{tentativas} falhou → {ultimo}", file=sys.stderr)
+            if i < tentativas:
+                time.sleep(5 * i)
+        print(f"[newsletter] ERRO em {url} → {ultimo}", file=sys.stderr)
+        sys.exit(1)
+
     # 1) Criar campanha
-    payload = json.dumps({
+    _, body = brevo_post(f"{BREVO_API}/emailCampaigns", {
         "name": name,
         "subject": subject,
         "sender": SENDER,
         "type": "classic",
         "htmlContent": html,
         "recipients": {"listIds": [list_id]},
-    }).encode("utf-8")
-
-    req = urllib.request.Request(f"{BREVO_API}/emailCampaigns", data=payload, headers=headers, method="POST")
-    try:
-        with urllib.request.urlopen(req) as resp:
-            body = json.loads(resp.read().decode("utf-8"))
-            campaign_id = body.get("id")
-    except urllib.error.HTTPError as e:
-        print(f"[newsletter] ERRO ao criar campanha: {e.code} {e.read().decode('utf-8', 'ignore')}", file=sys.stderr)
-        sys.exit(1)
-
+    })
+    campaign_id = body.get("id")
     print(f"[newsletter] Campanha criada: id={campaign_id}")
 
     # 2) Enviar agora
-    req2 = urllib.request.Request(f"{BREVO_API}/emailCampaigns/{campaign_id}/sendNow", headers=headers, method="POST")
-    try:
-        with urllib.request.urlopen(req2) as resp:
-            print(f"[newsletter] Envio disparado (status {resp.status}). Assunto: {subject}")
-    except urllib.error.HTTPError as e:
-        print(f"[newsletter] ERRO ao enviar: {e.code} {e.read().decode('utf-8', 'ignore')}", file=sys.stderr)
-        sys.exit(1)
+    status, _ = brevo_post(f"{BREVO_API}/emailCampaigns/{campaign_id}/sendNow")
+    print(f"[newsletter] Envio disparado (status {status}). Assunto: {subject}")
 
 
 if __name__ == "__main__":
