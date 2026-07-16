@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T10:53:05Z",
+  "updated": "2026-07-16T11:03:06Z",
   "total": 60,
   "itens": [
     {
@@ -393,6 +393,16 @@
       "data": "2026-06-30T12:39:32Z"
     },
     {
+      "id": "tarifas_67902",
+      "titulo": "Conta de luz: Aneel mantém bandeira amarela para o mês de julho",
+      "lead": "Conta de luz: Aneel mantém bandeira amarela para o mês de julho&nbsp;&nbsp;SIMMMEM",
+      "fonte": "SIMMMEM",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPekI2Q2FNckZKd0tJTGNjUmNKTDVHM2JIYjE4WGN0RGdlbS1qeUlELUxSeHpxSW5WLWlhY0EtM3p6MDlZYzFMQVljQlNIVWtGY3RmLW5ZZzU3SmRfNTJ0SS1BSXNOR2dnZDNFaDBCVEtLVnZJVmVIYXkyZTF4R0djWGM5TUo1SjZ4a2pvZDVkSHNwTlI1?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-06-29T21:30:01Z"
+    },
+    {
       "id": "tarifas_98081",
       "titulo": "Cobrança extra? Bandeira tarifária de energia permanece amarela em julho, diz Aneel",
       "lead": "Cobrança extra? Bandeira tarifária de energia permanece amarela em julho, diz Aneel&nbsp;&nbsp;ND Mais",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-26T20:02:27Z"
-    },
-    {
-      "id": "tarifas_54642",
-      "titulo": "Conta de luz: Aneel mantém bandeira amarela em julho, com adicional; entenda",
-      "lead": "Conta de luz: Aneel mantém bandeira amarela em julho, com adicional; entenda&nbsp;&nbsp;Estadão",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWlY5dmFhQzZCend5SG10bFZpNERmdThWUk5lOVZfN0ZNVEdSVE1uNWFSdmJjNnJRV2QwWlZULVZJV1U0ZlNRZmN3azFlYlBiT1pWWlRxc0xNeUUwYUpBenNGMmtWY2w2YlduRGlINU1RaWhWV2RpRnA4Rnl5LXJ6T3JPbWNmRzU0UFVvNWtPY1BqTzUwSWwtMnZiaU1NbXNiUmNZSUFGaWZJWE9qenRj0gG0AUFVX3lxTE51UGlKVndZMzRQLWltelB4a1dxd2hHaXlTYjRxNjdDX3RmSFZiazA0a2YyTjM3OEJUTVI5M2dhQWRJcGlrMnh5YTlSTFNxc2NySmhaVENDeEk3NW1JNmJHbTREVGZtQjFqMHg4Yi12UjFoS0RReW1LeDBGeEpEVGtNQ2w4VXJRRFBzOGJiUEQ1bkJ0b2tlYmk4U2RpM3pna1NhQms5QXE3ejg1Sno5Nk0xa05ZZA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T19:45:00Z"
     }
   ]
 }
