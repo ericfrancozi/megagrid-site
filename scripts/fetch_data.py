@@ -121,6 +121,12 @@ CCEE_PLD_SEMANAL = {
     "2026": "e34f98e8-68df-4a22-972f-02cb621ec978",
 }
 
+# Piso/teto do PLD homologados pela ANEEL (revisar anualmente).
+# Usados no fallback via CMO: por definição, PLD semanal = CMO limitado
+# ao piso/teto — então clamp(CMO) reproduz o PLD oficial.
+PLD_PISO = 63.60
+PLD_TETO = 726.00
+
 # ── Helpers ─────────────────────────────────────────────────────────
 
 def get(url, params=None, timeout=30, retries=3):
@@ -192,6 +198,77 @@ def _ccee_discover_pld_resource(year: str):
     return None
 
 
+def _fetch_pld_via_cmo(existing: dict):
+    """PLD calculado a partir do CMO semanal ONS (S3, sem geobloqueio).
+    PLD = clamp(CMO, PLD_PISO, PLD_TETO) por submercado/semana."""
+    year = datetime.utcnow().year
+    url = _ons_csv_url("cmo-semanal", year) or \
+        f"{ONS_S3}/dataset/cmo_se/CMO_SEMANAL_{year}.csv"
+    r = get(url, timeout=60)
+    if not r:
+        return None
+    try:
+        rows = _parse_ons_csv(r.text)
+        if not rows:
+            raise ValueError("CSV vazio")
+        sem_key = next((k for k in rows[0]
+                        if "semana" in k.lower() and ("ini" in k.lower() or "inicio" in k.lower())), None) \
+            or next((k for k in rows[0] if "data" in k.lower() or "din" in k.lower()), None)
+        val_key = next((k for k in rows[0]
+                        if "cmo" in k.lower() and "media" in k.lower()), None) \
+            or next((k for k in rows[0] if "cmo" in k.lower() and "val" in k.lower()), None)
+        if not sem_key or not val_key:
+            raise ValueError(f"colunas não encontradas; header={list(rows[0])}")
+
+        weeks: dict = {}
+        for rw in rows:
+            iso = (rw.get(sem_key) or "")[:10]
+            sub = _ons_sub_key(rw)
+            if not iso or not sub:
+                continue
+            try:
+                cmo = float(str(rw[val_key]).replace(",", "."))
+            except (ValueError, TypeError):
+                continue
+            pld_val = round(min(max(cmo, PLD_PISO), PLD_TETO), 2)
+            wk = weeks.setdefault(iso, {"semana": iso})
+            wk[{"SE/CO": "SE_CO", "S": "S", "NE": "NE", "N": "N"}[sub]] = pld_val
+
+        historico = sorted(weeks.values(), key=lambda w: w["semana"])[-24:]
+        if not historico:
+            raise ValueError("nenhuma semana processada")
+
+        latest = historico[-1]
+        prev = historico[-2] if len(historico) >= 2 else {}
+
+        def variacao(k):
+            curr, ant = latest.get(k, 0), prev.get(k, latest.get(k, 0))
+            return round((curr - ant) / ant * 100, 1) if ant else 0
+
+        data = {
+            "updated": now_iso(),
+            "semana_ref": latest["semana"],
+            "fonte": "ONS — CMO semanal (PLD = CMO com teto/piso ANEEL)",
+            "submercados": {
+                "SE/CO": {"preco": latest.get("SE_CO", 0), "variacao": variacao("SE_CO")},
+                "S":     {"preco": latest.get("S", 0),     "variacao": variacao("S")},
+                "NE":    {"preco": latest.get("NE", 0),    "variacao": variacao("NE")},
+                "N":     {"preco": latest.get("N", 0),     "variacao": variacao("N")},
+            },
+            "historico": [
+                {"semana": w["semana"], "SE_CO": w.get("SE_CO", 0), "S": w.get("S", 0),
+                 "NE": w.get("NE", 0), "N": w.get("N", 0)} for w in historico
+            ],
+        }
+        save("pld.json", data)
+        log.info("  PLD via CMO %s: SE/CO R$ %.2f", latest["semana"],
+                 data["submercados"]["SE/CO"]["preco"])
+        return data
+    except Exception as exc:
+        log.warning("  CMO parse falhou (%s)", exc)
+        return None
+
+
 def fetch_pld() -> dict:
     log.info("CCEE PLD semanal…")
     existing = load_existing("pld.json")
@@ -213,10 +290,16 @@ def fetch_pld() -> dict:
             })
     if not r:
         # A CCEE geobloqueia IPs fora do BR (GitHub Actions = EUA, HTTP 403).
-        # Fallback: ponte própria na Vercel rodando em São Paulo (gru1).
+        # Fallback 2: ponte própria na Vercel rodando em São Paulo (gru1).
         log.info("  CCEE direta bloqueada — tentando ponte BR (megagrid.com.br/api/ccee-pld)")
         r = get("https://megagrid.com.br/api/ccee-pld", {"year": year}, timeout=60)
     if not r:
+        # Fallback 3: CMO semanal da ONS (S3 liberado). Por definição
+        # regulatória, PLD semanal = CMO limitado ao piso/teto ANEEL.
+        log.info("  Ponte falhou — calculando PLD via CMO semanal ONS")
+        data = _fetch_pld_via_cmo(existing)
+        if data:
+            return data
         log.warning("  PLD fetch falhou — mantendo existente")
         return existing
 
