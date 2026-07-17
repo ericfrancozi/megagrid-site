@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-17T10:49:24Z",
-  "score": 40,
-  "nivel": "normal",
-  "nivel_desc": "Mercado em equilíbrio",
+  "updated": "2026-07-17T12:46:12Z",
+  "score": 24,
+  "nivel": "ótimo",
+  "nivel_desc": "Condições hídricas e de preços favoráveis",
   "componentes": {
     "ear": {
       "peso": 35,
-      "valor": 51.8,
-      "score": 48
+      "valor": 81.8,
+      "score": 18
     },
     "ena": {
       "peso": 25,
       "valor": "via EAR",
-      "score": 49
+      "score": 25
     },
     "pld_momentum": {
       "peso": 20,
@@ -21,7 +21,7 @@
     },
     "carga": {
       "peso": 10,
-      "valor": 71480,
+      "valor": 77283,
       "score": 50
     },
     "bandeira": {
