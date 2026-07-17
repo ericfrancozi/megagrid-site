@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-17T12:46:15Z",
+  "updated": "2026-07-17T14:24:55Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_66872",
+      "titulo": "Bandeira tarifária em julho permanece amarela",
+      "lead": "Bandeira tarifária em julho permanece amarela&nbsp;&nbsp;Notícia Exata",
+      "fonte": "Notícia Exata",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcTNONUc3d09DNG9vWHJFSE95b2pkQ2N5WUJyOGhnZklYTV9QdWI3c1RHZUdFeGRwaWV2aUE1QTlWbXpMcjVMcDBYUkRiZVgtODR0Z2x5YnAyZVFXNmJRbVR6WlpGSnh3OHlMOTc5dHZGdXYzbF93NzhmeHBVLUFMUzlnLTNUN0xzVE5n?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-17T13:33:29Z"
+    },
     {
       "id": "mercado_livre_87591",
       "titulo": "Boven diz à Aneel que superou crise após romper mais de 300 contratos de energia",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-26T20:41:36Z"
-    },
-    {
-      "id": "tarifas_43101",
-      "titulo": "Bandeira tarifária das contas de luz segue amarela em julho",
-      "lead": "Bandeira tarifária das contas de luz segue amarela em julho&nbsp;&nbsp;Agência Brasil",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV283b0MxRHdzb2hKSk9RTFVBVFE5Rl82RXBiZDdCT3hhUjlsREpDazJuNVUybEQ3ai1UcWQweGdUb3YyMzJMdUQyR3Q5Q0k5aHJMQkdUc0ZNRGY1TXlSVGRVZS0zMlFIb1dfa2tibDgzMlBJeWhmRUl6MVNVZjNxRW81TXp1NExSZHhsSWh6QlRPNkZVR2FRVi1JNUMzV09EdHVNUEQ2cVRoNTJtVDZHMEJTSHQ1U2df?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T20:31:00Z"
     }
   ]
 }
