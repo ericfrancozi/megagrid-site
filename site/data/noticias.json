@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-16T11:03:06Z",
+  "updated": "2026-07-17T10:49:27Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado_livre_87591",
+      "titulo": "Boven diz à Aneel que superou crise após romper mais de 300 contratos de energia",
+      "lead": "Boven diz à Aneel que superou crise após romper mais de 300 contratos de energia&nbsp;&nbsp;MegaWhat",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNG9OZ0RmN0lUU2RCbTlxbXBYQ1FwZXpnS2FtamZlNmVpdW4taGU5U09Pam1zN1NIb2lOSzJSR3pJRDRfYVU3UWpGNUdTdG1PVldOWmdMenNpUVZFUW1jbzVyWERnZG1Gay02VGRXeEdId1VaekxSTDRTT3lZOFpnaEpaTjJUcS1XaTFnUTlwdDVNUi11ekl0MUd6TzNhdW9VYXZQd1hPcWRvb1l3a1I4bm1Id0lfaGdjUVd4WFhTRjk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-16T18:45:59Z"
+    },
     {
       "id": "mercado_livre_38473",
       "titulo": "Consumidores livres tentam socorro na Aneel contra Electra, mas agência nega pedido",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-26T20:31:00Z"
-    },
-    {
-      "id": "tarifas_31729",
-      "titulo": "Conta de luz: bandeira tarifária permanece amarela em julho, decide Aneel",
-      "lead": "Conta de luz: bandeira tarifária permanece amarela em julho, decide Aneel&nbsp;&nbsp;O Globo",
-      "fonte": "O Globo",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMExEUmFPQzY1eDRDV1IxYncxOXdXMDRENVpQS2dTV1kyQW5PaktJS3BvQk1ILTlndF9mQzdsYWVINjNFcU5vaVkxVHViaDdxOV9yZWo1R1pRbnZLNVZnRm1CSmZtbXd1Mmg3X1FQa3BvT1lxZ0YtcW1nR1d0bXlVY1ZXbER5RXZjZlVTWWlVaVFYamtyNGZvLU9FODZfaFVMeEs2eFlKa2VUa0lmSmRhTmFnbmtLWnBvdFFTQVpGLWJLTnBrbW5oVXpB0gHYAUFVX3lxTE15bS1MSER5b0lqWGN3aVZyazl6Q2RRRWVZNWs5MDRvbnlEY2lyOElmcTcxWDJMVGF5UW5PWllmQVI4LWNxdTlseUdrQS1JOWFSVFB0WHdMSTZfNGhlNkdualpLQWJHZHM1aXc2MzBWLTc4dVpDVjlwWUpTWXdzUkVLaXRZMXZBbjNiS1FudlozQU9VbV9RcmotOFlKWmR0VlQ4WWRCWGg1OFVsdlIzdVhkQzdEamY1NldPZU9PbmxZUDVHbXd5RTJNdVNQSXJ2V1BRWkFESjd4NQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T20:02:27Z"
     }
   ]
 }
