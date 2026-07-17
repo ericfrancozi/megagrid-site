@@ -1,5 +1,6 @@
 {
   "outputDirectory": "site",
+  "regions": ["gru1"],
   "headers": [
     {
       "source": "/data/(.*)",

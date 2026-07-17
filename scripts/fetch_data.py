@@ -212,6 +212,11 @@ def fetch_pld() -> dict:
                 "resource_id": alt, "limit": 300, "sort": "_id asc",
             })
     if not r:
+        # A CCEE geobloqueia IPs fora do BR (GitHub Actions = EUA, HTTP 403).
+        # Fallback: ponte própria na Vercel rodando em São Paulo (gru1).
+        log.info("  CCEE direta bloqueada — tentando ponte BR (megagrid.com.br/api/ccee-pld)")
+        r = get("https://megagrid.com.br/api/ccee-pld", {"year": year}, timeout=60)
+    if not r:
         log.warning("  PLD fetch falhou — mantendo existente")
         return existing
 
