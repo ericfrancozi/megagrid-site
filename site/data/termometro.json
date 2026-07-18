@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T14:24:52Z",
+  "updated": "2026-07-18T10:20:49Z",
   "score": 23,
   "nivel": "ótimo",
   "nivel_desc": "Condições hídricas e de preços favoráveis",
@@ -21,7 +21,7 @@
     },
     "carga": {
       "peso": 10,
-      "valor": 77283,
+      "valor": 76653,
       "score": 50
     },
     "bandeira": {
