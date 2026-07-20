@@ -7,6 +7,7 @@ Saída:  site/data/*.json
 """
 
 import csv
+import html
 import io
 import json
 import logging
@@ -661,6 +662,35 @@ def calc_termometro(pld: dict, ear: dict, carga: dict, bandeira: dict) -> dict:
 
 # ── RSS — Notícias ──────────────────────────────────────────────────
 
+_ENTIDADE_RE = re.compile(r"&(?:#\d+|#x[0-9a-fA-F]+|[a-zA-Z][a-zA-Z0-9]{1,31});")
+
+
+def _clean_text(txt: str) -> str:
+    """Decodifica entidades HTML e normaliza espaços (mata &nbsp; na origem)."""
+    if not txt:
+        return ""
+    # dupla passada: feeds do Google News às vezes vêm com &amp;nbsp;
+    txt = html.unescape(txt)
+    if _ENTIDADE_RE.search(txt):
+        txt = html.unescape(txt)
+    return re.sub(r"\s+", " ", txt).strip()
+
+
+def _strip_fonte_suffix(lead: str, fonte_display: str) -> str:
+    """Remove o nome da fonte que o Google News anexa ao fim do resumo.
+
+    No título vem como " - Fonte" (regex acima); no lead vem colado por espaço,
+    então usamos o nome real da fonte do próprio item.
+    """
+    lead = (lead or "").strip()
+    if not lead:
+        return ""
+    if fonte_display:
+        lead = re.sub(r"\s*[-–—]?\s*" + re.escape(fonte_display) + r"\s*$", "", lead, flags=re.I).strip()
+    # fallback: sufixo " - Fonte" clássico, caso o nome real não bata
+    return re.sub(r"\s+[-–—]\s+[\w\s.'&]{2,40}$", "", lead).strip()
+
+
 def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10):
     """Parseia um feed RSS e retorna lista de itens novos."""
     novos = []
@@ -672,12 +702,18 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10):
             url = entry.get("link", "")
             if not url or url in seen_urls:
                 continue
-            titulo = entry.get("title", "").strip()
+            fonte_display = fonte
+            if "news.google.com" in feed_url:
+                src = _clean_text(entry.get("source", {}).get("title", ""))
+                if src:
+                    fonte_display = src
+            titulo = _clean_text(entry.get("title", ""))
             titulo = re.sub(r"\s+-\s+[\w\s]+$", "", titulo).strip()
             if not titulo or len(titulo) < 10:
                 continue
             lead = entry.get("summary", "") or entry.get("description", "")
-            lead = re.sub(r"<[^>]+>", "", lead).strip()[:300]
+            lead = _clean_text(re.sub(r"<[^>]+>", " ", lead))
+            lead = _strip_fonte_suffix(lead, fonte_display)[:300]
             imagem = None
             for mc in entry.get("media_content", []):
                 if mc.get("url"):
@@ -693,11 +729,6 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10):
                 imagem = IMAGENS_FALLBACK.get(editoria, IMAGENS_FALLBACK["mercado-livre"])
             pub = entry.get("published_parsed") or entry.get("updated_parsed")
             data_pub = datetime(*pub[:6]).strftime("%Y-%m-%dT%H:%M:%SZ") if pub else now_iso()
-            fonte_display = fonte
-            if "news.google.com" in feed_url:
-                src = entry.get("source", {}).get("title", "")
-                if src:
-                    fonte_display = src
             novos.append({
                 "id": f"{fonte.lower().replace(' ','_')}_{abs(hash(url)) % 100000}",
                 "titulo": titulo,
@@ -726,6 +757,10 @@ def fetch_noticias() -> dict:
         it for it in existing_items
         if it.get("url", "").count("/") > 3
     ]
+    # itens antigos são carregados como estão — limpa entidades já gravadas
+    for it in existing_real:
+        it["titulo"] = _clean_text(it.get("titulo", ""))
+        it["lead"] = _strip_fonte_suffix(_clean_text(it.get("lead", "")), it.get("fonte", ""))
     seen_urls = {item["url"] for item in existing_real}
     novos = []
     # 1a tentativa: Google News RSS

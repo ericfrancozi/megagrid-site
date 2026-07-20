@@ -71,8 +71,10 @@
   .ticker:hover .tape{animation-play-state:paused}
   @keyframes roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   @media(prefers-reduced-motion:reduce){.tape{animation:none}}
-  .tape-half{display:flex;align-items:center;padding:9px 0;white-space:nowrap}
-  .tk{display:inline-flex;align-items:center;gap:6px;padding:0 26px;border-right:1px solid rgba(255,255,255,.1)}
+  /* padding-left igual nas duas metades: o loop de -50% continua sem emenda
+     e o primeiro rótulo nasce afastado da borda esquerda (não corta) */
+  .tape-half{display:flex;align-items:center;padding:9px 0 9px 14px;white-space:nowrap;flex:0 0 auto}
+  .tk{display:inline-flex;align-items:center;gap:6px;padding:0 26px;border-right:1px solid rgba(255,255,255,.1);flex:0 0 auto;white-space:nowrap}
   .tk b{font-weight:800;color:#fff}
   .tk .lbl{color:#7C8CA4}
   .t-up{color:#FF8585}.t-down{color:#5BE3A4}
@@ -813,13 +815,30 @@ function renderTicker(pld,ear,band,carga,termo){
   var score=(termo&&termo.score!=null)?termo.score+'/100':'—';
   var h=new Date().getHours().toString().padStart(2,'0')+':'+new Date().getMinutes().toString().padStart(2,'0');
 
-  function tkSub(lbl,sub){
-    if(!subs[sub]) return '';
-    var v=subs[sub],sv=v.variacao>=0?'t-up':'t-down',sa=v.variacao>=0?'▲':'▼';
-    return '<span class="tk"><span class="lbl">'+lbl+'</span><b>'+pldFmt(v.preco)+'/MWh</b><span class="'+sv+'">'+sa+' '+Math.abs(v.variacao).toFixed(1).replace('.',',')+'%</span></span>';
+  // Submercados com preço idêntico na mesma atualização viram um item só:
+  // "PLD SE/CO · S · NE  R$ 176,11 ▼x%" em vez de três linhas repetidas.
+  var SUBS_TICKER=[{sub:'SE/CO',solo:'PLD SE/CO',curto:'SE/CO'},{sub:'S',solo:'SUL',curto:'S'},
+                   {sub:'NE',solo:'NORDESTE',curto:'NE'},{sub:'N',solo:'NORTE',curto:'N'}];
+  function tkSubs(){
+    var grupos=[],porChave={};
+    SUBS_TICKER.forEach(function(d){
+      var v=subs[d.sub];
+      if(!v) return;
+      var chave=Number(v.preco).toFixed(2)+'|'+Number(v.variacao||0).toFixed(1);
+      if(porChave[chave]){porChave[chave].itens.push(d);return;}
+      porChave[chave]={itens:[d],valor:v};
+      grupos.push(porChave[chave]);
+    });
+    return grupos.map(function(g){
+      var v=g.valor,sv=v.variacao>=0?'t-up':'t-down',sa=v.variacao>=0?'▲':'▼';
+      var lbl=g.itens.length>1
+        ? 'PLD '+g.itens.map(function(d){return d.curto;}).join(' · ')
+        : g.itens[0].solo;
+      return '<span class="tk"><span class="lbl">'+lbl+'</span><b>'+pldFmt(v.preco)+'/MWh</b><span class="'+sv+'">'+sa+' '+Math.abs(v.variacao).toFixed(1).replace('.',',')+'%</span></span>';
+    }).join('');
   }
   var html=[
-    tkSub('PLD SE/CO','SE/CO'),tkSub('SUL','S'),tkSub('NORDESTE','NE'),tkSub('NORTE','N'),
+    tkSubs(),
     '<span class="tk"><span class="lbl">BANDEIRA</span><b style="color:'+bi.color+'">'+bi.label+'</b></span>',
     '<span class="tk"><span class="lbl">RESERVATÓRIOS</span><b>'+earPct+'</b></span>',
     carga?'<span class="tk"><span class="lbl">CARGA SIN</span><b>'+cargaVal+'</b></span>':'',
@@ -884,6 +903,11 @@ function renderTermometro(termo){
 }
 
 /* ── Notícias ────────────────────────────────────────────────────── */
+var ED_LABELS={'mercado-livre':'Mercado Livre','regulacao':'Regulação','politica-energetica':'Política Energética','empresas':'Empresas','transicao':'Transição','tarifas':'Tarifas'};
+function edLabel(id){
+  if(!id) return '';
+  return ED_LABELS[id]||id.replace(/-/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();});
+}
 function newsCard(n){
   var fc=FONTE_CSS[n.fonte]||'';
   return '<a class="card ncard" href="'+n.url+'" target="_blank" rel="noopener nofollow">'
@@ -895,13 +919,13 @@ function renderNoticias(news){
   if(!items.length) return;
   var lead=items.find(function(n){return n.imagem;})||items[0];
   if(lead){
-    var ed=(lead.editoria||'').replace(/-/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();});
+    var ed=edLabel(lead.editoria);
     setEl('man-cat',ed+' · '+lead.fonte);
     var ll=document.getElementById('man-link');if(ll){ll.textContent=lead.titulo;ll.href=lead.url;ll.target='_blank';ll.rel='noopener noreferrer';}
     setEl('man-deck',lead.lead||'');
     var rels=items.filter(function(n){return n!==lead;}).slice(0,4);
     var relsEl=document.getElementById('man-rels');
-    if(relsEl) relsEl.innerHTML=rels.map(function(n){var e=(n.editoria||'').replace(/-/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();});return '<a href="'+n.url+'" target="_blank" rel="noopener"><small>'+e+'</small>'+n.titulo+'</a>';}).join('');
+    if(relsEl) relsEl.innerHTML=rels.map(function(n){var e=edLabel(n.editoria);return '<a href="'+n.url+'" target="_blank" rel="noopener"><small>'+e+'</small>'+n.titulo+'</a>';}).join('');
   }
   var visual=items.filter(function(n){return n!==lead&&n.imagem;}).slice(0,1)[0]||items[1];
   if(visual){
