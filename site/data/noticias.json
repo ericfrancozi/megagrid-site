@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-21T11:11:10Z",
+  "updated": "2026-07-22T11:12:00Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_67665",
+      "titulo": "Experiência da rede básica deve acelerar regulação de baterias na distribuição, diz Mosna",
+      "lead": "Experiência da rede básica deve acelerar regulação de baterias na distribuição, diz Mosna",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOVFwQ2lkaEJtOVlIQWoxdVhxRmJKbTQwWDh0VUlSS1JaaW9PYWM5b1g5dzRaNVY5UDVDVTRUVGxKS1dFUEY1cExCeUZxang4RGh6YjdqTmR1bkF4RFJ3LW5tWjVoM0dmUS1WUXBTak52M0FuRVVsazlFUEhNUmJhbkxNcUs5QVBpSVpSOE8xNzRNQU1GQ2txaml1MnJwalgxbVNyTDRwbmF1T0Z4MGc3RVRLV0xwSDJCMVFVdDZfT0lhcDFQa0Z1OXJHWQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-21T20:41:40Z"
+    },
+    {
+      "id": "regulação_46947",
+      "titulo": "Associações pedem revisão de rateio, cortes elétricos e autoprodução na CP 45",
+      "lead": "Associações pedem revisão de rateio, cortes elétricos e autoprodução na CP 45",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRzhiZmt6TlNzNDNkT1B4RFgxNmQ0SDI5Zk1aNEFaTlo4RmZ3UllWRmtWUXhWQ011cU5LY25RdUdMdmFIQVVTWUNXWENnT2ZqcHZlWk5OdGJvWEcweXJmb0J2RmxNdkI3dnkzbEZ4RjZnSkZBTlItV3B4Mmx0ZEdKWnRNRFhjeVBJRm1JanFLWk0tX2pPbnlEajY1bkJtLXRRWjZsTVVtSWlFcVNSbEVQS0RqUi1hZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-21T19:32:28Z"
+    },
+    {
+      "id": "regulação_49794",
+      "titulo": "Nova Regulamentação da ANEEL e Financiamento Facilitado Impulsionam Mercado de Armazenamento de Energia no Brasil, Promovendo Crescimento no Agronegócio e Indústria",
+      "lead": "Nova Regulamentação da ANEEL e Financiamento Facilitado Impulsionam Mercado de Armazenamento de Energia no Brasil, Promovendo Crescimento no Agronegócio e Indústria",
+      "fonte": "Repórter Maceió",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNTlpTMlNBSTJvcWVWUGhuR1ltOTg2TnNQejdQWHp6ZVNRYm16Vnd4WmhzRFo5dlFOdnRlRkEtR2cwRmwzWndENVlRN0duY0JVOGM2VTlMOEV2MEozeHJJZnFnWklqX0h2OHVMZ3dvbEs1QXZjMWVUcWRXajV5UUpoamkyUDgyTkx4bWVPZUdWQlZPUlAtZm9Lb19Pc1NZNVJhSzhTZWJsTHlLcFM0TXFpMXk0bXRRQU82OVJqejFyd3JBXzAzT1o5UUhfLUxST1NhZmhpTkJGWS0zcmNOUl9VSWJjNFdxSTdXOEtEa0JPbHJ1V2VSV3o0NjVmb01DOGpuQzJ5Ylh5ckpORVlLSHg2cW5HM0ZvdG1zUldpZTdDSQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-21T12:54:00Z"
+    },
     {
       "id": "tarifas_66872",
       "titulo": "Bandeira tarifária em julho permanece amarela",
@@ -571,36 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-26T21:25:00Z"
-    },
-    {
-      "id": "tarifas_62699",
-      "titulo": "Bandeira tarifária de julho será amarela, mesmo patamar de junho, diz diretor da Aneel",
-      "lead": "Bandeira tarifária de julho será amarela, mesmo patamar de junho, diz diretor da Aneel",
-      "fonte": "Folha PE",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPakFrczY0MHR3MTRJaDZBa1c5NnB3bFFTQjNjcTRINFhRcEs2emJzWS1qSTluZVFiczljamkybnB2Y3N2Y2cxSUFMdk9feDRtZm9XRndNQV9YU1dmLXB6M3lDek16NTRXMFduX0hPSDI0U2RzY3VLZ0xjTHEzUFdNMGF0R0g1QjlmX2dhOEV6dkFQQm1JZXVjNUs5VHBQdUVCWVdPUUpaYVpjaWdHVTcxb9IBtAFBVV95cUxORWhHU05HNWo2cmtoU1AyM0NzamlIVU5mdVNKUnYzTUpIaHhUZEs5LTU5Z291VnZaQ0NRSmhVLXdIeU9GMkhwR2JZUEw4RmlneEhJNm13dXc4Y2JEMU5DN3BUVWNuazdObUxtbDBKaXF0ZUFzVkR1eWNWSHdxN2c1WEIxRHBPMU9YSHFIUnRJMFJpZ01ydmFaWWhoSDVYZGRyU2JORW5ndE9UNThLWHFuVGs3dGM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T21:08:31Z"
-    },
-    {
-      "id": "tarifas_65562",
-      "titulo": "ANEEL mantém bandeira amarela para julho",
-      "lead": "ANEEL mantém bandeira amarela para julho",
-      "fonte": "Agência iNFRA",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fNWhJXzBDbjRuTkMyMGFxeXhSdFJ2dUdnVW1HaFE3cGVEMkxnamU5b2t0eE0zX1FHZXZRZWwwY29IMHBwQmw5VDRzVkEzZHpZQWhvQTB2bl9wbTFhTTctNEl0X2dMT2lTbHRnS1RsdEw3YXUya2wxdjgxWQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T20:49:38Z"
-    },
-    {
-      "id": "tarifas_8831",
-      "titulo": "Bandeira tarifária da conta de luz continuará amarela em julho, decide Aneel",
-      "lead": "Bandeira tarifária da conta de luz continuará amarela em julho, decide Aneel",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWRFaGZCMEoyNUExSF91RS1aQ3A0YXN1TnhBZWM3Mzl2SUU5SDMzSVQyS28xRnNPOG5pbXE3TlBkeV9WTWlJd1NwbXhyRDllYUE5S3VUbXY2ZmdXSndacWRmSjdjTkZnNHF2OEZVYzdqSGlESTBGMWFOMHEzWkd4N2ZITTBtbEt2VHNJVXZ2UktaMWIzOXpiMHJDa2xFNk9Mc2diZzI5ZzBSRjBQMWc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-26T20:41:36Z"
     }
   ]
 }
