@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-24T11:05:16Z",
+  "updated": "2026-07-25T10:37:50Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado_livre_15787",
+      "titulo": "CCEE propõe criar agente virtual para liquidar geração do LRCap",
+      "lead": "CCEE propõe criar agente virtual para liquidar geração do LRCap",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMkJobzhhY3h3RUhCamFfN2Rxd25MbWVNVVhPRHp2QWtsaGxyZ0xfSDBNUXFoY1hFMnJONFktVWVYVWVzWnh5d2R5X1BobkgyWEIzQlBfbkdCLXdSQkNUcTk5Wkc3WGV0d1NkYlB2bUpBN2Z0T01PdWVpMWJCczVfY0pVLWRJLXQ0SWFobWhRUzB5UUNDeENnMklEekVtbXhWMVE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-24T16:18:27Z"
+    },
     {
       "id": "mercado_livre_2916",
       "titulo": "Boven enfrenta cobranças judiciais mesmo após afirmar que superou crise",
@@ -41,6 +51,16 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-07-22T20:25:38Z"
+    },
+    {
+      "id": "tarifas_63880",
+      "titulo": "Conta de luz deve subir 8,6% em 2026, projeta Aneel",
+      "lead": "Conta de luz deve subir 8,6% em 2026, projeta Aneel",
+      "fonte": "Sistema Província de Comunicação",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQU5FZHZXbk5jTUhkUGZnY3RCTGlkZk5BMTJBSkUyZVRNMWJmQ01ORXh2cXJDanRmeFRFWExnWDdDUGVMTUxwUDJ6aXJmWVVQczluSFhRY2hKdGowWExEODk5ZnJjVzhaQ0YwclBMYUpNbTBDWk05azJvdHFpa1ZYcHpHM0dzVXB3SnFneWhMMGpxSTByS01XX1lMaw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-22T20:20:18Z"
     },
     {
       "id": "regulação_67665",
@@ -581,26 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-29T11:51:00Z"
-    },
-    {
-      "id": "tarifas_39034",
-      "titulo": "Conta de luz: Aneel mantém bandeira amarela em julho e tarifa continua mais cara",
-      "lead": "Conta de luz: Aneel mantém bandeira amarela em julho e tarifa continua mais cara",
-      "fonte": "Gazeta do Paraná",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNM0hIbnRhM1Ixa3FtdzdSWkJDSlgzd2FLc2tJSWEwNnVwbkt4T3JvcWJxVUgtOVNBRDVHWHdFb2N3QVFubmdTS09jcGN5NHZRMWhVbHFkM0tlYmZDUGhrN2REbEg1bzVYQ2VFb0dXcmF0dUVNT2xLOGxqN1MxY0ZvZXFabmlFN3JBdmJn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T10:28:00Z"
-    },
-    {
-      "id": "tarifas_50381",
-      "titulo": "Conta de luz continuará com bandeira amarela em julho",
-      "lead": "Conta de luz continuará com bandeira amarela em julho",
-      "fonte": "Folha BV",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX3FzT0xYcEtjU2xtT0tqdzFOQ0lnMnlKUnM1WUxTQmJSZDByaVZnYUlMYU5oeE9yVWhPeGRseklsWnY4cFNhU09JN05LQlcwSUtTVGo4LWlrQ050Sm1KcFlUMTNSMkllbzlZNmM3ZFNrU1hPQjlhYUQtazN3NXY1bk5sanA4d3FLelVBZlZVT3JFb1JIRVE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T10:00:00Z"
     }
   ]
 }
