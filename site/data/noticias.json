@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-25T10:37:50Z",
+  "updated": "2026-07-26T10:46:18Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado_livre_25246",
+      "titulo": "Mercado Livre de Energia amplia acesso a contratos com mais previsibilidade - band.com.br",
+      "lead": "Mercado Livre de Energia amplia acesso a contratos com mais previsibilidade",
+      "fonte": "band.com.br",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWTJnazhEdGxjcUpRY1V6ZTF3Sk1PVFU1Snd5RzFlVXV2SmVJMnFaVVFtYkdHcmNvbDlaNzZxUlFuajNHY1J4UEZxLVRtdWR0NFE1QTFPd3Y5WVZsdzAwMzV3ZzRXMUFZTTk1YkhLQWNVUTYxMDFMWkFTLTRYSTNtRDNHWlVSSjBTb1lMbjc0aERtR2FrYTh0ZHoyX1l6TGJJN3l2djZRazlzR1pMZURZa0pBaDktSU5IOEI0QkN0U3YzQmpob0hhSWVPMzVKbnZTSHlER0dqQ1dva3c?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-24T21:31:54Z"
+    },
     {
       "id": "mercado_livre_15787",
       "titulo": "CCEE propõe criar agente virtual para liquidar geração do LRCap",
@@ -591,16 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-06-29T12:20:43Z"
-    },
-    {
-      "id": "tarifas_33746",
-      "titulo": "Conta de luz seguirá com bandeira amarela e cobrança extra em julho, decide ANEEL",
-      "lead": "Conta de luz seguirá com bandeira amarela e cobrança extra em julho, decide ANEEL",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WX3lhMUNxUlVTX2w3THphdzJoLXE4ZHY0VnFLV0pGRDRYbUdyUHNvTTZId050ak42ODdCcTFEZWZQNnZQbk5WcnJmanFBS0ViTC1CQ3NydkNBX1R4T2xkdmtaRVVTNDFGbDY2TklOUnJCR3Y4Mjlr?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T11:51:00Z"
     }
   ]
 }
