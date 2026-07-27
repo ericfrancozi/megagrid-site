@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-26T10:46:15Z",
-  "data_ref": "2026-07-24",
+  "updated": "2026-07-27T12:27:07Z",
+  "data_ref": "2026-07-25",
   "fonte": "ONS — Dados Abertos (dados.ons.org.br)",
-  "ear_percentual": 80.9,
+  "ear_percentual": 80.7,
   "subsistemas": {
-    "NE": 85.3,
-    "N": 90.7,
-    "SE/CO": 63.3,
-    "S": 84.3
+    "NE": 85.1,
+    "N": 90.6,
+    "SE/CO": 63.4,
+    "S": 83.8
   }
 }
