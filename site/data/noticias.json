@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-27T12:27:52Z",
+  "updated": "2026-07-28T11:20:34Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado_livre_95952",
+      "titulo": "Novo Marco do Setor Elétrico impulsiona transição energética no Brasil - Portal 93",
+      "lead": "Novo Marco do Setor Elétrico impulsiona transição energética no Brasil",
+      "fonte": "Portal 93",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbXBQN0YwUzR0eWQyYTRvTUZIQTlCOVItM0JyX050WFNlemJteTZhZ2dLVWtlb3RKSVkzSEUtdVZxTHdJWUp0Xzh2NGlmMXdHdUZXekd2WUVveENYbTRXdDRoT3RZQlVtWkgtUHZMc0hJbmlvVEU5dTI5RVQyRnlaSFRxNHVOTFpLRlFxalROdmdJOXh3YkRTTTRwT3DSAaIBQVVfeXFMTmRJd2lVWUh4RkZjR3JhMUV0WVl4aWhrS1cxNXFzMHZPRUhKeHFnMkJTSE1jRWMtVUJFMFV3dDdkSGp3OWQwSk5RRU5Ea1dvM0R5UkRfeTM4c21MQ3dsaXNzZzktdDdUWlNZNjhkOG85bk02VlpfYnFIT2ZFZjBIZWFTZXBYbUdGdnRHVDg4RlN1d1Z4X1l1Wk1VNDRETXBkbVB3?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-27T21:44:04Z"
+    },
+    {
+      "id": "regulação_19415",
+      "titulo": "ONS pede ajustes em regras da Aneel para cortes de geração",
+      "lead": "ONS pede ajustes em regras da Aneel para cortes de geração",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc0xjeTVCV2NlWEtKQ29jWGxLN0I4R084RC1pRXJUTGNpWm1WaFVQbkR5T0VVUWxrQnBJY2VQd0ZuM29UR2tZSGR0Z29meVBrcVhSRTJVRnNORXBlUklWOV82U1FSaHI4SjRKMTZPT2pJOG9WVDZWRE5IdWFjbDBzQ1lYTzlvdVZFeXhRN1o4S3ZGem5ISmJfaDNVMA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-27T19:05:18Z"
+    },
+    {
+      "id": "mercado_livre_80109",
+      "titulo": "Conselho da Fiep debate desafios e avanços do mercado livre de energia",
+      "lead": "Conselho da Fiep debate desafios e avanços do mercado livre de energia",
+      "fonte": "Folha de Irati",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNGJDTGFacE82WlUwb0lHZmVzTzhkMXFTaWtlYTVYTDJBd3dUYXVXb042Yk5kWVplNUFoUXBjZC1DZ3B1TGpYcWRuWGM2YU4wSDh6bDJyNE92eE1HU2JQRHd4QmlVOXNXSEpmamFXekZFVkpwdnpiRjlGZUZMcXZKNXdMX1NZOG5xcGYxSDFfZ1VVTVdvTzVkSnotRDN0WE90?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-27T17:35:29Z"
+    },
+    {
+      "id": "tarifas_14564",
+      "titulo": "À espera da bandeira de agosto, consumidores recorrem à energia solar para reduzir conta de luz",
+      "lead": "À espera da bandeira de agosto, consumidores recorrem à energia solar para reduzir conta de luz",
+      "fonte": "Paraíba Business",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM0JWWnJRUC1nZHNaUGhvUVpjRXRjWXJ3Skc0MGE1LWxJc3BrYmJEWmdxRGlicURZbUdDejhLdjBnT1N3dndCMHczYVN3RW8yaTJyMUpJUV9nVnJ0RE1hZkpueUZYb2htanliODdRMnVrNHNRSkxXVzA1RmtzMXZDZlBtUTJUc282M0NLODM4Sjk1OFFkZnFCbGxWX0lzTnpKWGlqQ055cGI3Y2MxR1FxblBZYlU3VGxKWFFOVUxIOUFJaGQ5?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-27T13:30:00Z"
+    },
     {
       "id": "mercado_livre_25246",
       "titulo": "Mercado Livre de Energia amplia acesso a contratos com mais previsibilidade - band.com.br",
@@ -51,6 +91,16 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-23T12:42:00Z"
+    },
+    {
+      "id": "tarifas_7970",
+      "titulo": "Bandeira Verde da Energia Eletrica Permanece",
+      "lead": "Bandeira Verde da Energia Eletrica Permanece",
+      "fonte": "Gazeta da Semana",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSVhNcnBWUktWelF3TEVsV0pxdHB3S1NmNDhNVUV4UDdnN1RvYnVHRmttWWJMTGduUk1hWDlVdnQ0S0JBbmVRMy16aGExb0tfRlZfdzdjdGxBWXVxZ0sxX1FNY2Z0VWhjWk0yQUFKWXVaQUp4eXlLRzZzZ1FPZmtHX0ZyVzk3eHUyZWlrSER0OVFsOUU?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-07-23T07:00:00Z"
     },
     {
       "id": "tarifas_88405",
@@ -551,56 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-29T20:39:27Z"
-    },
-    {
-      "id": "tarifas_60763",
-      "titulo": "Bandeira tarifária amarela segue em julho, deixando a conta de luz mais alta - costazul.fm",
-      "lead": "Bandeira tarifária amarela segue em julho, deixando a conta de luz mais alta",
-      "fonte": "costazul.fm",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQanNEbmR5b0NaUEFma294R2M4V1FnOU5GcWg5cGtLVzA5b3R1MTVNSmlmejBOMUFjMWdHSDNMWlJtT0dUenNlZk5vWnVXNFgyTTRiRXNMdDE5cDNkSWZUZ0hNTk1Fem85SEw3OVM4THk2MDhyMjltbDR3clg4OWZ4TjYxd3pKUENtR2tUY1NjLWRyWmZONmM4Tk1iREE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T20:00:00Z"
-    },
-    {
-      "id": "tarifas_52040",
-      "titulo": "Análise: A bandeira tarifária amarela virou termômetro climático",
-      "lead": "Análise: A bandeira tarifária amarela virou termômetro climático",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaGY1aWlWV2NiaFVMbE9yZFZ2YkVOZlg3LXBpRV9lc0dya2pnTEo4eC0wNGI3MFpyeWEzanE3MV9yYkNxaGVVVUlodklFOWEtakNKWmM5N1ZLZ0t0YlNTaU9UVWZZMVR5S1FGWFBMZUNJUTZrYVZYSXIwM1J5VkpJUHZmaFNyVDBfbTVKbUR4NUs0cC1GQlRPdEY1VmZPVzJ5a1pWMjFCZWY5Y3ZmWFVLcGM3M0dvMlFUNHdGVTJ0cnhuRm9DTHNKbS1GNU5rbU5I?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T15:28:21Z"
-    },
-    {
-      "id": "tarifas_34460",
-      "titulo": "Conta de luz: bandeira tarifária continua amarela em julho; saiba o custo - Giro S/A",
-      "lead": "Conta de luz: bandeira tarifária continua amarela em julho; saiba o custo",
-      "fonte": "Giro S/A",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb0Jkb1Bwc0RGb01qb0wxMzdxOVVxN1VKbnB1X2ZVYUFQLVRMNTljcGN2c0JyeTVGSVVUWVdvcWs4ZTNmby1EWmlCZkE2YzlFY3MyUGs2LW1PNWQxQmQzbUlfN0FIc0JsVU9pT2dBakIzME9YdFlrdExKTTAzdlVqTw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T14:48:28Z"
-    },
-    {
-      "id": "tarifas_79218",
-      "titulo": "Bandeira tarifária segue amarela nas contas de luz em julho",
-      "lead": "Bandeira tarifária segue amarela nas contas de luz em julho",
-      "fonte": "Grupo Amanhã",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV3Bwci1lMV9OcV9ZaWotUDFrcVQtc29nY1Z4a052VjF5NnlkMVplVElsQVowU2JwWHk5LTR5WlNxVWVZMi1iQjl5a05kXzI1OFJuT3R5cVRlUnlQSDlmX2k5eFI4T1ZHVWNQNnA0ZUxKTjFFS2YzeDk2TGIya2lXSGloMm93WFR1M093NmNLb2FJZWVhWHB5T200UmhVemM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T12:25:00Z"
-    },
-    {
-      "id": "política_35532",
-      "titulo": "Mariana Espécie é nomeada secretária de Transição Energética do MME",
-      "lead": "Mariana Espécie é nomeada secretária de Transição Energética do MME",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV0JxWkswQWhfcHJpOERLUmdBTVIyX1hZMDBsUzJGRG11SFY2VXo2cDN2YXZ0SS1LSC0zWlZ1VTBoc2pPSjNxODdUQi1uM3hfRWg4ZS1haVdidUo5Nmg1OTg1bHhlVS1wQnN4YUl3ankwRUFCcXVQRmdVLWpCeFJWWHZyWXVGYmd3eTltOEJmWnBqVU1ZU3o4T3BsQjRLRWoyaVNpYzczLTlJUQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-06-29T12:20:43Z"
     }
   ]
 }
