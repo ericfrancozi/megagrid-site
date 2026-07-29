@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-28T11:20:32Z",
+  "updated": "2026-07-29T11:28:06Z",
   "score": 24,
   "nivel": "ótimo",
   "nivel_desc": "Condições hídricas e de preços favoráveis",
   "componentes": {
     "ear": {
       "peso": 35,
-      "valor": 80.6,
+      "valor": 80.5,
       "score": 19
     },
     "ena": {
@@ -21,7 +21,7 @@
     },
     "carga": {
       "peso": 10,
-      "valor": 75197,
+      "valor": 79129,
       "score": 50
     },
     "bandeira": {

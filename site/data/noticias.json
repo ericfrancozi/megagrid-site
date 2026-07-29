@@ -1,7 +1,57 @@
 {
-  "updated": "2026-07-28T11:20:34Z",
+  "updated": "2026-07-29T11:28:09Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_97094",
+      "titulo": "Diretor-geral da ANEEL pede vista de regulamentação da Pnast",
+      "lead": "Diretor-geral da ANEEL pede vista de regulamentação da Pnast",
+      "fonte": "Agência iNFRA",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQM2J1YVRRZHNyVVNaSGtfN1FDdmRFRDl4TWpreEJTcHZ1VHUxdmd4cllIc3FadnRqeDRVV0hXcFVVT3NjNE5sb1hHRUVQN1JuOW44eFlDWjNPd05TYXBDaFB6aHlHcTdRWWRSNm1abmk3OVVBSWlBRTUtMC1VT2VVc1VwMk1IcHdHNDJxVlZYZnRTb2puSmc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-28T20:03:50Z"
+    },
+    {
+      "id": "mercado_livre_90176",
+      "titulo": "ANEEL Nega Efeito Suspensivo E Mantém Desligamento Da 2W Comercializadora Da CCEE",
+      "lead": "ANEEL Nega Efeito Suspensivo E Mantém Desligamento Da 2W Comercializadora Da CCEE",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNTJJSklZMnp5WWlNRHd5c1VzaFBKUUxWWGtHQ2x1U21VY1ktSDdFQVhYa0FnY3doSWkyTGZzXzJURFkzNWkwYlRzMDR5RmM4aGdYTHF2V0ljeEw0RG95cXpZczZadWVINkU5aVkySVB4djFTTHNNRlZXSkhKUThtQm9yTXNlWXpId01jZkE4dVVGak1OSS1wWVNkVVVvZUwxNkh2X0RNR19nb0RxYkdySjJic0hXTi1NOUNaRndidl8?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-28T17:30:33Z"
+    },
+    {
+      "id": "mercado_livre_25975",
+      "titulo": "Aneel mantém desligamento da 2W Varejista por inadimplência e risco ao mercado",
+      "lead": "Aneel mantém desligamento da 2W Varejista por inadimplência e risco ao mercado",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY3l0NjlOLW9nNWdoa050dVduVEtFNmdTdkktenp1ZmFfMi1OWDhQYmRtUVM4bFhROW91b1dNdEZxRU4tUzNUbnJIdktzNE0zeGx0Y2o1QmlmME9JTlJXV2ZWOHd2bmJmRUJETkpiblJmckpLWi11dnJpMDk1NDl0ZzV5UU5fQ29FdzMycVpZRUQ5cjU4WENiaw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-28T15:48:47Z"
+    },
+    {
+      "id": "regulação_58992",
+      "titulo": "Aneel abre consulta dos leilões de baterias e deixa rateio do ERCap de fora",
+      "lead": "Aneel abre consulta dos leilões de baterias e deixa rateio do ERCap de fora",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZGFnNm5ESkktY2VhX3BmSERxcWRRd196elFqQnVlVElKWmMzbVJjUjJlaFlVdHJxNDJKQ3lOV0ZwalduS2tCbzBWZFU5T0h4Z3g1Mi1SWkxUeW9UdllhRkpFUHlvRW1HLWlzbnNUQjJEZVJJaDBzNC1kSkd0UFduZ3hSZENyVXhvN0drTEZHNHhPSElpWFM5RXlwUG50YUtyVG9fd192ZjVnZWN6ZWUyT3cwUHlRMmUzNVZoVmJSYTN1ZFE5MWpYYk5OOUszQQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-28T15:24:07Z"
+    },
+    {
+      "id": "regulação_26362",
+      "titulo": "Regulamentação da ANEEL e novo Plano Safra ampliam mercado de baterias e impulsionam expansão da TTS Energia nos setores corporativo e agro - guairanews.com",
+      "lead": "Regulamentação da ANEEL e novo Plano Safra ampliam mercado de baterias e impulsionam expansão da TTS Energia nos setores corporativo e agro",
+      "fonte": "guairanews.com",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOY2MzQWZSRE5YVUxYV0Y1WXkzRnluSnhyajJ4RDg1MUdzeFRwVjZkSkV5Sm9NZWE1bzNZal9OcWtfcmdQcjJEUV81bWh3YUZESDZnR1hZVVRzb3BtQWNwWEpXdlNwQ3F5TEtOZmUwUkpNTWVjMFFZMkpqMXJqZTM3aTJwOG9iR0RqdXBXVzF6WF91TE9GVEZsM0Y5alppX0FMbDNSZ0NYVzk4ME0tN2hIdnZDdmVrNFF3TXJTTHdMZ3FOVkJqSmZveEk5Qk1HaGZRaHp2ZkM5cU5XQ19OWXlvVHVQQmxjMmZyVUh1bVhIWkhzRmhmMmdZazdLcHl5czRqbWtGZE5TT3p6Zw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-27T21:57:24Z"
+    },
     {
       "id": "mercado_livre_95952",
       "titulo": "Novo Marco do Setor Elétrico impulsiona transição energética no Brasil - Portal 93",
@@ -551,56 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-30T16:48:04Z"
-    },
-    {
-      "id": "tarifas_63852",
-      "titulo": "Conta de luz segue com bandeira amarela em julho e pesa no bolso do consumidor",
-      "lead": "Conta de luz segue com bandeira amarela em julho e pesa no bolso do consumidor",
-      "fonte": "A Cidade Costa Verde",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSTkxUFNEMnJYTGtVYlI5NW5ta0JCWlR6WS0zaXdXS0dad2c1LXNyN3gtNDc4RmtlWGY2OHM1UHZMd0hwVnppbXE4U05JanlPNG5OREI4b3lrNk5jT2xsRkpyV1gybExjaUY3UjhRaUpxQk9oQWFrYk1EbENpUlRpLUdrQnRMYm4xb0hxRngyRnhGWG9YUmh1MVVyVW05Vk45UnFLOXptZEFKTFYtUlRFVjU5RWZwdTBvYjlZ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-30T13:53:00Z"
-    },
-    {
-      "id": "tarifas_63443",
-      "titulo": "Conta de luz terá cobrança extra de R$ 1,885 a cada 100 kWh consumidos em julho",
-      "lead": "Conta de luz terá cobrança extra de R$ 1,885 a cada 100 kWh consumidos em julho",
-      "fonte": "Portal Solar",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS1VTN2MzUjlTbExqSnFrUWdwcE05RVZ3bHVEUkgxLTZGdXRmLV82ak0teTJJdmNnQ2dsY0V6U1FRYTBkdjVsQnY0T2hOeHZmc0RQYWliUGNsOC1lVGM2VFFvaXB0WU9HVTJvM0ZLMjBQU2E2bHhKWFU1ODBIU0t1N1QwTFRJYl9NeUVNM1FyYloyVmRpeUFnUWo4aFNva0FOZHdBYS1uVW81NXpJWnRYcUdLeTRpTkxrMmMyNkhpaFloejF1Mk02bWZ3SVNQak96bkVj?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-30T12:45:15Z"
-    },
-    {
-      "id": "mercado_livre_22804",
-      "titulo": "Mercado livre amplia disputa por consumidores de energia",
-      "lead": "Mercado livre amplia disputa por consumidores de energia",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzh5aG4tNzJueGZNMURPVzY3bnhCWUlzeU9PQ1BFUjhjcElyLTN1Q0xsRkJ5NVl0M014UEJ1QjBuUzNLSThPYkFwalFDN1RvT3B0M3N2aTFmc3N2d3FhMmdGQVpTVEZZcVp2S2NmalMySGItSkJ1REo5OXhxdXAycXgwYUIyZ3VMZ3FNZnN2RzVLWE1LeDl5dVIyZWlaSHNpbnlHY9IBqgFBVV95cUxPNnBHSU5yNTI3SmRWd08xSUF3TklDUS1ZOEdQVkEtZ0EzNzJvOS10SGlLTkpfS3JaSFdyU2xZdDZ2OGhkSEkybnpuRmotUWREMHlqUWlvUUlpTzBPcnAtMHNrUnhUX1AtSEhER3JUMDdScC1wMEZPeTVEVU5RYmdHUUNCQmw5M3BCTWlveE0zaWU2S2Iwb3FQOWZlSXBLSEF3cUVIelpYXzdnUQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-06-30T12:39:32Z"
-    },
-    {
-      "id": "tarifas_67902",
-      "titulo": "Conta de luz: Aneel mantém bandeira amarela para o mês de julho",
-      "lead": "Conta de luz: Aneel mantém bandeira amarela para o mês de julho",
-      "fonte": "SIMMMEM",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPekI2Q2FNckZKd0tJTGNjUmNKTDVHM2JIYjE4WGN0RGdlbS1qeUlELUxSeHpxSW5WLWlhY0EtM3p6MDlZYzFMQVljQlNIVWtGY3RmLW5ZZzU3SmRfNTJ0SS1BSXNOR2dnZDNFaDBCVEtLVnZJVmVIYXkyZTF4R0djWGM5TUo1SjZ4a2pvZDVkSHNwTlI1?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T21:30:01Z"
-    },
-    {
-      "id": "tarifas_98081",
-      "titulo": "Cobrança extra? Bandeira tarifária de energia permanece amarela em julho, diz Aneel",
-      "lead": "Cobrança extra? Bandeira tarifária de energia permanece amarela em julho, diz Aneel",
-      "fonte": "ND Mais",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbElHd3Z3QmlnMEtDZ2FGR0lXU01TRmJhV1p1Z212aXVCdDZEVEZqVk1XdjhOYko5OER1ZFFLTHNyNE9ZV1FBUHY1RmtXcThaeFZ6eTdhZzVDZWx2SVRaWnpFdXkyZnR5Y1lmVlplNUZOMlN2Z0xPalNSWFZWUFFDaW1YVWNtTl9xSjBVZUQ5dUR1QQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-29T20:39:27Z"
     }
   ]
 }
