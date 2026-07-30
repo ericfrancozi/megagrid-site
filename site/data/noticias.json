@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-29T11:28:09Z",
+  "updated": "2026-07-30T11:09:41Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulação_64227",
+      "titulo": "ANEEL adia consulta pública da Pnast após pedido de vista e amplia debate sobre regras de transição para grandes cargas",
+      "lead": "ANEEL adia consulta pública da Pnast após pedido de vista e amplia debate sobre regras de transição para grandes cargas",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ1FqdzdLMHh1Vzk0X1dKeFV3c0VFdkpobXQ0NXh6bDNxcUdOV0NpWjhFaG1YWkFoc1hjaTlkRWpLZnJ2TU1ZdDlsbTJqanNQWXlMd2hDUlF5V05QaVNhMjFSSkhjaF9NR2F0ak5QWjVCYnpPRU5UdklWYkZCcG05NmNxbE4wSXdSSzVNb2xtOTJJVzgza3J3WTN1MzV2Qm93V3BTYnc1OUROYWNaTWNfdWRuSFFybnduR2RVYXFLUHVZbU9QVC11VlY0ZWplZ0dlczF0TXc1Q2FqLWNZZHJ4TjhvaV9VMVhUMElJeGJyeFlRdVk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-29T13:07:45Z"
+    },
+    {
+      "id": "mercado_livre_95492",
+      "titulo": "Mercado livre de energia ajuda empresas a cortar custos e cumprir metas de sustentabilidade - bra1.com.br",
+      "lead": "Mercado livre de energia ajuda empresas a cortar custos e cumprir metas de sustentabilidade",
+      "fonte": "bra1.com.br",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUjltZ1h6YmR1VmRvaElRa0xhQWRSWG0tN0p0MU1zM29CbEdoY3liT3dkNkZ4QTBST1FlSjZZYkk1ejZZV0twMDYwZF9qcDlGbjl6WlJrc2xUVXVpaG9EbldEVzNiNThQZWthcnhfVzBSeGVBZlltUU14TDRkVDVDbE1KSS16VzhGWHlFLWN6LUFBLWdJVmlKU0RJRTlyRURUZXBWTTNwZV9RVjdvLTJOU1RNenBHWFpLT3hNZ2pKLWJGY3FDRzhybTR6ay1FbVk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-29T12:32:00Z"
+    },
     {
       "id": "regulação_97094",
       "titulo": "Diretor-geral da ANEEL pede vista de regulamentação da Pnast",
@@ -71,6 +91,16 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-27T19:05:18Z"
+    },
+    {
+      "id": "mercado_livre_69257",
+      "titulo": "Conselho da Fiep debate desafios e avanços do mercado livre de energia",
+      "lead": "Conselho da Fiep debate desafios e avanços do mercado livre de energia",
+      "fonte": "Jornal Pitoco",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd09tSHVva2pVeU5GWkl4TWFqUkVTbnJseVJ1dlFXWXlaM3RQREZPd3c1OVNkMlpVejRCQjEwUlFFV0h3Ty1acWE5UXRuVW1fU2I3dzVWZUVQd1Yzd2hudjRhbEpwZ2MzeWU4SkxWRjBTWHZ4eWNzLUk3NE1FYkhVZWdYTjJhUnpfelFfenFncVFwcHU2ajF2ZjdYRWMxOEJIOHc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-27T17:58:27Z"
     },
     {
       "id": "mercado_livre_80109",
@@ -571,36 +601,6 @@
       "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-06-30T22:33:00Z"
-    },
-    {
-      "id": "regulação_36482",
-      "titulo": "Aneel passará a avaliar se distribuidoras empenharam esforço máximo para recuperar créditos",
-      "lead": "Aneel passará a avaliar se distribuidoras empenharam esforço máximo para recuperar créditos",
-      "fonte": "Folha PE",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUNQeDlnb01OUmlRNlpBYmprajNucW9OVVJWT1dXTXFwZXBMWlp2RUR4Y1QtRmRidUxUb3J1OHgzTC0xN3ZDY0JUUlVURktQcXFUdUtzTTEtejNLVUdKYjdnUXJaNHI1N0QyYlZTWTk1UDRiTGZjYnMwQUJ2WkNlUkFobnlzcHVXLUI5UXJGSHZ3bFJwSnFGMEdGUjRhcF9SMnpfTFNGeWdwMXJkTklnYlBINnrSAbQBQVVfeXFMUC1DUHg5Z29NTlJpUTZaQWJqa2ozbnFvTlVSVk9XV01xcGVwTFpadkVEeGNULUZkYnVMVG9ydTh4M0wtMTd2Q2NCVFJVVEZLUHFxVHVLc00xLXozS1VHSmI3Z1FyWjRyNTdEMmJWU1k5NVA0YkxmY2JzMEFCdlpDZVJBaG55c3B1Vy1COVFyRkh2d2xScEpxRjBHRlI0YXBfUjJ6X0xTRnlncDFyZE5JZ2JQSDZ6?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-06-30T22:31:09Z"
-    },
-    {
-      "id": "tarifas_45400",
-      "titulo": "Contas de luz: Bandeira tarifária vai continuar amarela em julho",
-      "lead": "Contas de luz: Bandeira tarifária vai continuar amarela em julho",
-      "fonte": "Jornal A Voz da Serra",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN1p2OEw2RXN4VEtOMk9MWTluOWxYR3FxYndUNUZvQVNpWW9OZE9sMVBuR3hha0ItQmc3WkpIMjVJdTlkVWlWSGlIVVRpVUI5RkI3cW1wYzNwamJfWlE4bkpvMXJlVmhVQlVSVXY2QWZmY0h4NHY5eVhud1pFam9oTXF2Z0g2SlY5R0gxWTBKNHhSQzNlejFZLTZzS0hyM0F6?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-30T17:39:41Z"
-    },
-    {
-      "id": "tarifas_90061",
-      "titulo": "A bandeira tarifária do mês de julho irá permanecer amarela",
-      "lead": "A bandeira tarifária do mês de julho irá permanecer amarela",
-      "fonte": "CBN Caruaru",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1NreFdUVTBVYURLR0ZqN0I0YXNOb09DUDdOVVk5WUw2MnpYS2cyS181SGZXVVpqNS10R25qd21vOThxSzE3TDViSldmS0ZCeDhaQm95RVBMbkxfb0VsNHdRSnkwTVZTZThMWV9wb1RHQVFETWs0NkhxNzN0Ti1VTWFPV09yWUs2YlU4Rjk5MTUyR2phWDlWbjNB?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-06-30T16:48:04Z"
     }
   ]
 }
