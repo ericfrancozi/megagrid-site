@@ -870,7 +870,7 @@ function newsCard(n){
     +'<div class="body"><span class="fonte '+fc+'">'+n.fonte+'</span><h3>'+n.titulo+'</h3><time>'+fmtDate(n.data)+'</time></div></a>';
 }
 /* Regra de exclusão entre módulos: nenhum título aparece duas vezes na mesma
-   tela. Prioridade: manchete > card visual > secundárias > grids > + Lidas. */
+   tela. Prioridade: manchete > card visual > secundárias > grids de editoria. */
 var _usados=null;
 function _normTit(s){
   var t=(s||'').toLowerCase();
