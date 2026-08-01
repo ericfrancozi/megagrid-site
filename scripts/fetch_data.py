@@ -868,12 +868,27 @@ def _pct(valor: float) -> str:
     return f"{abs(valor):.1f}".replace(".", ",")
 
 
-def gerar_manchete_dado(pld: dict, ear: dict, bandeira: dict) -> dict:
-    """Manchete-dado: 1 item sintético por dia a partir dos números do próprio
-    Megagrid (P1.4). Garante manchete ≤ 24h mesmo em dia sem pauta nos feeds.
+def acervo_esta_velho(itens: list) -> bool:
+    """True quando nada no acervo tem menos de 24h — o gatilho da
+    manchete-dado. Item sem data legível é ignorado na conta."""
+    agora = datetime.utcnow()
+    for it in itens:
+        try:
+            dt = datetime.strptime(it.get("data", ""), "%Y-%m-%dT%H:%M:%SZ")
+        except (ValueError, TypeError):
+            continue
+        if (agora - dt) < timedelta(hours=24):
+            return False
+    return True
 
-    Dedup por id `dado-YYYY-MM-DD` — com 3 execuções/dia, a do dia é reescrita
-    em vez de duplicada. Retorna {} se não houver dado suficiente."""
+
+def gerar_manchete_dado(pld: dict, ear: dict, bandeira: dict) -> dict:
+    """Manchete-dado: item sintético com os números do próprio Megagrid,
+    usado como REDE DE SEGURANÇA (decisão de 01/08) — só entra quando o
+    acervo inteiro passou de 24h. Em dia normal o hero é notícia real, e o
+    PLD já aparece no ticker e na faixa "Mercado agora".
+
+    Dedup por id `dado-YYYY-MM-DD`. Retorna {} se não houver dado."""
     hoje = datetime.utcnow().strftime("%Y-%m-%d")
     se = (pld or {}).get("submercados", {}).get("SE/CO", {}) or {}
     preco = se.get("preco") or 0
@@ -963,11 +978,15 @@ def fetch_noticias(pld: dict = None, ear: dict = None, bandeira: dict = None) ->
             log.info("      · %s | %s", it["data"][:10], it["titulo"][:64])
     todos = novos + existing_real
     todos.sort(key=lambda x: x.get("data", ""), reverse=True)
-    # Manchete-dado no topo do acervo (dedup por id dado-YYYY-MM-DD)
-    dado = gerar_manchete_dado(pld or {}, ear or {}, bandeira or {})
-    if dado:
-        todos = [dado] + [it for it in todos if it.get("id") != dado["id"]]
-        log.info("  manchete-dado: %s", dado["titulo"])
+    # Manchete-dado: rede de segurança, não rotina — só quando o acervo
+    # inteiro (já com os feeds de hoje) passou de 24h.
+    if acervo_esta_velho(todos):
+        dado = gerar_manchete_dado(pld or {}, ear or {}, bandeira or {})
+        if dado:
+            todos = [dado] + [it for it in todos if it.get("id") != dado["id"]]
+            log.info("  manchete-dado ATIVADA (acervo > 24h): %s", dado["titulo"])
+    else:
+        log.info("  manchete-dado dispensada — há notícia com menos de 24h")
     todos = todos[:60]
     data = {
         "updated": now_iso(),
