@@ -106,12 +106,9 @@
 
   /* manchetes */
   .manchetes{padding:30px 0 38px;border-bottom:1px solid var(--line)}
-  .man-grid{display:grid;grid-template-columns:1.1fr 1.25fr .92fr;gap:28px;align-items:start}
+  .man-grid{display:grid;grid-template-columns:1.05fr 1.25fr;gap:28px;align-items:start}
   @media(max-width:1020px){.man-grid{grid-template-columns:1fr 1fr}}
   @media(max-width:760px){.man-grid{grid-template-columns:1fr}}
-  .man-grid.sem-side{grid-template-columns:1.05fr 1.25fr}
-  @media(max-width:1020px){.man-grid.sem-side{grid-template-columns:1fr 1fr}}
-  @media(max-width:760px){.man-grid.sem-side{grid-template-columns:1fr}}
   .man-main .cat{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
   .man-main h1{font-size:clamp(1.5rem,2.6vw,1.95rem);font-weight:900;letter-spacing:-.02em;line-height:1.2;margin:8px 0 10px}
   .man-main h1 a:hover{color:var(--blue)}
@@ -126,17 +123,6 @@
   .man-visual .ov .cat{font-size:.66rem;font-weight:800;letter-spacing:.14em;color:#9CC1FF;text-transform:uppercase}
   .man-visual .ov h3{font-size:1.25rem;font-weight:800;line-height:1.3;margin-top:6px}
   .man-visual:hover .ov h3{text-decoration:underline}
-  .man-side{display:flex;flex-direction:column;gap:18px}
-  @media(max-width:1020px){.man-side{grid-column:span 2;flex-direction:row;flex-wrap:wrap}.man-side>*{flex:1 1 280px}}
-  @media(max-width:760px){.man-side{grid-column:span 1;flex-direction:column}}
-  .mais{padding:18px 20px}
-  .mais .mh{display:flex;align-items:center;gap:8px;font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);margin-bottom:4px}
-  .mais .mh .flame{color:#E06A00}
-  .ml{display:flex;gap:12px;padding:11px 0;border-top:1px solid var(--line);align-items:baseline}
-  .ml .n{font-weight:900;color:var(--blue);font-size:1rem;min-width:18px}
-  .ml h4{font-size:.84rem;font-weight:700;line-height:1.35}
-  .ml:hover h4{color:var(--blue)}
-  .ml small{display:block;color:var(--dim);font-size:.7rem;margin-top:3px;font-weight:600}
 
   /* faixa mercado */
   .band{background:var(--alt);border-bottom:1px solid var(--line);padding:34px 0}
@@ -311,7 +297,7 @@
     <a class="mi" href="#entenda" onclick="menu(false)">Metodologia</a>
     <div class="menu-sec">Megagrid</div>
     <a class="mi" href="#entenda" onclick="menu(false)">Fontes oficiais</a>
-    <a class="mi" href="/midia-kit-megagrid.pdf" target="_blank" rel="noopener" onclick="menu(false)">Anuncie aqui</a>
+    <a class="mi" href="/anuncie" onclick="menu(false)">Anuncie aqui</a>
   </div>
   <div class="menu-foot">Dados: CCEE · ONS · ANEEL<br>© 2026 Megagrid</div>
 </aside>
@@ -367,12 +353,6 @@
         <h3 id="man-vis-h3">A corrida dos data centers por energia firme — e o que ela faz com o preço do seu MWh</h3>
       </span>
     </a>
-    <div class="man-side">
-      <div class="card mais" id="card-mais">
-        <div class="mh"><span class="flame">▲</span> + Lidas da semana</div>
-        <div id="mais-list"><a class="ml" href="#"><span class="n">1</span><div><h4>Carregando…</h4></div></a></div>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -946,32 +926,13 @@ function renderNoticias(news){
     else{var sec=el.closest('section');if(sec) sec.style.display='none';}
   });
 }
-function colapsarMaisLidas(){
-  var card=document.getElementById('card-mais');
-  if(card&&card.parentNode) card.parentNode.removeChild(card);
-  var side=document.querySelector('.man-side');
-  if(side&&!side.children.length){
-    if(side.parentNode) side.parentNode.removeChild(side);
-    var grid=document.querySelector('.man-grid');
-    if(grid) grid.classList.add('sem-side');
-  }
-}
-function renderMaisLidas(lidas){
-  var el=document.getElementById('mais-list');if(!el) return;
-  var itens=((lidas&&lidas.itens)||[]).filter(function(i){return i&&i.url&&i.titulo;});
-  var pool=[];
-  itens.forEach(function(i){if(!usado(i)){pool.push(i);marcarUsado(i);}});
-  /* nunca vazio, nunca repetido: com menos de 3 itens próprios, o módulo sai */
-  if(pool.length<3){colapsarMaisLidas();return;}
-  el.innerHTML=pool.slice(0,5).map(function(item,i){return '<a class="ml" href="'+item.url+'" target="_blank" rel="noopener"><span class="n">'+(i+1)+'</span><div><h4>'+item.titulo+'</h4><small>Megagrid</small></div></a>';}).join('');
-}
 
 /* ── loadData ────────────────────────────────────────────────────── */
 async function loadData(){
   var base='./data/';
   function safe(url){return fetch(url).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});}
-  var results=await Promise.all([safe(base+'pld.json'),safe(base+'reservatorios.json'),safe(base+'bandeira.json'),safe(base+'carga.json'),safe(base+'termometro.json'),safe(base+'noticias.json'),safe(base+'mais-lidas.json')]);
-  var pld=results[0],ear=results[1],band=results[2],carga=results[3],termo=results[4],news=results[5],lidas=results[6];
+  var results=await Promise.all([safe(base+'pld.json'),safe(base+'reservatorios.json'),safe(base+'bandeira.json'),safe(base+'carga.json'),safe(base+'termometro.json'),safe(base+'noticias.json')]);
+  var pld=results[0],ear=results[1],band=results[2],carga=results[3],termo=results[4],news=results[5];
   if(pld) _pldData=pld; // compartilha com calculadoras
   if(pld||ear||band||carga||termo) renderTicker(pld,ear,band,carga,termo);
   else{var t=document.getElementById('tape');t.innerHTML+=t.innerHTML;}
@@ -979,7 +940,6 @@ async function loadData(){
   if(pld||ear||band||carga) renderQuotes(pld||{},ear||{},band||{},carga||{});
   if(termo) renderTermometro(termo);
   if(news) renderNoticias(news);
-  renderMaisLidas(lidas); // sem dados ou sem itens próprios, o módulo colapsa
   var tsEl=document.getElementById('data-updated');
   if(tsEl){var ts=(pld&&pld.updated)||(news&&news.updated);if(ts){var d=new Date(ts);tsEl.textContent='CCEE · ONS · ANEEL — atualizado '+d.toLocaleDateString('pt-BR')+' às '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}}
   // Inicializa calculadoras com PLD real carregado

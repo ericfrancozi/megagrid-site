@@ -128,6 +128,8 @@ Formato de cada passo: **o que fazer → objetivo → critério de aceite**. Com
 ## 6. Decisões que são suas (responder antes da spec de cada pacote)
 1. ~~**"Tempo real":** vira widget de dados ou é removido?~~ **DECIDIDO (20/07): removido — fica somente "+ Lidas".** (P1.3 já reflete isso.)
 2. ~~**Fontes do robô**~~ **DECIDIDO (20/07): Google News ampliado (mais queries temáticas) + fontes oficiais CCEE/ONS/ANEEL/MME como "notícia de dado" + manchete-dado gerada pelo robô. Modelo mantido: título + crédito + link (padrão seguro). RSS diretos de veículos: não por ora.**
+
+**5. Hero em 2 colunas — DECIDIDO (01/08):** o P1.2/P1.3 fez o "+ Lidas" colapsar (o fallback por recência repetia as manchetes) e o hero passou a 2 colunas grandes. Eric aprovou o resultado visual: **2 colunas viram o padrão intencional do produto**, não um efeito colateral. Consequências: (a) o colapso deixa de ser "reação a dado ruim" e vira layout deliberado no código; (b) a coluna direita será ocupada por **widget de dados ao vivo** (PLD, bandeira, reservatórios com carimbo de hora) no Pacote 2 — item promovido do backlog v2, reforça "terminal de dados" e não depende de analytics; (c) o "+ Lidas" sai da home (o ranking por audiência segue útil como métrica interna e para o mídia kit quando houver GoatCounter).
 3. ~~**Analytics:** já existe?~~ **RESPONDIDO (backend): existe — GoatCounter + Vercel Insights. Pendências: secrets do GoatCounter no GitHub (P1.3) e painel consolidado com métricas Brevo.**
 4. ~~**Números do mídia kit**~~ **DECIDIDO (20/07): /anuncie entra no ar já, com formatos + princípios editoriais + contato, SEM números de audiência; métricas reais entram após 30 dias de dados limpos.**
 ---

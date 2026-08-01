@@ -2,8 +2,10 @@ name: Megagrid — Robô de Dados
 
 on:
   schedule:
-    # 09:00 UTC = 06:00 BRT (UTC-3)
-    - cron: "0 9 * * *"
+    # 3 execuções/dia (P1.4) — BRT = UTC-3
+    - cron: "0 9 * * *"    # 06:00 BRT
+    - cron: "0 12 * * *"   # 09:00 BRT
+    - cron: "0 18 * * *"   # 15:00 BRT
   workflow_dispatch:
     inputs:
       debug:

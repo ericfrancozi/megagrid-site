@@ -15,6 +15,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -62,13 +63,50 @@ RSS_FEEDS = {
     "Política":       _GN + "MME+pol%C3%ADtica+energ%C3%A9tica+minist%C3%A9rio+energia",
     "Tarifas":        _GN + "bandeira+tarif%C3%A1ria+conta+luz+ANEEL",
     "Transição":      _GN + "energia+solar+e%C3%B3lica+renov%C3%A1vel+brasil+GD",
+    # P1.4 — queries temáticas p/ ampliar o frescor diário
+    "Leilões":        _GN + "leil%C3%A3o+de+energia+el%C3%A9trica",
+    "Preços":         _GN + "PLD+CCEE+pre%C3%A7o+energia",
+    "Migração":       _GN + "migra%C3%A7%C3%A3o+mercado+livre+energia",
+    "Autoprodução":   _GN + "autoprodu%C3%A7%C3%A3o+energia",
+    "Armazenamento":  _GN + "armazenamento+baterias+setor+el%C3%A9trico",
+    "Subsídios":      _GN + "subs%C3%ADdios+CDE+conta+de+luz",
 }
-# Feeds institucionais diretos como fallback secundário
-RSS_FEEDS_FALLBACK = {
-    "CCEE": "https://www.ccee.org.br/rss/pautas-e-destaques.xml",
-    "ANEEL": "https://www.aneel.gov.br/rss.xml",
-    "MME": "https://www.gov.br/mme/pt-br/assuntos/noticias/RSS",
+# Feeds institucionais — SEMPRE coletados (P1.4), com o nome do órgão no
+# campo `fonte`. Antes eram só fallback de quando o Google News falhava.
+#   `direto`  = RSS do próprio órgão; tem precedência sempre que responder.
+#   `espelho` = busca Google News restrita ao domínio, usada só quando o
+#               direto vem vazio. Aferido em 2026-08-01: CCEE e ANEEL
+#               devolvem 403 (WAF) e o RSS do MME saiu do ar (404).
+RSS_FEEDS_OFICIAIS = {
+    "CCEE": {
+        "direto":  "https://www.ccee.org.br/rss/pautas-e-destaques.xml",
+        "espelho": _GN + "site%3Accee.org.br",
+    },
+    "ANEEL": {
+        "direto":  "https://www.aneel.gov.br/rss.xml",
+        "espelho": _GN + "site%3Agov.br%2Faneel",
+    },
+    "MME": {
+        "direto":  "https://www.gov.br/mme/pt-br/assuntos/noticias/RSS",
+        "espelho": _GN + "site%3Agov.br%2Fmme",
+    },
 }
+
+# O espelho indexa o domínio inteiro, então traz também página estática
+# (login, acervo, "consultas públicas"). Filtro rigoroso — na dúvida,
+# descarta: é preferível o espelho render 0 itens a sujar a home.
+ESPELHO_MAX_IDADE_DIAS = 7   # e item sem data de publicação é descartado
+ESPELHO_MAX_POR_ORGAO  = 3
+ESPELHO_TITULO_MIN     = 25  # "Acervo CCEE - CCEE" e afins
+ESPELHO_BLOCKLIST = (
+    "login", "acervo", "academy", "portal", "webmail", "intranet",
+    "consultas publicas", "consulta publica", "audiencia publica",
+    "fale conosco", "perguntas frequentes", "faq", "mapa do site",
+    "acesso a informacao", "biblioteca", "glossario", "quem somos",
+    "institucional",
+    # seções de site que passaram no 1º dry run (2026-08-01)
+    "organizacoes", "contas setoriais",
+)
 
 EDITORIA_RULES = {
     "mercado-livre": [
@@ -691,19 +729,77 @@ def _strip_fonte_suffix(lead: str, fonte_display: str) -> str:
     return re.sub(r"\s+[-–—]\s+[\w\s.'&]{2,40}$", "", lead).strip()
 
 
-def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10):
-    """Parseia um feed RSS e retorna lista de itens novos."""
+def _sem_acento(txt: str) -> str:
+    """Minúsculas sem acento — base das comparações da blocklist."""
+    return unicodedata.normalize("NFKD", (txt or "").lower()) \
+        .encode("ascii", "ignore").decode("ascii")
+
+
+def _manchete_nua(titulo: str) -> str:
+    """Descarta a atribuição que o Google News acopla ao título
+    ('Strategic Planning — Agência Nacional de Energia Elétrica' →
+    'Strategic Planning'), sobrando só a manchete para medir."""
+    return re.split(r"\s+[—–-]\s+", titulo, maxsplit=1)[0].strip()
+
+
+def _limpa_titulo_oficial(titulo: str) -> str:
+    """Tira a atribuição redundante do Google News no título institucional
+    ('… — Agência Nacional de Energia Elétrica - www.gov.br' → '…'): o selo
+    do card já mostra o órgão."""
+    t = re.sub(r"\s+[—–-]\s+(www\.)?gov\.br\s*$", "", titulo).strip()
+    t = re.sub(r"\s+[—–-]\s+(ag[êe]ncia nacional de energia el[ée]trica|"
+               r"minist[ée]rio de minas e energia|ccee)\s*$", "", t,
+               flags=re.I).strip()
+    return t
+
+
+def _espelho_rejeita(titulo: str, url: str, pub) -> str:
+    """Filtro do espelho institucional. Retorna o motivo da rejeição
+    ('' = aprovado). Todos os critérios são obrigatórios e cumulativos.
+
+    Nota: a URL vem como redirect opaco do Google News
+    (news.google.com/rss/articles/CBMi…), então a blocklist morde de fato
+    no título — a checagem na URL fica como rede para o feed direto."""
+    if not pub:
+        return "sem data de publicação"
+    idade = (datetime.utcnow() - datetime(*pub[:6])).days
+    if idade > ESPELHO_MAX_IDADE_DIAS:
+        return f"publicado há {idade}d"
+    nua = _manchete_nua(titulo)
+    if len(nua) < ESPELHO_TITULO_MIN:
+        return f"manchete curta ({len(nua)} chars: {nua!r})"
+    alvo = _sem_acento(titulo) + " " + _sem_acento(url)
+    for termo in ESPELHO_BLOCKLIST:
+        if termo in alvo:
+            return f"blocklist: {termo!r}"
+    return ""
+
+
+def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10,
+                forcar_fonte=False, espelho=False):
+    """Parseia um feed RSS e retorna lista de itens novos.
+
+    forcar_fonte: mantém `fonte` como veio (nome do órgão), ignorando o
+                  veículo que o Google News reporta.
+    espelho:      aplica o filtro rigoroso de página institucional estática.
+    """
     novos = []
+    rejeitados = []
     try:
         feed = feedparser.parse(feed_url)
         entries = feed.entries or []
         log.info("  %s: %d entradas", fonte, len(entries))
-        for entry in entries[:max_per_feed]:
+        # O espelho varre o feed inteiro porque o filtro descarta muito;
+        # os feeds normais mantêm a janela original das primeiras entradas.
+        janela = entries if espelho else entries[:max_per_feed]
+        for entry in janela:
+            if len(novos) >= max_per_feed:
+                break
             url = entry.get("link", "")
             if not url or url in seen_urls:
                 continue
             fonte_display = fonte
-            if "news.google.com" in feed_url:
+            if "news.google.com" in feed_url and not forcar_fonte:
                 src = _clean_text(entry.get("source", {}).get("title", ""))
                 if src:
                     fonte_display = src
@@ -728,6 +824,12 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10):
             if not imagem:
                 imagem = IMAGENS_FALLBACK.get(editoria, IMAGENS_FALLBACK["mercado-livre"])
             pub = entry.get("published_parsed") or entry.get("updated_parsed")
+            if espelho:
+                motivo = _espelho_rejeita(titulo, url, pub)
+                if motivo:
+                    rejeitados.append((titulo[:60], motivo))
+                    continue
+                titulo = _limpa_titulo_oficial(titulo)
             data_pub = datetime(*pub[:6]).strftime("%Y-%m-%dT%H:%M:%SZ") if pub else now_iso()
             novos.append({
                 "id": f"{fonte.lower().replace(' ','_')}_{abs(hash(url)) % 100000}",
@@ -742,20 +844,97 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10):
             seen_urls.add(url)
     except Exception as exc:
         log.warning("  Erro %s: %s", fonte, exc)
+    if espelho and rejeitados:
+        log.info("    espelho %s: %d descartados (ex.: %s)", fonte,
+                 len(rejeitados), "; ".join(f"{t} — {m}" for t, m in rejeitados[:3]))
     return novos
 
 
-def fetch_noticias() -> dict:
+MANCHETE_DADO_URL = "https://megagrid.com.br/#precos"
+
+_BANDEIRA_LABEL = {
+    "verde": "verde", "amarela": "amarela",
+    "vermelha1": "vermelha patamar 1", "vermelha2": "vermelha patamar 2",
+    "escassez": "de escassez hídrica",
+}
+
+
+def _brl(valor: float) -> str:
+    """Formata número no padrão pt-BR (1.234,56)."""
+    return f"{valor:,.2f}".replace(",", "\x00").replace(".", ",").replace("\x00", ".")
+
+
+def _pct(valor: float) -> str:
+    return f"{abs(valor):.1f}".replace(".", ",")
+
+
+def gerar_manchete_dado(pld: dict, ear: dict, bandeira: dict) -> dict:
+    """Manchete-dado: 1 item sintético por dia a partir dos números do próprio
+    Megagrid (P1.4). Garante manchete ≤ 24h mesmo em dia sem pauta nos feeds.
+
+    Dedup por id `dado-YYYY-MM-DD` — com 3 execuções/dia, a do dia é reescrita
+    em vez de duplicada. Retorna {} se não houver dado suficiente."""
+    hoje = datetime.utcnow().strftime("%Y-%m-%d")
+    se = (pld or {}).get("submercados", {}).get("SE/CO", {}) or {}
+    preco = se.get("preco") or 0
+    variacao = se.get("variacao") or 0
+    ear_pct = (ear or {}).get("ear_percentual")
+    cor = (bandeira or {}).get("cor")
+    band_label = _BANDEIRA_LABEL.get(cor, "")
+
+    if preco and variacao:
+        verbo = "sobe" if variacao > 0 else "cai"
+        titulo = (f"PLD {verbo} {_pct(variacao)}% na semana e fecha a "
+                  f"R$ {_brl(preco)} no Sudeste/CO")
+    elif preco and ear_pct is not None:
+        # variação zerada: a pauta vira o reservatório
+        titulo = (f"Reservatórios do SIN em {_pct(ear_pct)}% e PLD estável a "
+                  f"R$ {_brl(preco)} no Sudeste/CO")
+    elif preco and band_label:
+        titulo = (f"Bandeira {band_label} em vigor e PLD estável a "
+                  f"R$ {_brl(preco)} no Sudeste/CO")
+    elif ear_pct is not None and band_label:
+        titulo = (f"Reservatórios do SIN em {_pct(ear_pct)}% com bandeira "
+                  f"{band_label} em vigor")
+    else:
+        log.info("  manchete-dado: sem dado suficiente — pulando")
+        return {}
+
+    partes = []
+    if preco:
+        partes.append(f"PLD SE/CO a R$ {_brl(preco)}/MWh")
+    if ear_pct is not None:
+        partes.append(f"reservatórios em {_pct(ear_pct)}%")
+    if band_label:
+        partes.append(f"bandeira {band_label}")
+    lead = (" · ".join(partes) + ". Leitura diária do Megagrid sobre os dados "
+            "abertos de CCEE, ONS e ANEEL.")
+
+    return {
+        "id": f"dado-{hoje}",
+        "titulo": titulo,
+        "lead": lead,
+        "fonte": "Megagrid Dados",
+        "url": MANCHETE_DADO_URL,
+        "imagem": IMAGENS_FALLBACK["mercado-livre"],
+        "editoria": "mercado-livre",
+        "data": now_iso(),
+    }
+
+
+def fetch_noticias(pld: dict = None, ear: dict = None, bandeira: dict = None) -> dict:
     log.info("RSS noticias...")
     existing = load_existing("noticias.json")
     existing_items = existing.get("itens", [])
     if not HAS_FEEDPARSER:
         log.warning("  feedparser nao instalado -- mantendo existente")
         return existing
-    # Descarta seed data (URLs de dominio raiz sem path real)
+    # Descarta seed data (URLs de dominio raiz sem path real) e a manchete-dado
+    # já gravada — ela é regerada a cada run a partir dos números do dia.
     existing_real = [
         it for it in existing_items
         if it.get("url", "").count("/") > 3
+        and not str(it.get("id", "")).startswith("dado-")
     ]
     # itens antigos são carregados como estão — limpa entidades já gravadas
     for it in existing_real:
@@ -763,18 +942,32 @@ def fetch_noticias() -> dict:
         it["lead"] = _strip_fonte_suffix(_clean_text(it.get("lead", "")), it.get("fonte", ""))
     seen_urls = {item["url"] for item in existing_real}
     novos = []
-    # 1a tentativa: Google News RSS
+    # Google News RSS (queries temáticas)
     for fonte, feed_url in RSS_FEEDS.items():
         items = _parse_feed(fonte, feed_url, seen_urls)
         novos.extend(items)
-    # 2a tentativa: feeds diretos (se Google News falhou)
-    if not novos:
-        log.info("  Google News sem itens -- tentando feeds diretos...")
-        for fonte, feed_url in RSS_FEEDS_FALLBACK.items():
-            items = _parse_feed(fonte, feed_url, seen_urls)
-            novos.extend(items)
+    # Feeds institucionais — sempre coletados, fonte = nome do órgão (P1.4).
+    # Direto tem precedência; espelho (filtrado) só entra se o direto vier vazio.
+    for orgao, feeds in RSS_FEEDS_OFICIAIS.items():
+        items = _parse_feed(orgao, feeds["direto"], seen_urls,
+                            max_per_feed=ESPELHO_MAX_POR_ORGAO, forcar_fonte=True)
+        origem = "direto"
+        if not items:
+            items = _parse_feed(orgao, feeds["espelho"], seen_urls,
+                                max_per_feed=ESPELHO_MAX_POR_ORGAO,
+                                forcar_fonte=True, espelho=True)
+            origem = "espelho"
+        novos.extend(items)
+        log.info("  %s (%s): %d itens aprovados", orgao, origem, len(items))
+        for it in items:
+            log.info("      · %s | %s", it["data"][:10], it["titulo"][:64])
     todos = novos + existing_real
     todos.sort(key=lambda x: x.get("data", ""), reverse=True)
+    # Manchete-dado no topo do acervo (dedup por id dado-YYYY-MM-DD)
+    dado = gerar_manchete_dado(pld or {}, ear or {}, bandeira or {})
+    if dado:
+        todos = [dado] + [it for it in todos if it.get("id") != dado["id"]]
+        log.info("  manchete-dado: %s", dado["titulo"])
     todos = todos[:60]
     data = {
         "updated": now_iso(),
@@ -838,7 +1031,7 @@ def main():
     carga     = fetch_carga()
     bandeira  = fetch_bandeira()
     termo     = calc_termometro(pld, ear, carga, bandeira)
-    noticias  = fetch_noticias()
+    noticias  = fetch_noticias(pld, ear, bandeira)
     fetch_mais_lidas(noticias)
 
     elapsed = round(time.time() - t0, 1)
