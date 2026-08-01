@@ -104,19 +104,14 @@
   .menu-sec{padding:14px 22px 6px;font-size:.66rem;font-weight:800;letter-spacing:.12em;color:var(--dim);text-transform:uppercase}
   .menu-foot{padding:14px 22px;border-top:1px solid var(--line);font-size:.78rem;color:var(--dim)}
 
-  /* ads */
-  .adslot{border:1px dashed #C9D3DF;background:#FAFBFD;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--dim);padding:18px;text-align:center;font-size:.8rem;gap:2px}
-  .adslot .pub{font-size:.6rem;letter-spacing:.22em;font-weight:800;color:#B6C0CD;margin-bottom:5px}
-  .adslot b{color:var(--mut)}
-  .ad-band{padding:22px 0 0}
-  .ad-lead{min-height:104px}
-  .ad-mid{min-height:150px}
-
   /* manchetes */
   .manchetes{padding:30px 0 38px;border-bottom:1px solid var(--line)}
   .man-grid{display:grid;grid-template-columns:1.1fr 1.25fr .92fr;gap:28px;align-items:start}
   @media(max-width:1020px){.man-grid{grid-template-columns:1fr 1fr}}
   @media(max-width:760px){.man-grid{grid-template-columns:1fr}}
+  .man-grid.sem-side{grid-template-columns:1.05fr 1.25fr}
+  @media(max-width:1020px){.man-grid.sem-side{grid-template-columns:1fr 1fr}}
+  @media(max-width:760px){.man-grid.sem-side{grid-template-columns:1fr}}
   .man-main .cat{font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
   .man-main h1{font-size:clamp(1.5rem,2.6vw,1.95rem);font-weight:900;letter-spacing:-.02em;line-height:1.2;margin:8px 0 10px}
   .man-main h1 a:hover{color:var(--blue)}
@@ -134,13 +129,6 @@
   .man-side{display:flex;flex-direction:column;gap:18px}
   @media(max-width:1020px){.man-side{grid-column:span 2;flex-direction:row;flex-wrap:wrap}.man-side>*{flex:1 1 280px}}
   @media(max-width:760px){.man-side{grid-column:span 1;flex-direction:column}}
-  .tempo{padding:18px 20px}
-  .tempo .th{display:flex;align-items:center;gap:8px;font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}
-  .pulse{width:8px;height:8px;border-radius:50%;background:#D63B3B;animation:pul 1.6s ease-in-out infinite}
-  @keyframes pul{0%,100%{opacity:1}50%{opacity:.35}}
-  .tempo a{display:flex;gap:10px;padding:10px 0;border-top:1px solid var(--line);font-size:.84rem;font-weight:600;line-height:1.4}
-  .tempo a:hover{color:var(--blue)}
-  .tempo time{color:var(--blue);font-weight:800;font-size:.74rem;min-width:38px;padding-top:2px}
   .mais{padding:18px 20px}
   .mais .mh{display:flex;align-items:center;gap:8px;font-size:.74rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);margin-bottom:4px}
   .mais .mh .flame{color:#E06A00}
@@ -267,8 +255,9 @@
   .nl-msg{margin-top:10px;font-size:.82rem;font-weight:700}
   .nl-msg.ok{color:var(--down)}
   .nl-msg.err{color:var(--up)}
-  .ad-final{margin-top:42px;border:1px dashed #C9D3DF;background:#FAFBFD;border-radius:14px;padding:32px;text-align:center;color:var(--dim);font-size:.85rem}
-  .ad-final b{color:var(--mut)}
+  .ad-cta{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:34px;background:var(--alt);border:1px solid var(--line);border-radius:12px;padding:16px 22px;text-align:center;color:var(--mut);font-size:.88rem;font-weight:600;transition:background .15s,color .15s}
+  .ad-cta:hover{background:var(--blue-t);color:var(--blue)}
+  .ad-cta .arw{font-weight:800;color:var(--blue)}
   footer{background:var(--navy);color:#B9C4D4;padding:0 0 60px;margin-top:40px;font-size:.85rem}
   footer .rb{height:3px;background:var(--ribbon)}
   footer .wrap{padding-top:48px}
@@ -362,11 +351,6 @@
   </div>
 </div>
 
-<!-- ===== AD TOPO ===== -->
-<div class="wrap ad-band">
-  <div class="adslot ad-lead"><span class="pub">Publicidade</span><b>Leaderboard 970×120</b><span>primeiro espaço visto por todo visitante</span></div>
-</div>
-
 <!-- ===== MANCHETES ===== -->
 <section class="manchetes" id="manchetes">
   <div class="wrap man-grid">
@@ -384,11 +368,7 @@
       </span>
     </a>
     <div class="man-side">
-      <div class="card tempo">
-        <div class="th"><span class="pulse"></span> Tempo real</div>
-        <div id="tempo-list"><a href="#"><time>—</time><span>Carregando…</span></a></div>
-      </div>
-      <div class="card mais">
+      <div class="card mais" id="card-mais">
         <div class="mh"><span class="flame">▲</span> + Lidas da semana</div>
         <div id="mais-list"><a class="ml" href="#"><span class="n">1</span><div><h4>Carregando…</h4></div></a></div>
       </div>
@@ -445,11 +425,6 @@
     <div class="news" id="news-ml"></div>
   </div>
 </section>
-
-<!-- ===== AD ENTRE EDITORIAS ===== -->
-<div class="wrap ad-band">
-  <div class="adslot ad-mid"><span class="pub">Publicidade</span><b>Banner 970×250</b><span>meio de página — entre editorias</span></div>
-</div>
 
 <!-- ===== EDITORIA: REGULAÇÃO ===== -->
 <section class="edrow" id="ed-reg">
@@ -719,7 +694,7 @@
         <div id="nl-msg" class="nl-msg"></div>
       </div>
     </div>
-    <div class="ad-final"><b>ESPAÇO RESERVADO · ANUNCIE AQUI</b><br>Sua marca diante de quem decide energia: gestores, comercializadoras e consumidores migrando para o mercado livre.</div>
+    <a class="ad-cta" href="/anuncie">Anuncie no Megagrid — sua marca diante de quem decide energia <span class="arw">→</span></a>
   </div>
 </section>
 
@@ -747,7 +722,7 @@
           <li><a href="#mercado">Termômetro do MWh</a></li>
           <li><a href="#calculadoras">Calculadoras</a></li>
           <li><a href="#entenda">Metodologia</a></li>
-          <li><a href="/midia-kit-megagrid.pdf" target="_blank" rel="noopener">Anuncie aqui</a></li>
+          <li><a href="/anuncie">Anuncie aqui</a></li>
           <li><a href="#privacidade">Privacidade</a></li>
         </ul>
       </div>
@@ -914,41 +889,81 @@ function newsCard(n){
     +'<img src="'+n.imagem+'" alt="'+n.titulo.substring(0,60).replace(/"/g,'&quot;')+'" loading="lazy" onerror="this.src=\'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=60\'">'
     +'<div class="body"><span class="fonte '+fc+'">'+n.fonte+'</span><h3>'+n.titulo+'</h3><time>'+fmtDate(n.data)+'</time></div></a>';
 }
+/* Regra de exclusão entre módulos: nenhum título aparece duas vezes na mesma
+   tela. Prioridade: manchete > card visual > secundárias > grids > + Lidas. */
+var _usados=null;
+function _normTit(s){
+  var t=(s||'').toLowerCase();
+  if(t.normalize) t=t.normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  return t.replace(/[^a-z0-9]+/g,' ').trim();
+}
+function _chaves(n){return [n.url,'t:'+_normTit(n.titulo)];}
+function usado(n){
+  if(!_usados||!n) return false;
+  return _chaves(n).some(function(k){return _usados.has(k);});
+}
+function marcarUsado(n){
+  if(!_usados||!n) return;
+  _chaves(n).forEach(function(k){_usados.add(k);});
+}
 function renderNoticias(news){
-  var items=(news&&news.itens)||[];
+  var items=((news&&news.itens)||[]).filter(function(n){return n&&n.url&&n.titulo;});
   if(!items.length) return;
+  _usados=new Set();
+  /* (1) manchete principal */
   var lead=items.find(function(n){return n.imagem;})||items[0];
   if(lead){
+    marcarUsado(lead);
     var ed=edLabel(lead.editoria);
     setEl('man-cat',ed+' · '+lead.fonte);
     var ll=document.getElementById('man-link');if(ll){ll.textContent=lead.titulo;ll.href=lead.url;ll.target='_blank';ll.rel='noopener noreferrer';}
     setEl('man-deck',lead.lead||'');
-    var rels=items.filter(function(n){return n!==lead;}).slice(0,4);
-    var relsEl=document.getElementById('man-rels');
-    if(relsEl) relsEl.innerHTML=rels.map(function(n){var e=edLabel(n.editoria);return '<a href="'+n.url+'" target="_blank" rel="noopener"><small>'+e+'</small>'+n.titulo+'</a>';}).join('');
   }
-  var visual=items.filter(function(n){return n!==lead&&n.imagem;}).slice(0,1)[0]||items[1];
+  /* (2) card visual de destaque */
+  var visual=items.find(function(n){return !usado(n)&&n.imagem;})||items.find(function(n){return !usado(n);});
   if(visual){
+    marcarUsado(visual);
     var vl=document.getElementById('man-vis-link');var vi=document.getElementById('man-vis-img');
     if(vl){vl.href=visual.url;vl.target='_blank';vl.rel='noopener noreferrer';}
     if(vi){vi.src=visual.imagem;vi.alt=visual.titulo.substring(0,80);}
     setEl('man-vis-cat',visual.fonte);setEl('man-vis-h3',visual.titulo);
   }
-  var tempoEl=document.getElementById('tempo-list');
-  if(tempoEl) tempoEl.innerHTML=items.slice(0,5).map(function(n){return '<a href="'+n.url+'" target="_blank" rel="noopener"><time>'+fmtDate(n.data)+'</time><span>'+n.titulo+'</span></a>';}).join('');
+  /* (3) secundárias da coluna esquerda */
+  var rels=[];
+  items.forEach(function(n){if(rels.length<4&&!usado(n)){rels.push(n);marcarUsado(n);}});
+  var relsEl=document.getElementById('man-rels');
+  if(relsEl) relsEl.innerHTML=rels.map(function(n){var e=edLabel(n.editoria);return '<a href="'+n.url+'" target="_blank" rel="noopener"><small>'+e+'</small>'+n.titulo+'</a>';}).join('');
+  /* (4) grids de editoria */
   var EDMAP={'news-ml':['mercado-livre','empresas'],'news-reg':['regulacao','politica-energetica','tarifas'],'news-trans':['transicao']};
   Object.keys(EDMAP).forEach(function(elId){
     var el=document.getElementById(elId);if(!el) return;
     var eds=EDMAP[elId];
-    var filtered=items.filter(function(n){return eds.indexOf(n.editoria)!==-1;}).slice(0,4);
-    if(filtered.length<4) filtered=filtered.concat(items.filter(function(n){return filtered.indexOf(n)===-1;})).slice(0,4);
+    var pool=items.filter(function(n){return !usado(n);});
+    var filtered=pool.filter(function(n){return eds.indexOf(n.editoria)!==-1;}).slice(0,4);
+    if(filtered.length<4) filtered=filtered.concat(pool.filter(function(n){return filtered.indexOf(n)===-1;})).slice(0,4);
+    filtered.forEach(marcarUsado);
     if(filtered.length) el.innerHTML=filtered.map(newsCard).join('');
+    else{var sec=el.closest('section');if(sec) sec.style.display='none';}
   });
+}
+function colapsarMaisLidas(){
+  var card=document.getElementById('card-mais');
+  if(card&&card.parentNode) card.parentNode.removeChild(card);
+  var side=document.querySelector('.man-side');
+  if(side&&!side.children.length){
+    if(side.parentNode) side.parentNode.removeChild(side);
+    var grid=document.querySelector('.man-grid');
+    if(grid) grid.classList.add('sem-side');
+  }
 }
 function renderMaisLidas(lidas){
   var el=document.getElementById('mais-list');if(!el) return;
-  var items=(lidas&&lidas.itens)||[];
-  el.innerHTML=items.map(function(item){return '<a class="ml" href="'+item.url+'" target="_blank" rel="noopener"><span class="n">'+item.rank+'</span><div><h4>'+item.titulo+'</h4><small>Megagrid</small></div></a>';}).join('');
+  var itens=((lidas&&lidas.itens)||[]).filter(function(i){return i&&i.url&&i.titulo;});
+  var pool=[];
+  itens.forEach(function(i){if(!usado(i)){pool.push(i);marcarUsado(i);}});
+  /* nunca vazio, nunca repetido: com menos de 3 itens próprios, o módulo sai */
+  if(pool.length<3){colapsarMaisLidas();return;}
+  el.innerHTML=pool.slice(0,5).map(function(item,i){return '<a class="ml" href="'+item.url+'" target="_blank" rel="noopener"><span class="n">'+(i+1)+'</span><div><h4>'+item.titulo+'</h4><small>Megagrid</small></div></a>';}).join('');
 }
 
 /* ── loadData ────────────────────────────────────────────────────── */
@@ -964,7 +979,7 @@ async function loadData(){
   if(pld||ear||band||carga) renderQuotes(pld||{},ear||{},band||{},carga||{});
   if(termo) renderTermometro(termo);
   if(news) renderNoticias(news);
-  if(lidas) renderMaisLidas(lidas);
+  renderMaisLidas(lidas); // sem dados ou sem itens próprios, o módulo colapsa
   var tsEl=document.getElementById('data-updated');
   if(tsEl){var ts=(pld&&pld.updated)||(news&&news.updated);if(ts){var d=new Date(ts);tsEl.textContent='CCEE · ONS · ANEEL — atualizado '+d.toLocaleDateString('pt-BR')+' às '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}}
   // Inicializa calculadoras com PLD real carregado
