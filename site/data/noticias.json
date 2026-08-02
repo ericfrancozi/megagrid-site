@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T13:06:12Z",
+  "updated": "2026-08-02T19:16:24Z",
   "total": 60,
   "itens": [
     {
@@ -13,6 +13,16 @@
       "data": "2026-08-02T12:04:00Z"
     },
     {
+      "id": "mercado-livre_28975",
+      "titulo": "Mecanismo de Venda de Excedentes",
+      "lead": "Mecanismo de Venda de Excedentes",
+      "fonte": "CCEE",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOM0RfRkNMQ3RrNUIyamVDV3hHMmE2aWhQTzNiUTZaRlpfSTJ1TTBreUJYdURGaVMwa19HOXlRS011aDZTY0VvRmJqWV9iNjFsQ19NM3BZNkNscTFydEtrRW5mR1hiTnhKbU5aU1ZUQTNMTmRZeFc2Q3haQm1DZHpMenNvWVpJMjJrWlIwWWV6NjQyal9lVU1uMUE3bERXZFRLVmctV1V0b0ozVDdZcGh4dGNNblBDSnFCdkw0S2pSM3hpYVBOOEZGaHhtR082OXZDbjNJbGdQeTlZU01KRl8talUxZTRYbDhIT3lkVHlzczhUT1M5RDFCei1lZDlSNGZfSHdRVzJVUGxpeFV4V1E?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-01T08:01:26Z"
+    },
+    {
       "id": "tarifas_17259",
       "titulo": "ANEEL mantém bandeira tarifária amarela em agosto",
       "lead": "ANEEL mantém bandeira tarifária amarela em agosto",
@@ -22,14 +32,14 @@
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
+        "Bem Paraná",
+        "Mais Goiás",
+        "radiocaxias.com.br",
+        "colunadomeio.com.br",
         "Portal iG",
-        "Imirante.com",
-        "OpiniãoCE",
         "Folha de S.Paulo",
-        "Gazeta do Povo",
-        "Estadão",
+        "Movimento Econômico",
         "Money Times",
-        "Poder360",
         "G1"
       ]
     },
@@ -69,7 +79,7 @@
       "lead": "Mercado livre de energia amplia espaço na estratégia de custos das empresas",
       "fonte": "Eletrolar News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMTc5c2hNQk55YURYQzd1RXRtU0Z5S21yTGViUjJGbXVxMEZGOUtfZGdjV29wTWo1SVhPZnppc0t0VWZVVFRINDB1S1hTajB0M0RRbVdHQlRlMW9TQ0o0TldCWFZnSG1ONm9FbVExVGo5R2FQTFl5MEE4TVR6RUdYY1NfOTN1czB5NlhzcVVzNGd2Yy1fVVZyb2FGSVg5Wi1CY2xBSktkb08?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-31T18:12:26Z"
     },
@@ -79,7 +89,7 @@
       "lead": "Conta de luz já afeta competitividade de 83% das indústrias",
       "fonte": "Canal Solar",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11S0ZBZVJSUVdLYnZkN1VXZ0FHZXpaZnF1R3pDdlZoM1JOeHJqTDBhbVJfV1ExYVpSZ1IwWldIRTAtbmYza3JoVzFFaHFGT0I5cmw5UTF3bF8tWnRTM01CQS1IaEsxWHdpWElfVDlQUEc5dE0xZGtvbDVQcVk?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-31T16:11:41Z"
     },
@@ -361,7 +371,6 @@
       "editoria": "transicao",
       "data": "2026-07-28T18:52:09Z",
       "tambem_em": [
-        "Cenário Energia",
         "Editora Brasil Energia"
       ]
     },
@@ -395,7 +404,7 @@
       "editoria": "regulacao",
       "data": "2026-07-28T17:13:00Z",
       "tambem_em": [
-        "brasil247.com",
+        "Brasil 247",
         "MegaWhat",
         "CNN Brasil"
       ]
@@ -625,16 +634,6 @@
       "tambem_em": [
         "Sistema Província de Comunicação"
       ]
-    },
-    {
-      "id": "transicao_80202",
-      "titulo": "Armazenamento de energia por baterias avança no Brasil com modelo sem investimento inicial",
-      "lead": "Armazenamento de energia por baterias avança no Brasil com modelo sem investimento inicial",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRll3STJWRUVPdENIdlZzNFZXQl9hM2FpQ29oa1pVVzJpUzV5ZE8tLU1pbkk5VmNvNHY4d2NuSGJfUzlQb3lFSWhXSkxwZVdJX2xLR2k4TS1SeUFacUVrcGdHSV96WWVER2tJWkRDazFwTGRXd2g5bHBEdGRNRkc5bG54VVpSTnFBWnZlZWYzYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-07-20T07:00:00Z"
     }
   ]
 }
