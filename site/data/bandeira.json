@@ -1,8 +1,10 @@
 {
-  "updated": "2026-08-02T01:05:17Z",
+  "updated": "2026-08-02T01:56:09Z",
   "mes": "julho/2026",
   "fonte": "ANEEL — Dados Abertos",
   "cor": "amarela",
   "adicional_kwh": 0.01885,
-  "descricao": "Condições de atenção"
+  "descricao": "Condições de atenção",
+  "defasado": true,
+  "aviso": "Referência: julho/2026. A ANEEL ainda não publicou o registro de agosto/2026 nos Dados Abertos."
 }

@@ -20,6 +20,9 @@ import sys
 import time
 import urllib.request
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo
+
+TZ_BR = ZoneInfo("America/Sao_Paulo")  # carimbo visível ao leitor
 
 DATA_DIR   = os.path.join(os.path.dirname(__file__), "..", "site", "data")
 BREVO_API  = "https://api.brevo.com/v3"
@@ -84,13 +87,13 @@ def arrow(var):
 
 def br_date(iso):
     try:
-        return datetime.fromisoformat(iso.replace("Z", "+00:00")).strftime("%d/%m")
+        return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(TZ_BR).strftime("%d/%m")
     except Exception:
         return ""
 
 
 def build_html(pld, term, band, reserv, carga, noticias):
-    hoje = datetime.now(timezone.utc) - timedelta(hours=3)  # BRT
+    hoje = datetime.now(TZ_BR)
     data_str = hoje.strftime("%d/%m/%Y")
 
     # --- Preços PLD por submercado ---
@@ -232,7 +235,7 @@ def main():
 
     html = build_html(pld, term, band, reserv, carga, noticias)
 
-    hoje = (datetime.now(timezone.utc) - timedelta(hours=3)).strftime("%d/%m")
+    hoje = datetime.now(TZ_BR).strftime("%d/%m")
     subject = f"Megagrid · Resumo da semana — {hoje}"
     name    = f"Newsletter Semanal Megagrid — {hoje}"
 

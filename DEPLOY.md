@@ -168,7 +168,7 @@ Adicione se ainda não estiverem:
 3. Aguarde ~2 minutos
 4. Verifique se os arquivos `site/data/*.json` foram atualizados no commit
 
-A partir daí, o robô roda automaticamente **todo dia às 06:00 BRT**.
+A partir daí, o robô roda automaticamente **3x por dia — 06h, 09h e 15h BRT**.
 Cada execução faz commit dos JSONs atualizados → Vercel detecta o push → redeploy automático em ~30s.
 
 ---

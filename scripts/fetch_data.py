@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
 MEGAGRID — Robô de dados v1
-Executa via GitHub Actions (cron diário 09:00 UTC = 06:00 BRT)
+Executa via GitHub Actions (3x/dia: 09:00, 12:00 e 18:00 UTC = 06h, 09h e 15h BRT)
 Fontes: CCEE CKAN · ONS CKAN/S3 · ANEEL · RSS feeds
 Saída:  site/data/*.json
 """
 
 import csv
+import hashlib
 import html
 import io
 import json
@@ -18,6 +19,7 @@ import time
 import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -34,6 +36,8 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("megagrid")
+
+TZ_BR = ZoneInfo("America/Sao_Paulo")
 
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "site" / "data"
@@ -185,6 +189,71 @@ EDITORIA_RULES = {
     ],
 }
 
+# Banco de imagens por editoria (P1.9). Antes havia UMA foto fixa por
+# editoria, então qualquer bloco de 4 cards da mesma editoria mostrava 4
+# fotos idênticas. Todas as URLs abaixo foram verificadas (HTTP 200) e
+# revisadas visualmente uma a uma — não são IDs colados no escuro.
+#
+# Saíram por não terem nada a ver com o setor:
+#   tarifas  photo-1563013544… mão passando cartão de crédito no notebook
+#   política photo-1524492412… Taj Mahal
+_U = "https://images.unsplash.com/"
+_Q = "?w=600&q=70"
+BANCO_IMAGENS = {
+    # painéis solares, eólicas, offshore — o tema tem farta oferta boa
+    "transicao": [_U + p + _Q for p in (
+        "photo-1508514177221-188b1cf16e9d",  # campo de painéis solares
+        "photo-1466611653911-95081537e5b7",  # eólicas ao entardecer
+        "photo-1497435334941-8c899ee9e8e9",  # usina solar (aérea)
+        "photo-1548337138-e87d889cc369",     # eólicas offshore
+        "photo-1497440001374-f26997328c1b",  # painéis sobre grama
+        "photo-1611365892117-00ac5ef43c90",  # painéis e edificação
+        "photo-1532601224476-15c79f2f7a51",  # eólicas em colinas
+        "photo-1487875961445-47a00398c267",  # parque eólico
+        "photo-1558449028-b53a39d100fc",     # fileira de painéis
+        "photo-1595437193398-f24279553f4f",  # painel solar, céu limpo
+    )],
+    # mercado/indústria/infraestrutura — tira a torre ao pôr do sol do
+    # posto de imagem única, que era o clichê saturado da editoria
+    "mercado-livre": [_U + p + _Q for p in (
+        "photo-1573164713988-8665fc963095",  # data center
+        "photo-1591696205602-2f950c417cb9",  # gráfico de preços em tela
+        "photo-1516937941344-00b4e0337589",  # planta industrial
+        "photo-1516110833967-0b5716ca1387",  # automação industrial
+        "photo-1504328345606-18bbc8c9d7d1",  # soldador, indústria pesada
+        "photo-1494961104209-3c223057bd26",  # contêineres, logística
+        "photo-1473341304170-971dccb5ac1e",  # linhas de transmissão
+        "photo-1521737711867-e3b97375f902",  # reunião de negócio
+        "photo-1454165804606-c3d57bc86b40",  # mesa de trabalho e planilha
+    )],
+    # documento, assinatura, norma
+    "regulacao": [_U + p + _Q for p in (
+        "photo-1450101499163-c8848c66ca85",  # assinatura de documento
+        "photo-1503387762-592deb58ef4e",     # prancheta técnica
+        "photo-1435527173128-983b87201f4d",  # caderno aberto
+        "photo-1517048676732-d65bc937f952",  # reunião em mesa
+        "photo-1552664730-d307ca884978",     # equipe em discussão
+        "photo-1531482615713-2afd69097998",  # análise em laptop
+    )],
+    "politica-energetica": [_U + p + _Q for p in (
+        "photo-1587691592099-24045742c181",  # apresentação/quadro
+        "photo-1486406146926-c627a92ad1ab",  # prédios institucionais
+        "photo-1600880292203-757bb62b4baf",  # acordo/reunião
+        "photo-1516937941344-00b4e0337589",  # planta industrial
+        "photo-1517048676732-d65bc937f952",  # mesa de reunião
+    )],
+    # medidor/quadro de luz/rede de distribuição — ver nota no relatório:
+    # este é o banco mais curto, o acervo verificado não deu mais.
+    "tarifas": [_U + p + _Q for p in (
+        "photo-1621905251189-08b45d6a269e",  # técnico no quadro elétrico
+        "photo-1473341304170-971dccb5ac1e",  # rede de distribuição
+        "photo-1560518883-ce09059eeffa",     # residência (conta de luz)
+        "photo-1591696205602-2f950c417cb9",  # custo/reajuste em gráfico
+    )],
+}
+
+# Usado para editoria sem banco (ex.: "empresas") e como marcador do que
+# pode ser sobrescrito: imagem vinda do próprio feed é preservada.
 IMAGENS_FALLBACK = {
     "mercado-livre": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
     "regulacao":     "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
@@ -254,7 +323,15 @@ def save(name: str, data: dict):
 
 
 def now_iso():
+    """UTC — uso interno: campo `updated` e comparações de idade."""
     return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def agora_br():
+    """Horário de Brasília. TODO carimbo que o leitor vê (id da manchete-dado,
+    rótulo de mês, data na newsletter) sai daqui — às 22h de 01/08 em BRT o
+    UTC já é 02/08, e a manchete nascia com a data do dia seguinte."""
+    return datetime.now(TZ_BR)
 
 
 def classify_editoria(text: str) -> str:
@@ -682,11 +759,13 @@ def fetch_bandeira() -> dict:
                 pass
 
             comp = str(rec.get("DatCompetencia", ""))[:7]  # YYYY-MM
+            ano_ref = mes_num = None
             try:
                 y, m = comp.split("-")
-                mes_ref = f"{_MESES_PT[int(m)-1]}/{y}"
+                ano_ref, mes_num = int(y), int(m)
+                mes_ref = f"{_MESES_PT[mes_num-1]}/{ano_ref}"
             except Exception:
-                mes_ref = datetime.utcnow().strftime("%m/%Y")
+                mes_ref = agora_br().strftime("%m/%Y")
 
             data = {
                 "updated": now_iso(),
@@ -696,6 +775,22 @@ def fetch_bandeira() -> dict:
                 "adicional_kwh": adicional,
                 "descricao": BANDEIRA_META[cor_key]["descricao"],
             }
+
+            # Defasagem: o registro é REAL e fresco pelo sentinela (limite de
+            # 40 dias), mas pode estar apontando para o mês passado enquanto a
+            # manchete da home já fala do mês corrente. O site assume a
+            # defasagem em vez de escondê-la — deduzir a cor do mês novo a
+            # partir de notícia misturaria camada editorial com dado e mataria
+            # a rastreabilidade da fonte.
+            hoje_br = agora_br()
+            if ano_ref and (ano_ref, mes_num) < (hoje_br.year, hoje_br.month):
+                atual = f"{_MESES_PT[hoje_br.month-1]}/{hoje_br.year}"
+                data["defasado"] = True
+                data["aviso"] = (f"Referência: {mes_ref}. A ANEEL ainda não "
+                                 f"publicou o registro de {atual} nos Dados Abertos.")
+                log.warning("  Bandeira DEFASADA: registro de %s, hoje é %s",
+                            mes_ref, atual)
+
             save("bandeira.json", data)
             log.info("  Bandeira %s: %s (R$ %.5f/kWh)", mes_ref, cor_key, adicional)
             return data
@@ -997,6 +1092,42 @@ def _pct(valor: float) -> str:
     return f"{abs(valor):.1f}".replace(".", ",")
 
 
+def atribuir_imagens(itens: list) -> list:
+    """Distribui as fotos do banco na lista JÁ ordenada para exibição.
+
+    Atribuição estável: índice = md5(id) % len(banco). É md5 e não a hash()
+    do Python de propósito — aquela muda a cada processo por causa do
+    PYTHONHASHSEED, e a foto de uma notícia trocaria a cada build.
+
+    Desempate anti-repetição: se o item cair na mesma foto do item anterior
+    DA MESMA EDITORIA, anda +1 no banco (com wrap) até diferir. Assim
+    nenhum bloco mostra duas fotos iguais em sequência.
+
+    Imagem que veio do próprio feed é preservada — só sobrescreve o que era
+    fallback genérico."""
+    substituiveis = set(IMAGENS_FALLBACK.values())
+    ultima = {}
+    for it in itens:
+        ed = it.get("editoria")
+        banco = BANCO_IMAGENS.get(ed)
+        if not banco:
+            continue
+        atual = it.get("imagem") or ""
+        if atual and atual not in substituiveis and atual not in banco:
+            continue  # foto real da matéria: não mexe
+        h = hashlib.md5(str(it.get("id", "")).encode("utf-8")).hexdigest()
+        idx = int(h, 16) % len(banco)
+        img = banco[idx]
+        giros = 0
+        while img == ultima.get(ed) and giros < len(banco) - 1:
+            idx = (idx + 1) % len(banco)
+            img = banco[idx]
+            giros += 1
+        it["imagem"] = img
+        ultima[ed] = img
+    return itens
+
+
 def _tokens_titulo(titulo: str) -> frozenset:
     """Título → conjunto de tokens significativos: minúsculo, sem acento,
     sem pontuação, sem stopword, sem token de 1–2 letras."""
@@ -1130,7 +1261,7 @@ def gerar_manchete_dado(pld: dict, ear: dict, bandeira: dict) -> dict:
     PLD já aparece no ticker e na faixa "Mercado agora".
 
     Dedup por id `dado-YYYY-MM-DD`. Retorna {} se não houver dado."""
-    hoje = datetime.utcnow().strftime("%Y-%m-%d")
+    hoje = agora_br().strftime("%Y-%m-%d")   # data do Brasil, não do UTC
     se = (pld or {}).get("submercados", {}).get("SE/CO", {}) or {}
     preco = se.get("preco") or 0
     variacao = se.get("variacao") or 0
@@ -1230,6 +1361,9 @@ def fetch_noticias(pld: dict = None, ear: dict = None, bandeira: dict = None) ->
     else:
         log.info("  manchete-dado dispensada — há notícia com menos de 24h")
     todos = todos[:60]
+    # Fotos só depois do corte e na ordem final de exibição — o desempate
+    # anti-repetição depende de quem fica adjacente a quem.
+    atribuir_imagens(todos)
     data = {
         "updated": now_iso(),
         "total": len(todos),
