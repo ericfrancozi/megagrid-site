@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-02T01:56:11Z",
+  "updated": "2026-08-02T10:43:19Z",
   "total": 60,
   "itens": [
     {
-      "id": "dado-2026-08-01",
+      "id": "dado-2026-08-02",
       "titulo": "PLD sobe 3,7% na semana e fecha a R$ 182,63 no Sudeste/CO",
       "lead": "PLD SE/CO a R$ 182,63/MWh · reservatórios em 80,2% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
       "fonte": "Megagrid Dados",
       "url": "https://megagrid.com.br/#precos",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-02T01:56:11Z"
+      "data": "2026-08-02T10:43:19Z"
     },
     {
       "id": "tarifas_17259",
@@ -23,13 +23,13 @@
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
         "Imirante.com",
-        "AtaNews",
         "OpiniãoCE",
-        "Revista Metropolitana",
         "Tribuna do Sertão",
-        "jornalopcao.com.br",
         "Folha de S.Paulo",
-        "moneytimes.com.br",
+        "Estadão",
+        "Movimento Econômico",
+        "Money Times",
+        "Poder360",
         "G1"
       ]
     },
@@ -187,8 +187,8 @@
       "data": "2026-07-30T13:24:37Z",
       "tambem_em": [
         "Agência de Notícias da Indústria",
-        "infomoney.com.br",
-        "JOTA Info"
+        "InfoMoney",
+        "jota.info"
       ]
     },
     {
@@ -396,7 +396,8 @@
       "data": "2026-07-28T17:13:00Z",
       "tambem_em": [
         "Brasil 247",
-        "cnnbrasil.com.br"
+        "MegaWhat",
+        "CNN Brasil"
       ]
     },
     {
@@ -438,16 +439,6 @@
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-28T15:48:47Z"
-    },
-    {
-      "id": "regulacao_58992",
-      "titulo": "Aneel abre consulta dos leilões de baterias e deixa rateio do ERCap de fora",
-      "lead": "Aneel abre consulta dos leilões de baterias e deixa rateio do ERCap de fora",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZGFnNm5ESkktY2VhX3BmSERxcWRRd196elFqQnVlVElKWmMzbVJjUjJlaFlVdHJxNDJKQ3lOV0ZwalduS2tCbzBWZFU5T0h4Z3g1Mi1SWkxUeW9UdllhRkpFUHlvRW1HLWlzbnNUQjJEZVJJaDBzNC1kSkd0UFduZ3hSZENyVXhvN0drTEZHNHhPSElpWFM5RXlwUG50YUtyVG9fd192ZjVnZWN6ZWUyT3cwUHlRMmUzNVZoVmJSYTN1ZFE5MWpYYk5OOUszQQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-28T15:24:07Z"
     },
     {
       "id": "regulacao_57918",
@@ -634,6 +625,16 @@
       "tambem_em": [
         "Sistema Província de Comunicação"
       ]
+    },
+    {
+      "id": "transicao_80202",
+      "titulo": "Armazenamento de energia por baterias avança no Brasil com modelo sem investimento inicial",
+      "lead": "Armazenamento de energia por baterias avança no Brasil com modelo sem investimento inicial",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRll3STJWRUVPdENIdlZzNFZXQl9hM2FpQ29oa1pVVzJpUzV5ZE8tLU1pbkk5VmNvNHY4d2NuSGJfUzlQb3lFSWhXSkxwZVdJX2xLR2k4TS1SeUFacUVrcGdHSV96WWVER2tJWkRDazFwTGRXd2g5bHBEdGRNRkc5bG54VVpSTnFBWnZlZWYzYw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-07-20T07:00:00Z"
     }
   ]
 }
