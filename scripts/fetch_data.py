@@ -71,25 +71,33 @@ RSS_FEEDS = {
     "Armazenamento":  _GN + "armazenamento+baterias+setor+el%C3%A9trico",
     "Subsídios":      _GN + "subs%C3%ADdios+CDE+conta+de+luz",
 }
-# Feeds institucionais — SEMPRE coletados (P1.4), com o nome do órgão no
-# campo `fonte`. Antes eram só fallback de quando o Google News falhava.
-#   `direto`  = RSS do próprio órgão; tem precedência sempre que responder.
-#   `espelho` = busca Google News restrita ao domínio, usada só quando o
-#               direto vem vazio. Aferido em 2026-08-01: CCEE e ANEEL
-#               devolvem 403 (WAF) e o RSS do MME saiu do ar (404).
+# Feeds institucionais — com o nome do órgão no campo `fonte`.
+#
+# P1.6 (2026-08-01): os três RSS diretos foram REMOVIDOS por estarem mortos
+# na origem — verificado um a um, ver FEEDS_OFICIAIS_REMOVIDOS. Nunca
+# entregaram um item sequer desde o P1.4, e a falha passou despercebida
+# porque o Google News enche o acervo e mascara o buraco.
+#
+# Sobra o `espelho`: busca do Google News restrita ao domínio do órgão.
+# Atenção ao que ele NÃO é: a URL continua sendo redirect do Google News,
+# então isto dá atribuição correta ao órgão, não link oficial direto.
 RSS_FEEDS_OFICIAIS = {
-    "CCEE": {
-        "direto":  "https://www.ccee.org.br/rss/pautas-e-destaques.xml",
-        "espelho": _GN + "site%3Accee.org.br",
-    },
-    "ANEEL": {
-        "direto":  "https://www.aneel.gov.br/rss.xml",
-        "espelho": _GN + "site%3Agov.br%2Faneel",
-    },
-    "MME": {
-        "direto":  "https://www.gov.br/mme/pt-br/assuntos/noticias/RSS",
-        "espelho": _GN + "site%3Agov.br%2Fmme",
-    },
+    "CCEE":  {"espelho": _GN + "site%3Accee.org.br"},
+    "ANEEL": {"espelho": _GN + "site%3Agov.br%2Faneel"},
+    "MME":   {"espelho": _GN + "site%3Agov.br%2Fmme"},
+}
+
+# Registro do que saiu e por quê — impresso no log a cada execução para a
+# remoção não virar conhecimento perdido. Reavaliar de tempos em tempos:
+# se um órgão republicar RSS, basta voltar a URL como "direto".
+FEEDS_OFICIAIS_REMOVIDOS = {
+    "CCEE":  ("https://www.ccee.org.br/rss/pautas-e-destaques.xml",
+              "HTTP 403 — WAF do portal bloqueia qualquer cliente"),
+    "ANEEL": ("https://www.aneel.gov.br/rss.xml",
+              "HTTP 403 — domínio legado, órgão migrou para gov.br/aneel"),
+    "MME":   ("https://www.gov.br/mme/pt-br/assuntos/noticias/RSS",
+              "HTTP 404 — plataforma gov.br descontinuou RSS "
+              "(a página de notícias responde 200 e não expõe feed)"),
 }
 
 # O espelho indexa o domínio inteiro, então traz também página estática
@@ -98,6 +106,46 @@ RSS_FEEDS_OFICIAIS = {
 ESPELHO_MAX_IDADE_DIAS = 7   # e item sem data de publicação é descartado
 ESPELHO_MAX_POR_ORGAO  = 3
 ESPELHO_TITULO_MIN     = 25  # "Acervo CCEE - CCEE" e afins
+
+# ── Dedup por história (P1.6) ───────────────────────────────────────
+# A mesma pauta contada por 10 veículos ocupava a dobra inteira da home.
+# Dedup por URL/título não pega isso: os títulos são diferentes, a
+# história é a mesma. Agrupamos por similaridade de tokens.
+# Calibrado no acervo de 2026-08-01 (o cluster "bandeira amarela de agosto",
+# 10 veículos no mesmo dia). O Jaccard DENTRO desse cluster varia de 0.30 a
+# 1.00 — os veículos contam a mesma decisão com palavras bem diferentes
+# ("bandeira tarifária amarela" vs. "tarifa extra na conta de luz"). Medido:
+#     limiar   acervo   cluster da bandeira   grupos indevidos
+#      0.60      54          6 itens                 0
+#      0.50      50          2 itens                 0
+#      0.40      49          1 item  ✓               0
+# 0.40 é o ponto em que o cluster colapsa por inteiro sem fundir história
+# alheia. Abaixo disso não melhora nada e só aumenta o risco.
+JACCARD_MIN = 0.40           # ↑ separa mais (menos agrupamento) · ↓ agrupa mais
+# A janela é o que impede a mesma pauta MENSAL de colapsar entre si:
+# "bandeira amarela em julho" e "...em agosto" são quase idênticas em
+# tokens e só não se fundem porque estão a 30 dias uma da outra.
+DEDUP_JANELA_HORAS = 48      # só agrupa itens publicados nesta janela
+
+STOPWORDS_PT = {
+    "a", "à", "ao", "aos", "as", "às", "com", "como", "da", "das", "de",
+    "dela", "dele", "deles", "do", "dos", "e", "em", "entre", "essa",
+    "esse", "esta", "este", "eu", "foi", "há", "isso", "já", "la", "lhe",
+    "mais", "mas", "me", "mesmo", "meu", "muito", "na", "nas", "nem",
+    "no", "nos", "num", "numa", "o", "os", "ou", "para", "pela", "pelo",
+    "per", "por", "porque", "qual", "quando", "que", "quem", "se", "sem",
+    "ser", "será", "seu", "sobre", "sua", "são", "só", "também", "tem",
+    "ter", "um", "uma", "vai", "veja", "vem", "ainda", "após", "até",
+    "deve", "devem", "seguirá", "segue", "continua", "continuará", "fica",
+    "ficar", "pode", "podem", "diz", "saiba", "confira", "entenda",
+}
+
+# Veículos especializados no setor — critério 2 de sobrevivência do grupo.
+VEICULOS_ESPECIALIZADOS = (
+    "megawhat", "agência infra", "agencia infra", "canal energia",
+    "cenário energia", "cenario energia", "agência eixos", "agencia eixos",
+    "canal solar", "epbr",
+)
 ESPELHO_BLOCKLIST = (
     "login", "acervo", "academy", "portal", "webmail", "intranet",
     "consultas publicas", "consulta publica", "audiencia publica",
@@ -210,6 +258,11 @@ def now_iso():
 
 
 def classify_editoria(text: str) -> str:
+    """Slug canônico de editoria a partir do texto do item. Fonte ÚNICA da
+    verdade (P1.6): quem decide o campo `editoria` decide também o prefixo
+    do id. Antes eram duas variáveis diferentes — o id herdava o nome do
+    feed ('Política') e a editoria vinha do conteúdo ('mercado-livre'),
+    então os dois discordavam e o id ainda saía acentuado."""
     t = text.lower()
     scores = {
         ed: sum(1 for kw in kws if kw in t)
@@ -217,6 +270,28 @@ def classify_editoria(text: str) -> str:
     }
     best = max(scores, key=scores.get)
     return best if scores[best] > 0 else "mercado-livre"
+
+
+def montar_id(editoria: str, url: str) -> str:
+    """id = <slug da editoria sem acento>_<hash da url>. O prefixo espelha
+    a editoria por construção, então não há como divergirem."""
+    return f"{_sem_acento(editoria)}_{abs(hash(url)) % 100000}"
+
+
+def normaliza_id(item: dict) -> dict:
+    """Realinha o id de item já gravado cujo prefixo não bate com a
+    editoria (acervo anterior ao P1.6). Preserva o sufixo numérico para o
+    id continuar estável entre execuções."""
+    ed = item.get("editoria") or "mercado-livre"
+    slug = _sem_acento(ed)
+    atual = str(item.get("id", ""))
+    sufixo = atual.rsplit("_", 1)[-1] if "_" in atual else ""
+    if not sufixo.isdigit():
+        sufixo = str(abs(hash(item.get("url", ""))) % 100000)
+    novo = f"{slug}_{sufixo}"
+    if novo != atual:
+        item["id"] = novo
+    return item
 
 
 # ── CCEE — PLD Semanal ──────────────────────────────────────────────
@@ -729,6 +804,33 @@ def _strip_fonte_suffix(lead: str, fonte_display: str) -> str:
     return re.sub(r"\s+[-–—]\s+[\w\s.'&]{2,40}$", "", lead).strip()
 
 
+# Diagnóstico por feed da execução — alimentado por _parse_feed e impresso
+# por resumo_feeds(). Existe para feed morto nunca mais passar batido.
+FEED_DIAG = []
+
+
+def resumo_feeds():
+    """Tabela por feed: URL, HTTP, itens brutos, aceitos e por que caíram."""
+    log.info("")
+    log.info("═══ RESUMO POR FEED ═══")
+    log.info("%-16s %-11s %6s %8s  %s", "FONTE", "HTTP", "BRUTOS", "ACEITOS",
+             "PRINCIPAIS DESCARTES")
+    for d in FEED_DIAG:
+        motivos = sorted(d["motivos"].items(), key=lambda x: -x[1])[:3]
+        txt = " · ".join(f"{m} ({n})" for m, n in motivos) or "—"
+        log.info("%-16s %-11s %6d %8d  %s", d["fonte"][:16], str(d["status"])[:11],
+                 d["brutos"], d["aceitos"], txt[:70])
+        log.info("%-16s   %s", "", d["url"][:96])
+    brutos = sum(d["brutos"] for d in FEED_DIAG)
+    aceitos = sum(d["aceitos"] for d in FEED_DIAG)
+    mortos = [d["fonte"] for d in FEED_DIAG if d["brutos"] == 0]
+    log.info("─── %d feeds · %d itens brutos · %d aceitos", len(FEED_DIAG),
+             brutos, aceitos)
+    if mortos:
+        log.warning("─── feeds sem entrada nenhuma: %s", ", ".join(mortos))
+    log.info("")
+
+
 def _sem_acento(txt: str) -> str:
     """Minúsculas sem acento — base das comparações da blocklist."""
     return unicodedata.normalize("NFKD", (txt or "").lower()) \
@@ -785,10 +887,28 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10,
     """
     novos = []
     rejeitados = []
+    diag = {"fonte": fonte, "url": feed_url, "status": "?", "brutos": 0,
+            "aceitos": 0, "motivos": {}}
+    FEED_DIAG.append(diag)
+
+    def descarta(motivo):
+        diag["motivos"][motivo] = diag["motivos"].get(motivo, 0) + 1
+
     try:
         feed = feedparser.parse(feed_url)
         entries = feed.entries or []
-        log.info("  %s: %d entradas", fonte, len(entries))
+        # feedparser NÃO levanta exceção em 403/404: devolve 0 entradas e
+        # marca bozo. Era essa a falha silenciosa dos feeds oficiais (P1.6).
+        diag["status"] = feed.get("status", "sem status")
+        diag["brutos"] = len(entries)
+        if not entries:
+            erro = feed.get("bozo_exception")
+            diag["motivos"]["feed vazio na origem"] = 1
+            log.warning("  %s: 0 entradas (HTTP %s%s)", fonte, diag["status"],
+                        f" · {type(erro).__name__}" if erro else "")
+        else:
+            log.info("  %s: %d entradas (HTTP %s)", fonte, len(entries),
+                     diag["status"])
         # O espelho varre o feed inteiro porque o filtro descarta muito;
         # os feeds normais mantêm a janela original das primeiras entradas.
         janela = entries if espelho else entries[:max_per_feed]
@@ -796,7 +916,11 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10,
             if len(novos) >= max_per_feed:
                 break
             url = entry.get("link", "")
-            if not url or url in seen_urls:
+            if not url:
+                descarta("sem link")
+                continue
+            if url in seen_urls:
+                descarta("url já no acervo")
                 continue
             fonte_display = fonte
             if "news.google.com" in feed_url and not forcar_fonte:
@@ -806,6 +930,7 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10,
             titulo = _clean_text(entry.get("title", ""))
             titulo = re.sub(r"\s+-\s+[\w\s]+$", "", titulo).strip()
             if not titulo or len(titulo) < 10:
+                descarta("título ausente ou curto demais")
                 continue
             lead = entry.get("summary", "") or entry.get("description", "")
             lead = _clean_text(re.sub(r"<[^>]+>", " ", lead))
@@ -828,11 +953,12 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10,
                 motivo = _espelho_rejeita(titulo, url, pub)
                 if motivo:
                     rejeitados.append((titulo[:60], motivo))
+                    descarta("filtro do espelho: " + motivo.split(":")[0])
                     continue
                 titulo = _limpa_titulo_oficial(titulo)
             data_pub = datetime(*pub[:6]).strftime("%Y-%m-%dT%H:%M:%SZ") if pub else now_iso()
             novos.append({
-                "id": f"{fonte.lower().replace(' ','_')}_{abs(hash(url)) % 100000}",
+                "id": montar_id(editoria, url),
                 "titulo": titulo,
                 "lead": lead,
                 "fonte": fonte_display,
@@ -843,7 +969,10 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10,
             })
             seen_urls.add(url)
     except Exception as exc:
-        log.warning("  Erro %s: %s", fonte, exc)
+        diag["status"] = f"exceção: {type(exc).__name__}"
+        diag["motivos"][f"exceção {type(exc).__name__}"] = 1
+        log.warning("  Erro %s: %s: %s", fonte, type(exc).__name__, exc)
+    diag["aceitos"] = len(novos)
     if espelho and rejeitados:
         log.info("    espelho %s: %d descartados (ex.: %s)", fonte,
                  len(rejeitados), "; ".join(f"{t} — {m}" for t, m in rejeitados[:3]))
@@ -866,6 +995,118 @@ def _brl(valor: float) -> str:
 
 def _pct(valor: float) -> str:
     return f"{abs(valor):.1f}".replace(".", ",")
+
+
+def _tokens_titulo(titulo: str) -> frozenset:
+    """Título → conjunto de tokens significativos: minúsculo, sem acento,
+    sem pontuação, sem stopword, sem token de 1–2 letras."""
+    t = _sem_acento(titulo)
+    brutos = re.split(r"[^a-z0-9]+", t)
+    stop = {_sem_acento(s) for s in STOPWORDS_PT}
+    return frozenset(p for p in brutos if len(p) > 2 and p not in stop)
+
+
+def _jaccard(a: frozenset, b: frozenset) -> float:
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+
+def _data_item(item: dict):
+    try:
+        return datetime.strptime(item.get("data", ""), "%Y-%m-%dT%H:%M:%SZ")
+    except (ValueError, TypeError):
+        return None
+
+
+def _e_oficial(item: dict) -> bool:
+    """Link do próprio veículo/órgão, não redirect do Google News."""
+    return "news.google.com" not in (item.get("url") or "")
+
+
+def _e_especializado(item: dict) -> bool:
+    fonte = _sem_acento(item.get("fonte") or "")
+    return any(_sem_acento(v) in fonte for v in VEICULOS_ESPECIALIZADOS)
+
+
+def _escolhe_sobrevivente(grupo: list) -> dict:
+    """1º fonte oficial · 2º veículo especializado · 3º mais recente."""
+    def chave(it):
+        d = _data_item(it)
+        return (
+            0 if _e_oficial(it) else 1,
+            0 if _e_especializado(it) else 1,
+            -(d.timestamp() if d else 0),
+        )
+    return sorted(grupo, key=chave)[0]
+
+
+def agrupar_por_historia(itens: list) -> list:
+    """Colapsa a mesma história contada por veículos diferentes.
+
+    Dois itens são a mesma história quando Jaccard dos tokens do título
+    >= JACCARD_MIN E as publicações estão a menos de DEDUP_JANELA_HORAS
+    uma da outra. O agrupamento é transitivo (union-find): se A~B e B~C,
+    os três caem no mesmo grupo mesmo que A e C não se pareçam sozinhos.
+
+    Sobra 1 item por grupo; as fontes descartadas ficam em `tambem_em`,
+    para virar UI depois ("+9 veículos") em vez de informação jogada fora."""
+    n = len(itens)
+    if n < 2:
+        return itens
+    toks = [_tokens_titulo(it.get("titulo", "")) for it in itens]
+    datas = [_data_item(it) for it in itens]
+    janela = timedelta(hours=DEDUP_JANELA_HORAS)
+
+    pai = list(range(n))
+
+    def raiz(i):
+        while pai[i] != i:
+            pai[i] = pai[pai[i]]
+            i = pai[i]
+        return i
+
+    def une(i, j):
+        ri, rj = raiz(i), raiz(j)
+        if ri != rj:
+            pai[max(ri, rj)] = min(ri, rj)
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            if datas[i] and datas[j] and abs(datas[i] - datas[j]) > janela:
+                continue
+            if _jaccard(toks[i], toks[j]) >= JACCARD_MIN:
+                une(i, j)
+
+    grupos = {}
+    for i in range(n):
+        grupos.setdefault(raiz(i), []).append(itens[i])
+
+    saida, colapsados = [], 0
+    for membros in grupos.values():
+        if len(membros) == 1:
+            saida.append(membros[0])
+            continue
+        vencedor = _escolhe_sobrevivente(membros)
+        outras = []
+        for it in membros:
+            if it is vencedor:
+                continue
+            f = it.get("fonte")
+            if f and f not in outras:
+                outras.append(f)
+        if outras:
+            vencedor["tambem_em"] = outras
+        colapsados += len(membros) - 1
+        log.info("    história agrupada (%d→1): %s", len(membros),
+                 vencedor.get("titulo", "")[:62])
+        log.info("      também em: %s", ", ".join(outras[:8]) or "—")
+        saida.append(vencedor)
+
+    saida.sort(key=lambda x: x.get("data", ""), reverse=True)
+    log.info("  dedup por história: %d → %d itens (%d colapsados)",
+             n, len(saida), colapsados)
+    return saida
 
 
 def acervo_esta_velho(itens: list) -> bool:
@@ -952,32 +1193,33 @@ def fetch_noticias(pld: dict = None, ear: dict = None, bandeira: dict = None) ->
         and not str(it.get("id", "")).startswith("dado-")
     ]
     # itens antigos são carregados como estão — limpa entidades já gravadas
+    # e realinha o id ao slug da editoria (acervo anterior ao P1.6).
     for it in existing_real:
         it["titulo"] = _clean_text(it.get("titulo", ""))
         it["lead"] = _strip_fonte_suffix(_clean_text(it.get("lead", "")), it.get("fonte", ""))
+        normaliza_id(it)
     seen_urls = {item["url"] for item in existing_real}
     novos = []
     # Google News RSS (queries temáticas)
     for fonte, feed_url in RSS_FEEDS.items():
         items = _parse_feed(fonte, feed_url, seen_urls)
         novos.extend(items)
-    # Feeds institucionais — sempre coletados, fonte = nome do órgão (P1.4).
-    # Direto tem precedência; espelho (filtrado) só entra se o direto vier vazio.
+    # Feeds institucionais — fonte = nome do órgão. Os RSS diretos saíram no
+    # P1.6 (mortos na origem); resta o espelho, com filtro rigoroso.
+    for orgao, removido in FEEDS_OFICIAIS_REMOVIDOS.items():
+        log.info("  RSS direto de %s removido no P1.6 — %s", orgao, removido[1])
     for orgao, feeds in RSS_FEEDS_OFICIAIS.items():
-        items = _parse_feed(orgao, feeds["direto"], seen_urls,
-                            max_per_feed=ESPELHO_MAX_POR_ORGAO, forcar_fonte=True)
-        origem = "direto"
-        if not items:
-            items = _parse_feed(orgao, feeds["espelho"], seen_urls,
-                                max_per_feed=ESPELHO_MAX_POR_ORGAO,
-                                forcar_fonte=True, espelho=True)
-            origem = "espelho"
+        items = _parse_feed(orgao, feeds["espelho"], seen_urls,
+                            max_per_feed=ESPELHO_MAX_POR_ORGAO,
+                            forcar_fonte=True, espelho=True)
         novos.extend(items)
-        log.info("  %s (%s): %d itens aprovados", orgao, origem, len(items))
+        log.info("  %s (espelho): %d itens aprovados", orgao, len(items))
         for it in items:
             log.info("      · %s | %s", it["data"][:10], it["titulo"][:64])
     todos = novos + existing_real
     todos.sort(key=lambda x: x.get("data", ""), reverse=True)
+    # Dedup por história: a mesma pauta de N veículos vira 1 item (P1.6)
+    todos = agrupar_por_historia(todos)
     # Manchete-dado: rede de segurança, não rotina — só quando o acervo
     # inteiro (já com os feeds de hoje) passou de 24h.
     if acervo_esta_velho(todos):
@@ -995,6 +1237,11 @@ def fetch_noticias(pld: dict = None, ear: dict = None, bandeira: dict = None) ->
     }
     save("noticias.json", data)
     log.info("  %d novas . %d reais existentes . %d total", len(novos), len(existing_real), len(todos))
+    resumo_feeds()
+    oficiais = [it for it in todos if _e_oficial(it)]
+    log.info("  itens com URL fora do Google News: %d%s", len(oficiais),
+             (" — " + ", ".join(sorted({it["fonte"] for it in oficiais}))[:70])
+             if oficiais else "")
     return data
 
 # ── + Lidas (GoatCounter ou fallback por recência) ──────────────────
