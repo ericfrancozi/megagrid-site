@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-02T10:43:19Z",
+  "updated": "2026-08-02T13:06:12Z",
   "total": 60,
   "itens": [
     {
-      "id": "dado-2026-08-02",
-      "titulo": "PLD sobe 3,7% na semana e fecha a R$ 182,63 no Sudeste/CO",
-      "lead": "PLD SE/CO a R$ 182,63/MWh · reservatórios em 80,2% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
-      "fonte": "Megagrid Dados",
-      "url": "https://megagrid.com.br/#precos",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "id": "mercado-livre_52675",
+      "titulo": "Compensação por corte de geração de energia renovável pode render R$ 780 milhões no RN, diz IBTE",
+      "lead": "Compensação por corte de geração de energia renovável pode render R$ 780 milhões no RN, diz IBTE",
+      "fonte": "Paraíba Business",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZmlkWTJjM3lEM0hnWXM5NExRM2ZzYTBON2sxajBqVkljUlZ2Yk5GdjE3SGpXSGNFdzBrS2JXRWFPbTZsUGpRQUZMZ2ZyX0kySzRsTWpBMFh6ekJRRi0xd1pNWEN1R3gxZjBkaTB2a1oyZVo0LVVrOC1qdm5Xc2NOU1N4MkVoNjBHYWFQb09rSElVM3hRY3Y5MTJRejl1SlRqV3VvTDg2SHV2dG1KS0JDUnBPaWEwQnV2RTlwMDhya3llWmpS?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-02T10:43:19Z"
+      "data": "2026-08-02T12:04:00Z"
     },
     {
       "id": "tarifas_17259",
@@ -22,12 +22,12 @@
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
+        "Portal iG",
         "Imirante.com",
         "OpiniãoCE",
-        "Tribuna do Sertão",
         "Folha de S.Paulo",
+        "Gazeta do Povo",
         "Estadão",
-        "Movimento Econômico",
         "Money Times",
         "Poder360",
         "G1"
@@ -69,7 +69,7 @@
       "lead": "Mercado livre de energia amplia espaço na estratégia de custos das empresas",
       "fonte": "Eletrolar News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMTc5c2hNQk55YURYQzd1RXRtU0Z5S21yTGViUjJGbXVxMEZGOUtfZGdjV29wTWo1SVhPZnppc0t0VWZVVFRINDB1S1hTajB0M0RRbVdHQlRlMW9TQ0o0TldCWFZnSG1ONm9FbVExVGo5R2FQTFl5MEE4TVR6RUdYY1NfOTN1czB5NlhzcVVzNGd2Yy1fVVZyb2FGSVg5Wi1CY2xBSktkb08?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-31T18:12:26Z"
     },
@@ -79,7 +79,7 @@
       "lead": "Conta de luz já afeta competitividade de 83% das indústrias",
       "fonte": "Canal Solar",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11S0ZBZVJSUVdLYnZkN1VXZ0FHZXpaZnF1R3pDdlZoM1JOeHJqTDBhbVJfV1ExYVpSZ1IwWldIRTAtbmYza3JoVzFFaHFGT0I5cmw5UTF3bF8tWnRTM01CQS1IaEsxWHdpWElfVDlQUEc5dE0xZGtvbDVQcVk?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-31T16:11:41Z"
     },
@@ -188,7 +188,7 @@
       "tambem_em": [
         "Agência de Notícias da Indústria",
         "InfoMoney",
-        "jota.info"
+        "JOTA Info"
       ]
     },
     {
@@ -395,7 +395,7 @@
       "editoria": "regulacao",
       "data": "2026-07-28T17:13:00Z",
       "tambem_em": [
-        "Brasil 247",
+        "brasil247.com",
         "MegaWhat",
         "CNN Brasil"
       ]
