@@ -118,7 +118,7 @@
   .rel a:hover{color:var(--blue)}
   .rel a small{display:block;font-weight:600;font-size:.7rem;color:var(--dim);letter-spacing:.08em;text-transform:uppercase;margin-bottom:3px}
   .man-visual{position:relative;border-radius:16px;overflow:hidden;box-shadow:var(--shadow-h);display:block}
-  .man-visual img{aspect-ratio:16/11;object-fit:cover;width:100%}
+  .man-visual img{aspect-ratio:16/11;object-fit:cover;width:100%;background:var(--line)}
   .man-visual .ov{position:absolute;inset:auto 0 0 0;padding:46px 20px 18px;background:linear-gradient(180deg,transparent,rgba(10,20,38,.92));color:#fff}
   .man-visual .ov .cat{font-size:.66rem;font-weight:800;letter-spacing:.14em;color:#9CC1FF;text-transform:uppercase}
   .man-visual .ov h3{font-size:1.25rem;font-weight:800;line-height:1.3;margin-top:6px}
@@ -151,6 +151,9 @@
   .w-thermo .tv{font-size:1.7rem;font-weight:900;margin-top:-52px}
   .w-thermo .tv span{font-size:.85rem;color:var(--dim)}
   .w-thermo .tl2{font-weight:800;font-size:.85rem;color:#E06A00}
+  /* A escala é invertida (0 = melhor). Sem esta linha o leitor lê "24/100"
+     como nota ruim, e só a página de metodologia desfazia o engano. */
+  .w-thermo .esc{font-size:.68rem;color:var(--dim);font-weight:600;margin-top:3px}
   .w-thermo .dr{text-align:left;font-size:.76rem;color:var(--mut);margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
   .w-thermo .dr div{padding:3px 0}
   .w-thermo a{font-size:.76rem;color:var(--blue);font-weight:700}
@@ -165,7 +168,10 @@
   @media(max-width:560px){.news{grid-template-columns:1fr}}
   .ncard{overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
   .ncard:hover{box-shadow:var(--shadow-h);transform:translateY(-2px)}
-  .ncard img{aspect-ratio:16/9;object-fit:cover;width:100%}
+  /* Fundo sólido atrás da foto: as imagens são loading="lazy", então entre o
+     card pintar e a foto chegar havia um retângulo branco que lia como site
+     quebrado. Agora o espaço nasce colorido e só é coberto pela foto. */
+  .ncard img{aspect-ratio:16/9;object-fit:cover;width:100%;background:var(--line)}
   .ncard .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:7px;flex:1}
   .ncard .fonte{font-size:.66rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
   .f-mme{color:#1456D6}.f-aneel{color:#0E8FA8}.f-ons{color:#C75B00}.f-ccee{color:#7A2FBF}.f-epe{color:#C71E63}
@@ -391,6 +397,7 @@
         </svg>
         <div class="tv" id="thermo-score">—<span>/100</span></div>
         <div class="tl2" id="thermo-nivel">Calculando…</div>
+        <div class="esc">0 = pressão baixa · 100 = pressão alta</div>
         <div class="dr" id="thermo-detalhe"><div>Aguardando dados CCEE · ONS…</div></div>
         <a href="#entenda">Como calculamos →</a>
       </div>
@@ -842,7 +849,9 @@ function renderTermometro(termo){
   var score=(termo&&termo.score!=null)?termo.score:50;
   var scoreEl=document.getElementById('thermo-score');
   if(scoreEl) scoreEl.innerHTML=score+'<span>/100</span>';
-  var nivelLabels={ótimo:'Condições favoráveis',normal:'Mercado em equilíbrio',atenção:'Pressão de alta moderada',alerta:'Risco elevado de alta',crítico:'Condições críticas'};
+  // O rótulo nomeia o que está sendo medido (pressão), porque o substantivo
+  // carrega a direção da escala — "24/100" sozinho sugere nota ruim.
+  var nivelLabels={ótimo:'Pressão baixa · condições favoráveis',normal:'Pressão moderada · mercado em equilíbrio',atenção:'Pressão em alta sobre o preço',alerta:'Pressão forte · risco elevado de alta',crítico:'Pressão crítica sobre o preço'};
   var nivelEl=document.getElementById('thermo-nivel');
   if(nivelEl) nivelEl.textContent=nivelLabels[termo&&termo.nivel]||(termo&&termo.nivel_desc)||'—';
   var fill=document.getElementById('thermo-fill');
