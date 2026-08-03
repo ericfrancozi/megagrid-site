@@ -1,7 +1,42 @@
 {
-  "updated": "2026-08-03T12:27:37Z",
+  "updated": "2026-08-03T14:24:01Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_78871",
+      "titulo": "ANEEL mantém bandeira amarela de energia pelo quarto mês seguido",
+      "lead": "ANEEL mantém bandeira amarela de energia pelo quarto mês seguido",
+      "fonte": "Folha do Estado da Bahia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZFlBaU9hQ3ZLcUF4aWx0dzJmZ1F3U21FMEs5NUlpVUdid1NPRkhLMXlXS3pySWx3Q2RvcjR5amozNUZBeVJBdTYtVGJ4MGFrOFZmbHdXcVpVeGVTa1BzOE4xUVpTZTBwbldGRTZRQ0lyQUEzOXJhdHBKeTBuY0NRZGx2Z1Zkek05UjhXdDFmWmRETFY3R2IxdWkyZjdWeWhjTU5rMDU2Nl8tRWk5QUpRN3Jn?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-03T13:27:03Z"
+    },
+    {
+      "id": "mercado-livre_1288",
+      "titulo": "Mercado livre de energia reduz custos para 73% das indústrias",
+      "lead": "Mercado livre de energia reduz custos para 73% das indústrias",
+      "fonte": "TrendsCE",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0xWUHh3cm9kTFZPNlFnbEZYbkJneFdpZEhVSXlxdElLTm1EaU4yazNWWjJteDhHSWpJSkhSWXRSMkx2dFc5QWJvRzdjREUwY2QxSS1MbG9GN0dTUERLbG1rM2NYOFVpbmo3ODY2WHFiN1VlSUwwODFPRGJ3d1Q5NVRRbHJ2eWFYc01BaGJGRnB4VHRxNE04eVZIVXVEanVnRHc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-03T13:24:47Z"
+    },
+    {
+      "id": "tarifas_81040",
+      "titulo": "Conta de luz segue com bandeira amarela em agosto, diz Aneel - capitalnews.com.br",
+      "lead": "Conta de luz segue com bandeira amarela em agosto, diz Aneel",
+      "fonte": "capitalnews.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaS1sNTZNVldPNUU1cGs1TV9MMnVmZ2dVY3g3UDJ5SFJnVEJ6bTJ4YlE1X3l1NGVmSGhMb0dXOEkxQ3JfZVJPVEMweTNmLWk4RHhOZEtKU1BXZDZJZGFjcDNTRWVfdU1iTEgxdnFwd0F6RnlTQ1NrVGhBNTZkQ3pxUkdGRlpVZXU2R3pqMk5CaUotd1Fqbkh5MFVhdVJuRm1FZzh2T25LcUFyN0RHRGRJeEMtUlM5d3BudXlteXhUSWxmalg3TGVBdg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-03T13:01:00Z",
+      "tambem_em": [
+        "RÁDIO ALVORADA",
+        "diariodigital.com.br",
+        "98FM Curitiba"
+      ]
+    },
     {
       "id": "tarifas_94450",
       "titulo": "Conta de luz terá cobrança extra pelo quarto mês seguido",
@@ -11,20 +46,6 @@
       "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-03T11:44:21Z"
-    },
-    {
-      "id": "tarifas_36116",
-      "titulo": "Bandeira tarifária continuará amarela em agosto - diariodigital.com.br",
-      "lead": "Bandeira tarifária continuará amarela em agosto",
-      "fonte": "diariodigital.com.br",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObDJWYnVyQ09HZkc4TXYzY3hVN0IwQkJNclNWRkpWUGZXZXBubWZmZTJyT2tiOGcyWGh4LWFhNF85UmpqS3htZ1VzR0laN3JOU0h3ODNCeGRVbXRTQU04bUt6a1pNQW1sY0YzWGJjY1A3ZUhKb3JPTjlqZl93dHRGT1l4VDZNOFI4eGFqMnVPNNIBjwFBVV95cUxObDJWYnVyQ09HZkc4TXYzY3hVN0IwQkJNclNWRkpWUGZXZXBubWZmZTJyT2tiOGcyWGh4LWFhNF85UmpqS3htZ1VzR0laN3JOU0h3ODNCeGRVbXRTQU04bUt6a1pNQW1sY0YzWGJjY1A3ZUhKb3JPTjlqZl93dHRGT1l4VDZNOFI4eGFqMnVPNA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-03T10:00:00Z",
-      "tambem_em": [
-        "98FM Curitiba",
-        "Folha de Cianorte"
-      ]
     },
     {
       "id": "mercado-livre_52675",
@@ -52,13 +73,11 @@
       "lead": "ANEEL mantém bandeira tarifária amarela em agosto",
       "fonte": "Agência iNFRA",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQy1XNThBVExhY0hLLU1TTDBxZktGSVdaaEU1T21HV3JJeW9IVTF1dmJ6d2d4X01hbUh1VFRCdVc0eTdqa0tDUzlHNGpBU0YwZUQzbGdJa0t6TkFBcEdhM0hSejd3OVZUNkk2aWw3aFRfR05mQUZwX1M1RUdxNjQwUGkwZGlIb2s?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
         "Folha de S.Paulo",
-        "Estadão",
-        "Movimento Econômico",
         "Money Times",
         "G1"
       ]
@@ -228,7 +247,7 @@
       "tambem_em": [
         "Agência de Notícias da Indústria",
         "InfoMoney",
-        "JOTA Info"
+        "jota.info"
       ]
     },
     {
@@ -444,9 +463,7 @@
       "editoria": "regulacao",
       "data": "2026-07-28T17:13:00Z",
       "tambem_em": [
-        "Brasil 247",
-        "MegaWhat",
-        "CNN Brasil"
+        "Brasil 247"
       ]
     },
     {
@@ -611,26 +628,6 @@
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-24T21:31:54Z"
-    },
-    {
-      "id": "regulacao_45316",
-      "titulo": "Aneel leva leilões de baterias à consulta pública sem definir rateio do encargo",
-      "lead": "Aneel leva leilões de baterias à consulta pública sem definir rateio do encargo",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZVZvS3lHNHlfX0tiUDlxa2VjdzVHYjRocTZ2b21sMUpGcjVqTnhURUtpR2hBd05FUXhjNmFINHg3cDlUcUJsVTh2NDJfWmo5aWlJUU9PblQ0UzNDVnotLW1zVHNwRm1jWEdpYXNYdEo2ckE4S0pWeHc3ZkNoM3YtOTJjcTAyUWJHUWxfcndEdEJERFJrT01CMGhxX3BnRkN2aGZiempGUFB4V2VWSy1ScWRPc2h6dG8?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-24T18:23:28Z"
-    },
-    {
-      "id": "mercado-livre_15787",
-      "titulo": "CCEE propõe criar agente virtual para liquidar geração do LRCap",
-      "lead": "CCEE propõe criar agente virtual para liquidar geração do LRCap",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMkJobzhhY3h3RUhCamFfN2Rxd25MbWVNVVhPRHp2QWtsaGxyZ0xfSDBNUXFoY1hFMnJONFktVWVYVWVzWnh5d2R5X1BobkgyWEIzQlBfbkdCLXdSQkNUcTk5Wkc3WGV0d1NkYlB2bUpBN2Z0T01PdWVpMWJCczVfY0pVLWRJLXQ0SWFobWhRUzB5UUNDeENnMklEekVtbXhWMVE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-24T16:18:27Z"
     }
   ]
 }
