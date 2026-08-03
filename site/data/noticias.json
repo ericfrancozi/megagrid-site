@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T14:24:01Z",
+  "updated": "2026-08-03T19:43:13Z",
   "total": 60,
   "itens": [
     {
@@ -21,21 +21,6 @@
       "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-03T13:24:47Z"
-    },
-    {
-      "id": "tarifas_81040",
-      "titulo": "Conta de luz segue com bandeira amarela em agosto, diz Aneel - capitalnews.com.br",
-      "lead": "Conta de luz segue com bandeira amarela em agosto, diz Aneel",
-      "fonte": "capitalnews.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaS1sNTZNVldPNUU1cGs1TV9MMnVmZ2dVY3g3UDJ5SFJnVEJ6bTJ4YlE1X3l1NGVmSGhMb0dXOEkxQ3JfZVJPVEMweTNmLWk4RHhOZEtKU1BXZDZJZGFjcDNTRWVfdU1iTEgxdnFwd0F6RnlTQ1NrVGhBNTZkQ3pxUkdGRlpVZXU2R3pqMk5CaUotd1Fqbkh5MFVhdVJuRm1FZzh2T25LcUFyN0RHRGRJeEMtUlM5d3BudXlteXhUSWxmalg3TGVBdg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-03T13:01:00Z",
-      "tambem_em": [
-        "RÁDIO ALVORADA",
-        "diariodigital.com.br",
-        "98FM Curitiba"
-      ]
     },
     {
       "id": "tarifas_94450",
@@ -77,8 +62,14 @@
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
+        "Jornal de Guaratinguetá",
+        "capitalnews.com.br",
+        "Roraima em Tempo",
+        "jornalcruzeiro.com.br",
+        "extra.globo.com",
         "Folha de S.Paulo",
-        "Money Times",
+        "O GLOBO",
+        "moneytimes.com.br",
         "G1"
       ]
     },
@@ -121,6 +112,16 @@
       "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-07-31T19:56:09Z"
+    },
+    {
+      "id": "mercado-livre_42219",
+      "titulo": "Mercado livre de energia ajuda empresas a reduzir custos e avançar em metas ESG",
+      "lead": "Mercado livre de energia ajuda empresas a reduzir custos e avançar em metas ESG",
+      "fonte": "Sala da Notícia",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYzlWQ05OMEozc284ZkxyQlo3ZW5BOG5qd1c5V3hRU1dzbV9JRl9IN083eFpqbTNNcXJmR3M1TkdpVktZeUxveEJkQVI4NkVTSEVwbjAxTWpjVTUyVjRQejAzMUpmVjk3RG1RZlM3MzM4VWVaY2pHeVNjUllvbDBQNzUtMkVMTm1nR0FqQnNJLWlYWWRNNzZKTmVpSEo2RlBHam10ODFDT0duU0x1cEhNaklRcGtvWXlsc2JkUENYVGJ5Z3RHR1hwbA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-31T18:32:34Z"
     },
     {
       "id": "mercado-livre_4282",
@@ -247,7 +248,7 @@
       "tambem_em": [
         "Agência de Notícias da Indústria",
         "InfoMoney",
-        "jota.info"
+        "JOTA Info"
       ]
     },
     {
@@ -391,6 +392,16 @@
       "data": "2026-07-29T12:04:39Z"
     },
     {
+      "id": "mercado-livre_23160",
+      "titulo": "Eneva poderá ter 791 MW convocados no LRCap após inabilitação da ION",
+      "lead": "Eneva poderá ter 791 MW convocados no LRCap após inabilitação da ION",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcy1qT3ZZSXh3SFBqcnRENGVtVkpYdFRTZm9DYWdCVTZOTHBDcGplb3Q5dUlBZElmams5WHhERjZBSVhlOVp2el9CNTNjQXk2RzZieUtaN2w1T0kxQm1UX24wWnA5bW5wTnh1elhMRk1HWnJHYWtkLXU3LWhZNDBTMXRIYmNVdmxNaTlxbUdHUUgtRk9fdUs2MmJmYlNxUjk4Tm5fb05CemQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-07-29T11:01:49Z"
+    },
+    {
       "id": "transicao_43609",
       "titulo": "Aneel prepara leilão de baterias e abre nova frente de investimento em energia no Brasil",
       "lead": "Aneel prepara leilão de baterias e abre nova frente de investimento em energia no Brasil",
@@ -449,7 +460,7 @@
       "lead": "ANEEL Nega Efeito Suspensivo E Mantém Desligamento Da 2W Comercializadora Da CCEE",
       "fonte": "Cenário Energia",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNTJJSklZMnp5WWlNRHd5c1VzaFBKUUxWWGtHQ2x1U21VY1ktSDdFQVhYa0FnY3doSWkyTGZzXzJURFkzNWkwYlRzMDR5RmM4aGdYTHF2V0ljeEw0RG95cXpZczZadWVINkU5aVkySVB4djFTTHNNRlZXSkhKUThtQm9yTXNlWXpId01jZkE4dVVGak1OSS1wWVNkVVVvZUwxNkh2X0RNR19nb0RxYkdySjJic0hXTi1NOUNaRndidl8?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-28T17:30:33Z"
     },
@@ -618,16 +629,6 @@
       "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-07-27T13:30:00Z"
-    },
-    {
-      "id": "mercado-livre_25246",
-      "titulo": "Mercado Livre de Energia amplia acesso a contratos com mais previsibilidade - band.com.br",
-      "lead": "Mercado Livre de Energia amplia acesso a contratos com mais previsibilidade",
-      "fonte": "band.com.br",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWTJnazhEdGxjcUpRY1V6ZTF3Sk1PVFU1Snd5RzFlVXV2SmVJMnFaVVFtYkdHcmNvbDlaNzZxUlFuajNHY1J4UEZxLVRtdWR0NFE1QTFPd3Y5WVZsdzAwMzV3ZzRXMUFZTTk1YkhLQWNVUTYxMDFMWkFTLTRYSTNtRDNHWlVSSjBTb1lMbjc0aERtR2FrYTh0ZHoyX1l6TGJJN3l2djZRazlzR1pMZURZa0pBaDktSU5IOEI0QkN0U3YzQmpob0hhSWVPMzVKbnZTSHlER0dqQ1dva3c?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-24T21:31:54Z"
     }
   ]
 }
