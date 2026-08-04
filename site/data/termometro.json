@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T19:43:06Z",
-  "score": 24,
+  "updated": "2026-08-04T11:26:40Z",
+  "score": 22,
   "nivel": "ótimo",
   "nivel_desc": "Condições hídricas e de preços favoráveis",
   "componentes": {
@@ -16,8 +16,8 @@
     },
     "pld_momentum": {
       "peso": 20,
-      "valor": 182.63,
-      "score": 11
+      "valor": 114.58,
+      "score": 0
     },
     "carga": {
       "peso": 10,

@@ -1,7 +1,85 @@
 {
-  "updated": "2026-08-03T19:43:13Z",
+  "updated": "2026-08-04T11:26:47Z",
   "total": 60,
   "itens": [
+    {
+      "id": "transicao_72934",
+      "titulo": "1º leilão do país para contratar baterias tem procura recorde",
+      "lead": "1º leilão do país para contratar baterias tem procura recorde",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVFId2htOFJIemszVXR4TEdISG5CYk8wbFF6U3Q3VF9PRl9vOGs0bkRpcjlsZ3FSVGY1Vk9adTc2VGkzY090ZTlWSFBsMUdrWkZ1UmZUdm9SUmhXSWRWUFFRWTFMbzE5VWdnTndaWDdwZUlPMEd1UWVSR1FPcVlIMGNhcE9jU3dZSUxobHd0bk00ZkoxS0x3VXNEQThKZWxnYXVkUjB2VQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-03T21:51:01Z"
+    },
+    {
+      "id": "transicao_31967",
+      "titulo": "Leilões de baterias têm mais de 6 mil projetos cadastrados",
+      "lead": "Leilões de baterias têm mais de 6 mil projetos cadastrados",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNazllcjZNUF9RaldIWkx0TXdEbGt6VjlyYkJGN1FBVUJxeUFLUkFobG5wYlcwblBYRnZFbThCazFXR2JQUmFsRThoSVZ3eUVPNFliYmFlNU16azFHeFpZSmRLbzBwQmhscXNrbWh5Xy1OQU56Q09GaGJPZmREOHZTZEZpblJidFdLZXpuUFk5VE5acnc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-03T21:33:51Z",
+      "tambem_em": [
+        "petronoticias.com.br"
+      ]
+    },
+    {
+      "id": "regulacao_19299",
+      "titulo": "ONS reúne setor para discutir transformação energética e regulação - agenciainfra.com",
+      "lead": "ONS reúne setor para discutir transformação energética e regulação",
+      "fonte": "agenciainfra.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMU9mTnRjTmFZVUhBTVhiTVBmaUJmaFhOMDZwZ2oxMHI3UWlJdUQ4N0QzeXVhb2VlNlhfTm1vS2wyQ2trcTU4bWRYblVIZUVYWlF4R2hIM3NFMmR3bWI5Ym13MlFEVm9jeDhqX2NMbC1oNmtEUjFtNFd0MFViZlBwRzB2QUJxZGVxcWRLdVd5VmoxNEVsVVl4dkVyOXgtdw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-03T21:14:55Z"
+    },
+    {
+      "id": "transicao_69455",
+      "titulo": "Leilão de baterias recebe 6 mil projetos no Brasil; entenda",
+      "lead": "Leilão de baterias recebe 6 mil projetos no Brasil; entenda",
+      "fonte": "BPMoney",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVVZWNXk3UmIzYzBjdzV5d2IydmllRjQyVEdZajZxbHJVaFU1XzBsV1ZHN0w2QjFCcGVzNVFkbWpQMUN6TDZKVnRjWGt4dGFrTXpuZVZkb1VxWWlBVnFUS0w1T2ZJUTVVX2FTNE1RMjdmajdFWjQzSENDUUllMlktdHpwV0FRUEVvMUFQT0FkLWdGc2xvcmc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-03T19:39:51Z"
+    },
+    {
+      "id": "tarifas_58182",
+      "titulo": "Aneel mantém bandeira tarifária amarela em agosto; conta de luz segue com cobrança extra",
+      "lead": "Aneel mantém bandeira tarifária amarela em agosto; conta de luz segue com cobrança extra",
+      "fonte": "Jornal de Guaratinguetá",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3E3bUZVYkpCT1BwcDVRWVZLSkxELTk2RkVzd1pZSFM5M1c2UGdjOGtIVnFaZ1hidU5oTXNSNjd4bENHcTZITU5iR296dUJHdXhBcXJPbmtYNGRJQkdPZGt0R0xhNFhjWHhhTUZLUGMtWDBmZ3YxVzdkSXFPNmQ1YXRIYVJldzF1Q1N0UHpaUWN3OFdvckJ2bktBUG03Z1pyNWFZcFh2aUFJX2JuZVFmcEUzNTNlMEsxZ1dGcWRn?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-03T18:04:24Z",
+      "tambem_em": [
+        "Hojemais.com.br",
+        "capitalnews.com.br",
+        "Roraima em Tempo"
+      ]
+    },
+    {
+      "id": "regulacao_46882",
+      "titulo": "ANEEL Rejeita Perícia Da Enel SP E Acelera Processo De Caducidade Da Concessão",
+      "lead": "ANEEL Rejeita Perícia Da Enel SP E Acelera Processo De Caducidade Da Concessão",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUENGS3NSdjdvYWIxeW1LaGFoZW5BOElfTE9JY3BOOVl5OU1vdDNsN1lxZTB2ZU5kNjFZTkI3ZDBSVF9pZDRpUWJaaDJ6b2JsNDc0eDlWUGx4c2dWYmd0QWR6VDBuenRYT283YktTb3l1Tm53UDNOdmdLY3hZRE1SYXlpUzFYWDY2ZzNaZnRENUpCb194TGtsSUVTMVpmSlgzdld1NzJOQndQdWVUS194aFpNNEtZRjRTRTItMQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-03T16:45:04Z"
+    },
+    {
+      "id": "mercado-livre_50171",
+      "titulo": "Mercado Livre De Energia Entra Em Nova Fase E Empresas Ampliam Critérios Para Migração",
+      "lead": "Mercado Livre De Energia Entra Em Nova Fase E Empresas Ampliam Critérios Para Migração",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNazBtZXVsRnFiZnRMTEJXdU53dU43Nlo2Q2lzWmVqemQ5NHFtbHpsX09YNm1VSDRsYVVjeGpxNzlfaFdvYXdjMk1uSTI4UjhHM2hYUjNQMGs4blU0QkYxVFQ1SVRTYnpPTWpwVUJSZjBlQ2Y1ODZ5RTNrMFNkaWFRNnlWM3lyXzRvMlM1eE51Ui14RklyeWRHUzlOSlB4SnEwMVRHNWc4cjI1dFp5X0hSY28wdDJaSkpWbkc0OW0xeXFjcGxDaTNj?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-03T14:33:51Z"
+    },
     {
       "id": "tarifas_78871",
       "titulo": "ANEEL mantém bandeira amarela de energia pelo quarto mês seguido",
@@ -18,7 +96,7 @@
       "lead": "Mercado livre de energia reduz custos para 73% das indústrias",
       "fonte": "TrendsCE",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0xWUHh3cm9kTFZPNlFnbEZYbkJneFdpZEhVSXlxdElLTm1EaU4yazNWWjJteDhHSWpJSkhSWXRSMkx2dFc5QWJvRzdjREUwY2QxSS1MbG9GN0dTUERLbG1rM2NYOFVpbmo3ODY2WHFiN1VlSUwwODFPRGJ3d1Q5NVRRbHJ2eWFYc01BaGJGRnB4VHRxNE04eVZIVXVEanVnRHc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-03T13:24:47Z"
     },
@@ -62,14 +140,8 @@
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
-        "Jornal de Guaratinguetá",
-        "capitalnews.com.br",
-        "Roraima em Tempo",
-        "jornalcruzeiro.com.br",
-        "extra.globo.com",
         "Folha de S.Paulo",
-        "O GLOBO",
-        "moneytimes.com.br",
+        "Movimento Econômico",
         "G1"
       ]
     },
@@ -556,79 +628,6 @@
       "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-28T11:44:59Z"
-    },
-    {
-      "id": "regulacao_79969",
-      "titulo": "Aneel decide sobre consulta pública de leilões de baterias nesta 3ª feira",
-      "lead": "Aneel decide sobre consulta pública de leilões de baterias nesta 3ª feira",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkJwZlRYTlZsRTlUSXdTbHB4YXluekpualAxTV9sMS0xMnNCUnR0YkEzYUV0SW1vdkVmUlNHbnp2ZkFSd3pLUUZ0aWJNRExmckdwOXlsNmFIQmpDQ2NzVWlFNkpOQzZBVjNyaTN3ZjRieV9jQ3BIalNLS0hNZUEtUVRGNWRtZlRFeUFweVZHb1YwTlpqa0xiaDAtLXRmQ3FMOEdfQ0R3N0dzZHBNQnUxa0R1TDhSSnM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-28T09:02:22Z"
-    },
-    {
-      "id": "regulacao_26362",
-      "titulo": "Regulamentação da ANEEL e novo Plano Safra ampliam mercado de baterias e impulsionam expansão da TTS Energia nos setores corporativo e agro - guairanews.com",
-      "lead": "Regulamentação da ANEEL e novo Plano Safra ampliam mercado de baterias e impulsionam expansão da TTS Energia nos setores corporativo e agro",
-      "fonte": "guairanews.com",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOY2MzQWZSRE5YVUxYV0Y1WXkzRnluSnhyajJ4RDg1MUdzeFRwVjZkSkV5Sm9NZWE1bzNZal9OcWtfcmdQcjJEUV81bWh3YUZESDZnR1hZVVRzb3BtQWNwWEpXdlNwQ3F5TEtOZmUwUkpNTWVjMFFZMkpqMXJqZTM3aTJwOG9iR0RqdXBXVzF6WF91TE9GVEZsM0Y5alppX0FMbDNSZ0NYVzk4ME0tN2hIdnZDdmVrNFF3TXJTTHdMZ3FOVkJqSmZveEk5Qk1HaGZRaHp2ZkM5cU5XQ19OWXlvVHVQQmxjMmZyVUh1bVhIWkhzRmhmMmdZazdLcHl5czRqbWtGZE5TT3p6Zw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-27T21:57:24Z"
-    },
-    {
-      "id": "mercado-livre_95952",
-      "titulo": "Novo Marco do Setor Elétrico impulsiona transição energética no Brasil - Portal 93",
-      "lead": "Novo Marco do Setor Elétrico impulsiona transição energética no Brasil",
-      "fonte": "Portal 93",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbXBQN0YwUzR0eWQyYTRvTUZIQTlCOVItM0JyX050WFNlemJteTZhZ2dLVWtlb3RKSVkzSEUtdVZxTHdJWUp0Xzh2NGlmMXdHdUZXekd2WUVveENYbTRXdDRoT3RZQlVtWkgtUHZMc0hJbmlvVEU5dTI5RVQyRnlaSFRxNHVOTFpLRlFxalROdmdJOXh3YkRTTTRwT3DSAaIBQVVfeXFMTmRJd2lVWUh4RkZjR3JhMUV0WVl4aWhrS1cxNXFzMHZPRUhKeHFnMkJTSE1jRWMtVUJFMFV3dDdkSGp3OWQwSk5RRU5Ea1dvM0R5UkRfeTM4c21MQ3dsaXNzZzktdDdUWlNZNjhkOG85bk02VlpfYnFIT2ZFZjBIZWFTZXBYbUdGdnRHVDg4RlN1d1Z4X1l1Wk1VNDRETXBkbVB3?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-27T21:44:04Z"
-    },
-    {
-      "id": "regulacao_19415",
-      "titulo": "ONS pede ajustes em regras da Aneel para cortes de geração",
-      "lead": "ONS pede ajustes em regras da Aneel para cortes de geração",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc0xjeTVCV2NlWEtKQ29jWGxLN0I4R084RC1pRXJUTGNpWm1WaFVQbkR5T0VVUWxrQnBJY2VQd0ZuM29UR2tZSGR0Z29meVBrcVhSRTJVRnNORXBlUklWOV82U1FSaHI4SjRKMTZPT2pJOG9WVDZWRE5IdWFjbDBzQ1lYTzlvdVZFeXhRN1o4S3ZGem5ISmJfaDNVMA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-27T19:05:18Z"
-    },
-    {
-      "id": "transicao_48073",
-      "titulo": "Startup cria sistema de baterias para reduzir conta de luz de pequenos negócios",
-      "lead": "Startup cria sistema de baterias para reduzir conta de luz de pequenos negócios",
-      "fonte": "Business Moment",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX29JRHk2c3NHaFp6cWZVSjhXSEM2cXAyYXA0YU93RVlIcVhSWGp6c0VOc3Bsay1YSGJINXdXTTBmMU9GRXdSNDU5SFdDUTAySVNmUkdFQ080VndCcktkUDZIeVRCWTZ5TWJkbXNhS0h2X0xZTEoyLUFOWDNld0dWQzF1blVsTVp4cEJLTmMyOXV6Q0F6ZEFN0gGfAUFVX3lxTFAyV3VaSGN0ZFVzMmFVUThFVTFYUnFReTlfZmxqZUVDTlFNRU1iM21IZll6d3ZZRTBGY2NtX2lJTlhaWHVPNGFtVzcwVmo0NzN6Sk80RnFxVi11Smx2a0tzSlpQaFlWWDI5dkZiN00zRDRLZ0FKS3RvcnVmTWdZMDVLRU1IUEFRTUxfNDBtTVo4RU5Vam8wNHhxVFhyWl9oYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-07-27T18:11:00Z"
-    },
-    {
-      "id": "mercado-livre_69257",
-      "titulo": "Conselho da Fiep debate desafios e avanços do mercado livre de energia",
-      "lead": "Conselho da Fiep debate desafios e avanços do mercado livre de energia",
-      "fonte": "Jornal Pitoco",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd09tSHVva2pVeU5GWkl4TWFqUkVTbnJseVJ1dlFXWXlaM3RQREZPd3c1OVNkMlpVejRCQjEwUlFFV0h3Ty1acWE5UXRuVW1fU2I3dzVWZUVQd1Yzd2hudjRhbEpwZ2MzeWU4SkxWRjBTWHZ4eWNzLUk3NE1FYkhVZWdYTjJhUnpfelFfenFncVFwcHU2ajF2ZjdYRWMxOEJIOHc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-27T17:58:27Z",
-      "tambem_em": [
-        "Folha de Irati"
-      ]
-    },
-    {
-      "id": "tarifas_14564",
-      "titulo": "À espera da bandeira de agosto, consumidores recorrem à energia solar para reduzir conta de luz",
-      "lead": "À espera da bandeira de agosto, consumidores recorrem à energia solar para reduzir conta de luz",
-      "fonte": "Paraíba Business",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOM0JWWnJRUC1nZHNaUGhvUVpjRXRjWXJ3Skc0MGE1LWxJc3BrYmJEWmdxRGlicURZbUdDejhLdjBnT1N3dndCMHczYVN3RW8yaTJyMUpJUV9nVnJ0RE1hZkpueUZYb2htanliODdRMnVrNHNRSkxXVzA1RmtzMXZDZlBtUTJUc282M0NLODM4Sjk1OFFkZnFCbGxWX0lzTnpKWGlqQ055cGI3Y2MxR1FxblBZYlU3VGxKWFFOVUxIOUFJaGQ5?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-07-27T13:30:00Z"
     }
   ]
 }
