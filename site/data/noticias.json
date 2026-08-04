@@ -1,7 +1,21 @@
 {
-  "updated": "2026-08-04T11:26:47Z",
+  "updated": "2026-08-04T13:54:38Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_35958",
+      "titulo": "ANEEL mantém bandeira tarifária amarela em agosto e DEMEI orienta para o consumo consciente - mundial.fm.br",
+      "lead": "ANEEL mantém bandeira tarifária amarela em agosto e DEMEI orienta para o consumo consciente",
+      "fonte": "mundial.fm.br",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUUtSV0RZX1dHTEpkTDl0MEFMdTl3bzlQVWI1b3B2QUFsR2dDT1NJdEsxazFiSHV1endhQXVRS0pRYnYxZmhjdTBSQ1VUeTBHbi1VSG8wMXZLWGxFSlRPelRTMS1vZlA4ZVJzRVNhdjV0R0hpZDdtRkVUdU0zeVlJVEM3WmVfSDdkUHZTSTdXa1YxMm96cTFaTFlOcmEzRjZWWm80eWFxa3FwNWxvQTRraHY3Qzg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-04T12:04:49Z",
+      "tambem_em": [
+        "Jornal de Guaratinguetá",
+        "Roraima em Tempo"
+      ]
+    },
     {
       "id": "transicao_72934",
       "titulo": "1º leilão do país para contratar baterias tem procura recorde",
@@ -22,7 +36,7 @@
       "editoria": "transicao",
       "data": "2026-08-03T21:33:51Z",
       "tambem_em": [
-        "petronoticias.com.br"
+        "Petronotícias"
       ]
     },
     {
@@ -36,6 +50,16 @@
       "data": "2026-08-03T21:14:55Z"
     },
     {
+      "id": "tarifas_48241",
+      "titulo": "Conta de luz segue mais cara e pesa no bolso dos brasileiros em agosto",
+      "lead": "Conta de luz segue mais cara e pesa no bolso dos brasileiros em agosto",
+      "fonte": "Diário do Poder",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0oyckZZN2dKTXdjck1sSGs5UFd4X2lpMWFPTGs0b2dIS09KaTEwNXpUa1p4UFBZamNNaXhjQVk0Z3NOay1EOTByUDhRcTRGSUxtZnRyaDhaRVJIbDFGVXg5SHZaRkdVaTBiNWJiazNSbWw2QWNBZ0hmVTBNVmlqTkZReF9VcmRSXzVEMEN3elpXWTBsdXpDN3JCSmNoZ3lBZUFEUlNBRlRWU2pfeGtNaUs5QjROSXYzVVM0LUFqQVVmelZScktiaVk0VdIBywFBVV95cUxQZ0oyckZZN2dKTXdjck1sSGs5UFd4X2lpMWFPTGs0b2dIS09KaTEwNXpUa1p4UFBZamNNaXhjQVk0Z3NOay1EOTByUDhRcTRGSUxtZnRyaDhaRVJIbDFGVXg5SHZaRkdVaTBiNWJiazNSbWw2QWNBZ0hmVTBNVmlqTkZReF9VcmRSXzVEMEN3elpXWTBsdXpDN3JCSmNoZ3lBZUFEUlNBRlRWU2pfeGtNaUs5QjROSXYzVVM0LUFqQVVmelZScktiaVk0VQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-03T21:02:00Z"
+    },
+    {
       "id": "transicao_69455",
       "titulo": "Leilão de baterias recebe 6 mil projetos no Brasil; entenda",
       "lead": "Leilão de baterias recebe 6 mil projetos no Brasil; entenda",
@@ -46,21 +70,6 @@
       "data": "2026-08-03T19:39:51Z"
     },
     {
-      "id": "tarifas_58182",
-      "titulo": "Aneel mantém bandeira tarifária amarela em agosto; conta de luz segue com cobrança extra",
-      "lead": "Aneel mantém bandeira tarifária amarela em agosto; conta de luz segue com cobrança extra",
-      "fonte": "Jornal de Guaratinguetá",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3E3bUZVYkpCT1BwcDVRWVZLSkxELTk2RkVzd1pZSFM5M1c2UGdjOGtIVnFaZ1hidU5oTXNSNjd4bENHcTZITU5iR296dUJHdXhBcXJPbmtYNGRJQkdPZGt0R0xhNFhjWHhhTUZLUGMtWDBmZ3YxVzdkSXFPNmQ1YXRIYVJldzF1Q1N0UHpaUWN3OFdvckJ2bktBUG03Z1pyNWFZcFh2aUFJX2JuZVFmcEUzNTNlMEsxZ1dGcWRn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-03T18:04:24Z",
-      "tambem_em": [
-        "Hojemais.com.br",
-        "capitalnews.com.br",
-        "Roraima em Tempo"
-      ]
-    },
-    {
       "id": "regulacao_46882",
       "titulo": "ANEEL Rejeita Perícia Da Enel SP E Acelera Processo De Caducidade Da Concessão",
       "lead": "ANEEL Rejeita Perícia Da Enel SP E Acelera Processo De Caducidade Da Concessão",
@@ -69,6 +78,16 @@
       "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-03T16:45:04Z"
+    },
+    {
+      "id": "transicao_54725",
+      "titulo": "Primeiro leilão de baterias do Brasil tem recorde histórico de cadastramento, diz EPE",
+      "lead": "Primeiro leilão de baterias do Brasil tem recorde histórico de cadastramento, diz EPE",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLUdzdmUtN3VpbnREdlk1M1lBWFM3Yy1kUGNyNHctRUVnTkVwZXJKSlJ3TmdialppcFhKNXBaNjFNMkpaU1F6YkVodUJDTTMtSFYwWExQOG90NG9vc2prUHhFZHhlSTljd2pZYUVwNTJqem90SjZ3WUppRmVEaE9Ocy13eV9DbEpBNWxZZ21qaWM2TVhUZGZrUDE5RWtIQnQ0amtlSVZ0bC1ENjUzMWxpZzl0TWdpQUFFRXJiZDhERHXSAcYBQVVfeXFMT0F6WVZUSUphV0VkYjJJUjlBOTg3cEJZUFl1d1lXUkZWNXVMOEdhaFQ0a0NvYWdxMXZFbkdVR1FXT3dVekx5YW9mc21ULUxKTDRZYWhxaUw0Q1hRVlAtUlZrUFpUUkltZjdta1dfNTNtVzNQVk56YVRVZHJWeXVhQjBaXy16dC03eUFRZ3oxNWltZ0E5aDFVeTBwVVUtM1hFYkJ3UENGTUJkN050eVRqYXBFNVk3cGxnWThWS3l2aEpIRWJKUEJB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-03T15:28:54Z"
     },
     {
       "id": "mercado-livre_50171",
@@ -141,7 +160,9 @@
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
         "Folha de S.Paulo",
-        "Movimento Econômico",
+        "movimentoeconomico.com.br",
+        "moneytimes.com.br",
+        "Poder360",
         "G1"
       ]
     },
@@ -608,26 +629,6 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-28T13:38:34Z"
-    },
-    {
-      "id": "regulacao_60268",
-      "titulo": "ANEEL disponibiliza cadernos temáticos sobre relacionamento com o consumidor e compensação pelo uso de recursos hídricos",
-      "lead": "ANEEL disponibiliza cadernos temáticos sobre relacionamento com o consumidor e compensação pelo uso de recursos hídricos www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQN1Zkb2lzUk9vbldYYl8yVV9ZMVBVdmpwV3lPOVZ6elJPQWFtMGZjN2pmWGE2OGcwQUVnbll4Um1BcW9OdkNXdGtpcWtqc0U0TzRVVHpvTTEtcXVsYWg1OS1vN1B3c2xRWGsxYXctUHZ0QXNHby1WZ1k1UEMtVlJIbjd1SG96ZWN4OE1NWVZFNUt0ZXpiZzg3SDVfbE9OMWtqZkRIRjY2alBmSF9QYjExVms0RFpnVjh3UUJfd0hPUGJ5eW9QMm9vbnBKbk1IdEwyTlBJZW1EMVllMFdPVXBQZXlQU2IxbDhvUWk5WVhKbjFSRmlCYUZ4bFp3b0dZTEM0NmJQV1ozbF9fcE04SFhCNVdELXlxUTVVZU9N?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-28T13:13:11Z"
-    },
-    {
-      "id": "regulacao_90201",
-      "titulo": "Aneel discutirá cortes de geração e leilão de baterias nesta terça (28); veja o Radar Energia XP | Julho",
-      "lead": "Aneel discutirá cortes de geração e leilão de baterias nesta terça (28); veja o Radar Energia XP | Julho",
-      "fonte": "XP Investimentos",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdzl0VTFjRkl2ZjVhRXF1VFNhMWxKUVBEWnhWa3owREhEVVR0blBFd0d2NVBLVzNMYnZSVDQyQm9TLXNWc2hSQ0RXbkVqOERPbWxtMTBHSDlTOUlSMmJjb2RkckU2V1B2OFNNYk04MXpNNnFLNEFjdzNxUklfLVFHRUtaTk9LVndMU1hLdUh1aGNtQWZpaUxja25nclNfUkZDUEt0S2xRRTAxcFNBc3dqWkp3Wk5DY1NFTXhydVhaYzc0SVFGeGt3QTRpSmhBdjZYaVo5RjltWTdWZkFoSTV3?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-28T11:44:59Z"
     }
   ]
 }
