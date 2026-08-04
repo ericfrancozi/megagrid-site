@@ -1,20 +1,61 @@
 {
-  "updated": "2026-08-04T13:54:38Z",
+  "updated": "2026-08-04T19:42:11Z",
   "total": 60,
   "itens": [
     {
-      "id": "tarifas_35958",
-      "titulo": "ANEEL mantém bandeira tarifária amarela em agosto e DEMEI orienta para o consumo consciente - mundial.fm.br",
-      "lead": "ANEEL mantém bandeira tarifária amarela em agosto e DEMEI orienta para o consumo consciente",
-      "fonte": "mundial.fm.br",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUUtSV0RZX1dHTEpkTDl0MEFMdTl3bzlQVWI1b3B2QUFsR2dDT1NJdEsxazFiSHV1endhQXVRS0pRYnYxZmhjdTBSQ1VUeTBHbi1VSG8wMXZLWGxFSlRPelRTMS1vZlA4ZVJzRVNhdjV0R0hpZDdtRkVUdU0zeVlJVEM3WmVfSDdkUHZTSTdXa1YxMm96cTFaTFlOcmEzRjZWWm80eWFxa3FwNWxvQTRraHY3Qzg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "id": "tarifas_29026",
+      "titulo": "Bandeira tarifária amarela continua em agosto e mantém cobrança extra na conta de luz",
+      "lead": "Bandeira tarifária amarela continua em agosto e mantém cobrança extra na conta de luz",
+      "fonte": "TV Zoom",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTkc0UVZIWEJabmFpMVFqcUVwT0o2azd2ampZcFZvb0tUZldhQmlJeWUtOWVBeGUtSXMwbndkaE1RNkhSMXVTR292Tl9tcEEyenlaLThRMFZYX2FZLVF6UWpJdEhWN2lBUGJZQVZyWm54YUg2MU1wQVpmVG5reE05dHFVbDNLbzJRQm5EMmdCNVlKYlUxd1VaUC1ELXFnYWVXRjVjdXFjelB1YWFK?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=70",
       "editoria": "tarifas",
-      "data": "2026-08-04T12:04:49Z",
+      "data": "2026-08-04T18:18:35Z",
       "tambem_em": [
-        "Jornal de Guaratinguetá",
+        "Jornal A Voz da Serra",
+        "mundial.fm.br",
         "Roraima em Tempo"
       ]
+    },
+    {
+      "id": "politica-energetica_60771",
+      "titulo": "LRCAP Armazenamento 2026: EPE registra recor...",
+      "lead": "LRCAP Armazenamento 2026: EPE registra recor...",
+      "fonte": "BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVE1iZ1NISGtMSWRqenM4Q3k1bUtZenJzaXcwdlRzalBKSUl3NzdQVXVVdGdMOURYUkdTdjNNSENUbjFudXc2N3RfMFFCbXNtUUtKX2U2RW9zc3pHQ1pnUmFQSjctV0lfMjBOM0hnaGhRUFJzUXhsSzVIVExZVzBKZU5COWJMSmd3WVhIWHF2X2xJZS1Sdmd3WElzM0p4Wm9YS0ZhUGRyQmNXOGQx?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-08-04T17:46:49Z"
+    },
+    {
+      "id": "mercado-livre_40027",
+      "titulo": "Mercado Livre de Energia: vale a pena migrar agora ou esperar?",
+      "lead": "Mercado Livre de Energia: vale a pena migrar agora ou esperar?",
+      "fonte": "CPG Click Petróleo e Gás",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQemFIT2NwLXNzcGFzNHRkV3k2Q29hbDlDM3ZoVmdXZ3JfNjVaMGQtU2NoZnNIVmtnNDlvbmI4dWxDeFl6VHpqOF9kVmhTV01Na2Y2UEllb2p2M2lCMHExYk4ycU5yS2ZQWEllYkdJWXR5RWlfMkFiTF9rREZESXI4R0s1ekQxTF8xYTQzVkdQWXBIZFdrOUZZRUlR?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-04T16:00:00Z"
+    },
+    {
+      "id": "tarifas_77707",
+      "titulo": "Conta de energia terá tarifa extra em agosto - Portal 93",
+      "lead": "Conta de energia terá tarifa extra em agosto",
+      "fonte": "Portal 93",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xM2Q2MzdCRGp4WTB1Q2oyOFowdk5WMHFoMHF6dkI4NUVocEVXZmtWbkFGSnYwQmtEY242c3JxeU5YRHp4VFkxRzlvSURvZkpBaWwtT3VEVkk2NG14RE52b2JfdXZGb3lDMzBOQUhxWjRaZWRudDZXZkJhSDEyYzDSAX9BVV95cUxPcTNkNjM3QkRqeFkwdUNqMjhaMHZOVjBxaDBxenZCODVFaHBFV2ZrVm5BRkp2MEJrRGNuNnNycXlOWER6eFRZMUc5b0lEb2ZKQWlsLU91RFZJNjRteEROdm9iX3V2Rm95QzMwTkFIcVo0WmVkbnQ2V2ZCYUgxMmMw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-04T14:37:39Z"
+    },
+    {
+      "id": "transicao_21966",
+      "titulo": "Leilão de baterias: Brasil avança em armazenamento de energia",
+      "lead": "Leilão de baterias: Brasil avança em armazenamento de energia",
+      "fonte": "ISTOÉ DINHEIRO",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nVWdya0gtWW83OEd0Sl9DVjFlVnZqZklzSDYxNkhtQTd1c0xJVWVrTWpSUEhYcFhOaFRRWDNTNFNiNWIyWkd0UXE5Q3daZWstRHZGOU5TaVB5UVVVRjVVZlRsTU9OUmpvZlpxY1FJeEMzUkU2MnNzZ2VOcw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-04T12:15:02Z"
     },
     {
       "id": "transicao_72934",
@@ -160,9 +201,7 @@
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
         "Folha de S.Paulo",
-        "movimentoeconomico.com.br",
-        "moneytimes.com.br",
-        "Poder360",
+        "Money Times",
         "G1"
       ]
     },
@@ -340,7 +379,7 @@
       "data": "2026-07-30T13:24:37Z",
       "tambem_em": [
         "Agência de Notícias da Indústria",
-        "InfoMoney",
+        "infomoney.com.br",
         "JOTA Info"
       ]
     },
@@ -405,6 +444,16 @@
       "data": "2026-07-29T17:41:13Z"
     },
     {
+      "id": "regulacao_93615",
+      "titulo": "Suggest New Regulatory Sandbox Projects",
+      "lead": "Suggest New Regulatory Sandbox Projects — Agência Nacional de Energia Elétrica www.gov.br",
+      "fonte": "ANEEL",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVy0tUVZhX0xQcWNJdlgzaF92S1lHQzBNdnpFOWpfdHJhdUpaNmtiZkFfSTJsWkZXMHJaX1lGRmRoa2pPVGdBa0tRcGhuSFdWTjFKSFgxb2E5Z09YanJhUWpqUHBQV1l5MUQwcWtKWGs3blFzZjB4OXk2VjBnaFJTWklFa015UmpMOTJsTzZfNHU4WUNCX0hGSC1mOE9QRmREdm5kcTgzSFN5cU1BMGs5bmkxMmFkWFdTcVd2ay1NNGdLVjVCX3V4YXFucGdfMGw1UGtNQnRtbDk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-07-29T16:32:00Z"
+    },
+    {
       "id": "transicao_94998",
       "titulo": "Casa dos Ventos anuncia dois novos acordos de autoprodução de energia renovável",
       "lead": "Casa dos Ventos anuncia dois novos acordos de autoprodução de energia renovável",
@@ -420,7 +469,7 @@
       "lead": "ANEEL define Receitas Anuais de Geração de 59 usinas do Regime de Cotas — Agência Nacional de Energia Elétrica www.gov.br",
       "fonte": "ANEEL",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeXA1SUhVdWEzdmhESmRwNFlYQ2hFN21IVHJBR2Vyc09Tam84TERJa0Fpd2xvMkhra21pajV1M3RpWDNCMnEtS3pldzhkZHZERE5Rd1hqSm9XZmh3UnhmSjZmWU1TZTVybG5YV2lVM05HRGQtY0FvWlpERkd5a0pNcHZFNFN2YlJNQ21XamFPaXlTUzlndmVoZ05ldHJTWDd1dXVzMmRUeWlpNHQtWUVnVnNLbVl1QU1nc1ZNTkNJWGkyOFphOENNbkc3U1lWXzBZLW84UkRnYy1oUQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-29T15:44:27Z"
     },
@@ -579,56 +628,6 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-28T16:13:19Z"
-    },
-    {
-      "id": "regulacao_85841",
-      "titulo": "ANEEL homologa parcialmente resultado do Leilão de Reserva de Capacidade 2/2026",
-      "lead": "ANEEL homologa parcialmente resultado do Leilão de Reserva de Capacidade 2/2026 www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcEJQQzhDSmNqLVRCX2lpZjVYdHhQb1NaNmw3ejBUWHBVZVFVTzNxU2l1Snh1THl6c2w2UjM1Q3hNUlpuTlJ1NkRJeS1qWkZvUERnbW1TYUlPTmZQM3dKUHhZZThKWlZ6ckJZc3AzRFp6bk04TmNTVDZFcGp4aVJDaFQxQ3pQU3ZTZEQ4QVlOVEcxY3BoYnRlek9FX0ZhTGdmMWVCMVUyc3FCOVZmZ01uZUJrTVhHMFdLakRlakw5c0ZrclNFWlNkSFYzdXJOZkZnLUdVbWlxelNpMk9adkFBRU1iNV8?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-28T16:05:15Z"
-    },
-    {
-      "id": "transicao_58048",
-      "titulo": "Leilão de baterias tem proposta de edital com regras mais duras - infomoney.com.br",
-      "lead": "Leilão de baterias tem proposta de edital com regras mais duras",
-      "fonte": "infomoney.com.br",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbVBMVm1pWnNva2J2MDI2aVhqNzdPSHhxWC1uT0Rsc3BlY09IWVVZWTl2UnRVZUdnRHJ4ZmtmQl9WNmtaQm1iU29DNkhUTnVvMUpERmx4WWNqc0JzMGJUT2J2SU9IazUybVkzVWhxSWxwYXF3Rlg4Z0xzZ1lKVGh1OEdvc05CVFgtQ1RDaERyZThWUWMwUEVjUlVoN0JsYkpjMW12RNIBqgFBVV95cUxPSVFORnNXdFZIdkdVNWpRVExYcm8xOHEtMllSZ3dYaWZlQ2NmVUNaU3NiWVdXN0RJbUgtY1FaMF9KZ0JzRWVOUTlKQnhyOUoyZnRteENMb0F4eWxRSUFLRXU4MzVyQWV5ZDMzaTRYbWpJcndjNGYtR2hXNjJ3blJudGxRNDU3el9QdWo5bkM5ZndiMmVFaElFV2R0TWNxX0xxMG9FNlRGeW9yUQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-07-28T15:50:39Z"
-    },
-    {
-      "id": "mercado-livre_25975",
-      "titulo": "Aneel mantém desligamento da 2W Varejista por inadimplência e risco ao mercado",
-      "lead": "Aneel mantém desligamento da 2W Varejista por inadimplência e risco ao mercado",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY3l0NjlOLW9nNWdoa050dVduVEtFNmdTdkktenp1ZmFfMi1OWDhQYmRtUVM4bFhROW91b1dNdEZxRU4tUzNUbnJIdktzNE0zeGx0Y2o1QmlmME9JTlJXV2ZWOHd2bmJmRUJETkpiblJmckpLWi11dnJpMDk1NDl0ZzV5UU5fQ29FdzMycVpZRUQ5cjU4WENiaw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-28T15:48:47Z"
-    },
-    {
-      "id": "regulacao_1722",
-      "titulo": "Aneel abre consulta dos leilões de baterias e deixa rateio do ERCap de fora",
-      "lead": "Aneel abre consulta dos leilões de baterias e deixa rateio do ERCap de fora",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZGFnNm5ESkktY2VhX3BmSERxcWRRd196elFqQnVlVElKWmMzbVJjUjJlaFlVdHJxNDJKQ3lOV0ZwalduS2tCbzBWZFU5T0h4Z3g1Mi1SWkxUeW9UdllhRkpFUHlvRW1HLWlzbnNUQjJEZVJJaDBzNC1kSkd0UFduZ3hSZENyVXhvN0drTEZHNHhPSElpWFM5RXlwUG50YUtyVG9fd192ZjVnZWN6ZWUyT3cwUHlRMmUzNVZoVmJSYTN1ZFE5MWpYYk5OOUszQQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-28T15:24:07Z"
-    },
-    {
-      "id": "regulacao_57918",
-      "titulo": "ONS propõe ajustes à ANEEL para garantir transição regulatória segura das novas regras de curtailment",
-      "lead": "ONS propõe ajustes à ANEEL para garantir transição regulatória segura das novas regras de curtailment",
-      "fonte": "Cenário Energia",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQnpUU3RsR3ltdkgtSnF3WUtUblJrTkhmeEVOYVN4OV9PMXJpZ04tZkRnTEdaRXdIZXUxdTNISXhPTGpFd2lZckx0UnUydF9zVDFvcGRFLXNlaS02NkRGTHJZUFVDNGxESzRTSFZNak0zazM2MnJjMTYxMVh6WTBpRENxLUxOZjBmaWdOVGo0MEowRjRRLUJ5QWFLaUpzbTJKcHNNdWVhSlA2NW9oYW5LNzViRy0tUFV5MlpLQUZ3aGVGc0JqYzBYV1VVYUhQczh4R1dncWN6LUE2Q0k?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-28T13:38:34Z"
     }
   ]
 }
