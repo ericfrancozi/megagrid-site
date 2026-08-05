@@ -79,6 +79,8 @@
   .tk .lbl{color:#7C8CA4}
   .t-up{color:#FF8585}.t-down{color:#5BE3A4}
   .tk.src{color:#7C8CA4;font-size:.72rem}
+  /* dado parado há mais de 12h: âmbar em vez de passar despercebido */
+  .tk.src.stale{color:#F0B03C;font-weight:700}
 
   /* menu lateral */
   .backdrop{position:fixed;inset:0;background:rgba(10,20,38,.45);z-index:70;opacity:0;pointer-events:none;transition:opacity .25s}
@@ -763,19 +765,40 @@ function fmtDate(iso){
   if(days<7) return 'há '+days+' dias';
   return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'});
 }
+/* Carimbo de atualização dos dados. Fonte única: o campo `updated` do JSON,
+   nunca o relógio do visitante — dado parado precisa aparecer como parado.
+   Sempre em America/Sao_Paulo, independente do fuso de quem acessa. */
+var TZ_BR='America/Sao_Paulo';
+var STALE_MS=12*3600*1000;
+function dataStamp(fontes){
+  var iso=null;
+  for(var i=0;i<fontes.length&&!iso;i++) if(fontes[i]&&fontes[i].updated) iso=fontes[i].updated;
+  if(!iso) return null;
+  var d=new Date(iso);
+  if(isNaN(d.getTime())) return null;
+  var hora=d.toLocaleTimeString('pt-BR',{timeZone:TZ_BR,hour:'2-digit',minute:'2-digit'});
+  return {
+    hora:hora,
+    data:d.toLocaleDateString('pt-BR',{timeZone:TZ_BR}),
+    dataCurta:d.toLocaleDateString('pt-BR',{timeZone:TZ_BR,day:'2-digit',month:'2-digit'}),
+    stale:(Date.now()-d.getTime())>STALE_MS
+  };
+}
 function setEl(id,txt,color){
   var el=document.getElementById(id);
   if(el){el.textContent=txt;if(color)el.style.color=color;}
 }
 
 /* ── Ticker ──────────────────────────────────────────────────────── */
-function renderTicker(pld,ear,band,carga,termo){
+function renderTicker(pld,ear,band,carga,termo,stamp){
   var subs=(pld&&pld.submercados)||{};
   var bi=bandInfo((band&&band.cor)||'amarela');
   var earPct=(ear&&ear.ear_percentual!=null)?ear.ear_percentual.toFixed(1)+'%':'—';
   var cargaVal=(carga&&carga.carga_mwmed)?(carga.carga_mwmed/1000).toFixed(1)+' GWmed':'—';
   var score=(termo&&termo.score!=null)?termo.score+'/100':'—';
-  var h=new Date().getHours().toString().padStart(2,'0')+':'+new Date().getMinutes().toString().padStart(2,'0');
+  var fonte=stamp
+    ? (stamp.stale?'dado de '+stamp.dataCurta+' às '+stamp.hora:'CCEE · ONS · ANEEL · '+stamp.hora)
+    : 'CCEE · ONS · ANEEL';
 
   // Submercados com preço idêntico na mesma atualização viram um item só:
   // "PLD SE/CO · S · NE  R$ 176,11 ▼x%" em vez de três linhas repetidas.
@@ -805,7 +828,7 @@ function renderTicker(pld,ear,band,carga,termo){
     '<span class="tk"><span class="lbl">RESERVATÓRIOS</span><b>'+earPct+'</b></span>',
     carga?'<span class="tk"><span class="lbl">CARGA SIN</span><b>'+cargaVal+'</b></span>':'',
     '<span class="tk"><span class="lbl">TERMÔMETRO MWh</span><b>'+score+'</b></span>',
-    '<span class="tk src">CCEE · ONS · ANEEL · '+h+'</span>',
+    '<span class="tk src'+(stamp&&stamp.stale?' stale':'')+'"'+(stamp?' title="Atualizado em '+stamp.data+' às '+stamp.hora+' (BRT)"':'')+'>'+fonte+'</span>',
   ].filter(Boolean).join('');
   var tape=document.getElementById('tape');
   tape.innerHTML='<div class="tape-half">'+html+'</div>';
@@ -943,14 +966,17 @@ async function loadData(){
   var results=await Promise.all([safe(base+'pld.json'),safe(base+'reservatorios.json'),safe(base+'bandeira.json'),safe(base+'carga.json'),safe(base+'termometro.json'),safe(base+'noticias.json')]);
   var pld=results[0],ear=results[1],band=results[2],carga=results[3],termo=results[4],news=results[5];
   if(pld) _pldData=pld; // compartilha com calculadoras
-  if(pld||ear||band||carga||termo) renderTicker(pld,ear,band,carga,termo);
+  // Um único carimbo para a barra do topo e para o bloco "Mercado agora":
+  // se os dois divergirem, um deles está mentindo.
+  var stamp=dataStamp([pld,news,band,carga,termo,ear]);
+  if(pld||ear||band||carga||termo) renderTicker(pld,ear,band,carga,termo,stamp);
   else{var t=document.getElementById('tape');t.innerHTML+=t.innerHTML;}
   if(typeof Chart!=='undefined'&&pld) renderChart(pld);
   if(pld||ear||band||carga) renderQuotes(pld||{},ear||{},band||{},carga||{});
   if(termo) renderTermometro(termo);
   if(news) renderNoticias(news);
   var tsEl=document.getElementById('data-updated');
-  if(tsEl){var ts=(pld&&pld.updated)||(news&&news.updated);if(ts){var d=new Date(ts);tsEl.textContent='CCEE · ONS · ANEEL — atualizado '+d.toLocaleDateString('pt-BR')+' às '+d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}}
+  if(tsEl&&stamp) tsEl.textContent='CCEE · ONS · ANEEL — atualizado '+stamp.data+' às '+stamp.hora;
   // Inicializa calculadoras com PLD real carregado
   calcMigracao();calcPrecificacao();calcCusto();
 }
