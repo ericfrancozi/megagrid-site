@@ -77,7 +77,7 @@
   .tk{display:inline-flex;align-items:center;gap:6px;padding:0 26px;border-right:1px solid rgba(255,255,255,.1);flex:0 0 auto;white-space:nowrap}
   .tk b{font-weight:800;color:#fff}
   .tk .lbl{color:#7C8CA4}
-  .t-up{color:#FF8585}.t-down{color:#5BE3A4}
+  .t-up{color:#FF8585}.t-down{color:#5BE3A4}.t-na{color:#7C8CA4}
   .tk.src{color:#7C8CA4;font-size:.72rem}
   /* dado parado há mais de 12h: âmbar em vez de passar despercebido */
   .tk.src.stale{color:#F0B03C;font-weight:700}
@@ -333,10 +333,10 @@
 <div class="ticker" aria-label="Cotações do mercado de energia">
   <div class="tape" id="tape">
     <div class="tape-half" id="tape-inner">
-      <span class="tk"><span class="lbl">PLD SE/CO</span><b>R$ —</b></span>
-      <span class="tk"><span class="lbl">SUL</span><b>R$ —</b></span>
-      <span class="tk"><span class="lbl">NE</span><b>R$ —</b></span>
-      <span class="tk"><span class="lbl">NORTE</span><b>R$ —</b></span>
+      <span class="tk"><span class="lbl">PLD SE/CO</span><b>R$ —</b><span class="t-na">—</span></span>
+      <span class="tk"><span class="lbl">PLD SUL</span><b>R$ —</b><span class="t-na">—</span></span>
+      <span class="tk"><span class="lbl">PLD NE</span><b>R$ —</b><span class="t-na">—</span></span>
+      <span class="tk"><span class="lbl">PLD NORTE</span><b>R$ —</b><span class="t-na">—</span></span>
       <span class="tk"><span class="lbl">BANDEIRA</span><b>Carregando…</b></span>
       <span class="tk"><span class="lbl">RESERVATÓRIOS</span><b>—%</b></span>
       <span class="tk"><span class="lbl">TERMÔMETRO MWh</span><b>—/100</b></span>
@@ -800,26 +800,24 @@ function renderTicker(pld,ear,band,carga,termo,stamp){
     ? (stamp.stale?'dado de '+stamp.dataCurta+' às '+stamp.hora:'CCEE · ONS · ANEEL · '+stamp.hora)
     : 'CCEE · ONS · ANEEL';
 
-  // Submercados com preço idêntico na mesma atualização viram um item só:
-  // "PLD SE/CO · S · NE  R$ 176,11 ▼x%" em vez de três linhas repetidas.
-  var SUBS_TICKER=[{sub:'SE/CO',solo:'PLD SE/CO',curto:'SE/CO'},{sub:'S',solo:'SUL',curto:'S'},
-                   {sub:'NE',solo:'NORDESTE',curto:'NE'},{sub:'N',solo:'NORTE',curto:'N'}];
+  // Cada submercado ocupa sempre a sua própria entrada — nunca agrupamos por
+  // coincidência de valor. Três preços iguais podem ser convergência real (a
+  // notícia) ou dado ausente (o defeito), e fundi-los numa linha só apaga
+  // justamente o contraste com quem divergiu. A estrutura é fixa: quatro
+  // entradas, na mesma ordem, com rótulo/valor/variação próprios, mesmo que os
+  // quatro valores sejam idênticos ao centavo ou que falte dado.
+  var SUBS_TICKER=[{sub:'SE/CO',lbl:'PLD SE/CO'},{sub:'S',lbl:'PLD SUL'},
+                   {sub:'NE',lbl:'PLD NE'},{sub:'N',lbl:'PLD NORTE'}];
   function tkSubs(){
-    var grupos=[],porChave={};
-    SUBS_TICKER.forEach(function(d){
-      var v=subs[d.sub];
-      if(!v) return;
-      var chave=Number(v.preco).toFixed(2)+'|'+Number(v.variacao||0).toFixed(1);
-      if(porChave[chave]){porChave[chave].itens.push(d);return;}
-      porChave[chave]={itens:[d],valor:v};
-      grupos.push(porChave[chave]);
-    });
-    return grupos.map(function(g){
-      var v=g.valor,sv=v.variacao>=0?'t-up':'t-down',sa=v.variacao>=0?'▲':'▼';
-      var lbl=g.itens.length>1
-        ? 'PLD '+g.itens.map(function(d){return d.curto;}).join(' · ')
-        : g.itens[0].solo;
-      return '<span class="tk"><span class="lbl">'+lbl+'</span><b>'+pldFmt(v.preco)+'/MWh</b><span class="'+sv+'">'+sa+' '+Math.abs(v.variacao).toFixed(1).replace('.',',')+'%</span></span>';
+    return SUBS_TICKER.map(function(d){
+      var v=subs[d.sub]||{};
+      var preco=(v.preco!=null)?pldFmt(v.preco)+'/MWh':'R$ —';
+      var cls='t-na',txt='—';
+      if(v.variacao!=null){
+        cls=v.variacao>=0?'t-up':'t-down';
+        txt=(v.variacao>=0?'▲':'▼')+' '+Math.abs(v.variacao).toFixed(1).replace('.',',')+'%';
+      }
+      return '<span class="tk"><span class="lbl">'+d.lbl+'</span><b>'+preco+'</b><span class="'+cls+'">'+txt+'</span></span>';
     }).join('');
   }
   var html=[
