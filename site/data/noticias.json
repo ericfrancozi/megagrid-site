@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-05T19:40:53Z",
+  "updated": "2026-08-06T11:25:46Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_58430",
+      "titulo": "CCEE mapeia comercializadoras em recuperação judicial e defende reforço da segurança do mercado",
+      "lead": "CCEE mapeia comercializadoras em recuperação judicial e defende reforço da segurança do mercado",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQjhFSkRDWTBnWVFMZGc5b29HSkxKeG1KRW43d3VucGxqRjJaWm1MYi0zTFY4YjltNl9TUngtc2hHSUotZ1BrcHQ3MTZqUW9SOWdkRUQyWHNmWkhCV3FoT0JXMkdDbnc1VVY3elA0VGRwNDNLWEdLNF9UUk9QWkc4QTgyQlNVQWFQZXpMdVVhaGpjcmNlY1RrZnBBcTItSFRMbWpMMGdoWXNwUDdjb1BBSDNPTDBYOHZucWtqZjdtY09jWWN4bWpTRF94U2hUQ1BMRnJ4VQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-06T11:05:15Z"
+    },
+    {
+      "id": "mercado-livre_98768",
+      "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
+      "lead": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUVQyLVRGMjNQTGJMYXJFNi1PY2JIQ1VremVkazF2VVc0dnFJMC14bTdNd2RTaGE2WmR5RHFBNTNMdlFyMVdPcVpUaDRqSmphT0ptNWFtUkxPOU1aLUNQWkc2ZDltanB6eXpUZ2c5Y19PdHJxQTlibmk5Tm1aWlNHOVJRWnliVDMtT3RTOFZDR2paV29QdGVFZG1SR1E5VEh1UzkzOWxtS2ZESkZJMHp2N0U0TzM1Z3FqX25kM2RoWDhZdGMycW5FdTFLOUNZaVJBc19wN20tdXJfX0ZwZTVGNzM0dEfSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-06T01:23:26Z"
+    },
+    {
+      "id": "regulacao_78",
+      "titulo": "Primeira Unidade Geradora da Usina Termelétrica Azulão I entra em operação comercial",
+      "lead": "Primeira Unidade Geradora da Usina Termelétrica Azulão I entra em operação comercial www.gov.br",
+      "fonte": "ANEEL",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaFl3WEdmNUhJYWViUTdWeEZHSThmUGRxSmpkN0hOSGFPelVqSkVndkhmcXVNSXF0TTF6bGwyMEU4Z09FQU9Wd0lTc2V3VmlIMVFQRllkcnUtcTVvWl9JY1ByTUlZc1NkRFJfNUt4V2ZydXZtLXFZeC1venVnNEwxWURxLW9WQ2I2X2RCUmlsREhlR05MdDA3VzZwZlRlQlI0cnhSWmU1TUJ5amNYS1RKemQwLUN1T2loNlNHR3lDQlRZZjJ4S3pCeXJmeDJTNzhMY2ZJMy1mcXpLM202NndRRERIa0xadms4N3Iw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-05T20:19:11Z"
+    },
     {
       "id": "regulacao_72243",
       "titulo": "Aneel vai concluir regulamentação do encargo das baterias antes do leilão, diz Sandoval Feitosa",
@@ -21,6 +51,16 @@
       "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-05T14:05:20Z"
+    },
+    {
+      "id": "transicao_15946",
+      "titulo": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
+      "lead": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
+      "fonte": "Tribuna do Norte",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSjNtUjFxSnZSaTFULThqaXkyZE14eDRMcEQ4MlVwM2dkR1k0Vy1ZUXRvR0VxN3dieFlTbGFxeXUzakxieDBiZVNvV0JnbDZMYXVHS3R1VUNNYXRiN1E5aHVRNF9IT1c3UGZKbDgtOXJMaGUyR2p2SWtqbHFWbVM5Q3hSUXVvN2drcUhhMk5nTnVzcUVoMUxLamJxOWVFbFY2QVhBTzNQRUx1V3lrTE5kalAtQm1obm8?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-05T03:00:00Z"
     },
     {
       "id": "transicao_60523",
@@ -122,7 +162,7 @@
       "editoria": "transicao",
       "data": "2026-08-03T21:33:51Z",
       "tambem_em": [
-        "Petronotícias"
+        "petronoticias.com.br"
       ]
     },
     {
@@ -216,19 +256,29 @@
       "data": "2026-08-03T13:24:47Z"
     },
     {
+      "id": "tarifas_66508",
+      "titulo": "Conta de luz segue com bandeira amarela em agosto, diz Aneel - capitalnews.com.br",
+      "lead": "Conta de luz segue com bandeira amarela em agosto, diz Aneel",
+      "fonte": "capitalnews.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaS1sNTZNVldPNUU1cGs1TV9MMnVmZ2dVY3g3UDJ5SFJnVEJ6bTJ4YlE1X3l1NGVmSGhMb0dXOEkxQ3JfZVJPVEMweTNmLWk4RHhOZEtKU1BXZDZJZGFjcDNTRWVfdU1iTEgxdnFwd0F6RnlTQ1NrVGhBNTZkQ3pxUkdGRlpVZXU2R3pqMk5CaUotd1Fqbkh5MFVhdVJuRm1FZzh2T25LcUFyN0RHRGRJeEMtUlM5d3BudXlteXhUSWxmalg3TGVBdg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-03T13:01:00Z",
+      "tambem_em": [
+        "Roraima em Tempo"
+      ]
+    },
+    {
       "id": "tarifas_94450",
       "titulo": "Conta de luz terá cobrança extra pelo quarto mês seguido",
       "lead": "Conta de luz terá cobrança extra pelo quarto mês seguido",
       "fonte": "Canal Solar",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PNDBIQ1o2R0RlU1NNMGxzdTJVa2I5U0FJUDU4TWNKSTZzNGlPVTdJa1djTlhyTGU1bWNfSXNhRy0wS3Y5cjZrdmFHaU5PenFQQmE3R2ttV2JXS0Ffa1NBNG90NmJtY19EanRYS1pn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-03T11:44:21Z",
       "tambem_em": [
-        "TV Zoom",
-        "Portal Solar",
-        "capitalnews.com.br",
-        "roraimaemtempo.com.br"
+        "Portal Solar"
       ]
     },
     {
@@ -257,14 +307,15 @@
       "lead": "ANEEL mantém bandeira tarifária amarela em agosto",
       "fonte": "Agência iNFRA",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQy1XNThBVExhY0hLLU1TTDBxZktGSVdaaEU1T21HV3JJeW9IVTF1dmJ6d2d4X01hbUh1VFRCdVc0eTdqa0tDUzlHNGpBU0YwZUQzbGdJa0t6TkFBcEdhM0hSejd3OVZUNkk2aWw3aFRfR05mQUZwX1M1RUdxNjQwUGkwZGlIb2s?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
+        "CartaCapital",
         "Folha de S.Paulo",
         "Movimento Econômico",
-        "Poder360",
-        "G1"
+        "G1",
+        "www.gov.br"
       ]
     },
     {
@@ -286,16 +337,6 @@
       "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-31T20:54:03Z"
-    },
-    {
-      "id": "tarifas_57151",
-      "titulo": "Bandeira Tarifária continua amarela em agosto — Agência Nacional de Energia Elétrica - www.gov.br",
-      "lead": "Bandeira Tarifária continua amarela em agosto",
-      "fonte": "www.gov.br",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQjJlbWszVDZvQ2I2RTlfd0g2TkRialY1YUtGcEJxcjdvNmRIMkgwOGJucHIwTUFNZWFNSlZ1dlZvRTE0SW5za1A2c1BKVXdCdDRkUWU4NWs0LVIwSTJBX01GWEhhc1l4bFVaS2R4ZHlTQXNteUt3V3JBcC1DRzNyQ05kVkxfVFplN3dQNU9KUlZ4blp1NTRCS3BaRDRUM0o5ODhvTzc5MDVqNS1CaHJ1eDlVM0FYd2M?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-07-31T20:29:12Z"
     },
     {
       "id": "politica-energetica_71940",
@@ -440,8 +481,7 @@
       "editoria": "mercado-livre",
       "data": "2026-07-30T13:24:37Z",
       "tambem_em": [
-        "Agência de Notícias da Indústria",
-        "jota.info"
+        "Agência de Notícias da Indústria"
       ]
     },
     {
@@ -522,7 +562,11 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSko2Y1A2RVVnUjhuNFdQd0FvQ2JkRWxaX182Z001S3hlNUdVSWEtQTVFNXAzc2FqQXFPdG9uZnpzNmp0bXI4VjNIblNzUUtOXzdkbjVLa09LOUlWdEkxZEd1djdHMVlObC1faTFqYWlLd05wQVFwSlN1UmZrbVhFb2pPSQ?oc=5",
       "imagem": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=600&q=70",
       "editoria": "transicao",
-      "data": "2026-07-29T15:54:57Z"
+      "data": "2026-07-29T15:54:57Z",
+      "tambem_em": [
+        "Sala da Notícia",
+        "Brasil Mineral"
+      ]
     },
     {
       "id": "regulacao_62007",
@@ -583,46 +627,6 @@
       "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-29T12:23:00Z"
-    },
-    {
-      "id": "transicao_76477",
-      "titulo": "Casa dos Ventos e Mosaic fecham novo contrato de autoprodução eólica",
-      "lead": "Casa dos Ventos e Mosaic fecham novo contrato de autoprodução eólica",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdk82clp1MVZjWnJWSE9rcGFlMGJFbDQ0WE9FSllpWGUtYTdWRWRHbFR0MGpZZzhrMW5uQVZpTkE2RUVrcVlhN1E5V2U2bjN4a3V4ZXRYLWVQV2JnZ3ZVck8xeFNTY09UakxkUVFNaEJSOFVkWlQxczE3dkVLYzVnWTFoNkxONF9pYW11UzlRdDRaTEV5QlJ0OFI0ck12bFBhNlJJU0FUdUFmaTVMcllZZzlpTEtYWk1YTnN5d0xRbmtsOFFM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-07-29T12:04:39Z"
-    },
-    {
-      "id": "mercado-livre_23160",
-      "titulo": "Eneva poderá ter 791 MW convocados no LRCap após inabilitação da ION",
-      "lead": "Eneva poderá ter 791 MW convocados no LRCap após inabilitação da ION",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcy1qT3ZZSXh3SFBqcnRENGVtVkpYdFRTZm9DYWdCVTZOTHBDcGplb3Q5dUlBZElmams5WHhERjZBSVhlOVp2el9CNTNjQXk2RzZieUtaN2w1T0kxQm1UX24wWnA5bW5wTnh1elhMRk1HWnJHYWtkLXU3LWhZNDBTMXRIYmNVdmxNaTlxbUdHUUgtRk9fdUs2MmJmYlNxUjk4Tm5fb05CemQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-29T11:01:49Z"
-    },
-    {
-      "id": "transicao_43609",
-      "titulo": "Aneel prepara leilão de baterias e abre nova frente de investimento em energia no Brasil",
-      "lead": "Aneel prepara leilão de baterias e abre nova frente de investimento em energia no Brasil",
-      "fonte": "Paraíba Business",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMjhTcXhkejNaellyd2xkRFhzZlhQbFpuQzV1YjlXWG9LVk5mOEpnLS1EVTFvYTVJVV9mZFowbFg2YjZydkozQmxES1ZZQV9rU2JMUTZ2ZzRJangxRjV1eC1PSmlrNThiQkpRUlhRMlNuWGhlRGFzSXNMZ1p2VUxKenBDWk1odENYVjdYQnRWVkR4alQ1S3AtakVQXzNWanF3Y01Rb2NGRF9QZDFKaExBNUlCUGFQZDMxd0c4ZQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1548337138-e87d889cc369?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-07-28T23:00:00Z"
-    },
-    {
-      "id": "transicao_33021",
-      "titulo": "Casa dos Ventos e Mosaic ampliam parceria para autoprodução de energia renovável com entrada em operação de…",
-      "lead": "Casa dos Ventos e Mosaic ampliam parceria para autoprodução de energia renovável com entrada em operação de…",
-      "fonte": "Sala da Notícia",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNVm9UWWZMQkhBQ1hiTm4yZ2ZlWFZlUDdFMnNnMVZFOGpVNnNPY2xtNzUzamx5M3k3Y2JCMHpkZkl5c0hIN2toaWtmMElDM2wzQk52S1ZOMXl3TTZOTzV2WGM0ZkdXVkp3T2xjTlN3MUZXZWJoc0RKa2tuaWZVS3Jpd2dTMzlYdEZySXhURW9rNGpkSjJ4ejhSOXBxRDlXXzJsdENGY1J6R01jS09CX1pzNC1EU0xPY3RiUW1JZUd4Uk5CVGlib0JVQ3J2WHpPM3ozUHF1Zk1ycksyMXBSVGotQmxpQ2ZkTV9sdHR6TVJRMXdCZ2RicUhhS0RnOXM1TFpR?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-07-28T22:25:55Z"
     }
   ]
 }
