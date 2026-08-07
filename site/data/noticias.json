@@ -1,7 +1,51 @@
 {
-  "updated": "2026-08-07T12:46:05Z",
+  "updated": "2026-08-07T19:02:48Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_89340",
+      "titulo": "Ludfor acredita na recuperação das migrações para o mercado livre ainda em 2026 — e El Niño pode ajudar",
+      "lead": "Ludfor acredita na recuperação das migrações para o mercado livre ainda em 2026",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSWxSU0xfZVhTV1BGMTg5eW5NVmhzSzhxMTRhWWRTVmJKNEZmNmtya3hBU2VNOU5sUzFBUFdBMDRuQUkwN0MzSmFiMDRHbjQxdUdJczVGNDNqWU15V1N1ZkJFdUYtOF8ydUhXeTFtcGZBWk1OaE9Sb1NyTm9MQWZuRzE2N2hscTI3R2RxZzdEY0wwOFgxZ0hBZEw3SXY3TWtKVF96ZlZnbWdUb1VLYm95VEYwcXFPZ0VxeExNTExCOEw0cVVqRWd1R3lwTEpIOXdWMkNZYkVYVQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-07T17:45:31Z"
+    },
+    {
+      "id": "tarifas_22539",
+      "titulo": "Conta de energia segue mais cara durante o mês de agosto com a bandeira amarela - en.com.br",
+      "lead": "Conta de energia segue mais cara durante o mês de agosto com a bandeira amarela",
+      "fonte": "en.com.br",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRlNPU2tvcGJyNmR4b05pMGxiaVNGT3pPRS02TGtwYTZ0QnpmV3ZDUDh6OHIya0Y2MFE2VGJDOWlUWUxzeTBDQ2IxcXdCWWYxd2lZY3pabV9yZnhOMzl2cXhZampXdUIyNTk1MFRrd1RsN25QU2JXN190X2Zwall4eFE3MWJoRjVrcmZmcmgtTXdwaXJ4Mnp5dFVNTVdNa3M?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-07T16:42:00Z",
+      "tambem_em": [
+        "Stift Melk",
+        "Alphaville e Arredores"
+      ]
+    },
+    {
+      "id": "transicao_58047",
+      "titulo": "Baterias de sal avançam nos EUA e desafiam domínio chinês no setor energético",
+      "lead": "Baterias de sal avançam nos EUA e desafiam domínio chinês no setor energético",
+      "fonte": "Olhar Digital",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRExHczRJYUE4MG4ybUJVa2RwUjAxbmlESGdNS1NDQlEtS0xiOFBPdHRuN0dDdUNZS0xaOEtXVVo5WnI3RHBIWEVLT2xHMFlxN0lzdllPck5YLVVzUmQta0owTm1CS2NGNXV2bW1mMXJPNWo1OWtJRlVJTTZnZ3JZUW5TNktUM0N6OG5xMzRKcGNEREFwX2Nhb0xUSE9ydE1TSTdOOUxheVJId1RTNzFwN0RyMTB0MVpyc3VuNl9WUlFrb243UDZLRktKRDRlYlU?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-07T15:11:00Z"
+    },
+    {
+      "id": "mercado-livre_91433",
+      "titulo": "Mercado Livre de Energia vira alternativa para empresas do ES controlarem custos",
+      "lead": "Mercado Livre de Energia vira alternativa para empresas do ES controlarem custos",
+      "fonte": "Aqui Notícias",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcURoa0x5WXpEQW1IQmM5NHJIRzB4YVhqZ0VOc1htU25sZ0cwY0gzeGZYWXd4X0lBWGptRTRtaU94VUM1ZXZ4YWlTeDB2TmFGTkk3V08tN2tNbm1CXzhMcHRJY1FkTEJOaG9yTU5EeFRpYnlLc0xqX040d0VFSENKRVZLbkQtZGhqWUt0SWd5S201cTBXWFpBZnQ4Q19fUE9CU3NqWjJOc1c1cWZHSC1wUXduaGw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-07T14:35:36Z"
+    },
     {
       "id": "transicao_51729",
       "titulo": "China cria bateria de magnésio e hidrogênio que funciona como uma “esponja química” capaz de absorver o gás durante a descarga sem depender de alta pressão",
@@ -11,6 +55,16 @@
       "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-07T10:01:56Z"
+    },
+    {
+      "id": "transicao_10865",
+      "titulo": "Leilão de baterias abre nova frente para energias renováveis no RN",
+      "lead": "Leilão de baterias abre nova frente para energias renováveis no RN",
+      "fonte": "Agora RN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVi1NMFRZR3ZXdzByd2hTanZYVW9mdFJBZ3hobW1sSWJBeXdQSDNFMzdHVEZFN2hYdXFobFB2UGdoU25DM3pETVBfVDN6YVZVbERHdy02cElfZjY1Z3J4eVZsc0VNSHBNTjBBX0dsVUtKMk1DRmFCZ0wxbkFCZk15ejI1d0VyWXNvVzdsZmRvQlhMUDRoMWtiYW9KYUVuRTg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-07T08:45:00Z"
     },
     {
       "id": "mercado-livre_33799",
@@ -44,20 +98,6 @@
       "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-06T14:28:00Z"
-    },
-    {
-      "id": "tarifas_4052",
-      "titulo": "Conta de luz: bandeira tarifária continua amarela em agosto",
-      "lead": "Conta de luz: bandeira tarifária continua amarela em agosto",
-      "fonte": "Alphaville e Arredores",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WVW5KTmNUS0NDZDFxcWRGZ1FJY3JxNVdNLUVEd1dPMlh2UkxmSDZLelIzTDMxdlFncEU2cGszWnJSVGhUWXdrdG5NaEIyLW9aQWNYNGtXZVYxa3VKVlhaUjVFUGVkaS1RVm1SekJXX1FaVFNRbU80MF92NGQ1Zw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-06T14:05:26Z",
-      "tambem_em": [
-        "Jornal A Voz da Serra",
-        "capitalnews.com.br"
-      ]
     },
     {
       "id": "mercado-livre_98019",
@@ -100,16 +140,16 @@
       "data": "2026-08-06T11:05:15Z"
     },
     {
-      "id": "mercado-livre_16199",
-      "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz - valor.globo.com",
+      "id": "mercado-livre_97524",
+      "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
       "lead": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
-      "fonte": "valor.globo.com",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX09yT1pmVXpmMUZ1ZXhBSV9ITUVVeGhqR2Y1TnpjYmNvbXVEdHJUVEhRc2l0M0FOWHg2WnZ4a3J1QnZRRFR2SXdUUFFnNmtoZ3ZZSnhqcC1TQmVKNFRCdkhpeUJvanFxMEhzaWgyVU1hcTNDWnk2S0drRzBSM2dDS2xUY0U2cnV5ZlVrR0tLbDB2akV6VkRDN0NIVWpVVG1IV0lyVEVwUUk4bF9BLXpLeEJCSTZUdHVnUkE1TC1KTTZjSEdjM2dFZThEUHNXc20zcUVPMmZKdTI5NzdKdkJ3QWpFRzFWazdlRVgxYU9xcFZsdTDSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUVQyLVRGMjNQTGJMYXJFNi1PY2JIQ1VremVkazF2VVc0dnFJMC14bTdNd2RTaGE2WmR5RHFBNTNMdlFyMVdPcVpUaDRqSmphT0ptNWFtUkxPOU1aLUNQWkc2ZDltanB6eXpUZ2c5Y19PdHJxQTlibmk5Tm1aWlNHOVJRWnliVDMtT3RTOFZDR2paV29QdGVFZG1SR1E5VEh1UzkzOWxtS2ZESkZJMHp2N0U0TzM1Z3FqX25kM2RoWDhZdGMycW5FdTFLOUNZaVJBc19wN20tdXJfX0ZwZTVGNzM0dEfSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-06T01:23:26Z",
       "tambem_em": [
-        "Valor Econômico"
+        "valor.globo.com"
       ]
     },
     {
@@ -386,6 +426,16 @@
       "data": "2026-08-03T13:24:47Z"
     },
     {
+      "id": "tarifas_41471",
+      "titulo": "Conta de luz segue com bandeira amarela em agosto, diz Aneel - capitalnews.com.br",
+      "lead": "Conta de luz segue com bandeira amarela em agosto, diz Aneel",
+      "fonte": "capitalnews.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaS1sNTZNVldPNUU1cGs1TV9MMnVmZ2dVY3g3UDJ5SFJnVEJ6bTJ4YlE1X3l1NGVmSGhMb0dXOEkxQ3JfZVJPVEMweTNmLWk4RHhOZEtKU1BXZDZJZGFjcDNTRWVfdU1iTEgxdnFwd0F6RnlTQ1NrVGhBNTZkQ3pxUkdGRlpVZXU2R3pqMk5CaUotd1Fqbkh5MFVhdVJuRm1FZzh2T25LcUFyN0RHRGRJeEMtUlM5d3BudXlteXhUSWxmalg3TGVBdg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-03T13:01:00Z"
+    },
+    {
       "id": "tarifas_94450",
       "titulo": "Conta de luz terá cobrança extra pelo quarto mês seguido",
       "lead": "Conta de luz terá cobrança extra pelo quarto mês seguido",
@@ -428,7 +478,6 @@
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
-        "Folha de S.Paulo",
         "G1"
       ]
     },
@@ -565,7 +614,8 @@
       "editoria": "mercado-livre",
       "data": "2026-07-30T16:47:44Z",
       "tambem_em": [
-        "Agência de Notícias da Indústria"
+        "Agência de Notícias da Indústria",
+        "JOTA Info"
       ]
     },
     {
@@ -577,56 +627,6 @@
       "imagem": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-30T15:24:43Z"
-    },
-    {
-      "id": "politica-energetica_49491",
-      "titulo": "Conselho de Política Energética aprova novos leilões de gás; governo prevê redução de mais de 50% no preço para indústria",
-      "lead": "Conselho de Política Energética aprova novos leilões de gás; governo prevê redução de mais de 50% no preço para indústria",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOOGdKWkN3eEw0WVBkWVFGTUZiWDFQTVp4V0pSeEI4VF9iVDRReEZhanBFWTlLU2FzdkdQNjZvSHRyRjFaLWxNUnlUcW1tcmluekVQRTB3QVUyV3JfTHl6dDI5VUJ5TjlZY25wYnJPU0d3a001NHR1Xzlva083eGFZTVpfcXp3VFRMUW5rYjZTNDlXLV9rSGVnREdDbXBFVXJvQmlZdlFLYjNDWGhVZUMtRkpwQVVlc1NJeDhxRkpyYXdKQTRYLWszWG5obHRzV0NsT1FiSmUzT1pJeVZHYl9kbWlmM0x4SUpjR09GdVhabk1hejFMS1RIRdIBhwJBVV95cUxPY0pWTEJpOU1BcXRlcFhQYWthMmxwbjZFVEdKVm54dFZIQmZoMERlSmlXcnpFTUxYOEhFVUF4NXhGandST0ttOWlENVA3SGxjMDZjdDZCcHN5OTF6amRYNktKRk5Dbjd0RXZId0s2QzNqQ2VucDJvcHdLbEVDWUgzOFU1Qk45MlU2SHR2Q3NEMGNaZ09wdmNXX1NYM1Q2eXMwcXg1Smp6OXRzcmNRTHNrZG10bVpkZThLSll6cU8xQ1hHTTQ4OFdsalVwU3MyREwzcGt0TDRXQms0amw0SkprZUJjM2tKVWZGQzVTYXZCMUg0WGY1Q1hra1owTUxweThkeUR2Yml4aw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-07-30T15:15:55Z"
-    },
-    {
-      "id": "mercado-livre_53950",
-      "titulo": "Mercado livre de energia vira instrumento de meta climática em 90 mil empresas",
-      "lead": "Mercado livre de energia vira instrumento de meta climática em 90 mil empresas",
-      "fonte": "Business Moment",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT1BvdkdHdEpuS1I3Z21PSXdRZmRENVdZc2EzWDNCTUZIbjNkWDRlOU9PNG83RU95aUVuVl9sQm56b29MVmpFemY0S2NPQml4dWNLdG9SRGwzdDZ6U3ZPS09vYWgxY3BhTlVwd1dLV0pCTHVNRUJ3UW94SS1nbFZTYTBuWWnSAYwBQVVfeXFMTmlET2s0bDlqTWFQSzh4NjN1TFNJYXN2VkYyX3BYamQyek1tM2RVOUJUc3Q3cXk1X21zajlGOUlCZlY0UndXT0dyYlJHclcydXBHd3Y2SUxtbFJ5TlFfVjdSeWpVOU9Zc2pxXzViT2xPRnhweHRldVFKTEtxS0l1UmFIRkJkTG1IUHBvWlQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-30T14:21:01Z"
-    },
-    {
-      "id": "mercado-livre_33038",
-      "titulo": "CCEE registra desempenho histórico dos sistemas e reforça preparação tecnológica para a expansão do mercado de energia",
-      "lead": "CCEE registra desempenho histórico dos sistemas e reforça preparação tecnológica para a expansão do mercado de energia",
-      "fonte": "Cenário Energia",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPejVSTnpmQ0ttVUZjUm8xRU02b0hfWVVEVDI3V2ZkT25SdEZtT0RsUUtnaTQtTUxjbkVUMnNxN2Z1S0NMZ1llWUNZMWNZQ24wOHlnY2lkUE1oZXhla1dQQ3J2TG03R3Y3dzhSdWJQSG1US3RsM0JkekpFallHNjVsakw5WWk5Q21QdGxxMUZSemROYWp0Z0psR0JEcEQyVU5ZaU1xZGpKTHNSR0VJbGVsd1pweXZGeHM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-30T13:39:14Z"
-    },
-    {
-      "id": "mercado-livre_9463",
-      "titulo": "CCEE alcança desempenho histórico dos sistemas no segundo trimestre",
-      "lead": "CCEE alcança desempenho histórico dos sistemas no segundo trimestre",
-      "fonte": "CCEE",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeFdudlQzTWUwZDBvYk5lTjBSQVRvODVDRlpWRzFlYzk0MDNhTEVId3hYcUhyREFXbWkzcWdlT1NUb0FrVmZhNTlIMzNNbjhHTEIxTFRLWWtJdFgyM0k1andsbWVzcUp1MnpQd3pqZE9JbkV5QjhBNDNlNHB3bEJQMnd0SmYyMUVBcHNhRW14OHJjOW9UVkZ2MA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-30T12:05:00Z"
-    },
-    {
-      "id": "mercado-livre_47560",
-      "titulo": "Cerca de um terço das indústrias no mercado cativo tem interesse em migrar para o mercado livre",
-      "lead": "Cerca de um terço das indústrias no mercado cativo tem interesse em migrar para o mercado livre",
-      "fonte": "Agência eixos",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR0VIdzEwQ283clJ2Z0RiajBLQTRCYVJXY0FHOENRenBXM3ZaZlJKM0h5NTZzaVNWRVdDbENGTGdtZzBlX1VaYmZNMFR1XzU0U1ZfamtHNWxadE13eTZBbzBoajlNRzIzTmdYdVQ4TmJSa3MzZUdKaWhJZzI2aEhCeG1QS0xneDM5eEJuM1daazFZa3lzNXR3SEw0SGNyT1BZWnlXbjZpRllNXzdkNlFkM3BZQUZDYUVscDZwdmFQZFg5SF9UcDlzaElrZjZKSUYzU1NxZHJCcjhNLTc0?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-30T10:00:00Z"
     }
   ]
 }
