@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-07T10:03:45Z",
+  "updated": "2026-08-07T12:46:05Z",
   "total": 60,
   "itens": [
+    {
+      "id": "transicao_51729",
+      "titulo": "China cria bateria de magnésio e hidrogênio que funciona como uma “esponja química” capaz de absorver o gás durante a descarga sem depender de alta pressão",
+      "lead": "China cria bateria de magnésio e hidrogênio que funciona como uma “esponja química” capaz de absorver o gás durante a descarga sem depender de alta pressão",
+      "fonte": "Catraca Livre",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbkpnaWRkcWFPSXJPd1VubUk0VW9PN0ItdHFKeWcwYUJ3eUN6R3VSWlE5UE9EX3ZHMWxzVjBNR1A0Nng5cllhT2lRY2lMbm1IMmg2RTE0QVhBRHY0THhUR2NhOFI3WUJjUDl3Z0Q0YTl0ZF9Dd2xBN1k1U1NhTzlXX0YzWjl6cVJPWndhbzMweDh3U2J4R3JTRERlaU5uZnhQSkx6N0pYS09vV0VOc3hUTkdVeXZNSG91M3hwMnFscUtLQkhuY2tINXNZVjYzcjlPaTROTnJ2WnRqVE5aMHJSckVMZTYwODEzRmFXVDIxSGNBb3AwZHRqOG50VGVCMThsa1I0b09hM0I5TUNUeGJaUGJ4N0w4VVhhTGMw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-07T10:01:56Z"
+    },
     {
       "id": "mercado-livre_33799",
       "titulo": "Competitividade na indústria eletrointensiva no Brasil",
@@ -90,11 +100,11 @@
       "data": "2026-08-06T11:05:15Z"
     },
     {
-      "id": "mercado-livre_8548",
-      "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
+      "id": "mercado-livre_16199",
+      "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz - valor.globo.com",
       "lead": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUVQyLVRGMjNQTGJMYXJFNi1PY2JIQ1VremVkazF2VVc0dnFJMC14bTdNd2RTaGE2WmR5RHFBNTNMdlFyMVdPcVpUaDRqSmphT0ptNWFtUkxPOU1aLUNQWkc2ZDltanB6eXpUZ2c5Y19PdHJxQTlibmk5Tm1aWlNHOVJRWnliVDMtT3RTOFZDR2paV29QdGVFZG1SR1E5VEh1UzkzOWxtS2ZESkZJMHp2N0U0TzM1Z3FqX25kM2RoWDhZdGMycW5FdTFLOUNZaVJBc19wN20tdXJfX0ZwZTVGNzM0dEfSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
+      "fonte": "valor.globo.com",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX09yT1pmVXpmMUZ1ZXhBSV9ITUVVeGhqR2Y1TnpjYmNvbXVEdHJUVEhRc2l0M0FOWHg2WnZ4a3J1QnZRRFR2SXdUUFFnNmtoZ3ZZSnhqcC1TQmVKNFRCdkhpeUJvanFxMEhzaWgyVU1hcTNDWnk2S0drRzBSM2dDS2xUY0U2cnV5ZlVrR0tLbDB2akV6VkRDN0NIVWpVVG1IV0lyVEVwUUk4bF9BLXpLeEJCSTZUdHVnUkE1TC1KTTZjSEdjM2dFZThEUHNXc20zcUVPMmZKdTI5NzdKdkJ3QWpFRzFWazdlRVgxYU9xcFZsdTDSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
       "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-06T01:23:26Z",
@@ -555,7 +565,7 @@
       "editoria": "mercado-livre",
       "data": "2026-07-30T16:47:44Z",
       "tambem_em": [
-        "noticias.portaldaindustria.com.br"
+        "Agência de Notícias da Indústria"
       ]
     },
     {
@@ -617,16 +627,6 @@
       "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-30T10:00:00Z"
-    },
-    {
-      "id": "mercado-livre_52687",
-      "titulo": "Leilão de energia privilegia fósseis e desrespeita compromissos da COP30, alertam especialistas",
-      "lead": "Leilão de energia privilegia fósseis e desrespeita compromissos da COP30, alertam especialistas",
-      "fonte": "Brasil de Fato",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQamlvelNkNHNmX1hRb2RjQkg5bFkxeTBRWFZadFpxYzNFWXQ1UHI5UEFLdm52UWFUekthMVJMWXkxSmI1bmEyd1N3elZ3TFppMHE5ZDhLRWlDRVJSNlRlaC1DR01aeGhjNjN3ejhXbEh2aGlFN0FXV3cyVlE5QXUxNmxIeW50Z2ZMZ29SeWlHUTVZSG8xZVExRlNfUEMxcEJXQmtBUW5JWFZBZUZwX0psS013Y3czbFpiNWg4ejc0eTdyNDRnU0xXWmN5VmdiX1ZtWlJkdg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-30T00:59:00Z"
     }
   ]
 }
