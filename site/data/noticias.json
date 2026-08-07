@@ -1,16 +1,29 @@
 {
-  "updated": "2026-08-07T00:05:59Z",
+  "updated": "2026-08-07T10:03:45Z",
   "total": 60,
   "itens": [
     {
-      "id": "transicao_14411",
+      "id": "mercado-livre_33799",
+      "titulo": "Competitividade na indústria eletrointensiva no Brasil",
+      "lead": "Competitividade na indústria eletrointensiva no Brasil",
+      "fonte": "JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMFBpWE5TTEFKOHJfWktyd2hxQkt6cklxWEp1SE1zWG45dUxKaHNzZEJ3LXFWZ25XbE5wU0hFcW01WkU0eUxnVTB3d2xzUGJneWE3ODByc181R2k4U2ZwRmlPUlhRYUt1OERFaGplWEd2VTY2QTVwWVdmX2tuODNfcmFpeEtscWsyVmZ4MGpDXzg1SFNnSnRWZTZxYkhZU3NZNEVTLQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-07T08:10:33Z"
+    },
+    {
+      "id": "transicao_86972",
       "titulo": "Leilão de baterias abre nova era para o setor de energia no Brasil",
       "lead": "Leilão de baterias abre nova era para o setor de energia no Brasil",
       "fonte": "Revista Empreende",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZGZQWVV6S2tCVGs1MVRBRlczZ3hhN281Z2FzMFlCUHdXZ0NmbXk0T2NwdVh1VTEtbWxQc0ZveEZwM001dEdBWGZienVmM3BXVzFVMDFNdHlVLUVsVGE2dWxoeWp2dG12NjBzSDgyV1JXRTV0SndHbVl4RktSdmU2Vm91bXpJeVF1YS13QzV0U0c2VnhoVEUtQ1VCT1RQQms?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjFBVnpxQmc3RWVFM1dqM2xDN1JjVG9xYUItLVFBaVVUWkhoanVJWHNVcVp4Zm5QR3NmS1hSQTdpM09tc3RyZ0ZTSmtnNDZKOFE2bnZzNTN4WC00NlZTbG9kLWJFbHFBUlViQnhkVXFBMFdmZEsyVmhONUtvTHh4UlpwZDF1ejBFOHZKYzE5Z1VmSzFjNGhEa2pCWFBmQUFi?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
       "editoria": "transicao",
-      "data": "2026-08-06T22:48:00Z"
+      "data": "2026-08-06T22:48:00Z",
+      "tambem_em": [
+        "Revista Empreende"
+      ]
     },
     {
       "id": "mercado-livre_8788",
@@ -77,12 +90,12 @@
       "data": "2026-08-06T11:05:15Z"
     },
     {
-      "id": "mercado-livre_53827",
+      "id": "mercado-livre_8548",
       "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
       "lead": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
       "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX09yT1pmVXpmMUZ1ZXhBSV9ITUVVeGhqR2Y1TnpjYmNvbXVEdHJUVEhRc2l0M0FOWHg2WnZ4a3J1QnZRRFR2SXdUUFFnNmtoZ3ZZSnhqcC1TQmVKNFRCdkhpeUJvanFxMEhzaWgyVU1hcTNDWnk2S0drRzBSM2dDS2xUY0U2cnV5ZlVrR0tLbDB2akV6VkRDN0NIVWpVVG1IV0lyVEVwUUk4bF9BLXpLeEJCSTZUdHVnUkE1TC1KTTZjSEdjM2dFZThEUHNXc20zcUVPMmZKdTI5NzdKdkJ3QWpFRzFWazdlRVgxYU9xcFZsdTDSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUVQyLVRGMjNQTGJMYXJFNi1PY2JIQ1VremVkazF2VVc0dnFJMC14bTdNd2RTaGE2WmR5RHFBNTNMdlFyMVdPcVpUaDRqSmphT0ptNWFtUkxPOU1aLUNQWkc2ZDltanB6eXpUZ2c5Y19PdHJxQTlibmk5Tm1aWlNHOVJRWnliVDMtT3RTOFZDR2paV29QdGVFZG1SR1E5VEh1UzkzOWxtS2ZESkZJMHp2N0U0TzM1Z3FqX25kM2RoWDhZdGMycW5FdTFLOUNZaVJBc19wN20tdXJfX0ZwZTVGNzM0dEfSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-06T01:23:26Z",
       "tambem_em": [
@@ -108,6 +121,16 @@
       "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-05T20:19:11Z"
+    },
+    {
+      "id": "transicao_11743",
+      "titulo": "Comerc assume controle total da Micropower e reforça aposta em armazenamento de energia",
+      "lead": "Comerc assume controle total da Micropower e reforça aposta em armazenamento de energia",
+      "fonte": "Business Moment",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWjBXMy1YRkVVQ0p5ZmVPWGE5elQ0RDdVUDBnUHhhaFd4OFJITXVBY2I0azhsRGhBbWVXdjk4S0tIVHUyWHlzNnRwUEhHaEdxbjlBT0wtaG9aVjhLVTlvOEJaS3B6Ty1DR0F4UmY1UDJKZFpXN0liSFQ0Y0FHbmxrMF95R1I4UWFlT2lSZjZ6UdIBlwFBVV95cUxPN0ZVdS0xaXRFMUNKdWJoOUpvNFVWWEJoQ1dyMFE5aHNINWFaZjlpUVk3Q2laRUYzUmpyQ1I2Y0ZpTk45d3JndU9CbGNVUTVlNGlSMTRGY05vYkJCajctcDNfT0Q2TDhWbFhNcTMwdlg5RVBZV19BUEJYN0J4RHhXZUdETkdGeGpMNjZpdlpyUXBPUV93WHBJ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-05T18:57:00Z"
     },
     {
       "id": "regulacao_72243",
@@ -532,9 +555,7 @@
       "editoria": "mercado-livre",
       "data": "2026-07-30T16:47:44Z",
       "tambem_em": [
-        "Jornal A Semana",
-        "Agência de Notícias da Indústria",
-        "JOTA Info"
+        "noticias.portaldaindustria.com.br"
       ]
     },
     {
@@ -606,26 +627,6 @@
       "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-30T00:59:00Z"
-    },
-    {
-      "id": "regulacao_74750",
-      "titulo": "ANEEL acompanha interrupções causadas por vendavais no Rio de Janeiro e em São Paulo",
-      "lead": "ANEEL acompanha interrupções causadas por vendavais no Rio de Janeiro e em São Paulo www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOZlRwc3hoekdfbnZDcTFqWnZ1U0lSU2R1TmRSbVU3eVRMU3BpaFB1ZjBDT0VuWGM1a1pyaktCb0JPTTRRTTRuN2RJVnB0bzdQZ3hhMTBFbWI5OUFsZktwNXpOU3ZYbkN1X0ZOSVZRMkRuS01taHZRcHpidzN0R1YzWWZKVW5pbTViYWZBN0VVcVVRWGJma2ZVNkQtMEVBYnV2U0RkWi15OXh1dG11V2dMQ1MwajR5dHM3LWJPYzI3QlBtbTh2blJDTjdJTERNVVg0cjVpOExkVjgxeG5rczdiREt2WVNqX2FMR3BF?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-29T23:47:17Z"
-    },
-    {
-      "id": "mercado-livre_1405",
-      "titulo": "Leilão cria reserva de capacidade de energia para evitar apagão",
-      "lead": "Leilão cria reserva de capacidade de energia para evitar apagão",
-      "fonte": "Consultor Jurídico",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMXotV2tjMTRnVE9OZTU3VnlQOUtDaWd1YmotNWlQaVRfaVptWllWYjNwTUhhNkJzRFpvQ3ZJY1lmeVdxTVRWQzhoTDRGV1FVN2NfcTRmdEc3V01UTmJTSlpnZFZnMUZZVHRoMjE3a2R3NVA2RDlKZXRDYVVPbHJvSEJfbmQyd2RlVHVYS0RIelR2MzQ4R2N4Q2V4Yw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-29T23:16:13Z"
     }
   ]
 }
