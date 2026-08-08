@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T12:33:27Z",
+  "updated": "2026-08-08T18:42:22Z",
   "total": 60,
   "itens": [
     {
@@ -20,7 +20,10 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXBPVDQ3cERpOG9UUEtrazBOV19zemVpREZPZjFTcUFuMmVnODVjMHdQMXFhbFJTVjhtWk9janl5bXZVU0pKaUFyY2NwUFl3VjJxTXowZ24xaUstQjRlTlp6QVJpbHpSbzRIaGJGU01HZHl1R0ZqUW5wWE05T3ZVcnk0RU5QN1lRSjQ2QmdKTzhnektRczJJNFhlcnBCa2tHNnIyb3E3YXg4VmZZNzFr?oc=5",
       "imagem": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=70",
       "editoria": "regulacao",
-      "data": "2026-08-07T20:31:50Z"
+      "data": "2026-08-07T20:31:50Z",
+      "tambem_em": [
+        "MegaWhat"
+      ]
     },
     {
       "id": "mercado-livre_89340",
@@ -78,14 +81,17 @@
       "data": "2026-08-07T10:01:56Z"
     },
     {
-      "id": "transicao_10865",
+      "id": "transicao_50584",
       "titulo": "Leilão de baterias abre nova frente para energias renováveis no RN",
       "lead": "Leilão de baterias abre nova frente para energias renováveis no RN",
       "fonte": "Agora RN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVi1NMFRZR3ZXdzByd2hTanZYVW9mdFJBZ3hobW1sSWJBeXdQSDNFMzdHVEZFN2hYdXFobFB2UGdoU25DM3pETVBfVDN6YVZVbERHdy02cElfZjY1Z3J4eVZsc0VNSHBNTjBBX0dsVUtKMk1DRmFCZ0wxbkFCZk15ejI1d0VyWXNvVzdsZmRvQlhMUDRoMWtiYW9KYUVuRTg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLWFVVHJrTmN0cV9Yc0QzU014SWxIZFJ3SllXWF8yOVkyTUxkTjM4RUhwdExoY2ktanRYbWpEdXRJODFvNDkyclBqLTByczZCX0ZBNWtQbFR1ZkQyRk81ZTNCNklHNzV6WW5PYVE2a0hEck1CaVhlSXZTdlBhMEZSVzVYV01kelJkX3R2MUE3aFJoQ0xWRUg0Qi14RkdkTFpk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=70",
       "editoria": "transicao",
-      "data": "2026-08-07T08:45:00Z"
+      "data": "2026-08-07T08:45:00Z",
+      "tambem_em": [
+        "Agora RN"
+      ]
     },
     {
       "id": "mercado-livre_33799",
@@ -161,12 +167,12 @@
       "data": "2026-08-06T11:05:15Z"
     },
     {
-      "id": "mercado-livre_63351",
+      "id": "mercado-livre_7856",
       "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
       "lead": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
       "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUVQyLVRGMjNQTGJMYXJFNi1PY2JIQ1VremVkazF2VVc0dnFJMC14bTdNd2RTaGE2WmR5RHFBNTNMdlFyMVdPcVpUaDRqSmphT0ptNWFtUkxPOU1aLUNQWkc2ZDltanB6eXpUZ2c5Y19PdHJxQTlibmk5Tm1aWlNHOVJRWnliVDMtT3RTOFZDR2paV29QdGVFZG1SR1E5VEh1UzkzOWxtS2ZESkZJMHp2N0U0TzM1Z3FqX25kM2RoWDhZdGMycW5FdTFLOUNZaVJBc19wN20tdXJfX0ZwZTVGNzM0dEfSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX09yT1pmVXpmMUZ1ZXhBSV9ITUVVeGhqR2Y1TnpjYmNvbXVEdHJUVEhRc2l0M0FOWHg2WnZ4a3J1QnZRRFR2SXdUUFFnNmtoZ3ZZSnhqcC1TQmVKNFRCdkhpeUJvanFxMEhzaWgyVU1hcTNDWnk2S0drRzBSM2dDS2xUY0U2cnV5ZlVrR0tLbDB2akV6VkRDN0NIVWpVVG1IV0lyVEVwUUk4bF9BLXpLeEJCSTZUdHVnUkE1TC1KTTZjSEdjM2dFZThEUHNXc20zcUVPMmZKdTI5NzdKdkJ3QWpFRzFWazdlRVgxYU9xcFZsdTDSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-06T01:23:26Z",
       "tambem_em": [
@@ -480,6 +486,16 @@
       ]
     },
     {
+      "id": "politica-energetica_47173",
+      "titulo": "Portaria_GM/MME_nº_75/2026",
+      "lead": "Portaria_GM/MME_nº_75/2026",
+      "fonte": "MME",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb01nSDVaaDdyWXJmUWdzeGVfbVAwUGRkd2tjSVhQRkxjRlFsMlpCNHB1S3g0a1JfbU1QZmloUkVMR1NhcnJ1ODZrT3BYVTFyZ3FLdTdqQ2lSX0pETlVZbzJZY2xXWVFPY2pwQmRydF9aazBOMEZuZ0I0MC1OZWFUWlE0cEJKZnp2QlhUdjg5czJYOTN0QXJsVlRLdzhCNnJmZWdGbV9lRC1sZHR5bHc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-08-03T09:57:00Z"
+    },
+    {
       "id": "mercado-livre_52675",
       "titulo": "Compensação por corte de geração de energia renovável pode render R$ 780 milhões no RN, diz IBTE",
       "lead": "Compensação por corte de geração de energia renovável pode render R$ 780 milhões no RN, diz IBTE",
@@ -615,16 +631,6 @@
       "tambem_em": [
         "Movimento Econômico"
       ]
-    },
-    {
-      "id": "mercado-livre_63404",
-      "titulo": "Silveira defende “subsídio zero” para geradores em plano de governo Lula 4",
-      "lead": "Silveira defende “subsídio zero” para geradores em plano de governo Lula 4",
-      "fonte": "Agência eixos",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTGZMeHZTTHNyMUZRUFoxZFZ5bmNlSUJhWDRzQ0NmeWFNMW01QS1NTkc3aDRocnpzMkxIaFVSU1NWSkdUc25hamloalhTSWxEQ0RsTmxBMGZkbGlEQ1YtVFFYTnFjV1lnYzljbXVkMExlRXlwYzFJam5xeWllNVBLQ09GbWRFbVhmU1NaaVFCYWFEaHhQWUVVa3ZxWFk2VVQ4Wi00cDJn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-30T19:36:45Z"
     }
   ]
 }
