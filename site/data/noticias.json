@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T09:42:30Z",
+  "updated": "2026-08-09T12:38:20Z",
   "total": 60,
   "itens": [
     {
@@ -56,7 +56,7 @@
       "data": "2026-08-07T16:42:00Z",
       "tambem_em": [
         "Alphaville e Arredores",
-        "Jornal A Voz da Serra"
+        "avozdaserra.com.br"
       ]
     },
     {
@@ -111,6 +111,16 @@
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-07T08:10:33Z"
+    },
+    {
+      "id": "mercado-livre_45855",
+      "titulo": "Governo adia reunião sobre mistura de etanol na gasolina - cnnbrasil.com.br",
+      "lead": "Governo adia reunião sobre mistura de etanol na gasolina",
+      "fonte": "cnnbrasil.com.br",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQnhuV0RqMjhBNFZ1cVBGeFhFa1BoMjVycU92endOSndWTjBneVA4ay1UZzRzWTkycEJ1cXV6Ry1WMlBsSXpvczVtZDdtaElYV09TMTVqMEZUZlkyS0s3NDFEZks0Ym9mUGhPMk0xQ21Ca0RCTV9mbkdkUmJEXzkzRkQ3dW9wNmZIdmIzdzR1aFBNeXlfbEE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-07T07:00:00Z"
     },
     {
       "id": "transicao_86972",
@@ -549,7 +559,7 @@
       "tambem_em": [
         "jornalcruzeiro.com.br",
         "G1",
-        "Folha de S.Paulo"
+        "folha.uol.com.br"
       ]
     },
     {
@@ -621,16 +631,6 @@
       "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-31T16:11:41Z"
-    },
-    {
-      "id": "transicao_14820",
-      "titulo": "Enel entre os vencedores no leilão de energia solar e armazenamento em baterias da Colômbia",
-      "lead": "Enel entre os vencedores no leilão de energia solar e armazenamento em baterias da Colômbia",
-      "fonte": "BNamericas",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQlJDTHBmQWlaWlVLOGY3VV9lQ3FoeU41ZWhDbEx5b1BqMjQydDB2ZjU5UnJodk5yS1NLZWlVTU5DckRUaG5BUUtucFZLQmE0WDJzT2R0YXlPTFV0ajZpSTlQTWdrZXFBOFZuajJvOE1aaTNOeklBYjhEb0EwdEZ6dmFxRDFLZlBpY0huaVlFS2Y0NjNOaUx0eWxIa1BZd1R4cmpSVUF2aFBGSDBDNUdYU1VTY1RkWE53dGZKbGx6bFA4T3pEcHhLVUdB?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-07-31T14:18:40Z"
     }
   ]
 }
