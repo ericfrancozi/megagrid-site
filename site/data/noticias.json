@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-09T12:38:20Z",
+  "updated": "2026-08-09T18:46:41Z",
   "total": 60,
   "itens": [
     {
@@ -144,6 +144,19 @@
       "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-06T14:28:00Z"
+    },
+    {
+      "id": "tarifas_80954",
+      "titulo": "Conta de luz: bandeira tarifária continua amarela em agosto - alphavilleearredores.com.br",
+      "lead": "Conta de luz: bandeira tarifária continua amarela em agosto",
+      "fonte": "alphavilleearredores.com.br",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WVW5KTmNUS0NDZDFxcWRGZ1FJY3JxNVdNLUVEd1dPMlh2UkxmSDZLelIzTDMxdlFncEU2cGszWnJSVGhUWXdrdG5NaEIyLW9aQWNYNGtXZVYxa3VKVlhaUjVFUGVkaS1RVm1SekJXX1FaVFNRbU80MF92NGQ1Zw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-06T14:05:26Z",
+      "tambem_em": [
+        "Jornal A Voz da Serra"
+      ]
     },
     {
       "id": "mercado-livre_98019",
@@ -314,7 +327,7 @@
       "lead": "Aneel anuncia taxação da conta de luz em agosto e revolta brasileiros",
       "fonte": "Diário do Comércio",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0dyTkdPNktobEJNZ1lleklXODhuamVONGhJcWVSRXFXRmRlYjRnYWgxb04yVmVEYTY1OUE3Nlg2amMzRzlJZ2tlMjN3VWdkN0lBc0VpQThFNGVhWkxDd2gxX1prOE9QdDVicllTc3lXamtkTFZHeUJmNVV3bFFnMjlMSEJ1TWlYWVlSLTQ4Qzhac2VCX291aHdYTjdta2RJTHVuMDNJZjJwdw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-04T22:17:57Z"
     },
@@ -364,7 +377,7 @@
       "lead": "Conta de energia terá tarifa extra em agosto",
       "fonte": "Portal 93",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xM2Q2MzdCRGp4WTB1Q2oyOFowdk5WMHFoMHF6dkI4NUVocEVXZmtWbkFGSnYwQmtEY242c3JxeU5YRHp4VFkxRzlvSURvZkpBaWwtT3VEVkk2NG14RE52b2JfdXZGb3lDMzBOQUhxWjRaZWRudDZXZkJhSDEyYzDSAX9BVV95cUxPcTNkNjM3QkRqeFkwdUNqMjhaMHZOVjBxaDBxenZCODVFaHBFV2ZrVm5BRkp2MEJrRGNuNnNycXlOWER6eFRZMUc5b0lEb2ZKQWlsLU91RFZJNjRteEROdm9iX3V2Rm95QzMwTkFIcVo0WmVkbnQ2V2ZCYUgxMmMw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-04T14:37:39Z"
     },
@@ -559,7 +572,7 @@
       "tambem_em": [
         "jornalcruzeiro.com.br",
         "G1",
-        "folha.uol.com.br"
+        "Folha de S.Paulo"
       ]
     },
     {
@@ -621,16 +634,6 @@
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-07-31T18:12:26Z"
-    },
-    {
-      "id": "mercado-livre_87648",
-      "titulo": "Conta de luz já afeta competitividade de 83% das indústrias",
-      "lead": "Conta de luz já afeta competitividade de 83% das indústrias",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE11S0ZBZVJSUVdLYnZkN1VXZ0FHZXpaZnF1R3pDdlZoM1JOeHJqTDBhbVJfV1ExYVpSZ1IwWldIRTAtbmYza3JoVzFFaHFGT0I5cmw5UTF3bF8tWnRTM01CQS1IaEsxWHdpWElfVDlQUEc5dE0xZGtvbDVQcVk?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-31T16:11:41Z"
     }
   ]
 }
