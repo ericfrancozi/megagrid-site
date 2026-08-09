@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-08T18:42:22Z",
+  "updated": "2026-08-09T09:42:30Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_46533",
+      "titulo": "Conta de luz terá cobrança extra em agosto na Grande SP - correiodamanha.com.br",
+      "lead": "Conta de luz terá cobrança extra em agosto na Grande SP",
+      "fonte": "correiodamanha.com.br",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWmxhM0FTOGNqSE9yclRtdFZYM2JiWUI0RHptWEpCSjVIdHJmajFDVFpsZzhJQ0Q5SjF4Um96bmhaTFZZY3czclNlTjVqWlZZcnZPM1dnS053YzQyZURweXdKYXQyMUNiYjA0NUtiMVh4ZnBuQ3ltR1YzR2ZrRTlDYWtTUHRDa1JxaTVDOHFLRk1yWXRqRlBsLVJjWTF0dC12Z2tQU21yUy1FbXZIUi10d1UxX2YyRlZTZVgzck41bFBpVVhsSXB2RFBUZGFYYmdfWGpuODBKeTdySFlHblhXd2FXZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-09T00:20:00Z"
+    },
     {
       "id": "mercado-livre_77779",
       "titulo": "CCEE atualiza Política de Compliance e fortalece sua estrutura de integridade",
@@ -41,13 +51,12 @@
       "lead": "Conta de energia segue mais cara durante o mês de agosto com a bandeira amarela",
       "fonte": "en.com.br",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRlNPU2tvcGJyNmR4b05pMGxiaVNGT3pPRS02TGtwYTZ0QnpmV3ZDUDh6OHIya0Y2MFE2VGJDOWlUWUxzeTBDQ2IxcXdCWWYxd2lZY3pabV9yZnhOMzl2cXhZampXdUIyNTk1MFRrd1RsN25QU2JXN190X2Zwall4eFE3MWJoRjVrcmZmcmgtTXdwaXJ4Mnp5dFVNTVdNa3M?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-07T16:42:00Z",
       "tambem_em": [
         "Alphaville e Arredores",
-        "Jornal A Voz da Serra",
-        "capitalnews.com.br"
+        "Jornal A Voz da Serra"
       ]
     },
     {
@@ -137,6 +146,16 @@
       "data": "2026-08-06T13:42:03Z"
     },
     {
+      "id": "regulacao_1442",
+      "titulo": "Aneel pede aval jurídico para diferenciar geradores no rateio das baterias",
+      "lead": "Aneel pede aval jurídico para diferenciar geradores no rateio das baterias",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb01wSkEtTzNPcWhtNFJYSElSRXE4X3VqcUZqdWNJN2lEd1R0SU41TDY1dEF3cm1ZY1BCTTZTQVJMUnY4d21xV1RVanZLaUFSVUhTSUdvZDc2VzVBR0FmY3lRdk9BRXJDVlJoNldsM0ppeTRnYU5Td05mc0RKcG1ORDhRMnlIbDZ1cENxMVVDclJoVjFRN1BBRDNwc3ZTOTdFcl82cGhkRkNtU1Bjc3F5NGZvcjJQcHVP?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-06T13:17:35Z"
+    },
+    {
       "id": "mercado-livre_56881",
       "titulo": "CCEE transforma contribuições dos agentes em entregas que beneficiam o dia a dia do mercado",
       "lead": "CCEE transforma contribuições dos agentes em entregas que beneficiam o dia a dia do mercado",
@@ -167,12 +186,12 @@
       "data": "2026-08-06T11:05:15Z"
     },
     {
-      "id": "mercado-livre_7856",
+      "id": "mercado-livre_70346",
       "titulo": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
       "lead": "7 ganhos do Mercado Livre de Energia que vão além da redução na conta de luz",
       "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQX09yT1pmVXpmMUZ1ZXhBSV9ITUVVeGhqR2Y1TnpjYmNvbXVEdHJUVEhRc2l0M0FOWHg2WnZ4a3J1QnZRRFR2SXdUUFFnNmtoZ3ZZSnhqcC1TQmVKNFRCdkhpeUJvanFxMEhzaWgyVU1hcTNDWnk2S0drRzBSM2dDS2xUY0U2cnV5ZlVrR0tLbDB2akV6VkRDN0NIVWpVVG1IV0lyVEVwUUk4bF9BLXpLeEJCSTZUdHVnUkE1TC1KTTZjSEdjM2dFZThEUHNXc20zcUVPMmZKdTI5NzdKdkJ3QWpFRzFWazdlRVgxYU9xcFZsdTDSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUVQyLVRGMjNQTGJMYXJFNi1PY2JIQ1VremVkazF2VVc0dnFJMC14bTdNd2RTaGE2WmR5RHFBNTNMdlFyMVdPcVpUaDRqSmphT0ptNWFtUkxPOU1aLUNQWkc2ZDltanB6eXpUZ2c5Y19PdHJxQTlibmk5Tm1aWlNHOVJRWnliVDMtT3RTOFZDR2paV29QdGVFZG1SR1E5VEh1UzkzOWxtS2ZESkZJMHp2N0U0TzM1Z3FqX25kM2RoWDhZdGMycW5FdTFLOUNZaVJBc19wN20tdXJfX0ZwZTVGNzM0dEfSAfMBQVVfeXFMUF9Pck9aZlV6ZjFGdWV4QUlfSE1FVXhoakdmNU56Y2Jjb211RHRyVFRIUXNpdDNBTlh4Nlp2eGtydUJ2UURUdkl3VFBRZzZraGd2WUp4anAtU0JlSjRUQnZIaXlCb2pxcTBIc2loMlVNYXEzQ1p5NktHa0cwUjNnQ0tsVGNFNnJ1eWZVa0dLS2wwdmpFelZEQzdDSFVqVVRtSFdJclRFcFFJOGxfQS16S3hCQkk2VHR1Z1JBNUwtSk02Y0hHYzNnRWU4RFBzV3NtM3FFTzJmSnUyOTc3SnZCd0FqRUcxVms3ZUVYMWFPcXBWbHUw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-06T01:23:26Z",
       "tambem_em": [
@@ -285,7 +304,7 @@
       "lead": "Aneel anuncia taxação da conta de luz em agosto e revolta brasileiros",
       "fonte": "Diário do Comércio",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0dyTkdPNktobEJNZ1lleklXODhuamVONGhJcWVSRXFXRmRlYjRnYWgxb04yVmVEYTY1OUE3Nlg2amMzRzlJZ2tlMjN3VWdkN0lBc0VpQThFNGVhWkxDd2gxX1prOE9QdDVicllTc3lXamtkTFZHeUJmNVV3bFFnMjlMSEJ1TWlYWVlSLTQ4Qzhac2VCX291aHdYTjdta2RJTHVuMDNJZjJwdw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-04T22:17:57Z"
     },
@@ -335,7 +354,7 @@
       "lead": "Conta de energia terá tarifa extra em agosto",
       "fonte": "Portal 93",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xM2Q2MzdCRGp4WTB1Q2oyOFowdk5WMHFoMHF6dkI4NUVocEVXZmtWbkFGSnYwQmtEY242c3JxeU5YRHp4VFkxRzlvSURvZkpBaWwtT3VEVkk2NG14RE52b2JfdXZGb3lDMzBOQUhxWjRaZWRudDZXZkJhSDEyYzDSAX9BVV95cUxPcTNkNjM3QkRqeFkwdUNqMjhaMHZOVjBxaDBxenZCODVFaHBFV2ZrVm5BRkp2MEJrRGNuNnNycXlOWER6eFRZMUc5b0lEb2ZKQWlsLU91RFZJNjRteEROdm9iX3V2Rm95QzMwTkFIcVo0WmVkbnQ2V2ZCYUgxMmMw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-04T14:37:39Z"
     },
@@ -486,14 +505,17 @@
       ]
     },
     {
-      "id": "politica-energetica_47173",
-      "titulo": "Portaria_GM/MME_nº_75/2026",
-      "lead": "Portaria_GM/MME_nº_75/2026",
+      "id": "politica-energetica_49372",
+      "titulo": "Portaria_GM/MME_nº_76/2026",
+      "lead": "Portaria_GM/MME_nº_76/2026",
       "fonte": "MME",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb01nSDVaaDdyWXJmUWdzeGVfbVAwUGRkd2tjSVhQRkxjRlFsMlpCNHB1S3g0a1JfbU1QZmloUkVMR1NhcnJ1ODZrT3BYVTFyZ3FLdTdqQ2lSX0pETlVZbzJZY2xXWVFPY2pwQmRydF9aazBOMEZuZ0I0MC1OZWFUWlE0cEJKZnp2QlhUdjg5czJYOTN0QXJsVlRLdzhCNnJmZWdGbV9lRC1sZHR5bHc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdlhqMkR5Wml1U1lKU0J2X0FoUGpVVy1Rd2czaUxiSGZXYWZwempRM0ZFQnA4WkhKNzZHUUxScnJ4MzJrT3cyUmJRZF9VQ1g4QVotd1BzNV9ydWxrX3RIZnp6T1ZnNWVHSVNtUFRrcE9EODkxUWo4WWZVWGRGS2E4eHdvejlpWncxc2FxMllpSnhBTGZpZl9Ndm1IN3MyREt5bnJGanRuSUVmNkhVU0E?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "politica-energetica",
-      "data": "2026-08-03T09:57:00Z"
+      "data": "2026-08-03T09:58:00Z",
+      "tambem_em": [
+        "MME"
+      ]
     },
     {
       "id": "mercado-livre_52675",
@@ -525,8 +547,9 @@
       "editoria": "tarifas",
       "data": "2026-07-31T22:24:21Z",
       "tambem_em": [
-        "Folha de S.Paulo",
-        "G1"
+        "jornalcruzeiro.com.br",
+        "G1",
+        "Folha de S.Paulo"
       ]
     },
     {
@@ -565,7 +588,7 @@
       "lead": "MME esclarece que leilões de gás da União não atenderão termelétricas",
       "fonte": "MegaWhat",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdmxvcjU2Z1E5X0NMNHBHRXAtd3lLUTNDcG05bjBHWHVfZ0RQRmhJYjg5WDJPQm5wbV9HdDk1N3pMbHVxc0x3TUNHM2tRRllhNnEza1l5V3pvUU9Da2t2QWkyLUJwaVdSTUY1SFoyU1ZNQ1ZfV0dqQnBiRXVjTndJM3lMdkc4SWQtYkRqM3Z5ZGhqWTVLOWtPcFRzaTlQSjJQY2kySU82OWdua1BySUE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1587691592099-24045742c181?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-07-31T19:56:09Z"
     },
@@ -608,29 +631,6 @@
       "imagem": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-07-31T14:18:40Z"
-    },
-    {
-      "id": "regulacao_14812",
-      "titulo": "ANEEL verifica ações da Light para restabelecimento do serviço de energia após vendavais no Rio de Janeiro",
-      "lead": "ANEEL verifica ações da Light para restabelecimento do serviço de energia após vendavais no Rio de Janeiro www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNaW5zZ3VxM2tSaU1paHNNM1VjbFpRRlRfMDhWRzJaMzNZWjJjNDdYaWZaSm94ZjFLSm9DOWZaSjdLSEpGTi05WlNhWjhYa3ZlREVFX2R2MWZKZWVHOW1TZlB2NWUyU1hER3I4cDZHLUFyY25ZcjQ0YnljZHJNSGI2QVVwZGdkZHh0UUJxS29kYnNxcUlSdTNPLWhGR28xbU1xc2FwX05ka1paXy00ellNczhTOTViWGt4cVFjN0k4M05KR1dqRV9xR3psYl9Wak5wZWlIU2xlTXo0endDXzR5cHlJZWs0eU5mbklzM1Y3RWZhMkRCanI1Tm9ENE5WRWtxRDZ5VmM5MFg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-31T00:37:31Z"
-    },
-    {
-      "id": "mercado-livre_71640",
-      "titulo": "Migração ao mercado livre de energia avança na indústria",
-      "lead": "Migração ao mercado livre de energia avança na indústria",
-      "fonte": "Vero Notícias",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLTIxc0JzT2YySzNGZ3RKQ2tlMzVfREl2ZDZjSTRnVW9HVkc2MHR4S0w0SU1hdUVpT0lMQ0hTN3hRWldrbGlsVTRQOEpvRk1ULXZUZHB3NGMyMlk5QW1UbGU4WTZ0bThzTE94ZlZzeEpwOVBleVkxcFBxYTBnMk11aEMxYlZlb2FLdXFkNmROX1EzVm9fcFE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-30T23:42:58Z",
-      "tambem_em": [
-        "Movimento Econômico"
-      ]
     }
   ]
 }
