@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-09T18:46:41Z",
+  "updated": "2026-08-10T10:19:14Z",
   "total": 60,
   "itens": [
+    {
+      "id": "dado-2026-08-10",
+      "titulo": "PLD sobe 5,1% na semana e fecha a R$ 120,45 no Sudeste/CO",
+      "lead": "PLD SE/CO a R$ 120,45/MWh · reservatórios em 79,3% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
+      "fonte": "Megagrid Dados",
+      "url": "https://megagrid.com.br/#precos",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-10T10:19:14Z"
+    },
     {
       "id": "tarifas_46533",
       "titulo": "Conta de luz terá cobrança extra em agosto na Grande SP - correiodamanha.com.br",
@@ -11,6 +21,16 @@
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-09T00:20:00Z"
+    },
+    {
+      "id": "mercado-livre_28492",
+      "titulo": "CCEE, ONS e EPE divulgam segunda revisão quadrimestral da previsão da carga para o planejamento de 2026-2030",
+      "lead": "CCEE, ONS e EPE divulgam segunda revisão quadrimestral da previsão da carga para o planejamento de 2026-2030",
+      "fonte": "CCEE",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNkVVcUhLYW01UWNkNlpVS2ZOb2NreTdUZnFSdzJJX1plZExPMjM5YVhmSEdKRmNMczY0ZVdJTTVpWklSazQtdnNOWnN5a0lLME5tR1BMREtsVkwzOXBiLWpackNQaFotNjA2NnNtWkZuNUQwWkVwRU5ndXhCNWE0ZjQtODlYVU9obG54VzBjN1l2aFQ5dERyU3RoOGdxMVlTNmtRVU96dE9Nc0phTTBBNlBONXVHcFYxWDh0b2RsZVREU0pQLXI5eTJuazVvZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-07T20:54:00Z"
     },
     {
       "id": "mercado-livre_77779",
@@ -362,6 +382,16 @@
       "data": "2026-08-04T17:46:49Z"
     },
     {
+      "id": "transicao_65347",
+      "titulo": "Primeiro leilão de megabaterias recebe mais de 6 mil projetos e bate recorde no setor elétrico",
+      "lead": "Primeiro leilão de megabaterias recebe mais de 6 mil projetos e bate recorde no setor elétrico",
+      "fonte": "Business Moment",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ1VfSDJtOVdGbXpHM1BjS1Vadk9ZcHlBczBITmxTLVJaYkozaGljQ04tWDVqX0JZRk9RSTY2XzNPalZnR09IakJzT0c2dUl6alY0SGFQdVdkOUJCUGFuVlA2UWJLZDVGaFItVlpTNHliTkJiRUpnek4td1MzcF91dlQyclVsTVF1MXfSAZIBQVVfeXFMT2VKRHk4V0hsSVE3akRkZU03eE5ZZ1RKM0RQNW56dkg4WFotQktPd0ZhdXlLZ2ptRmpyYndSbC1rNFJFR2w5Ukh1enBnU1pnalpzcW5KNFZEcHpaQWFtSEM0MnAwMjRrS2s2WTdSNVZWVkx2a0lFNGdWZ0JpZmFhaTU5ZnRRQlRPdUU5UnlXSG9JN1E?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-04T16:17:00Z"
+    },
+    {
       "id": "mercado-livre_40027",
       "titulo": "Mercado Livre de Energia: vale a pena migrar agora ou esperar?",
       "lead": "Mercado Livre de Energia: vale a pena migrar agora ou esperar?",
@@ -604,36 +634,6 @@
       "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-31T20:29:12Z"
-    },
-    {
-      "id": "politica-energetica_71940",
-      "titulo": "MME esclarece que leilões de gás da União não atenderão termelétricas",
-      "lead": "MME esclarece que leilões de gás da União não atenderão termelétricas",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdmxvcjU2Z1E5X0NMNHBHRXAtd3lLUTNDcG05bjBHWHVfZ0RQRmhJYjg5WDJPQm5wbV9HdDk1N3pMbHVxc0x3TUNHM2tRRllhNnEza1l5V3pvUU9Da2t2QWkyLUJwaVdSTUY1SFoyU1ZNQ1ZfV0dqQnBiRXVjTndJM3lMdkc4SWQtYkRqM3Z5ZGhqWTVLOWtPcFRzaTlQSjJQY2kySU82OWdua1BySUE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1587691592099-24045742c181?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-07-31T19:56:09Z"
-    },
-    {
-      "id": "mercado-livre_42219",
-      "titulo": "Mercado livre de energia ajuda empresas a reduzir custos e avançar em metas ESG",
-      "lead": "Mercado livre de energia ajuda empresas a reduzir custos e avançar em metas ESG",
-      "fonte": "Sala da Notícia",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYzlWQ05OMEozc284ZkxyQlo3ZW5BOG5qd1c5V3hRU1dzbV9JRl9IN083eFpqbTNNcXJmR3M1TkdpVktZeUxveEJkQVI4NkVTSEVwbjAxTWpjVTUyVjRQejAzMUpmVjk3RG1RZlM3MzM4VWVaY2pHeVNjUllvbDBQNzUtMkVMTm1nR0FqQnNJLWlYWWRNNzZKTmVpSEo2RlBHam10ODFDT0duU0x1cEhNaklRcGtvWXlsc2JkUENYVGJ5Z3RHR1hwbA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-31T18:32:34Z"
-    },
-    {
-      "id": "mercado-livre_4282",
-      "titulo": "Mercado livre de energia amplia espaço na estratégia de custos das empresas",
-      "lead": "Mercado livre de energia amplia espaço na estratégia de custos das empresas",
-      "fonte": "Eletrolar News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMTc5c2hNQk55YURYQzd1RXRtU0Z5S21yTGViUjJGbXVxMEZGOUtfZGdjV29wTWo1SVhPZnppc0t0VWZVVFRINDB1S1hTajB0M0RRbVdHQlRlMW9TQ0o0TldCWFZnSG1ONm9FbVExVGo5R2FQTFl5MEE4TVR6RUdYY1NfOTN1czB5NlhzcVVzNGd2Yy1fVVZyb2FGSVg5Wi1CY2xBSktkb08?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-07-31T18:12:26Z"
     }
   ]
 }
