@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-10T10:19:14Z",
+  "updated": "2026-08-10T12:55:18Z",
   "total": 60,
   "itens": [
     {
@@ -10,7 +10,7 @@
       "url": "https://megagrid.com.br/#precos",
       "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-10T10:19:14Z"
+      "data": "2026-08-10T12:55:18Z"
     },
     {
       "id": "tarifas_46533",
@@ -21,6 +21,16 @@
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-09T00:20:00Z"
+    },
+    {
+      "id": "transicao_35967",
+      "titulo": "O apetite pelos leilões de baterias e o alerta que vem das ondas de calor",
+      "lead": "O apetite pelos leilões de baterias e o alerta que vem das ondas de calor",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaDQzZnp5MWlzLXdBT2VBb2JKb3BwN05xSTNNdXI5cDVuODBXZ1J4bjduc3VOQXJQbHNxTUpKMno1RVdBM1gtVFFwbUc3QzBwTVZEVzBhNU1qUkZlYXotSG9iQmQtU1BHSFJ0Q2h2X0swblFHcFFFejJ5WkJ3MVhJb1pYOEFDUmVQcFpnTlpzQWlkcVp1TDRaUjFQZUhYd0VPcGxMZHRWSGJ3Z21QUk95c2dNNWxxWi1RMWU2WXNXY1U3b09WVFQzMw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1548337138-e87d889cc369?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-07T21:22:00Z"
     },
     {
       "id": "mercado-livre_28492",
@@ -110,12 +120,12 @@
       "data": "2026-08-07T10:01:56Z"
     },
     {
-      "id": "transicao_50584",
+      "id": "transicao_73884",
       "titulo": "Leilão de baterias abre nova frente para energias renováveis no RN",
       "lead": "Leilão de baterias abre nova frente para energias renováveis no RN",
       "fonte": "Agora RN",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLWFVVHJrTmN0cV9Yc0QzU014SWxIZFJ3SllXWF8yOVkyTUxkTjM4RUhwdExoY2ktanRYbWpEdXRJODFvNDkyclBqLTByczZCX0ZBNWtQbFR1ZkQyRk81ZTNCNklHNzV6WW5PYVE2a0hEck1CaVhlSXZTdlBhMEZSVzVYV01kelJkX3R2MUE3aFJoQ0xWRUg0Qi14RkdkTFpk?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVi1NMFRZR3ZXdzByd2hTanZYVW9mdFJBZ3hobW1sSWJBeXdQSDNFMzdHVEZFN2hYdXFobFB2UGdoU25DM3pETVBfVDN6YVZVbERHdy02cElfZjY1Z3J4eVZsc0VNSHBNTjBBX0dsVUtKMk1DRmFCZ0wxbkFCZk15ejI1d0VyWXNvVzdsZmRvQlhMUDRoMWtiYW9KYUVuRTg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-07T08:45:00Z",
       "tambem_em": [
@@ -148,7 +158,7 @@
       "lead": "Leilão de baterias abre nova era para o setor de energia no Brasil",
       "fonte": "Revista Empreende",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjFBVnpxQmc3RWVFM1dqM2xDN1JjVG9xYUItLVFBaVVUWkhoanVJWHNVcVp4Zm5QR3NmS1hSQTdpM09tc3RyZ0ZTSmtnNDZKOFE2bnZzNTN4WC00NlZTbG9kLWJFbHFBUlViQnhkVXFBMFdmZEsyVmhONUtvTHh4UlpwZDF1ejBFOHZKYzE5Z1VmSzFjNGhEa2pCWFBmQUFi?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-06T22:48:00Z",
       "tambem_em": [
@@ -277,7 +287,7 @@
       "lead": "Comerc assume controle total da Micropower e reforça aposta em armazenamento de energia",
       "fonte": "Business Moment",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWjBXMy1YRkVVQ0p5ZmVPWGE5elQ0RDdVUDBnUHhhaFd4OFJITXVBY2I0azhsRGhBbWVXdjk4S0tIVHUyWHlzNnRwUEhHaEdxbjlBT0wtaG9aVjhLVTlvOEJaS3B6Ty1DR0F4UmY1UDJKZFpXN0liSFQ0Y0FHbmxrMF95R1I4UWFlT2lSZjZ6UdIBlwFBVV95cUxPN0ZVdS0xaXRFMUNKdWJoOUpvNFVWWEJoQ1dyMFE5aHNINWFaZjlpUVk3Q2laRUYzUmpyQ1I2Y0ZpTk45d3JndU9CbGNVUTVlNGlSMTRGY05vYkJCajctcDNfT0Q2TDhWbFhNcTMwdlg5RVBZV19BUEJYN0J4RHhXZUdETkdGeGpMNjZpdlpyUXBPUV93WHBJ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-05T18:57:00Z"
     },
@@ -624,16 +634,6 @@
       "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-07-31T20:54:03Z"
-    },
-    {
-      "id": "regulacao_99844",
-      "titulo": "Bandeira Tarifária continua amarela em agosto — Agência Nacional de Energia Elétrica - www.gov.br",
-      "lead": "Bandeira Tarifária continua amarela em agosto",
-      "fonte": "www.gov.br",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQjJlbWszVDZvQ2I2RTlfd0g2TkRialY1YUtGcEJxcjdvNmRIMkgwOGJucHIwTUFNZWFNSlZ1dlZvRTE0SW5za1A2c1BKVXdCdDRkUWU4NWs0LVIwSTJBX01GWEhhc1l4bFVaS2R4ZHlTQXNteUt3V3JBcC1DRzNyQ05kVkxfVFplN3dQNU9KUlZ4blp1NTRCS3BaRDRUM0o5ODhvTzc5MDVqNS1CaHJ1eDlVM0FYd2M?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-31T20:29:12Z"
     }
   ]
 }
