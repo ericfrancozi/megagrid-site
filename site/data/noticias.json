@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-11T10:03:56Z",
+  "updated": "2026-08-11T12:48:27Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_78696",
+      "titulo": "Fevereiro seguirá com bandeira tarifária verde na conta de luz",
+      "lead": "Fevereiro seguirá com bandeira tarifária verde na conta de luz",
+      "fonte": "Jornal Portuário",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUE84YUZyTDFuTHlDaG41NVctX0dCdFFreC1PbVZ5dE9INi1jT0U5UXhyQmJjYmlCa2NJMEY4S29MVFR1aTNwN0ZZSk1QaG5XR25XX19mUG1WT2lnM2NUX3h3V2tpTkE2eVc5dFFtQ0tYY3dwcVVfNU9JdTNCY0tCRFBqa092Vkl0VDN6ZW44TlZsYVJ2NzJOMlFtYXB6YVFYcWJvRmY5VzB3UQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-11T11:19:36Z"
+    },
     {
       "id": "mercado-livre_89418",
       "titulo": "Lula assinará ampliação do mercado livre de energia nos próximos dias",
@@ -33,14 +43,17 @@
       "data": "2026-08-10T21:15:26Z"
     },
     {
-      "id": "mercado-livre_26078",
-      "titulo": "Decreto abre mercado livre de energia e mira queda de 22%",
-      "lead": "Decreto abre mercado livre de energia e mira queda de 22%",
-      "fonte": "ES Brasil",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UT2xKVGxOSU5xbXlTbjRfMjJ4RVMydkFSYmh1NHV6RTAtU1h3QmZYcHQ0aC10N1A1a2lhWktTMzNLazc2eWl1ZC1pYTExUExRbWlwWS0tNlVCLVE4QXl2RFdMQ1psQUlrbEdyOWNpWQ?oc=5",
+      "id": "mercado-livre_50474",
+      "titulo": "Mercado livre de energia avança com decreto de baixa tensão",
+      "lead": "Mercado livre de energia avança com decreto de baixa tensão",
+      "fonte": "SpaceMoney",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN3lGdzRvZXVIZ21FeVFENHRyZHVhNkpGbDlQb1JScklKR2Z4V3VwMlpnbUV2Szh0ZXlLbEZKYTZrZ2RpYlgzMjFCUDhiLV81eVVlVjdjMlhkcm11bm40WnlPOVJ5OG9CZmhyR2h0RjZ5ZXlJMW9JWHJxdURyUmdGWHVDR3NNbXdMclFzVXo0cw?oc=5",
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-10T20:39:46Z"
+      "data": "2026-08-10T20:48:19Z",
+      "tambem_em": [
+        "ES Brasil"
+      ]
     },
     {
       "id": "mercado-livre_58407",
@@ -78,7 +91,7 @@
       "lead": "Conta de luz terá cobrança extra em agosto na Grande SP",
       "fonte": "correiodamanha.com.br",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWmxhM0FTOGNqSE9yclRtdFZYM2JiWUI0RHptWEpCSjVIdHJmajFDVFpsZzhJQ0Q5SjF4Um96bmhaTFZZY3czclNlTjVqWlZZcnZPM1dnS053YzQyZURweXdKYXQyMUNiYjA0NUtiMVh4ZnBuQ3ltR1YzR2ZrRTlDYWtTUHRDa1JxaTVDOHFLRk1yWXRqRlBsLVJjWTF0dC12Z2tQU21yUy1FbXZIUi10d1UxX2YyRlZTZVgzck41bFBpVVhsSXB2RFBUZGFYYmdfWGpuODBKeTdySFlHblhXd2FXZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-09T00:20:00Z"
     },
@@ -141,7 +154,7 @@
       "lead": "Conta de energia segue mais cara durante o mês de agosto com a bandeira amarela",
       "fonte": "en.com.br",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRlNPU2tvcGJyNmR4b05pMGxiaVNGT3pPRS02TGtwYTZ0QnpmV3ZDUDh6OHIya0Y2MFE2VGJDOWlUWUxzeTBDQ2IxcXdCWWYxd2lZY3pabV9yZnhOMzl2cXhZampXdUIyNTk1MFRrd1RsN25QU2JXN190X2Zwall4eFE3MWJoRjVrcmZmcmgtTXdwaXJ4Mnp5dFVNTVdNa3M?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-07T16:42:00Z",
       "tambem_em": [
@@ -241,7 +254,7 @@
       "lead": "Conta de luz: bandeira tarifária continua amarela em agosto",
       "fonte": "alphavilleearredores.com.br",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WVW5KTmNUS0NDZDFxcWRGZ1FJY3JxNVdNLUVEd1dPMlh2UkxmSDZLelIzTDMxdlFncEU2cGszWnJSVGhUWXdrdG5NaEIyLW9aQWNYNGtXZVYxa3VKVlhaUjVFUGVkaS1RVm1SekJXX1FaVFNRbU80MF92NGQ1Zw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-06T14:05:26Z",
       "tambem_em": [
@@ -417,7 +430,7 @@
       "lead": "Aneel anuncia taxação da conta de luz em agosto e revolta brasileiros",
       "fonte": "Diário do Comércio",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0dyTkdPNktobEJNZ1lleklXODhuamVONGhJcWVSRXFXRmRlYjRnYWgxb04yVmVEYTY1OUE3Nlg2amMzRzlJZ2tlMjN3VWdkN0lBc0VpQThFNGVhWkxDd2gxX1prOE9QdDVicllTc3lXamtkTFZHeUJmNVV3bFFnMjlMSEJ1TWlYWVlSLTQ4Qzhac2VCX291aHdYTjdta2RJTHVuMDNJZjJwdw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-04T22:17:57Z"
     },
@@ -477,7 +490,7 @@
       "lead": "Conta de energia terá tarifa extra em agosto",
       "fonte": "Portal 93",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xM2Q2MzdCRGp4WTB1Q2oyOFowdk5WMHFoMHF6dkI4NUVocEVXZmtWbkFGSnYwQmtEY242c3JxeU5YRHp4VFkxRzlvSURvZkpBaWwtT3VEVkk2NG14RE52b2JfdXZGb3lDMzBOQUhxWjRaZWRudDZXZkJhSDEyYzDSAX9BVV95cUxPcTNkNjM3QkRqeFkwdUNqMjhaMHZOVjBxaDBxenZCODVFaHBFV2ZrVm5BRkp2MEJrRGNuNnNycXlOWER6eFRZMUc5b0lEb2ZKQWlsLU91RFZJNjRteEROdm9iX3V2Rm95QzMwTkFIcVo0WmVkbnQ2V2ZCYUgxMmMw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-04T14:37:39Z"
     },
@@ -613,19 +626,6 @@
       "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-03T13:24:47Z"
-    },
-    {
-      "id": "tarifas_94450",
-      "titulo": "Conta de luz terá cobrança extra pelo quarto mês seguido",
-      "lead": "Conta de luz terá cobrança extra pelo quarto mês seguido",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1PNDBIQ1o2R0RlU1NNMGxzdTJVa2I5U0FJUDU4TWNKSTZzNGlPVTdJa1djTlhyTGU1bWNfSXNhRy0wS3Y5cjZrdmFHaU5PenFQQmE3R2ttV2JXS0Ffa1NBNG90NmJtY19EanRYS1pn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-03T11:44:21Z",
-      "tambem_em": [
-        "Portal Solar"
-      ]
     }
   ]
 }
