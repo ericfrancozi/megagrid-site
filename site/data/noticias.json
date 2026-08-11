@@ -1,16 +1,76 @@
 {
-  "updated": "2026-08-10T19:04:27Z",
+  "updated": "2026-08-11T10:03:56Z",
   "total": 60,
   "itens": [
     {
-      "id": "dado-2026-08-10",
-      "titulo": "PLD sobe 5,1% na semana e fecha a R$ 120,45 no Sudeste/CO",
-      "lead": "PLD SE/CO a R$ 120,45/MWh · reservatórios em 79,2% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
-      "fonte": "Megagrid Dados",
-      "url": "https://megagrid.com.br/#precos",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "id": "mercado-livre_89418",
+      "titulo": "Lula assinará ampliação do mercado livre de energia nos próximos dias",
+      "lead": "Lula assinará ampliação do mercado livre de energia nos próximos dias",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMm94czVxQ2F4dTA1MFAtMnpWWlpQOUg5ZEcwbVRydHAwQjhXaW56NmhVTDZKVjFxTm5fVU12bk5zLWJPX1ZfNUdsRWJtMHE0cUw2NWVqLUhONVJZNmhOZFFFcGR6U3pHRlNoNm5WbzBPOWdoS0NYSkhvN3BtM3BNVEhGWmVXdnE1cngwV1dZbWt1cHlXT211VnhPN2NVZHhVMTZpRVNGNmNFTkdxUVpHVF9n?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-10T19:04:27Z"
+      "data": "2026-08-10T21:55:00Z"
+    },
+    {
+      "id": "mercado-livre_4722",
+      "titulo": "Nós próximos dias será assinado decreto para abertura de mercado de energia, diz ministro",
+      "lead": "Nós próximos dias será assinado decreto para abertura de mercado de energia, diz ministro",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbW5ENUdsVWdjOUtibjFfX1pkMGNiWjBFamNXMjBvS3V4LVNRcGdQcXluZXlMUWJoV0Y4R1kzV2s3OVAwVG1sa09ub0E1THFWTUxydlRNZ1d5Wk5GZnBiNkZ3TWJ2N2c5VnFId3otSGZMRzlCZGVLOHZnNGZUcnIxbm1QS3RwWFFscFJYUF9pVjBiN0k0dnI0a0pnXzNSY0NoM2NLbTF1c2UwUjl4THh1Q3J2LW9GTklqNjh4aUpHd2U0UzUyWFE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-10T21:32:18Z"
+    },
+    {
+      "id": "regulacao_81501",
+      "titulo": "Enel SP terá 10 dias para apresentar defesa em processo sobre concessão",
+      "lead": "Enel SP terá 10 dias para apresentar defesa em processo sobre concessão",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94anNFbTUyMnVVenFuWC03c0VvNVZBci1SUFdXX1c1NTdDbmFCOWxKWTV6OWlXQUd5N2tMWmhNWGp6c3pjZ2tZUHVldC1xeTV5RU9sRTBieEhwaHdkWWtYcUJlME5ZY0ZSc0E0Nkc4TGJzQQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-10T21:15:26Z"
+    },
+    {
+      "id": "mercado-livre_26078",
+      "titulo": "Decreto abre mercado livre de energia e mira queda de 22%",
+      "lead": "Decreto abre mercado livre de energia e mira queda de 22%",
+      "fonte": "ES Brasil",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UT2xKVGxOSU5xbXlTbjRfMjJ4RVMydkFSYmh1NHV6RTAtU1h3QmZYcHQ0aC10N1A1a2lhWktTMzNLazc2eWl1ZC1pYTExUExRbWlwWS0tNlVCLVE4QXl2RFdMQ1psQUlrbEdyOWNpWQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-10T20:39:46Z"
+    },
+    {
+      "id": "mercado-livre_58407",
+      "titulo": "Metade da indústria brasileira desconhece mercado livre de energia",
+      "lead": "Metade da indústria brasileira desconhece mercado livre de energia",
+      "fonte": "FIEMG",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0V2THpkNGlhUWlGcldqSTI3Q19RdWlHdDduTmRTYThGOGVHektBSFBUUmZ2QXZ3ZjBnUk05c2JzLVVOVDJnT2J5aVY2ZlpaQTdUUm5QYW1xLU16bEpMZXVNRkUxNWZfNXpWMjZoSUJ3OTBRa19IS3VCQkFVd1cydUlnWm4yUzQzc2l1eElySkRyUmhxalpWMnA1TEtaUldxS1dJckZQSXpSTVJhUENMWGNPbzNiUHM?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-10T19:07:00Z"
+    },
+    {
+      "id": "mercado-livre_28601",
+      "titulo": "CCEE na Mídia: Ricardo Simabuku explica benefícios das baterias em reportagem da Band",
+      "lead": "CCEE na Mídia: Ricardo Simabuku explica benefícios das baterias em reportagem da Band",
+      "fonte": "CCEE",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZlV4bl91Uk1jc2o0bUdlc3QxM1dEZ1dHaW1rV3hYYTY1aU5rcmhkeFZzVm5wb0RJZ2RNcV9kc2ZYR2d3QldCLTZkQkVYYVpraTNkLTF6TFN3SXVMS2hPNDlOX2ZaR25LVlJyemtPSkpaUlVUR0tVWXpiZTZKS09tMHdjVUtPXzkzVUxFOHFwVkhPUWpHYWtCQ0RreWkySmxfR3pOWmJvUnpsQUhid2FF?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-10T17:43:00Z"
+    },
+    {
+      "id": "politica-energetica_6759",
+      "titulo": "Quem garante a segurança dos combustíveis vendidos no Brasil?",
+      "lead": "Quem garante a segurança dos combustíveis vendidos no Brasil?",
+      "fonte": "MME",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOTdDYXRlcFFPUm9mNWpsZ20yQ2JsdlRTRmxBbDlSeXRGVEdQN0VYcXo3NzJ3c0RZVW9BSjgxRHpVZl9fWkRMQjljbFkwRHcyenNTXzhaeTFfWlkxa2EwdWQ0NGRUT2NMem1FNzdQV196Qkc0YUFSb3BYblRaNkNBcEhNVXlsdTBRQi1hcWhQRUdLSWNKNWpoU0hqT3Q2N3ZadG1BaklIQWlscTQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-08-10T14:37:57Z"
     },
     {
       "id": "tarifas_46533",
@@ -120,12 +180,12 @@
       "data": "2026-08-07T10:01:56Z"
     },
     {
-      "id": "transicao_73884",
+      "id": "transicao_48786",
       "titulo": "Leilão de baterias abre nova frente para energias renováveis no RN",
       "lead": "Leilão de baterias abre nova frente para energias renováveis no RN",
       "fonte": "Agora RN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVi1NMFRZR3ZXdzByd2hTanZYVW9mdFJBZ3hobW1sSWJBeXdQSDNFMzdHVEZFN2hYdXFobFB2UGdoU25DM3pETVBfVDN6YVZVbERHdy02cElfZjY1Z3J4eVZsc0VNSHBNTjBBX0dsVUtKMk1DRmFCZ0wxbkFCZk15ejI1d0VyWXNvVzdsZmRvQlhMUDRoMWtiYW9KYUVuRTg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLWFVVHJrTmN0cV9Yc0QzU014SWxIZFJ3SllXWF8yOVkyTUxkTjM4RUhwdExoY2ktanRYbWpEdXRJODFvNDkyclBqLTByczZCX0ZBNWtQbFR1ZkQyRk81ZTNCNklHNzV6WW5PYVE2a0hEck1CaVhlSXZTdlBhMEZSVzVYV01kelJkX3R2MUE3aFJoQ0xWRUg0Qi14RkdkTFpk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-07T08:45:00Z",
       "tambem_em": [
@@ -158,7 +218,7 @@
       "lead": "Leilão de baterias abre nova era para o setor de energia no Brasil",
       "fonte": "Revista Empreende",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjFBVnpxQmc3RWVFM1dqM2xDN1JjVG9xYUItLVFBaVVUWkhoanVJWHNVcVp4Zm5QR3NmS1hSQTdpM09tc3RyZ0ZTSmtnNDZKOFE2bnZzNTN4WC00NlZTbG9kLWJFbHFBUlViQnhkVXFBMFdmZEsyVmhONUtvTHh4UlpwZDF1ejBFOHZKYzE5Z1VmSzFjNGhEa2pCWFBmQUFi?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-06T22:48:00Z",
       "tambem_em": [
@@ -287,7 +347,7 @@
       "lead": "Comerc assume controle total da Micropower e reforça aposta em armazenamento de energia",
       "fonte": "Business Moment",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWjBXMy1YRkVVQ0p5ZmVPWGE5elQ0RDdVUDBnUHhhaFd4OFJITXVBY2I0azhsRGhBbWVXdjk4S0tIVHUyWHlzNnRwUEhHaEdxbjlBT0wtaG9aVjhLVTlvOEJaS3B6Ty1DR0F4UmY1UDJKZFpXN0liSFQ0Y0FHbmxrMF95R1I4UWFlT2lSZjZ6UdIBlwFBVV95cUxPN0ZVdS0xaXRFMUNKdWJoOUpvNFVWWEJoQ1dyMFE5aHNINWFaZjlpUVk3Q2laRUYzUmpyQ1I2Y0ZpTk45d3JndU9CbGNVUTVlNGlSMTRGY05vYkJCajctcDNfT0Q2TDhWbFhNcTMwdlg5RVBZV19BUEJYN0J4RHhXZUdETkdGeGpMNjZpdlpyUXBPUV93WHBJ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-05T18:57:00Z"
     },
@@ -566,74 +626,6 @@
       "tambem_em": [
         "Portal Solar"
       ]
-    },
-    {
-      "id": "politica-energetica_49372",
-      "titulo": "Portaria_GM/MME_nº_76/2026",
-      "lead": "Portaria_GM/MME_nº_76/2026",
-      "fonte": "MME",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdlhqMkR5Wml1U1lKU0J2X0FoUGpVVy1Rd2czaUxiSGZXYWZwempRM0ZFQnA4WkhKNzZHUUxScnJ4MzJrT3cyUmJRZF9VQ1g4QVotd1BzNV9ydWxrX3RIZnp6T1ZnNWVHSVNtUFRrcE9EODkxUWo4WWZVWGRGS2E4eHdvejlpWncxc2FxMllpSnhBTGZpZl9Ndm1IN3MyREt5bnJGanRuSUVmNkhVU0E?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-08-03T09:58:00Z",
-      "tambem_em": [
-        "MME"
-      ]
-    },
-    {
-      "id": "mercado-livre_52675",
-      "titulo": "Compensação por corte de geração de energia renovável pode render R$ 780 milhões no RN, diz IBTE",
-      "lead": "Compensação por corte de geração de energia renovável pode render R$ 780 milhões no RN, diz IBTE",
-      "fonte": "Paraíba Business",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZmlkWTJjM3lEM0hnWXM5NExRM2ZzYTBON2sxajBqVkljUlZ2Yk5GdjE3SGpXSGNFdzBrS2JXRWFPbTZsUGpRQUZMZ2ZyX0kySzRsTWpBMFh6ekJRRi0xd1pNWEN1R3gxZjBkaTB2a1oyZVo0LVVrOC1qdm5Xc2NOU1N4MkVoNjBHYWFQb09rSElVM3hRY3Y5MTJRejl1SlRqV3VvTDg2SHV2dG1KS0JDUnBPaWEwQnV2RTlwMDhya3llWmpS?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-02T12:04:00Z"
-    },
-    {
-      "id": "mercado-livre_28975",
-      "titulo": "Mecanismo de Venda de Excedentes",
-      "lead": "Mecanismo de Venda de Excedentes",
-      "fonte": "CCEE",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOM0RfRkNMQ3RrNUIyamVDV3hHMmE2aWhQTzNiUTZaRlpfSTJ1TTBreUJYdURGaVMwa19HOXlRS011aDZTY0VvRmJqWV9iNjFsQ19NM3BZNkNscTFydEtrRW5mR1hiTnhKbU5aU1ZUQTNMTmRZeFc2Q3haQm1DZHpMenNvWVpJMjJrWlIwWWV6NjQyal9lVU1uMUE3bERXZFRLVmctV1V0b0ozVDdZcGh4dGNNblBDSnFCdkw0S2pSM3hpYVBOOEZGaHhtR082OXZDbjNJbGdQeTlZU01KRl8talUxZTRYbDhIT3lkVHlzczhUT1M5RDFCei1lZDlSNGZfSHdRVzJVUGxpeFV4V1E?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-01T08:01:26Z"
-    },
-    {
-      "id": "tarifas_17259",
-      "titulo": "ANEEL mantém bandeira tarifária amarela em agosto",
-      "lead": "ANEEL mantém bandeira tarifária amarela em agosto",
-      "fonte": "Agência iNFRA",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQy1XNThBVExhY0hLLU1TTDBxZktGSVdaaEU1T21HV3JJeW9IVTF1dmJ6d2d4X01hbUh1VFRCdVc0eTdqa0tDUzlHNGpBU0YwZUQzbGdJa0t6TkFBcEdhM0hSejd3OVZUNkk2aWw3aFRfR05mQUZwX1M1RUdxNjQwUGkwZGlIb2s?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-07-31T22:24:21Z",
-      "tambem_em": [
-        "jornalcruzeiro.com.br",
-        "G1",
-        "Folha de S.Paulo"
-      ]
-    },
-    {
-      "id": "regulacao_43947",
-      "titulo": "Medidas adotadas pela Light e Enel Rio para restabelecimento da energia continuam sendo acompanhadas pela ANEEL",
-      "lead": "Medidas adotadas pela Light e Enel Rio para restabelecimento da energia continuam sendo acompanhadas pela ANEEL www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOeUFPZnlGUnhMMVFTZXc4aWJSSzRrSE10MXdyd01qVGN3X1lBZlN5Q1U0ek9ud01CYVVjT3RSLVBoSlNIRm83emJmWHNESnBnR0tPMjh3SXhFUE85X2hsd01udXhxUnNBU2cwblN1dndsd2JZZ1dWenhLdDlJbzVoNlVmV0xsdFl1Sl8wbWdEdkhia3F4Y01CMnVMX0tpdy1Ea0E4cjBGQTEyZ01NLVp2Wkdva3c4WEUxQW5ZN09TWXRiamItVjI4NW5OcEVrS1lCTVMxdzJTcHVMbG83cnpIV3h1WlEzb1REQ28yeVpPb2YyM3kzVFpyZ3hTWGNPWFNLRldfMmwxVUJEbGMtQ0Nv?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-31T21:58:58Z"
-    },
-    {
-      "id": "regulacao_75295",
-      "titulo": "Com empreendimentos no Tocantins, Ethe Energia vence leilão da Aneel e garante R$ 1,5 bilhão em contratos de energia",
-      "lead": "Com empreendimentos no Tocantins, Ethe Energia vence leilão da Aneel e garante R$ 1,5 bilhão em contratos de energia",
-      "fonte": "Folha Capital",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObkE1ZDRKUVNMUWoyVkIyY2lMSFlXOExSLXZZeVpPTGE4UW9fbUhQNDZMSEE2RDd4MlVZWGdnRzdMaUFfQkJFSGdFTC03YUtyMHBzbGJZUjBQTVJfVEhjSnZiZ1dSQ1E5dGdzZUV1UUdxN2psNmtMMnFHM0UtcmV4cnUwQWRzdnpibUpjZGxzWWZ6ZXhPTVpyQWxwT3VBYUFFc1pkUXRFT0tiYVRXMEc0Z252YzRTbTYtYldTWEl6VXg0VUlnV2d5YTRDdE5UWGphUktLdThQazY5dVlXUy1zVVJn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-07-31T20:54:03Z"
     }
   ]
 }
