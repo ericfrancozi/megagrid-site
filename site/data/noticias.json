@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-12T10:09:19Z",
+  "updated": "2026-08-12T12:53:47Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_38333",
+      "titulo": "Mercado livre de energia será ampliado para empresas em 2027 - trendsce.com.br",
+      "lead": "Mercado livre de energia será ampliado para empresas em 2027",
+      "fonte": "trendsce.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRDZkYTRxalBfWUxSY3N1eU5RVmc0U2hWR1EwNmhMdldkak1UMVdKVkhOU0RYUWI5MThMN2ROOVNVV3VFS2VpM1o1SzB5akMzd2Y3UjZpeHNEaHpPNUIxOVBYTHM4N1E5LVFfSG1aUkZQUXBHTEN5dTNlT0V2T0xRQnpEeVNqUlJBclBNVGp5WnF6R0ZVODg4RmUwa1dJaFBlMUE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-12T11:05:19Z"
+    },
     {
       "id": "mercado-livre_94089",
       "titulo": "Lula regulamenta abertura do mercado livre de energia para consumidores de baixa tensão nesta quarta (12)",
@@ -33,12 +43,22 @@
       "data": "2026-08-11T20:02:56Z"
     },
     {
+      "id": "regulacao_44089",
+      "titulo": "ANEEL homologa repasse preliminar de R$ 5,48 bilhões às distribuidoras, recurso utilizado para reduzir tarifas de energia no Norte e Nordeste",
+      "lead": "ANEEL homologa repasse preliminar de R$ 5,48 bilhões às distribuidoras, recurso utilizado para reduzir tarifas de energia no Norte e Nordeste www.gov.br",
+      "fonte": "ANEEL",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPQnNvQlkxcTE4VTBZMUZNSWwybDV4UVJ3YjhEM2l4Y201TGx0UEo4UmRIU1ZRRXRuNm80ZHVZRU5XeXl0ZkpYUl8tQ3BMMGpsaXVFbEZSeTJfR24yQ3FJUlRnb0dtVG45dXlzODR6dkpvZm9iODJzSkQzeE1zeWhBOHBqMjNZRHVSVlc0ejBEMzFhaWpSSXFqMzhWNFJ4eHl4SUpKak54S2JvVDNnMHByMmJnWVlmakRBLXg5Y2hUZDE1SzhYbHU3QU1YVkdTYm5JOUFiYTBhMXBTYWtQS083V25HeWc2SkxFR3JwQkNfcWR0RG1EaWVidnMwemZwV0JLalQtUVExSkh2d2NfSm5iZFh5RWEySk1iNnlhLVhNWUN3Sks1NUsydDUyOW80cWQ5SVlEcA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-11T19:58:31Z"
+    },
+    {
       "id": "regulacao_45633",
       "titulo": "Disponíveis novos painéis com informações sobre indicadores de Inadimplência e de Segurança do Trabalho e Instalações",
       "lead": "Disponíveis novos painéis com informações sobre indicadores de Inadimplência e de Segurança do Trabalho e Instalações www.gov.br",
       "fonte": "ANEEL",
       "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNZXI1ZHFDNWRnRC1jYm93VzVmYXZ1X3R1SHJVNFZuZVpnbXJGb2dna253NlVEa19xakNGNzl1UDlIWENrS0ZwNUxac2JFQ0pPLXpnNHFnTldaSW5kMm5Ob2dSVGVNdXN4QUx0WVFMRU0tWERIOWd0Nll0TlYtTXNTeDFPWDFpSnBnclZxdXZvQ2llNVBCMklYLXpCWTJuM1FkbllYNnNwa1FpVWt0b2gwTE5FeXNTakI4ZTNIWmlLQTBscnc4LWtPNDhIYWhkTmdHb25vTVhsYkFqd010UlVJTmtEOFAxU0QzWkZqZHJ4TmRmdHYxRHlQbzY0cVBrWmZSMnN0MEpGMVI4SERPTUY4OHVoVS1VQ1E?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-11T19:35:12Z"
     },
@@ -78,7 +98,7 @@
       "lead": "ANEEL homologa resultado dos lotes de 7 a 10 do Leilão de Transmissão nº 1/2026 www.gov.br",
       "fonte": "ANEEL",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNW1YV21waHZmMlUyb0gtd0xZakJaT2lTU1dBSUpoUlFPZWN4S0ZvR0Q0ZHpvUnJudEJ2MmpCZk1HS1Q1UG1yeUhCNjNJa2lqTjh1cThaT3drUFUwMm00UG4za3B4dkk4YnZiSnE2MmlZY0YxTDNISzEtdzcyMWpHSV96SkM3OWJUVlNPRHF6a1hXWUptVzl6b3RNQmRiM2VseG1UVTBzbXUyTUxLRVhqTFJPTm1yeXlqb2w5U2NTdXNWT2R3a09lWmlFNXBiQ0ZBTGd2X01melZnaFMwdTcwN1pBeDM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-11T15:41:21Z"
     },
@@ -603,26 +623,6 @@
       "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-04T12:15:02Z"
-    },
-    {
-      "id": "tarifas_18918",
-      "titulo": "A conta de luz vai aumentar em agosto? Veja o que muda",
-      "lead": "A conta de luz vai aumentar em agosto? Veja o que muda",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQemZsdWoydnczWVJNN2wxYVlTVlMyZVN6cEFFS2g0cUJaVDJ0Y2dCZ1R4S05EbXV3emozRm9WRkppNHhhLTI4NW9INEpLQVg1a2hHb0g1MHc4WXdkNTBDR19PWm9HYWZHOVU0ZmsyVUstQVZ1bC1QUWR2YTdFWVVwU1JRN3k2RmFtUjhsTkhpOXZUUTg?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-04T11:39:08Z"
-    },
-    {
-      "id": "transicao_72934",
-      "titulo": "1º leilão do país para contratar baterias tem procura recorde",
-      "lead": "1º leilão do país para contratar baterias tem procura recorde",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVFId2htOFJIemszVXR4TEdISG5CYk8wbFF6U3Q3VF9PRl9vOGs0bkRpcjlsZ3FSVGY1Vk9adTc2VGkzY090ZTlWSFBsMUdrWkZ1UmZUdm9SUmhXSWRWUFFRWTFMbzE5VWdnTndaWDdwZUlPMEd1UWVSR1FPcVlIMGNhcE9jU3dZSUxobHd0bk00ZkoxS0x3VXNEQThKZWxnYXVkUjB2VQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-03T21:51:01Z"
     }
   ]
 }
