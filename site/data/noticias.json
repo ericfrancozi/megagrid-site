@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-12T12:53:47Z",
+  "updated": "2026-08-12T19:05:47Z",
   "total": 60,
   "itens": [
+    {
+      "id": "transicao_3670",
+      "titulo": "Casa dos Ventos e Aegea fecham PPA de autoprodução solar para abastecer operações de saneamento no PA e PI",
+      "lead": "Casa dos Ventos e Aegea fecham PPA de autoprodução solar para abastecer operações de saneamento no PA e PI",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeTBoMU01dWRVMlRJTnJ1NnYzQkF5ZnhKUEFDTlpZM2xEUnNqaXJMYS0yYkpmWldWU2NOX3p4cGpYb3FNb1hrd05Vc1FKa2pYbmNZeldxVXV3TTZ2eG1WY3hUeWhvYm5CQVE1dXliaExhX2drcF9ZWmNzRi1vVzhCRk5hWFRVb20wZjY2amVHZDh4VElZZ3hBVjNLQXdGYjFyenl1RjNNdXNsQQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1548337138-e87d889cc369?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-12T18:30:41Z"
+    },
+    {
+      "id": "politica-energetica_37217",
+      "titulo": "Prazos do MME para energia elétrica",
+      "lead": "Prazos do MME para energia elétrica",
+      "fonte": "Revista O Empreiteiro",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfTG1Ua3pCRVFLQk5QNjl5bkFwY0Vxei1oUUgybHVyTklra1ZKNTFWZ0Q3SUlzNXZyTWhJckI0WlY1Ylk0aWVCN1FnQnJPajV6OERwRTVFVHA2VmFQSTU5Sk5RbWRVSlBQSVFtN2tR?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-08-12T17:58:59Z"
+    },
+    {
+      "id": "transicao_46661",
+      "titulo": "As regras de armazenamento de energia e 1º LRCAP de baterias - capitalaberto.com.br",
+      "lead": "As regras de armazenamento de energia e 1º LRCAP de baterias",
+      "fonte": "capitalaberto.com.br",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWlpYmxnX0xmRGdSeXJ0THYweEc0cmdocTU3cGNhd0xuNUJOVm1EMWt0UWZSTVBfMXZlaXIzLWZLY3d6YWVfTENfMDZZaDdMdUxlU1lwXzZ2REpGeEc1WDNGS2ZLWHV5c2MzRnRkLVk5SDN4d1A3ZUlkaFMzM3JaZExqYnBUWVc4SmpnT3Q1YkQzQkladHllekpuOG1WdnlDYl9tNjZIaGJLSlFXc0FwX3lB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-12T13:31:00Z"
+    },
     {
       "id": "mercado-livre_38333",
       "titulo": "Mercado livre de energia será ampliado para empresas em 2027 - trendsce.com.br",
@@ -166,14 +196,17 @@
       ]
     },
     {
-      "id": "mercado-livre_58407",
+      "id": "mercado-livre_82188",
       "titulo": "Metade da indústria brasileira desconhece mercado livre de energia",
       "lead": "Metade da indústria brasileira desconhece mercado livre de energia",
       "fonte": "FIEMG",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0V2THpkNGlhUWlGcldqSTI3Q19RdWlHdDduTmRTYThGOGVHektBSFBUUmZ2QXZ3ZjBnUk05c2JzLVVOVDJnT2J5aVY2ZlpaQTdUUm5QYW1xLU16bEpMZXVNRkUxNWZfNXpWMjZoSUJ3OTBRa19IS3VCQkFVd1cydUlnWm4yUzQzc2l1eElySkRyUmhxalpWMnA1TEtaUldxS1dJckZQSXpSTVJhUENMWGNPbzNiUHM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjNrZGZTX2paREFqZFRSTXZtaEtpS3A5VGVCTExsakh0bVJmUWdUNGpsOVRWODdyX0N6dXBwUFRvb09xX0tjRVNrNGRYd2MwVFlIRTRQZHhqTHUyWnVlZEpRNHY2SlBmMXNxazQ5eENqVHJ2OFIyaWZINDc1TTRDVkJZcHNyVlNBZThYN2MwSmtyQ2hTeGFRdnVYN1hmZU9mUGRCOFUtX3BPNlE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-10T19:07:00Z"
+      "data": "2026-08-10T19:07:00Z",
+      "tambem_em": [
+        "FIEMG"
+      ]
     },
     {
       "id": "mercado-livre_28601",
@@ -184,6 +217,16 @@
       "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-10T17:43:00Z"
+    },
+    {
+      "id": "mercado-livre_28422",
+      "titulo": "CCEE deve retomar cobrança de geradores que não manifestarem interesse em acordo do curtailment",
+      "lead": "CCEE deve retomar cobrança de geradores que não manifestarem interesse em acordo do curtailment",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQVoxanBsVkw0WFhwQ01JRHpRT19fTU1YRFdwcG90enZPRjUxMlRhdjhTeWVqVm9rSHpUVnBValhRdUFoU0VaVk5JQkZUWWI0ekdjS1NMcG9KM2JVbFJXWEZIOXEwelgxdkpJZkZnM2otdHFKbUxUS0FmRkt4LVFGemk3ei1NaW56b0dCVE5EUGVsRFA2a1R0S3FhcGExR3pkUEczaWhUck5uOHljal9Uc3dUUlFwRU5sRUp1OWxWakdxd2VFRkthUVZlSjI?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-10T17:24:53Z"
     },
     {
       "id": "politica-energetica_6759",
@@ -221,7 +264,7 @@
       "lead": "CCEE, ONS e EPE divulgam segunda revisão quadrimestral da previsão da carga para o planejamento de 2026-2030",
       "fonte": "CCEE",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNkVVcUhLYW01UWNkNlpVS2ZOb2NreTdUZnFSdzJJX1plZExPMjM5YVhmSEdKRmNMczY0ZVdJTTVpWklSazQtdnNOWnN5a0lLME5tR1BMREtsVkwzOXBiLWpackNQaFotNjA2NnNtWkZuNUQwWkVwRU5ndXhCNWE0ZjQtODlYVU9obG54VzBjN1l2aFQ5dERyU3RoOGdxMVlTNmtRVU96dE9Nc0phTTBBNlBONXVHcFYxWDh0b2RsZVREU0pQLXI5eTJuazVvZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-07T20:54:00Z"
     },
@@ -231,7 +274,7 @@
       "lead": "CCEE atualiza Política de Compliance e fortalece sua estrutura de integridade",
       "fonte": "CCEE",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN0lZb2RwUEVQWWxJNlJnSEZaUk9fOXVyeDNxRzhxUGMxOEljd0k0R2pzQ0FRUHlEQ3VrcUt0cjFtUnh3WGo3bW9BVThPVGJOelFSYml1Z0VsYmRoUDFpSnVCVDJJbE1ZRjZOSWpGR1pKdGZJZ3k1S2VoNDBYdGd0RWgwTlpnU21sYVlIdzlLRHlpRFlPYkVkRnB2UWNBSGxnbk1ZUGJnMUtHQ3JhRkRLbVNiSXk0UQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-07T20:39:00Z"
     },
@@ -583,46 +626,6 @@
       "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-04T17:46:49Z"
-    },
-    {
-      "id": "transicao_65347",
-      "titulo": "Primeiro leilão de megabaterias recebe mais de 6 mil projetos e bate recorde no setor elétrico",
-      "lead": "Primeiro leilão de megabaterias recebe mais de 6 mil projetos e bate recorde no setor elétrico",
-      "fonte": "Business Moment",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ1VfSDJtOVdGbXpHM1BjS1Vadk9ZcHlBczBITmxTLVJaYkozaGljQ04tWDVqX0JZRk9RSTY2XzNPalZnR09IakJzT0c2dUl6alY0SGFQdVdkOUJCUGFuVlA2UWJLZDVGaFItVlpTNHliTkJiRUpnek4td1MzcF91dlQyclVsTVF1MXfSAZIBQVVfeXFMT2VKRHk4V0hsSVE3akRkZU03eE5ZZ1RKM0RQNW56dkg4WFotQktPd0ZhdXlLZ2ptRmpyYndSbC1rNFJFR2w5Ukh1enBnU1pnalpzcW5KNFZEcHpaQWFtSEM0MnAwMjRrS2s2WTdSNVZWVkx2a0lFNGdWZ0JpZmFhaTU5ZnRRQlRPdUU5UnlXSG9JN1E?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-04T16:17:00Z"
-    },
-    {
-      "id": "mercado-livre_40027",
-      "titulo": "Mercado Livre de Energia: vale a pena migrar agora ou esperar?",
-      "lead": "Mercado Livre de Energia: vale a pena migrar agora ou esperar?",
-      "fonte": "CPG Click Petróleo e Gás",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQemFIT2NwLXNzcGFzNHRkV3k2Q29hbDlDM3ZoVmdXZ3JfNjVaMGQtU2NoZnNIVmtnNDlvbmI4dWxDeFl6VHpqOF9kVmhTV01Na2Y2UEllb2p2M2lCMHExYk4ycU5yS2ZQWEllYkdJWXR5RWlfMkFiTF9rREZESXI4R0s1ekQxTF8xYTQzVkdQWXBIZFdrOUZZRUlR?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-04T16:00:00Z"
-    },
-    {
-      "id": "tarifas_77707",
-      "titulo": "Conta de energia terá tarifa extra em agosto - Portal 93",
-      "lead": "Conta de energia terá tarifa extra em agosto",
-      "fonte": "Portal 93",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xM2Q2MzdCRGp4WTB1Q2oyOFowdk5WMHFoMHF6dkI4NUVocEVXZmtWbkFGSnYwQmtEY242c3JxeU5YRHp4VFkxRzlvSURvZkpBaWwtT3VEVkk2NG14RE52b2JfdXZGb3lDMzBOQUhxWjRaZWRudDZXZkJhSDEyYzDSAX9BVV95cUxPcTNkNjM3QkRqeFkwdUNqMjhaMHZOVjBxaDBxenZCODVFaHBFV2ZrVm5BRkp2MEJrRGNuNnNycXlOWER6eFRZMUc5b0lEb2ZKQWlsLU91RFZJNjRteEROdm9iX3V2Rm95QzMwTkFIcVo0WmVkbnQ2V2ZCYUgxMmMw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-04T14:37:39Z"
-    },
-    {
-      "id": "transicao_21966",
-      "titulo": "Leilão de baterias: Brasil avança em armazenamento de energia",
-      "lead": "Leilão de baterias: Brasil avança em armazenamento de energia",
-      "fonte": "ISTOÉ DINHEIRO",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nVWdya0gtWW83OEd0Sl9DVjFlVnZqZklzSDYxNkhtQTd1c0xJVWVrTWpSUEhYcFhOaFRRWDNTNFNiNWIyWkd0UXE5Q3daZWstRHZGOU5TaVB5UVVVRjVVZlRsTU9OUmpvZlpxY1FJeEMzUkU2MnNzZ2VOcw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-04T12:15:02Z"
     }
   ]
 }
