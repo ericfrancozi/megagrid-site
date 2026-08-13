@@ -1,7 +1,50 @@
 {
-  "updated": "2026-08-12T19:05:47Z",
+  "updated": "2026-08-13T10:10:20Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_96229",
+      "titulo": "Abertura do mercado livre de energia dá novo passo",
+      "lead": "Abertura do mercado livre de energia dá novo passo",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTzRZdE8zYUJfRjNneXdLYU1iUkdNcFZwMnJ1NzhzelZFeDR5ODNvaTBYd0ttZnZ2Q0V3WWN6MmNnUk9Ebk83Y2NCaU41NGdJTVAtamMwb21ORTdibG13LUZEYmlvWVhPRzdTOEx2dmZkY0FZRFNTSGd0U0JQbmlQV0JPU3pPZnM5ZGJ0aWVXcUxoV2FHc3FRRFJNRmZFTndfV1FSUlM1MFZwd9IBuAFBVV95cUxOVW43eTFPamxENi1OajVLY0dlTTJ1RVVCcGQyOTFDRHd3ZVg5RUZjN2RTRndFcHdqbUJ2UGl2Zmh4cVg4WFRRajlBTXNaNWxPaWZKTnlrLXUtSDNIekhRVlprTmI2c0R6TUx5VGhDTmEzeERlYW1zZzBPWFlTa2JSdFBSOEtKQ2JOZXJNWU9zWkxld05MQ2FVZWdUdW1jY2Z6eDZHRGhFOTY3TFUyV0g4Qk5iYl9uS2Jt?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-13T08:00:39Z"
+    },
+    {
+      "id": "mercado-livre_61673",
+      "titulo": "Lula libera escolha de fornecedor de energia; migração pode gerar custo até para quem não trocar",
+      "lead": "Lula libera escolha de fornecedor de energia; migração pode gerar custo até para quem não trocar",
+      "fonte": "Economic News Brasil",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYkE4MGVDaGxQbndzTVhvN3BGQmltRkRVZ0ZwZnIxRlhTa1FVcGVTMmRnQkJLWlZ3WXFrRUdwSHJlMEtZamRmYzlkWVFiYl9jdHA1d2pHVHpkUDVmRm1yQnJVSTJKVXR0Q0FqMk9lZFp6YW01c0NlWWpzbi1GYUJsWVdRdHdHUHJIazVtUVU4SQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-13T00:37:00Z"
+    },
+    {
+      "id": "mercado-livre_33698",
+      "titulo": "Governo regulamenta mercado livre de energia a pequenos consumidores",
+      "lead": "Governo regulamenta mercado livre de energia a pequenos consumidores",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUpJekU5NnVKTGxZQkxWam9nenpQbGg0allYbTFvUjFZTGhwcldrYlQ3cjFCZ0d3Y0doaDB4UV9DR1plVHRoTlFoT2VldDk4NHpIQ2ZEV1VRNDJaY2FoSTdJTUtja0F1WmV5ODJRbWJiV2pHc2ZyYWt6NEpCMHRNbzVXMkJEVDJ5VHphS2xwcC1EejNfbEFUeXhxbk95d2hxbUprLWY1SmFVNnExSksyTQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-12T22:24:42Z"
+    },
+    {
+      "id": "mercado-livre_80157",
+      "titulo": "Consumidor poderá escolher fornecedor de energia a partir de 2028",
+      "lead": "Consumidor poderá escolher fornecedor de energia a partir de 2028",
+      "fonte": "Portal do Marcos Santos",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajF4YnRqOWxwRW5QQjRvV1h0and0R0hJSVhhUThnY2NuY0tyYnRWLXh1U3NpUXZKNFRMYV9iY19nYWQxanNxcG9mZFFRUlpaZHpRem4wemZPUnlYYzlmSkNsR1ZicmpzNUV6T21yRURiOVlteWs0dlNBek1ETmE3VmU5S3JvTlNQaFJEeUpnenhNN0hZbHBOUlZJY3VvRGhQVjlCajNVdUxlOXV4Q1E2TVduOGRBdw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-12T19:39:49Z",
+      "tambem_em": [
+        "SBT News"
+      ]
+    },
     {
       "id": "transicao_3670",
       "titulo": "Casa dos Ventos e Aegea fecham PPA de autoprodução solar para abastecer operações de saneamento no PA e PI",
@@ -13,6 +56,16 @@
       "data": "2026-08-12T18:30:41Z"
     },
     {
+      "id": "mercado-livre_38728",
+      "titulo": "Mercado livre já responde por 44,8% do consumo de energia, mas gestão vira desafio para empresas",
+      "lead": "Mercado livre já responde por 44,8% do consumo de energia, mas gestão vira desafio para empresas",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX245U2N1cGgwX0RrOU9CR1lzLWI3TDduN2VMQkRvVlU4RzAyM0RVUU1pLUVkVDhxYnkxVGt0M2RoQ2ZxRWRSUHN3YjExZ0wxVHRKUWw4Zk83N1VQQXNjV3FUWjZBdGw1YmRuQ1pGZ1piYTdTVXdzUFQ1SC1LOFdPUy1INVVXczVaNEM4dG85VDZUNHkySnctMGllcUo2UFhENS1hNGFLb2c1ZXFZSFR2RzVJOFcwc2NRRjh6dGl5RnFPZ09pbWdyX1JYcktxVTlY?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-12T18:00:25Z"
+    },
+    {
       "id": "politica-energetica_37217",
       "titulo": "Prazos do MME para energia elétrica",
       "lead": "Prazos do MME para energia elétrica",
@@ -21,6 +74,16 @@
       "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-12T17:58:59Z"
+    },
+    {
+      "id": "transicao_19649",
+      "titulo": "Armazenamento Com Segurança: Por Que Certificar BESS é Vital Para A Energia Solar",
+      "lead": "Armazenamento Com Segurança: Por Que Certificar BESS é Vital Para A Energia Solar",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaF83QjBfUXh0T1pkcW12ai0yUmRsX0txYThKUFJkeTg2WExfeFk3OVBTd2w3M0NBaXRSODN5cmg3TEJ3NGVvM1VxNU1odXpwOWhGald4OThjWEFWYXU3X0wydDlZMk5JeGFjaWFuLVplQjZuVlNRNHZQdjJXektERnpobGRIdGhZeDJ3NGtsckxjY1ZIaXMzNTE5d2V3emEwMlk2czdrNklXdThFdUgtTGt3d0R1NHFmWlRUQlVFbw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-12T13:44:19Z"
     },
     {
       "id": "transicao_46661",
@@ -196,16 +259,29 @@
       ]
     },
     {
-      "id": "mercado-livre_82188",
+      "id": "mercado-livre_22359",
       "titulo": "Metade da indústria brasileira desconhece mercado livre de energia",
       "lead": "Metade da indústria brasileira desconhece mercado livre de energia",
       "fonte": "FIEMG",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjNrZGZTX2paREFqZFRSTXZtaEtpS3A5VGVCTExsakh0bVJmUWdUNGpsOVRWODdyX0N6dXBwUFRvb09xX0tjRVNrNGRYd2MwVFlIRTRQZHhqTHUyWnVlZEpRNHY2SlBmMXNxazQ5eENqVHJ2OFIyaWZINDc1TTRDVkJZcHNyVlNBZThYN2MwSmtyQ2hTeGFRdnVYN1hmZU9mUGRCOFUtX3BPNlE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0V2THpkNGlhUWlGcldqSTI3Q19RdWlHdDduTmRTYThGOGVHektBSFBUUmZ2QXZ3ZjBnUk05c2JzLVVOVDJnT2J5aVY2ZlpaQTdUUm5QYW1xLU16bEpMZXVNRkUxNWZfNXpWMjZoSUJ3OTBRa19IS3VCQkFVd1cydUlnWm4yUzQzc2l1eElySkRyUmhxalpWMnA1TEtaUldxS1dJckZQSXpSTVJhUENMWGNPbzNiUHM?oc=5",
       "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-10T19:07:00Z",
       "tambem_em": [
         "FIEMG"
+      ]
+    },
+    {
+      "id": "tarifas_70448",
+      "titulo": "Cobrança extra na conta de luz chega para os brasileiros em agosto - jornalcruzeiro.com.br",
+      "lead": "Cobrança extra na conta de luz chega para os brasileiros em agosto",
+      "fonte": "jornalcruzeiro.com.br",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLXhpWXlMX3loUF9OVk0yTUpGNThSMFhuaXFoTy1ZWnFtNUl6REc3enoyejhlR1ZtV3Q1cVNUM2JxREJZY1NfM2M4VUtQd2VDNmlSSTdWdWRnQTkweUk5TFZlNlVPNE1WMm0tSEM0NHJzbUFiWVRrTzNhNDluT2ZJVF92UjJnaXlMQnYyclRpMTVCd1JLM1hPY3daTjJPZXU5dEhDbi1BQ3JTM29iR0ZQUzRB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-10T19:00:00Z",
+      "tambem_em": [
+        "correiodamanha.com.br"
       ]
     },
     {
@@ -237,16 +313,6 @@
       "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-10T14:37:57Z"
-    },
-    {
-      "id": "tarifas_46533",
-      "titulo": "Conta de luz terá cobrança extra em agosto na Grande SP - correiodamanha.com.br",
-      "lead": "Conta de luz terá cobrança extra em agosto na Grande SP",
-      "fonte": "correiodamanha.com.br",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWmxhM0FTOGNqSE9yclRtdFZYM2JiWUI0RHptWEpCSjVIdHJmajFDVFpsZzhJQ0Q5SjF4Um96bmhaTFZZY3czclNlTjVqWlZZcnZPM1dnS053YzQyZURweXdKYXQyMUNiYjA0NUtiMVh4ZnBuQ3ltR1YzR2ZrRTlDYWtTUHRDa1JxaTVDOHFLRk1yWXRqRlBsLVJjWTF0dC12Z2tQU21yUy1FbXZIUi10d1UxX2YyRlZTZVgzck41bFBpVVhsSXB2RFBUZGFYYmdfWGpuODBKeTdySFlHblhXd2FXZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-09T00:20:00Z"
     },
     {
       "id": "transicao_35967",
@@ -566,66 +632,6 @@
       "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-05T14:05:20Z"
-    },
-    {
-      "id": "transicao_15946",
-      "titulo": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
-      "lead": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
-      "fonte": "Tribuna do Norte",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSjNtUjFxSnZSaTFULThqaXkyZE14eDRMcEQ4MlVwM2dkR1k0Vy1ZUXRvR0VxN3dieFlTbGFxeXUzakxieDBiZVNvV0JnbDZMYXVHS3R1VUNNYXRiN1E5aHVRNF9IT1c3UGZKbDgtOXJMaGUyR2p2SWtqbHFWbVM5Q3hSUXVvN2drcUhhMk5nTnVzcUVoMUxLamJxOWVFbFY2QVhBTzNQRUx1V3lrTE5kalAtQm1obm8?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-05T03:00:00Z"
-    },
-    {
-      "id": "transicao_60523",
-      "titulo": "Leilão de baterias esbarra em quem pagará os encargos, diz CEO da Engeform",
-      "lead": "Leilão de baterias esbarra em quem pagará os encargos, diz CEO da Engeform",
-      "fonte": "ContilNet",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRDlmSXZqRGtQbWthV2l4Y0tRbEhvNDJ2Wl9oZXE1MFRmeXAxTzdZY2F3dTdQWVVkU3M4cXo4ckY5cF9FaUs3aFE4VWtnYXh4b2QteEpMQzliRWt3cmZrWGFPVGh3VmhtOUFGNEM4eTNpTEN6bVczWUFzb0tZdkE5N1lUcnZCQ3lKeWN3aVFtYm1nREd4b05FVmpGWTQ4cTlJbUhNamNQc3M4eV96Uzk1cDBRbHlVMXRYcWNsZXVR0gG-AUFVX3lxTE9EOWZJdmpEa1Bta2FXaXhjS1FsSG80MnZaX2hlcTUwVGZ5cDFPN1ljYXd1N1BZVWRTczhxejhyRjlwX0VpSzdoUThVa2dheHhvZC14SkxDOWJFa3dyZmtYYU9UaHdWaG05QUY0Qzh5M2lMQ3ptVzNZQXNvS1l2QTk3WVRydkJDeUp5Y3dpUW1ibWdER3hvTkVWakZZNDhxOUltSE1qY1Bzczh5X3pTOTVwMFFseVUxdFhxY2xldVE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-05T01:35:36Z"
-    },
-    {
-      "id": "tarifas_99145",
-      "titulo": "Aneel anuncia taxação da conta de luz em agosto e revolta brasileiros",
-      "lead": "Aneel anuncia taxação da conta de luz em agosto e revolta brasileiros",
-      "fonte": "Diário do Comércio",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV0dyTkdPNktobEJNZ1lleklXODhuamVONGhJcWVSRXFXRmRlYjRnYWgxb04yVmVEYTY1OUE3Nlg2amMzRzlJZ2tlMjN3VWdkN0lBc0VpQThFNGVhWkxDd2gxX1prOE9QdDVicllTc3lXamtkTFZHeUJmNVV3bFFnMjlMSEJ1TWlYWVlSLTQ4Qzhac2VCX291aHdYTjdta2RJTHVuMDNJZjJwdw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-04T22:17:57Z"
-    },
-    {
-      "id": "regulacao_95021",
-      "titulo": "Presidentes dos Conselhos de Consumidores têm mandato prorrogado por mais dois anos",
-      "lead": "Presidentes dos Conselhos de Consumidores têm mandato prorrogado por mais dois anos www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOT2RzcHFWY2w1ZHZ3MDZWSEl2MGpBWFR3YWQzVmE3V2kzWXUyQ29MSHJBNFNIVmtRbko1MDhMTkFpWWlpbjQyQlVIZGFHQ3Z3SmpyN1BIeng5Yi14VHlRWTZEUHZPNkdLdjl6YkkwUmRpcU56a1BjTHRjM04taDR0ampkZWpzN3hKNFlmRGNNOTRmLUtweHB4REtfSUgxRFZoZVJzUHd1YlVOWjdybUtBTllQXzExbDJWR2tfUTVNaDF0d2ZjWXZ6UWhqVDkwa3dlbzdxNW5reURfcy1uem4tT3VYREpvcHFxNHc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-04T21:42:30Z"
-    },
-    {
-      "id": "mercado-livre_29157",
-      "titulo": "Aneel cancela multa de R$ 305 mil aplicada pela CCEE por falta de lastro",
-      "lead": "Aneel cancela multa de R$ 305 mil aplicada pela CCEE por falta de lastro",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObGxlSjZQckRSOVczWGJTR1ctXzBvMnptdmlhT3NBb3lVZzUwY2J3bDJRNUwzeGlPdTNLVHdBRkZfQWp6RDBwTWxHSlo2ek1KSWNjYTJDS002dWRKNE4ydmJFNTJVVnBvTlJQMUFvbklxMGNIeVBxVHkxZGxVTUdpUE5pQXN1WWNzdjIxSjczcW5pSllOaGRnSDlWNXJhcXBncmhWZUpTVUhUWk5EdkFZaGtCQ0w?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-04T21:25:58Z"
-    },
-    {
-      "id": "politica-energetica_60771",
-      "titulo": "LRCAP Armazenamento 2026: EPE registra recor...",
-      "lead": "LRCAP Armazenamento 2026: EPE registra recor...",
-      "fonte": "BNamericas",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVE1iZ1NISGtMSWRqenM4Q3k1bUtZenJzaXcwdlRzalBKSUl3NzdQVXVVdGdMOURYUkdTdjNNSENUbjFudXc2N3RfMFFCbXNtUUtKX2U2RW9zc3pHQ1pnUmFQSjctV0lfMjBOM0hnaGhRUFJzUXhsSzVIVExZVzBKZU5COWJMSmd3WVhIWHF2X2xJZS1Sdmd3WElzM0p4Wm9YS0ZhUGRyQmNXOGQx?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-08-04T17:46:49Z"
     }
   ]
 }
