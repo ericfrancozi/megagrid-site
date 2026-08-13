@@ -1,7 +1,50 @@
 {
-  "updated": "2026-08-13T12:54:58Z",
+  "updated": "2026-08-13T19:07:00Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_35805",
+      "titulo": "Consumidores poderão escolher fornecedor de energia a partir de 2027 - 98fmnatal.com.br",
+      "lead": "Consumidores poderão escolher fornecedor de energia a partir de 2027",
+      "fonte": "98fmnatal.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdE9ydUktdThVY0pwakhMUXhDQnBpR1hnMGVlWWdWSFRvWXdBQWs0UG9TX3Z3WnFxYWZFZkpDclUzSlBIQmtXUHBVSi1BcGJlR2FGanRFeVlVTWdDcmxmdTNQbTh2dUxRSHhWd2RKVWc5QnVsMXlYbFRoYzZfTlF2T01UVjZzQU55X1VmT2w0VlN0TVdWSXFJUU44REtQWHV1SXl3OFlNN0M?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-13T15:59:00Z"
+    },
+    {
+      "id": "empresas_86445",
+      "titulo": "Empresa de saneamento fecha acordo de autoprodução com complexo solar",
+      "lead": "Empresa de saneamento fecha acordo de autoprodução com complexo solar",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1WdDZBcXJidmdFeDQ5ajJEc0xmV0VjVlRhRHJFUjdzLUpOZnh3SkdnNUJwLWNTVmduZXJNSFQtYnh5dkt4WGpnWmwzUFF6MWxyZzk3aDhxeGpjMGlBeUs0RzB2RUJBcjNJNUcyNEY3VUJsMldOYVlDSUFGTEo?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
+      "editoria": "empresas",
+      "data": "2026-08-13T15:23:33Z"
+    },
+    {
+      "id": "mercado-livre_21742",
+      "titulo": "Veja quando e como clientes residenciais e negócios vão poder migrar para o mercado livre de energia - Folha de S.Paulo",
+      "lead": "Veja quando e como clientes residenciais e negócios vão poder migrar para o mercado livre de energia",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLWNWZjRyS0d2dFo2bFF2bVdJZ3FuWVpaWGc2RERnakphSDRZZ193X0NfcHdqWUVWWGdJcTJFYW1yRzBfbnFlYU8zZUExaExjc0hWblQyX3ZsT0oxek9WV2ZTMGRwLW1LLURpZW9HZkR0Tl9CMWZrY1Vydkk4d1lhMU82S2VaZE41M3Jfckd4QUtBOWxQMlV1M1JUWVpIX3VsZFo5X3I2SmdNWGJQQ0Uydkx2SElUMmJWY2VYZElTRWtXUGwxTll6QlpQdDNMNWZ0aTZXc1ZKNE9Td0RaT3E1ei1xX1hmaFk?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-13T15:00:00Z"
+    },
+    {
+      "id": "mercado-livre_77009",
+      "titulo": "Governo confirma abertura do mercado livre de energia para pequenos consumidores, mas regras da Aneel serão decisivas - bra1.com.br",
+      "lead": "Governo confirma abertura do mercado livre de energia para pequenos consumidores, mas regras da Aneel serão decisivas",
+      "fonte": "bra1.com.br",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWG1PcEFSbEZPdDUxVnhWZjUwTExNWlk2QmFGY05XVGVQMXNtSEpVcDFUUEVrbWowYUt4SjZXZjluak1RNTBNbDhfYjkxMC1PN1NsMDQyQ1M2TWFPU3hDRnFfeExnQUxsSXE4dERMOFZrUVJublBURjY3Z1F4ZEM5c1FWMXhqOVcxVVV6UVhaT3NPV1VWeklaR1oyQzg5bFJJVXZDcUlzZnhoOWdmb2NIdGUzNXB1ZTREeEtiWW1BNW8xQzZVc2kxTXlHenFBYTh4c0JrZWtnQUdrcm1MNnduOVp5WHcxOUFWRDlhbGRJVWtxQQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-13T14:50:00Z",
+      "tambem_em": [
+        "Poder360"
+      ]
+    },
     {
       "id": "mercado-livre_6655",
       "titulo": "Abertura do mercado dispensa medidor inteligente e fixa regra para retorno",
@@ -23,14 +66,14 @@
       "data": "2026-08-13T00:37:00Z"
     },
     {
-      "id": "mercado-livre_33698",
-      "titulo": "Governo regulamenta mercado livre de energia a pequenos consumidores",
-      "lead": "Governo regulamenta mercado livre de energia a pequenos consumidores",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeUpJekU5NnVKTGxZQkxWam9nenpQbGg0allYbTFvUjFZTGhwcldrYlQ3cjFCZ0d3Y0doaDB4UV9DR1plVHRoTlFoT2VldDk4NHpIQ2ZEV1VRNDJaY2FoSTdJTUtja0F1WmV5ODJRbWJiV2pHc2ZyYWt6NEpCMHRNbzVXMkJEVDJ5VHphS2xwcC1EejNfbEFUeXhxbk95d2hxbUprLWY1SmFVNnExSksyTQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "id": "mercado-livre_87487",
+      "titulo": "Lula assina decreto que abre mercado livre de energia para consumidores residenciais e pequenos estabelecimentos",
+      "lead": "Lula assina decreto que abre mercado livre de energia para consumidores residenciais e pequenos estabelecimentos",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNX25CVXRhNFJXcEJscmRlUHltMGZjNjVhWThwZzVFc1ROU3RfLU9sT3NuNlh3S0dGLWdKSkRvOHhLZTh6TElQS1NrbnpfcUNqaU1HRTdsRFlDcWlTNE1XdjVTcXFsSXQzNG9aUzdvU1VmQlB1a1J4RTczNHg3ZTd2SkJqYS1zMmlhOHE3SU92NDh4RzEzbXpwa0Q2a0VRR3kwdU1GWGdLbDZKVFppNC1NTTdsTUtkaW1vaFlMNktacEFqbDlBcU8tZXlURTNlcU9SSmI2bmU0R1VPb1VvaklzNjlyUXZWdE9wYmZNbnFHM2g5LTY1RGNQNkhBONIBigJBVV95cUxOb0k2Y0phOElSNEVsQUs0bzJvUHdjYzJLbFhNNnRleGNzSXlrVWZGVXlaTHpXU0I4X0tCUTdQeV9OU1pHUFliTXVMWHNDR0hXSHZZTkFaMHZpLW84eDVHcFRFMTdmeWwzMkpUREtIX1VvQmdfRi16NTU4WkJjbklXek5UclpwcnRfdEs4dEpScUtqb0lDcEhPU0wyZW1kVlZsNmp5WHZYUXJlSzZQMlB1X0txOU9JMzlhVzFUVG1mSEdkMkIyRXJDM1BZUTFjYWNQOWxZcDhnWDlYLS00ZURuYmxuQTZfUWZTUWJHakhlQS1PT1ZORHNmZ2NSZjBoUUVYRDh4ZXZYSHItZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-12T22:24:42Z"
+      "data": "2026-08-12T22:05:51Z"
     },
     {
       "id": "regulacao_16233",
@@ -42,7 +85,8 @@
       "editoria": "regulacao",
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
-        "Valor Econômico",
+        "Diário do Nordeste",
+        "odairmatias.com.br",
         "Diário do Comércio"
       ]
     },
@@ -596,46 +640,6 @@
       "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-05T19:21:34Z"
-    },
-    {
-      "id": "transicao_11743",
-      "titulo": "Comerc assume controle total da Micropower e reforça aposta em armazenamento de energia",
-      "lead": "Comerc assume controle total da Micropower e reforça aposta em armazenamento de energia",
-      "fonte": "Business Moment",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWjBXMy1YRkVVQ0p5ZmVPWGE5elQ0RDdVUDBnUHhhaFd4OFJITXVBY2I0azhsRGhBbWVXdjk4S0tIVHUyWHlzNnRwUEhHaEdxbjlBT0wtaG9aVjhLVTlvOEJaS3B6Ty1DR0F4UmY1UDJKZFpXN0liSFQ0Y0FHbmxrMF95R1I4UWFlT2lSZjZ6UdIBlwFBVV95cUxPN0ZVdS0xaXRFMUNKdWJoOUpvNFVWWEJoQ1dyMFE5aHNINWFaZjlpUVk3Q2laRUYzUmpyQ1I2Y0ZpTk45d3JndU9CbGNVUTVlNGlSMTRGY05vYkJCajctcDNfT0Q2TDhWbFhNcTMwdlg5RVBZV19BUEJYN0J4RHhXZUdETkdGeGpMNjZpdlpyUXBPUV93WHBJ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-05T18:57:00Z"
-    },
-    {
-      "id": "regulacao_72243",
-      "titulo": "Aneel vai concluir regulamentação do encargo das baterias antes do leilão, diz Sandoval Feitosa",
-      "lead": "Aneel vai concluir regulamentação do encargo das baterias antes do leilão, diz Sandoval Feitosa",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdFQzUjNxdHhCYmlDWkp4TV9pQXRjNUUydTR3UEd0WmhmQzBENndWVGwwc3ZkSjZCb0lEQldtb2cyUnVVWkxVb0ZUNTM1Ui1ZTUlpc1NLTU1INm5DQXhOUS1LcVhQY3dQSFNNbGg3OVFUaEtKOWl1ZVhURTdwN1BnNHVFUkRiTjhleFRtV1gzX0tybVotN1RlYmdFWmFWR3d4UDcxQ0c0TTlISXdKS2FlcWVFX29RQ29paFl4R2pvcTZJOHBvQW1MWGhpLW52dw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-05T18:50:25Z"
-    },
-    {
-      "id": "regulacao_25257",
-      "titulo": "ANEEL recebe representantes da Enel-SP para tratar de recurso sobre processo de recomendação de caducidade",
-      "lead": "ANEEL recebe representantes da Enel-SP para tratar de recurso sobre processo de recomendação de caducidade www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNOEgxdXpXWUh0RnNkYUJWbHdXbGZMU01SWHJMdFJmeUJaejdWa3l4VWFzNDgtM01VR0dTRmdvSWNhcVNsYVlvd2FLTlNBanp5a2ZKbmxqbHpEenljQnotenZiX1VuMmhlRGxFMWYwTmkzamI3cDFXN1N3SEQ0bXZ0alQ3RnNMZHdyeHFISDNNaFVyckoyaGFIYzVjM3JLbjZRT3l4THhaR1p1TnVvTmRMVXphbXJNRlJrWUhjSTh4SzJpaXBxWnRNak1EbTAtUE1OUWp4SEtmU2M1UDFYSWV3bHF1X2R5NFByRU1KZXVPc3ZxZjBkUDdYZU8tMFBZbXZic2RIZV95WW0?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-05T18:49:18Z"
-    },
-    {
-      "id": "regulacao_90249",
-      "titulo": "ANEEL pode investigar possível divisão de usinas solares para enquadramento na GD",
-      "lead": "ANEEL pode investigar possível divisão de usinas solares para enquadramento na GD",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd25IV2JWVi0tM3B1c1dSVXVqRFE2Y0gxaFdDQTRHYUMweWUwRVVYTm13ckRfWE9EQnR2NWxLUzQ2Wk4tLWtOWklBS19zMzc5N0k3dzMwMkh0WVllUV9QOFMxRDZyOXdIMTdTQ3RWSi1RYk12Q3ByR3BobTRQNnRlQi01X2psalZGcWZSREk2Ym9hUU5TTmF0RWRhUzRCRE82UFFBSVI0Z2gxdzRY?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-05T17:38:59Z"
     }
   ]
 }
