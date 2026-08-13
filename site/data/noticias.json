@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-13T10:10:20Z",
+  "updated": "2026-08-13T12:54:58Z",
   "total": 60,
   "itens": [
     {
-      "id": "mercado-livre_96229",
-      "titulo": "Abertura do mercado livre de energia dá novo passo",
-      "lead": "Abertura do mercado livre de energia dá novo passo",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTzRZdE8zYUJfRjNneXdLYU1iUkdNcFZwMnJ1NzhzelZFeDR5ODNvaTBYd0ttZnZ2Q0V3WWN6MmNnUk9Ebk83Y2NCaU41NGdJTVAtamMwb21ORTdibG13LUZEYmlvWVhPRzdTOEx2dmZkY0FZRFNTSGd0U0JQbmlQV0JPU3pPZnM5ZGJ0aWVXcUxoV2FHc3FRRFJNRmZFTndfV1FSUlM1MFZwd9IBuAFBVV95cUxOVW43eTFPamxENi1OajVLY0dlTTJ1RVVCcGQyOTFDRHd3ZVg5RUZjN2RTRndFcHdqbUJ2UGl2Zmh4cVg4WFRRajlBTXNaNWxPaWZKTnlrLXUtSDNIekhRVlprTmI2c0R6TUx5VGhDTmEzeERlYW1zZzBPWFlTa2JSdFBSOEtKQ2JOZXJNWU9zWkxld05MQ2FVZWdUdW1jY2Z6eDZHRGhFOTY3TFUyV0g4Qk5iYl9uS2Jt?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "id": "mercado-livre_6655",
+      "titulo": "Abertura do mercado dispensa medidor inteligente e fixa regra para retorno",
+      "lead": "Abertura do mercado dispensa medidor inteligente e fixa regra para retorno",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSGJhWUpkNlZqZkZFM0c5dUVxRXgxSGlVVzZWSHlNYW50cmUzdGdBcmxUanJObFQtT3ZJczloTDZHMkVUOFNVYzM2eld3V0lSZTlTb252X3R0V0lMVlJwUWJ2dV8wZnRKMmY0WHZMUzVVUWk4WmRDY1Q0MzVjSHhrVVUyYWZhZ1NrME90VGJmdzFMS2VrMHNTc1VlLTllWXJyOU1LWExPcVVoeGJMQWsxaVE0Y1NLQi1E?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-13T08:00:39Z"
+      "data": "2026-08-13T10:50:25Z"
     },
     {
       "id": "mercado-livre_61673",
@@ -18,7 +18,7 @@
       "lead": "Lula libera escolha de fornecedor de energia; migração pode gerar custo até para quem não trocar",
       "fonte": "Economic News Brasil",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYkE4MGVDaGxQbndzTVhvN3BGQmltRkRVZ0ZwZnIxRlhTa1FVcGVTMmRnQkJLWlZ3WXFrRUdwSHJlMEtZamRmYzlkWVFiYl9jdHA1d2pHVHpkUDVmRm1yQnJVSTJKVXR0Q0FqMk9lZFp6YW01c0NlWWpzbi1GYUJsWVdRdHdHUHJIazVtUVU4SQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-13T00:37:00Z"
     },
@@ -31,6 +31,20 @@
       "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-12T22:24:42Z"
+    },
+    {
+      "id": "regulacao_16233",
+      "titulo": "Decreto define abertura do mercado livre de energia para baixa tensão",
+      "lead": "Decreto define abertura do mercado livre de energia para baixa tensão",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Wd2FoWTZYMVJ5eXVyM21pNTR1Q0RuUmdrZ0tyN0JUVVdmNWZ4Nk1LdDZyTWg5NnhzTFVWYjA0Q3NBcTNvbmduelNNYkhiZlZ6U1A2OGtsRjh0ZHU3MktrUEQ5NTJvdDI4eUN3ZlM5dG9Jc0J4bFlzQTlB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-12T20:59:27Z",
+      "tambem_em": [
+        "Valor Econômico",
+        "Diário do Comércio"
+      ]
     },
     {
       "id": "mercado-livre_80157",
@@ -104,16 +118,6 @@
       "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-12T11:05:19Z"
-    },
-    {
-      "id": "mercado-livre_94089",
-      "titulo": "Lula regulamenta abertura do mercado livre de energia para consumidores de baixa tensão nesta quarta (12)",
-      "lead": "Lula regulamenta abertura do mercado livre de energia para consumidores de baixa tensão nesta quarta (12)",
-      "fonte": "Diário do Comércio",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN1lDX2pyMS1uRmNhRGJ1cHNzeWVTQ0o5QTRwUEJzUkU0SzRqbS1UblVkZW84RU11MDFGQ2VMcVR5aTE1dHp1c0dVbEV6SmJZenRqbVRrQU1DT2d1UXFjRE14b2F5bXBnWkRXZ3cyQ3JBZFNRTDNyazk1cnpPSVNmc2F4NFNJQQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-11T23:47:00Z"
     },
     {
       "id": "regulacao_16392",
@@ -382,6 +386,16 @@
       ]
     },
     {
+      "id": "politica-energetica_24767",
+      "titulo": "Potência e consumo de energia: o que são e como impactam na conta de luz",
+      "lead": "Potência e consumo de energia: o que são e como impactam na conta de luz",
+      "fonte": "MME",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFRLRXQ0LWo0SDBUZzZObkhxdUdKT253UE9ucnpKZUoyVWM3b21IcnZ5X0lSR21jUWUxcnR1V0s0eEhhbnZSRVgtMkY2M1hPajdQUTZjRVl0OXdWeGNFeTJRTVJ1ZXpjWDZHN1d2OG9GMGRNdWRtYmd3X0J3UG80azktWmFyR1BFNHJMMkdGN1lYaW9aak1UYjV3TS1seWtOR0Nkd05adXR1bmc3NU1ZcmlLSTV2Nngwd3c?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-08-07T16:35:57Z"
+    },
+    {
       "id": "transicao_58047",
       "titulo": "Baterias de sal avançam nos EUA e desafiam domínio chinês no setor energético",
       "lead": "Baterias de sal avançam nos EUA e desafiam domínio chinês no setor energético",
@@ -622,16 +636,6 @@
       "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-05T17:38:59Z"
-    },
-    {
-      "id": "mercado-livre_83207",
-      "titulo": "Abertura do mercado livre de energia terá oito perfis de consumidores e só 50% devem migrar no curto prazo",
-      "lead": "Abertura do mercado livre de energia terá oito perfis de consumidores e só 50% devem migrar no curto prazo",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaG9nMTR4dEZ3dlJESFh4R193ZjJkQlBXcmQ5RVJHOTlIZm5fUzBjUUhzdjJCcGdXWnVscGxHQktRTDNxNjRGQzFNREk2VnhYcUZLMTc1RjZ5OEM1d3gwcTlyc3NOdWN5TUp0R2dPX1dfdE4zM2lfZU0zc2d3bzB0UXBrTjEzY0xRZTVJcW0tTGY1bTNKZzJIYUZCUExBZW9KdkNxbW1Sc3hQdnRGS0lNVXZEUVFwZzNGSnBWNHZleVZpZEpwR09ndTJPTlVBVTA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-05T14:05:20Z"
     }
   ]
 }
