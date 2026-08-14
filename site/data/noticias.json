@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-14T12:52:04Z",
+  "updated": "2026-08-14T19:00:06Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_5845",
+      "titulo": "A migração é livre, mas a conta de luz pode não ficar mais barata",
+      "lead": "A migração é livre, mas a conta de luz pode não ficar mais barata",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5Yai1IZnBWSGJvYjAtc0U4RDRkYV92Z3h6TmZLM1M1Vm16WlRqNFlOaTh0dGFSMlVTX3dXdUpIR04wTU5ENndXcENsQWh0Q0JOWlBvNVp6N3RTSW00MWdmYTkxM2U?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-14T18:23:14Z"
+    },
+    {
+      "id": "regulacao_12312",
+      "titulo": "ANEEL informa prorrogação de prazos devido à indisponibilidade do Sistema de Protocolo Digital - SPD",
+      "lead": "ANEEL informa prorrogação de prazos devido à indisponibilidade do Sistema de Protocolo Digital",
+      "fonte": "ANEEL",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSkI4RFB3OFN3NlRtN1l5TmJONDZQUngwdlBnSzNkN29BeDJrM2JyNDVEOEdyMk11NHRZSnZlMWhKUnhMMjRlV3l1QVlLTDgweDkyWEh4eHBZSlZNck9EQ1U2MEh1bk9nbndJaVFKTmt5XzB3dDFmVDI2ZzFsWHJrbDM5anJVUVpST21wbDhBYzR5ZFd5cV9MdTVTak1zLW1wa0VJUDR3VUl1eHFSd2NLdm1KTWRNbW1XZmNXRlFIV3dNYnJrRHNWdTQ1Y1l0RkJIREFyN1drSE5PVi1fUVRHV0NSNVJIQktqeWRCWTBsRDdZNERSYldkMF9hUVFqZw?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-14T17:59:00Z"
+    },
+    {
+      "id": "mercado-livre_51321",
+      "titulo": "“Série Energia”: Um novo desafio marca o crescimento do mercado livre de energia",
+      "lead": "“Série Energia”: Um novo desafio marca o crescimento do mercado livre de energia",
+      "fonte": "Jornal da USP",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcDN0QV9XVXdDemNHTXB4SjZPYWxSUXZ1Zy1wNVVLNFdEbm1uTjNCdU5rS05HeFUzOFZOcFRXTlNBTlNaSVYxdFhXemdJWEF2b0M3NXFfbHZpNTVuZjlqSkhzZzQ3UXZFMFlpcVEtNUNySGpnUGNPaG1QSXhTaFJGNnVweUllNTZmQV83bkhrWHBhNVloU0VhVlkzOFVWZWstZU1rZDlDODFaNnJ1WHc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-14T16:00:00Z"
+    },
     {
       "id": "mercado-livre_92963",
       "titulo": "Setor vê necessidade de explicar mercado livre de energia ao consumidor - poder360.com.br",
@@ -48,7 +78,7 @@
       "lead": "FIEMG defende regulação rigorosa da ANEEL na abertura do mercado livre de energia em Minas Gerais",
       "fonte": "RCWTV",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR1dncmpiU2Jlck5zM1VUWHVkNEVjMXlVaElkd1VGdmhFRkRtdzloMTU5cm5Ja0o1cnlmT1NiV0tRM1g4ZndJcGpCN3ZVc0MzeEZVNFU1OGk2R0JTRVVoV2N6SFNsdHUwZ0NmM2ZiVnZYeDFaMUdTUmdKQmx1TkZOeWxvWEczQzdHSkZvV0liTjlSbjY0bjNDS1FVRjlpNGh0SkJBdWlCbXBoSDU1N253ZEUxRXM4MkZpcUZOWjhyRWkwaHZ0dTlfbmx3?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-13T15:43:00Z"
     },
@@ -329,7 +359,10 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbW5ENUdsVWdjOUtibjFfX1pkMGNiWjBFamNXMjBvS3V4LVNRcGdQcXluZXlMUWJoV0Y4R1kzV2s3OVAwVG1sa09ub0E1THFWTUxydlRNZ1d5Wk5GZnBiNkZ3TWJ2N2c5VnFId3otSGZMRzlCZGVLOHZnNGZUcnIxbm1QS3RwWFFscFJYUF9pVjBiN0k0dnI0a0pnXzNSY0NoM2NLbTF1c2UwUjl4THh1Q3J2LW9GTklqNjh4aUpHd2U0UzUyWFE?oc=5",
       "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-10T21:32:18Z"
+      "data": "2026-08-10T21:32:18Z",
+      "tambem_em": [
+        "InfoMoney"
+      ]
     },
     {
       "id": "regulacao_81501",
@@ -605,36 +638,6 @@
       "tambem_em": [
         "Jornal A Voz da Serra"
       ]
-    },
-    {
-      "id": "mercado-livre_98019",
-      "titulo": "ABIAPE leva agenda aos presidenciáveis e defende segurança jurídica para fortalecer a autoprodução de energia",
-      "lead": "ABIAPE leva agenda aos presidenciáveis e defende segurança jurídica para fortalecer a autoprodução de energia",
-      "fonte": "Cenário Energia",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVFVSR0FFLUFDeDFHREZVbk40OHd2YXBxb1pIQThVYTRlUEFwTnhvc201b09tS1lRbFpNUV9uT3BDN2ZNaG96RGZwVHh0by1EMjZhckhVWEJ2dGlKOVlpUW10enQyazRYcVdZcnVTNHBiUUQwOHFpRHVfbmpPbXdfVHk4RVJQN21xSDVSQVdERk9GQ0syRXFMdkdQUl9ZZlMyMVFNYQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-06T13:42:03Z"
-    },
-    {
-      "id": "regulacao_1442",
-      "titulo": "Aneel pede aval jurídico para diferenciar geradores no rateio das baterias",
-      "lead": "Aneel pede aval jurídico para diferenciar geradores no rateio das baterias",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb01wSkEtTzNPcWhtNFJYSElSRXE4X3VqcUZqdWNJN2lEd1R0SU41TDY1dEF3cm1ZY1BCTTZTQVJMUnY4d21xV1RVanZLaUFSVUhTSUdvZDc2VzVBR0FmY3lRdk9BRXJDVlJoNldsM0ppeTRnYU5Td05mc0RKcG1ORDhRMnlIbDZ1cENxMVVDclJoVjFRN1BBRDNwc3ZTOTdFcl82cGhkRkNtU1Bjc3F5NGZvcjJQcHVP?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-06T13:17:35Z"
-    },
-    {
-      "id": "mercado-livre_56881",
-      "titulo": "CCEE transforma contribuições dos agentes em entregas que beneficiam o dia a dia do mercado",
-      "lead": "CCEE transforma contribuições dos agentes em entregas que beneficiam o dia a dia do mercado",
-      "fonte": "CCEE",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUzJHZ1g1ZFlwS2p5MmdDNWRyZm5IQWVUSkRvWDBlLXZCSVIyNU9IMFhGbHA0YXFralZpVEdjQmRoMXIxM1ZtWHA1RnVYN3BSYVRUVlY0Rm81ZVlWa01fUXU1Undlbzg5VGUyWmdvOHdpQVFHVGpYalE5a1J2ZXFKa2NYQnM3TkdRRmhtbVVkekoxZkdEREFfLXR5TGNZTnc0eWJsVllHTUNGM0ZFVE9lcGg0blZYWUZM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-06T13:13:00Z"
     }
   ]
 }
