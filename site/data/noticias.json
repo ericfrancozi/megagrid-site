@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-14T19:00:06Z",
+  "updated": "2026-08-15T09:28:44Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_44657",
+      "titulo": "Mercado livre de energia será ampliado e consumidor residencial poderá escolher fornecedor a partir de 2028",
+      "lead": "Mercado livre de energia será ampliado e consumidor residencial poderá escolher fornecedor a partir de 2028",
+      "fonte": "Diário da Guanabara",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOekZ5WHVubjdNcUNyZWwxZENpdi1pMVBtRHlBMWM3SERCX1JHOFA2ejFidm9qOVZ5dEhNQVJSM2JiRGtEV3NVS3BHWjdrR2FqT04tMFlsVGpUT3N2US15WTJqd01IcVhNMTZpVExhS1NMSFVyOVEzRE1hWXVwZmJuZ2czVnBCaDVsdUU2NzZnOGRPMU1VbUFIaVBFR20zY1k2TS1MYW5zRnltVWVGWFJhVzlVdzFFZzhBNXZhV3B6OGd6cGVjbU43djQxN29MQQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-14T21:24:18Z"
+    },
+    {
+      "id": "mercado-livre_22924",
+      "titulo": "Conselho da CCEE vai discutir 'anomalias' de segurança de mercado e vaga de novo diretor",
+      "lead": "Conselho da CCEE vai discutir 'anomalias' de segurança de mercado e vaga de novo diretor",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbnNnUVptRlB3akJ5UWZmTndTbzVKOElucF9RWlEzUW1LS3hsMHJZZ2c1b3FsbVBIbWlUQkstZDhWd29Wd09NTGpRNzBQRm9IdDllUi1yOWJQbHhrQjdYeXgycGttVng3Z1lZT2l1UGtSRnlKVUtNVE5mSUxXV1p5N25uRE9uUmtDZWlFQWs5WFNCcHZFZTItODdwUXo2bzJxdkZQSXRyc1VJS2RXd2VtT1hUSkdhQmxDTmU2MmNQNzN4UDVIWlYwT2lXZ01wVTg?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-14T20:06:07Z"
+    },
     {
       "id": "mercado-livre_5845",
       "titulo": "A migração é livre, mas a conta de luz pode não ficar mais barata",
@@ -21,6 +41,26 @@
       "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-14T17:59:00Z"
+    },
+    {
+      "id": "transicao_21958",
+      "titulo": "Fórum Brasil-China reunirá especialistas sobre futuro da energia solar e de armazenamento - canalsolar.com.br",
+      "lead": "Fórum Brasil-China reunirá especialistas sobre futuro da energia solar e de armazenamento",
+      "fonte": "canalsolar.com.br",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtTzgwSTRwRDFIbzdpNjRlYjVQR09ITkxvendJWWV2bTBBWDhFYm5mSVF4RG85ZTZjYnJqRDYzSHZfTU9fdVJjNTVxczlrTUtsZGZrZkJsWHVWaGY2LVpaNEFDZHF0eFhpT09kQ1F1Y1A3Y01kZHMtWWgwcHQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1611365892117-00ac5ef43c90?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-14T17:37:54Z"
+    },
+    {
+      "id": "regulacao_59450",
+      "titulo": "Light Prevê Regulamentação Das ASROs E Perdas Não Técnicas Pela Aneel No 2º Semestre",
+      "lead": "Light Prevê Regulamentação Das ASROs E Perdas Não Técnicas Pela Aneel No 2º Semestre",
+      "fonte": "Cenário Energia",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXl5blBVMGljZWM0MHNKc1B0ZzNUcmdhbkRxZ0MzMVUtNXk3WDJ5aV9Mck1udTNHVXNMM0FaWllmd1Q1LXNmYjN3X0VEczFsLW9kRTdiaDRiZHBhQnNWQkZpUmhrMG9uNWxJNXcyOFRhaGcyY29SMW51NHotWS1VTnZzWkw1Z3BMN3MxcEF4ZVBRbno1M0prcWpqRnJwV0ZWaFhtUWlEVWJOejFzUjk5T1Y0MWpfVWJ1VUlKWnE0YWJjcTY0?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-14T17:07:03Z"
     },
     {
       "id": "mercado-livre_51321",
@@ -78,7 +118,7 @@
       "lead": "FIEMG defende regulação rigorosa da ANEEL na abertura do mercado livre de energia em Minas Gerais",
       "fonte": "RCWTV",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR1dncmpiU2Jlck5zM1VUWHVkNEVjMXlVaElkd1VGdmhFRkRtdzloMTU5cm5Ja0o1cnlmT1NiV0tRM1g4ZndJcGpCN3ZVc0MzeEZVNFU1OGk2R0JTRVVoV2N6SFNsdHUwZ0NmM2ZiVnZYeDFaMUdTUmdKQmx1TkZOeWxvWEczQzdHSkZvV0liTjlSbjY0bjNDS1FVRjlpNGh0SkJBdWlCbXBoSDU1N253ZEUxRXM4MkZpcUZOWjhyRWkwaHZ0dTlfbmx3?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-13T15:43:00Z"
     },
@@ -155,7 +195,7 @@
       "editoria": "regulacao",
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
-        "Belém.com.br"
+        "odairmatias.com.br"
       ]
     },
     {
@@ -388,12 +428,12 @@
       ]
     },
     {
-      "id": "mercado-livre_188",
+      "id": "mercado-livre_67000",
       "titulo": "Metade da indústria brasileira desconhece mercado livre de energia",
       "lead": "Metade da indústria brasileira desconhece mercado livre de energia",
       "fonte": "FIEMG",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOay1qdkRZQmtndUtHWkp2VVZvc3Vlb09TOWNnWjZNUWNOZFlqQ1llZzBwbnZZckNJc2ZzaG9EcWx1ZlhSbVphSHdBRzZYMW9uQkJBVjVvNWFMZ0xSN0lnZGg3YTJEZVR5dmtsN3lnMXdJSDI2MmVzVVljNjNrVVQ2M1p4VVVqZHdzd3FvWmJIZ3NMZzJna3haNUdNWEJFMTZUbEZr?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjNrZGZTX2paREFqZFRSTXZtaEtpS3A5VGVCTExsakh0bVJmUWdUNGpsOVRWODdyX0N6dXBwUFRvb09xX0tjRVNrNGRYd2MwVFlIRTRQZHhqTHUyWnVlZEpRNHY2SlBmMXNxazQ5eENqVHJ2OFIyaWZINDc1TTRDVkJZcHNyVlNBZThYN2MwSmtyQ2hTeGFRdnVYN1hmZU9mUGRCOFUtX3BPNlE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-10T19:07:00Z",
       "tambem_em": [
@@ -592,52 +632,6 @@
       "imagem": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-07T07:00:00Z"
-    },
-    {
-      "id": "mercado-livre_45855",
-      "titulo": "Governo adia reunião sobre mistura de etanol na gasolina - cnnbrasil.com.br",
-      "lead": "Governo adia reunião sobre mistura de etanol na gasolina",
-      "fonte": "cnnbrasil.com.br",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQnhuV0RqMjhBNFZ1cVBGeFhFa1BoMjVycU92endOSndWTjBneVA4ay1UZzRzWTkycEJ1cXV6Ry1WMlBsSXpvczVtZDdtaElYV09TMTVqMEZUZlkyS0s3NDFEZks0Ym9mUGhPMk0xQ21Ca0RCTV9mbkdkUmJEXzkzRkQ3dW9wNmZIdmIzdzR1aFBNeXlfbEE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-07T07:00:00Z"
-    },
-    {
-      "id": "transicao_86972",
-      "titulo": "Leilão de baterias abre nova era para o setor de energia no Brasil",
-      "lead": "Leilão de baterias abre nova era para o setor de energia no Brasil",
-      "fonte": "Revista Empreende",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQjFBVnpxQmc3RWVFM1dqM2xDN1JjVG9xYUItLVFBaVVUWkhoanVJWHNVcVp4Zm5QR3NmS1hSQTdpM09tc3RyZ0ZTSmtnNDZKOFE2bnZzNTN4WC00NlZTbG9kLWJFbHFBUlViQnhkVXFBMFdmZEsyVmhONUtvTHh4UlpwZDF1ejBFOHZKYzE5Z1VmSzFjNGhEa2pCWFBmQUFi?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-06T22:48:00Z",
-      "tambem_em": [
-        "Revista Empreende"
-      ]
-    },
-    {
-      "id": "mercado-livre_8788",
-      "titulo": "Crise no mercado livre de energia mostra a importância de contratos empresariais bem feitos - bra1.com.br",
-      "lead": "Crise no mercado livre de energia mostra a importância de contratos empresariais bem feitos",
-      "fonte": "bra1.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb2RHeDVwaE1xU1BuZUFXU094RW5FbHlsME9sWE0yUHUyQ3NTZ2Y5WEFaSFdoUlB6b0F0Ry1BeXVFNUtNS3lRQWVJd2NobjJtMlVMQ2pvbHFWS3BvX2JVbzRFeFZXMmZEVnI2RHFIYjhVS3BUOGx4bkhMRVUtQmtFNEFQSWg1c1RjVjdhVzRZX3lCWmNqX1FQZFBUQVAxWjByWUhTYUdEQkZEYXpiX3NJelY2OW8xSV93TXVyNnpKYVMtUG9IWVhaRzVkVQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-06T14:28:00Z"
-    },
-    {
-      "id": "tarifas_80954",
-      "titulo": "Conta de luz: bandeira tarifária continua amarela em agosto - alphavilleearredores.com.br",
-      "lead": "Conta de luz: bandeira tarifária continua amarela em agosto",
-      "fonte": "alphavilleearredores.com.br",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WVW5KTmNUS0NDZDFxcWRGZ1FJY3JxNVdNLUVEd1dPMlh2UkxmSDZLelIzTDMxdlFncEU2cGszWnJSVGhUWXdrdG5NaEIyLW9aQWNYNGtXZVYxa3VKVlhaUjVFUGVkaS1RVm1SekJXX1FaVFNRbU80MF92NGQ1Zw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-06T14:05:26Z",
-      "tambem_em": [
-        "Jornal A Voz da Serra"
-      ]
     }
   ]
 }
