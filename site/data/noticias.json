@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-15T18:35:08Z",
+  "updated": "2026-08-16T09:30:15Z",
   "total": 60,
   "itens": [
+    {
+      "id": "dado-2026-08-16",
+      "titulo": "PLD sobe 5,1% na semana e fecha a R$ 120,45 no Sudeste/CO",
+      "lead": "PLD SE/CO a R$ 120,45/MWh · reservatórios em 78,3% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
+      "fonte": "Megagrid Dados",
+      "url": "https://megagrid.com.br/#precos",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-16T09:30:15Z"
+    },
+    {
+      "id": "mercado-livre_86970",
+      "titulo": "operacao_balanceada_publica",
+      "lead": "operacao_balanceada_publica",
+      "fonte": "CCEE",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQempwM1gzY0JhMnJEVkR2RGc0YlMtLWpEdUZGb0hScUhPSU1pS3pJa2E5VGlwaWFzTFc4anlxQ1hqMTNWTTV6ZDZkQnl2MEk0eWh4ejR3OFE4SjNCSS0tZmpJNUZyR202UVlId01rS0pxS3hMTWZGazRrY19LejZsTmcwZk1nNTJUMldDTklQRlhBeldHVTBQQmVKS2NEQ0pDaG9xZjE3bDYzQnVNT0ZJdDJIVXM?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-15T03:21:36Z"
+    },
     {
       "id": "mercado-livre_44657",
       "titulo": "Mercado livre de energia será ampliado e consumidor residencial poderá escolher fornecedor a partir de 2028",
@@ -143,19 +163,6 @@
       "data": "2026-08-13T15:00:00Z"
     },
     {
-      "id": "mercado-livre_77009",
-      "titulo": "Governo confirma abertura do mercado livre de energia para pequenos consumidores, mas regras da Aneel serão decisivas - bra1.com.br",
-      "lead": "Governo confirma abertura do mercado livre de energia para pequenos consumidores, mas regras da Aneel serão decisivas",
-      "fonte": "bra1.com.br",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWG1PcEFSbEZPdDUxVnhWZjUwTExNWlk2QmFGY05XVGVQMXNtSEpVcDFUUEVrbWowYUt4SjZXZjluak1RNTBNbDhfYjkxMC1PN1NsMDQyQ1M2TWFPU3hDRnFfeExnQUxsSXE4dERMOFZrUVJublBURjY3Z1F4ZEM5c1FWMXhqOVcxVVV6UVhaT3NPV1VWeklaR1oyQzg5bFJJVXZDcUlzZnhoOWdmb2NIdGUzNXB1ZTREeEtiWW1BNW8xQzZVc2kxTXlHenFBYTh4c0JrZWtnQUdrcm1MNnduOVp5WHcxOUFWRDlhbGRJVWtxQQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-13T14:50:00Z",
-      "tambem_em": [
-        "Poder360"
-      ]
-    },
-    {
       "id": "mercado-livre_6655",
       "titulo": "Abertura do mercado dispensa medidor inteligente e fixa regra para retorno",
       "lead": "Abertura do mercado dispensa medidor inteligente e fixa regra para retorno",
@@ -196,7 +203,9 @@
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
         "Belém.com.br",
-        "odairmatias.com.br"
+        "bra1.com.br",
+        "odairmatias.com.br",
+        "Poder360"
       ]
     },
     {
@@ -429,12 +438,12 @@
       ]
     },
     {
-      "id": "mercado-livre_67000",
+      "id": "mercado-livre_19588",
       "titulo": "Metade da indústria brasileira desconhece mercado livre de energia",
       "lead": "Metade da indústria brasileira desconhece mercado livre de energia",
       "fonte": "FIEMG",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTjNrZGZTX2paREFqZFRSTXZtaEtpS3A5VGVCTExsakh0bVJmUWdUNGpsOVRWODdyX0N6dXBwUFRvb09xX0tjRVNrNGRYd2MwVFlIRTRQZHhqTHUyWnVlZEpRNHY2SlBmMXNxazQ5eENqVHJ2OFIyaWZINDc1TTRDVkJZcHNyVlNBZThYN2MwSmtyQ2hTeGFRdnVYN1hmZU9mUGRCOFUtX3BPNlE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0V2THpkNGlhUWlGcldqSTI3Q19RdWlHdDduTmRTYThGOGVHektBSFBUUmZ2QXZ3ZjBnUk05c2JzLVVOVDJnT2J5aVY2ZlpaQTdUUm5QYW1xLU16bEpMZXVNRkUxNWZfNXpWMjZoSUJ3OTBRa19IS3VCQkFVd1cydUlnWm4yUzQzc2l1eElySkRyUmhxalpWMnA1TEtaUldxS1dJckZQSXpSTVJhUENMWGNPbzNiUHM?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-10T19:07:00Z",
       "tambem_em": [
@@ -623,16 +632,6 @@
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-07T08:10:33Z"
-    },
-    {
-      "id": "transicao_70299",
-      "titulo": "South America traz novidades do mercado de baterias e debate sobre leilão de armazenamento",
-      "lead": "South America traz novidades do mercado de baterias e debate sobre leilão de armazenamento",
-      "fonte": "Rede PRESS",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPM3ppWnVCeE1xcEZQb0djRDRpcC05WHVIelIxNms2b0VHMnhrRTdXRFBzYXN1NnZfWVBfdGg1NFFwdzFhbkh3d0M2Vk5LRUxFZXY5cDB5RzYxbFcxMkxsdW1Sb3JJc2pEMFVJbVp3bTE3VjZKV21SSmg3bkZPX3BBQ2poSHBNNFl1NllFTzJxTXZpcldvTUlDVkJ5cDBoT1g4Y2RKeDUxcy1lYTBXeXQtRGhRb1VFMzgxUFFua1BVZlpqSGdrQ3hVdVdCUm43SUZsTmVIaUJ3?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-07T07:00:00Z"
     }
   ]
 }
