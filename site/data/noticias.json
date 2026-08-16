@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T09:30:15Z",
+  "updated": "2026-08-16T12:26:31Z",
   "total": 60,
   "itens": [
     {
@@ -10,7 +10,7 @@
       "url": "https://megagrid.com.br/#precos",
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-16T09:30:15Z"
+      "data": "2026-08-16T12:26:31Z"
     },
     {
       "id": "mercado-livre_86970",
@@ -83,22 +83,12 @@
       "data": "2026-08-14T17:07:03Z"
     },
     {
-      "id": "mercado-livre_51321",
-      "titulo": "“Série Energia”: Um novo desafio marca o crescimento do mercado livre de energia",
-      "lead": "“Série Energia”: Um novo desafio marca o crescimento do mercado livre de energia",
-      "fonte": "Jornal da USP",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcDN0QV9XVXdDemNHTXB4SjZPYWxSUXZ1Zy1wNVVLNFdEbm1uTjNCdU5rS05HeFUzOFZOcFRXTlNBTlNaSVYxdFhXemdJWEF2b0M3NXFfbHZpNTVuZjlqSkhzZzQ3UXZFMFlpcVEtNUNySGpnUGNPaG1QSXhTaFJGNnVweUllNTZmQV83bkhrWHBhNVloU0VhVlkzOFVWZWstZU1rZDlDODFaNnJ1WHc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-14T16:00:00Z"
-    },
-    {
       "id": "mercado-livre_92963",
       "titulo": "Setor vê necessidade de explicar mercado livre de energia ao consumidor - poder360.com.br",
       "lead": "Setor vê necessidade de explicar mercado livre de energia ao consumidor",
       "fonte": "poder360.com.br",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONk10NVlRMFJ4UGlMMVdNbGVxZmc4VE1tWlFiT0EweF9WWEV4N0gxWHdubmVwQ21Hb011NHNUWGJScVRxNnJKb0Y3RjBYcVNqR1lTOFMzX0dnN3lZSFg3azBwV1AwVVlIQVZOcm85Q0lkS08zZldNRHdlWERfbi16MDE1VUxiRXZ1SEY5N0hYOGRGWkdPT0pfNXFSOUpxNkIxSHhZbktyY20tVDhGblV6ZXJJbmU?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-14T09:03:36Z"
     },
@@ -202,9 +192,10 @@
       "editoria": "regulacao",
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
-        "Belém.com.br",
-        "bra1.com.br",
+        "Jornal da USP",
+        "belem.com.br",
         "odairmatias.com.br",
+        "Valor Econômico",
         "Poder360"
       ]
     },
@@ -632,6 +623,16 @@
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-07T08:10:33Z"
+    },
+    {
+      "id": "transicao_51454",
+      "titulo": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
+      "lead": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
+      "fonte": "Tribuna do Norte",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSjNtUjFxSnZSaTFULThqaXkyZE14eDRMcEQ4MlVwM2dkR1k0Vy1ZUXRvR0VxN3dieFlTbGFxeXUzakxieDBiZVNvV0JnbDZMYXVHS3R1VUNNYXRiN1E5aHVRNF9IT1c3UGZKbDgtOXJMaGUyR2p2SWtqbHFWbVM5Q3hSUXVvN2drcUhhMk5nTnVzcUVoMUxLamJxOWVFbFY2QVhBTzNQRUx1V3lrTE5kalAtQm1obm8?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-05T03:00:00Z"
     }
   ]
 }
