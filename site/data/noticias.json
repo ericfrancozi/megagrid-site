@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-16T12:26:31Z",
+  "updated": "2026-08-16T18:35:27Z",
   "total": 60,
   "itens": [
     {
       "id": "dado-2026-08-16",
-      "titulo": "PLD sobe 5,1% na semana e fecha a R$ 120,45 no Sudeste/CO",
-      "lead": "PLD SE/CO a R$ 120,45/MWh · reservatórios em 78,3% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
+      "titulo": "PLD sobe 14,3% na semana e fecha a R$ 137,71 no Sudeste/CO",
+      "lead": "PLD SE/CO a R$ 137,71/MWh · reservatórios em 78,2% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
       "fonte": "Megagrid Dados",
       "url": "https://megagrid.com.br/#precos",
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-16T12:26:31Z"
+      "data": "2026-08-16T18:35:27Z"
     },
     {
       "id": "mercado-livre_86970",
@@ -192,8 +192,7 @@
       "editoria": "regulacao",
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
-        "Jornal da USP",
-        "belem.com.br",
+        "Belém.com.br",
         "odairmatias.com.br",
         "Valor Econômico",
         "Poder360"
@@ -402,7 +401,7 @@
       "editoria": "mercado-livre",
       "data": "2026-08-10T21:32:18Z",
       "tambem_em": [
-        "InfoMoney"
+        "infomoney.com.br"
       ]
     },
     {
@@ -625,14 +624,14 @@
       "data": "2026-08-07T08:10:33Z"
     },
     {
-      "id": "transicao_51454",
-      "titulo": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
-      "lead": "Setor aposta em leilão de baterias para reduzir desperdício de energia no RN",
-      "fonte": "Tribuna do Norte",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSjNtUjFxSnZSaTFULThqaXkyZE14eDRMcEQ4MlVwM2dkR1k0Vy1ZUXRvR0VxN3dieFlTbGFxeXUzakxieDBiZVNvV0JnbDZMYXVHS3R1VUNNYXRiN1E5aHVRNF9IT1c3UGZKbDgtOXJMaGUyR2p2SWtqbHFWbVM5Q3hSUXVvN2drcUhhMk5nTnVzcUVoMUxLamJxOWVFbFY2QVhBTzNQRUx1V3lrTE5kalAtQm1obm8?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-05T03:00:00Z"
+      "id": "regulacao_41681",
+      "titulo": "ANEEL pode investigar possível divisão de usinas solares para enquadramento na GD",
+      "lead": "ANEEL pode investigar possível divisão de usinas solares para enquadramento na GD",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd25IV2JWVi0tM3B1c1dSVXVqRFE2Y0gxaFdDQTRHYUMweWUwRVVYTm13ckRfWE9EQnR2NWxLUzQ2Wk4tLWtOWklBS19zMzc5N0k3dzMwMkh0WVllUV9QOFMxRDZyOXdIMTdTQ3RWSi1RYk12Q3ByR3BobTRQNnRlQi01X2psalZGcWZSREk2Ym9hUU5TTmF0RWRhUzRCRE82UFFBSVI0Z2gxdzRY?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-05T17:38:59Z"
     }
   ]
 }
