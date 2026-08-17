@@ -950,6 +950,32 @@ def _limpa_titulo_oficial(titulo: str) -> str:
     return t
 
 
+_SLUG_INTEIRO = re.compile(r"^[a-z0-9._-]+$")
+
+
+def _e_slug(titulo: str) -> bool:
+    """True quando o texto é um identificador, não uma manchete.
+
+    P1.13 (2026-08-17): o espelho da CCEE indexa páginas de dataset do CKAN
+    (dadosabertos.ccee.org.br), cujo <title> é o próprio slug do recurso —
+    'operacao_balanceada_publica'. O feed entrega isso no lugar de um título,
+    e o item foi parar no card de destaque da home.
+
+    Dois critérios, qualquer um basta:
+      · nenhum espaço E tem underscore  → 'operacao_balanceada_publica'
+      · casa inteiramente com ^[a-z0-9._-]+$ → 'pld-medio-semanal', 'ear.sudeste'
+
+    Não convertemos underscore em espaço de propósito: slug maquiado continua
+    não sendo manchete, e embelezar esconderia o defeito de origem.
+    """
+    t = (titulo or "").strip()
+    if not t:
+        return False
+    if " " not in t and "_" in t:
+        return True
+    return bool(_SLUG_INTEIRO.fullmatch(t))
+
+
 def _espelho_rejeita(titulo: str, url: str, pub) -> str:
     """Filtro do espelho institucional. Retorna o motivo da rejeição
     ('' = aprovado). Todos os critérios são obrigatórios e cumulativos.
@@ -1026,6 +1052,10 @@ def _parse_feed(fonte, feed_url, seen_urls, max_per_feed=10,
             titulo = re.sub(r"\s+-\s+[\w\s]+$", "", titulo).strip()
             if not titulo or len(titulo) < 10:
                 descarta("título ausente ou curto demais")
+                continue
+            if _e_slug(titulo):
+                log.info("    %s: slug recusado como título: %r", fonte, titulo)
+                descarta("título é slug, não manchete")
                 continue
             lead = entry.get("summary", "") or entry.get("description", "")
             lead = _clean_text(re.sub(r"<[^>]+>", " ", lead))
@@ -1329,6 +1359,16 @@ def fetch_noticias(pld: dict = None, ear: dict = None, bandeira: dict = None) ->
         it["titulo"] = _clean_text(it.get("titulo", ""))
         it["lead"] = _strip_fonte_suffix(_clean_text(it.get("lead", "")), it.get("fonte", ""))
         normaliza_id(it)
+    # A guarda de slug vale também para o que já está gravado — sem isto o
+    # item ruim sobrevive a todas as execuções seguintes (P1.13).
+    limpos = []
+    for it in existing_real:
+        if _e_slug(it.get("titulo", "")):
+            log.info("  acervo: slug recusado como título — %s: %r",
+                     it.get("fonte", "?"), it.get("titulo", ""))
+            continue
+        limpos.append(it)
+    existing_real = limpos
     seen_urls = {item["url"] for item in existing_real}
     novos = []
     # Google News RSS (queries temáticas)

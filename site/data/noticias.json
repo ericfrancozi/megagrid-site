@@ -1,26 +1,16 @@
 {
-  "updated": "2026-08-17T12:29:50Z",
+  "updated": "2026-08-17T13:30:54Z",
   "total": 60,
   "itens": [
     {
-      "id": "dado-2026-08-17",
-      "titulo": "PLD sobe 14,3% na semana e fecha a R$ 137,71 no Sudeste/CO",
-      "lead": "PLD SE/CO a R$ 137,71/MWh · reservatórios em 78,2% · bandeira verde. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
-      "fonte": "Megagrid Dados",
-      "url": "https://megagrid.com.br/#precos",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-17T12:29:50Z"
-    },
-    {
-      "id": "mercado-livre_86970",
-      "titulo": "operacao_balanceada_publica",
-      "lead": "operacao_balanceada_publica",
-      "fonte": "CCEE",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQempwM1gzY0JhMnJEVkR2RGc0YlMtLWpEdUZGb0hScUhPSU1pS3pJa2E5VGlwaWFzTFc4anlxQ1hqMTNWTTV6ZDZkQnl2MEk0eWh4ejR3OFE4SjNCSS0tZmpJNUZyR202UVlId01rS0pxS3hMTWZGazRrY19LejZsTmcwZk1nNTJUMldDTklQRlhBeldHVTBQQmVKS2NEQ0pDaG9xZjE3bDYzQnVNT0ZJdDJIVXM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-15T03:21:36Z"
+      "id": "regulacao_42576",
+      "titulo": "Revisão das regras de curtailment pela Aneel poderá valer desde novembro de 2025",
+      "lead": "Revisão das regras de curtailment pela Aneel poderá valer desde novembro de 2025",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbk9kOGx3WnRITFRqa0hNdXRiZmladVlkYnBCblJZRHZ5eU9EclJtTVlCNThaN1hZYkpBYzFZRUtEZzJTQnM4VkNhaHU0aEU0Z1prWlBZMk5HLVZaamxLNWlCaWpkWWFmakN2U2RMbnF3cTU0enFHdjZDSFJQbVR4M0JXVW15eVE5ODhtTXJybHBxQkdSNkN3M1lfV3lzaHNFMUJvNXU2TmFDdGFkQUJUTlN1SlR3WUozRWZJ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-17T12:53:39Z"
     },
     {
       "id": "mercado-livre_44657",
@@ -58,7 +48,7 @@
       "lead": "ANEEL informa prorrogação de prazos devido à indisponibilidade do Sistema de Protocolo Digital",
       "fonte": "ANEEL",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSkI4RFB3OFN3NlRtN1l5TmJONDZQUngwdlBnSzNkN29BeDJrM2JyNDVEOEdyMk11NHRZSnZlMWhKUnhMMjRlV3l1QVlLTDgweDkyWEh4eHBZSlZNck9EQ1U2MEh1bk9nbndJaVFKTmt5XzB3dDFmVDI2ZzFsWHJrbDM5anJVUVpST21wbDhBYzR5ZFd5cV9MdTVTak1zLW1wa0VJUDR3VUl1eHFSd2NLdm1KTWRNbW1XZmNXRlFIV3dNYnJrRHNWdTQ1Y1l0RkJIREFyN1drSE5PVi1fUVRHV0NSNVJIQktqeWRCWTBsRDdZNERSYldkMF9hUVFqZw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-14T17:59:00Z"
     },
@@ -163,6 +153,16 @@
       "data": "2026-08-13T10:50:25Z"
     },
     {
+      "id": "mercado-livre_6754",
+      "titulo": "Abertura do mercado livre de energia dá novo passo - valor.globo.com",
+      "lead": "Abertura do mercado livre de energia dá novo passo",
+      "fonte": "valor.globo.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTzRZdE8zYUJfRjNneXdLYU1iUkdNcFZwMnJ1NzhzelZFeDR5ODNvaTBYd0ttZnZ2Q0V3WWN6MmNnUk9Ebk83Y2NCaU41NGdJTVAtamMwb21ORTdibG13LUZEYmlvWVhPRzdTOEx2dmZkY0FZRFNTSGd0U0JQbmlQV0JPU3pPZnM5ZGJ0aWVXcUxoV2FHc3FRRFJNRmZFTndfV1FSUlM1MFZwd9IBuAFBVV95cUxOVW43eTFPamxENi1OajVLY0dlTTJ1RVVCcGQyOTFDRHd3ZVg5RUZjN2RTRndFcHdqbUJ2UGl2Zmh4cVg4WFRRajlBTXNaNWxPaWZKTnlrLXUtSDNIekhRVlprTmI2c0R6TUx5VGhDTmEzeERlYW1zZzBPWFlTa2JSdFBSOEtKQ2JOZXJNWU9zWkxld05MQ2FVZWdUdW1jY2Z6eDZHRGhFOTY3TFUyV0g4Qk5iYl9uS2Jt?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-13T08:00:39Z"
+    },
+    {
       "id": "mercado-livre_61673",
       "titulo": "Lula libera escolha de fornecedor de energia; migração pode gerar custo até para quem não trocar",
       "lead": "Lula libera escolha de fornecedor de energia; migração pode gerar custo até para quem não trocar",
@@ -192,9 +192,8 @@
       "editoria": "regulacao",
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
-        "belem.com.br",
-        "Valor Econômico",
-        "poder360.com.br"
+        "Belém.com.br",
+        "Poder360"
       ]
     },
     {
@@ -269,6 +268,16 @@
       "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-12T11:05:19Z"
+    },
+    {
+      "id": "tarifas_34067",
+      "titulo": "Conta de luz: Aneel distribui R$ 5,48 bi para reduzir tarifas no Norte e Nordeste",
+      "lead": "Conta de luz: Aneel distribui R$ 5,48 bi para reduzir tarifas no Norte e Nordeste",
+      "fonte": "Movimento Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaEhfLVpWRDJmaU9rcXZXVDZMRTE2aDJ4X2I2UEwxeXFYU2NldzFQazBlaDBNdUM1Zng0VzR3N1BqUzBBTndONHIzQ2ZCYVY4OFF6TS00dDhBRlYwbjVaRWtqNENrdENON1d5MzlWVERTMEJFbEZVbkdtMW1RNE1BckxBemNveDN2MGluSFYxZ0hqTTFVZ0NhV0hwZVFKSU12MGNWNDBoSUtLVGFfUXZuTGVpejlvQzJyNXpkSVJjVDNKZmhBcW96X1NfdTRQZHVPUkdFb1h6Qjc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-11T21:51:19Z"
     },
     {
       "id": "regulacao_16392",
@@ -621,16 +630,6 @@
       "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-07T08:10:33Z"
-    },
-    {
-      "id": "regulacao_41681",
-      "titulo": "ANEEL pode investigar possível divisão de usinas solares para enquadramento na GD",
-      "lead": "ANEEL pode investigar possível divisão de usinas solares para enquadramento na GD",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOd25IV2JWVi0tM3B1c1dSVXVqRFE2Y0gxaFdDQTRHYUMweWUwRVVYTm13ckRfWE9EQnR2NWxLUzQ2Wk4tLWtOWklBS19zMzc5N0k3dzMwMkh0WVllUV9QOFMxRDZyOXdIMTdTQ3RWSi1RYk12Q3ByR3BobTRQNnRlQi01X2psalZGcWZSREk2Ym9hUU5TTmF0RWRhUzRCRE82UFFBSVI0Z2gxdzRY?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-05T17:38:59Z"
     }
   ]
 }
