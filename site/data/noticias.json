@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-17T13:30:54Z",
+  "updated": "2026-08-17T18:05:33Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_67273",
+      "titulo": "Comercializadora vê decreto do mercado livre de energia como inócuo diante de preços elevados",
+      "lead": "Comercializadora vê decreto do mercado livre de energia como inócuo diante de preços elevados",
+      "fonte": "BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYkRvZFZzeHRFckd1eUtzZzZ2cHJiVVBvWlVxUXE5c0lqT3h1b1VxTUpmd0RUaGhRbXRxMFAwRV9iWV9mYk0xRHgxYmtfcFVFc09SaC1KWUs2Q0NjdEVTalNqb1RUN3NtdjB6VnlOVU1SSzlGemF1RVY4eVRSUENwbVlRc05rblBNM1g3Z0NZcEJ5SUp0ckVYRUY0WUxBZWJQYlcwYWpFeDRWb3R2Q0NobUxseWkycTBGRnB1eDZIVi1mMUozRnI0RERscWNYWGNr?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-17T14:26:15Z"
+    },
+    {
+      "id": "transicao_23313",
+      "titulo": "Armazenamento de energia: de equipamento complementar a ativo estratégico do sistema elétrico brasileiro",
+      "lead": "Armazenamento de energia: de equipamento complementar a ativo estratégico do sistema elétrico brasileiro",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMWpXUFNLTXE3VERzOUZ4dzlnalBNbUhQYlFoMTB5eTdOUjU2bWFJUnVaWkJSdG5pSWw4aUt5Sm5IYm9iTEdBQ2JnLThRQXVOcVBmb2NfcTJPSEY0RmtiZGpncVVyQWhOcXRaYWh0bjlzeGV1Mm1Ld09SajlibnlIbUlvSE5fUWR6a3Jj?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-17T14:23:30Z"
+    },
     {
       "id": "regulacao_42576",
       "titulo": "Revisão das regras de curtailment pela Aneel poderá valer desde novembro de 2025",
@@ -11,6 +31,16 @@
       "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-17T12:53:39Z"
+    },
+    {
+      "id": "mercado-livre_99429",
+      "titulo": "operacao_balanceada_publica - dadosabertos.ccee.org.br",
+      "lead": "operacao_balanceada_publica dadosabertos.ccee.org.br",
+      "fonte": "CCEE",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQempwM1gzY0JhMnJEVkR2RGc0YlMtLWpEdUZGb0hScUhPSU1pS3pJa2E5VGlwaWFzTFc4anlxQ1hqMTNWTTV6ZDZkQnl2MEk0eWh4ejR3OFE4SjNCSS0tZmpJNUZyR202UVlId01rS0pxS3hMTWZGazRrY19LejZsTmcwZk1nNTJUMldDTklQRlhBeldHVTBQQmVKS2NEQ0pDaG9xZjE3bDYzQnVNT0ZJdDJIVXM?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-15T03:21:36Z"
     },
     {
       "id": "mercado-livre_44657",
@@ -193,6 +223,7 @@
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
         "Belém.com.br",
+        "bra1.com.br",
         "Poder360"
       ]
     },
@@ -597,39 +628,6 @@
       "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-07T14:35:36Z"
-    },
-    {
-      "id": "transicao_51729",
-      "titulo": "China cria bateria de magnésio e hidrogênio que funciona como uma “esponja química” capaz de absorver o gás durante a descarga sem depender de alta pressão",
-      "lead": "China cria bateria de magnésio e hidrogênio que funciona como uma “esponja química” capaz de absorver o gás durante a descarga sem depender de alta pressão",
-      "fonte": "Catraca Livre",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQbkpnaWRkcWFPSXJPd1VubUk0VW9PN0ItdHFKeWcwYUJ3eUN6R3VSWlE5UE9EX3ZHMWxzVjBNR1A0Nng5cllhT2lRY2lMbm1IMmg2RTE0QVhBRHY0THhUR2NhOFI3WUJjUDl3Z0Q0YTl0ZF9Dd2xBN1k1U1NhTzlXX0YzWjl6cVJPWndhbzMweDh3U2J4R3JTRERlaU5uZnhQSkx6N0pYS09vV0VOc3hUTkdVeXZNSG91M3hwMnFscUtLQkhuY2tINXNZVjYzcjlPaTROTnJ2WnRqVE5aMHJSckVMZTYwODEzRmFXVDIxSGNBb3AwZHRqOG50VGVCMThsa1I0b09hM0I5TUNUeGJaUGJ4N0w4VVhhTGMw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-07T10:01:56Z"
-    },
-    {
-      "id": "transicao_48786",
-      "titulo": "Leilão de baterias abre nova frente para energias renováveis no RN",
-      "lead": "Leilão de baterias abre nova frente para energias renováveis no RN",
-      "fonte": "Agora RN",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLWFVVHJrTmN0cV9Yc0QzU014SWxIZFJ3SllXWF8yOVkyTUxkTjM4RUhwdExoY2ktanRYbWpEdXRJODFvNDkyclBqLTByczZCX0ZBNWtQbFR1ZkQyRk81ZTNCNklHNzV6WW5PYVE2a0hEck1CaVhlSXZTdlBhMEZSVzVYV01kelJkX3R2MUE3aFJoQ0xWRUg0Qi14RkdkTFpk?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-07T08:45:00Z",
-      "tambem_em": [
-        "Agora RN"
-      ]
-    },
-    {
-      "id": "mercado-livre_33799",
-      "titulo": "Competitividade na indústria eletrointensiva no Brasil",
-      "lead": "Competitividade na indústria eletrointensiva no Brasil",
-      "fonte": "JOTA Info",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMFBpWE5TTEFKOHJfWktyd2hxQkt6cklxWEp1SE1zWG45dUxKaHNzZEJ3LXFWZ25XbE5wU0hFcW01WkU0eUxnVTB3d2xzUGJneWE3ODByc181R2k4U2ZwRmlPUlhRYUt1OERFaGplWEd2VTY2QTVwWVdmX2tuODNfcmFpeEtscWsyVmZ4MGpDXzg1SFNnSnRWZTZxYkhZU3NZNEVTLQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-07T08:10:33Z"
     }
   ]
 }

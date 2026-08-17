@@ -717,6 +717,21 @@ def fetch_carga() -> dict:
 
 # ── ANEEL — Bandeira Tarifária ──────────────────────────────────────
 
+# REGRA GERAL — ORDEM DE ARQUIVO EXTERNO NÃO É GARANTIA (P1.14)
+#
+# Nunca confiar na ordem em que uma fonte externa entrega suas linhas. A
+# seleção do "registro mais recente" é SEMPRE explícita, por max() sobre o
+# campo de DATA — jamais records[0], records[-1] ou sort=_id.
+#
+# Custou caro: até 17/08/2026 este extrator pedia `sort=_id desc` e lia
+# records[0]. `_id` é o número da linha atribuído na ingestão do datastore e
+# não tem relação alguma com a competência. A ANEEL republicou o recurso em
+# 17/08/2026 e a série foi reingerida em outra ordem — agosto/2026 caiu no
+# _id 74 e a última linha (_id 140) passou a ser junho/2020. O site publicou
+# "bandeira verde, junho/2020, adicional zero" e a newsletter do dia saiu com
+# esse dado. A fonte estava correta e completa o tempo todo; o robô é que
+# escolhia a linha errada.
+#
 # Resource verificado em 2026-07: dataset "bandeiras-tarifarias",
 # recurso "Bandeira Tarifária - Acionamento" (datastore ativo).
 ANEEL_BANDEIRA_RES = "0591b8f6-fe54-437b-b72b-1aa2efd46e42"
@@ -725,19 +740,67 @@ _MESES_PT = ["janeiro", "fevereiro", "março", "abril", "maio", "junho",
              "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
 
 
+def _num_br(v) -> float:
+    """Número em formato BR → float. '18,85' → 18.85 · '1.234,56' → 1234.56.
+    O ponto só é separador de milhar quando existe vírgula decimal no valor;
+    sem vírgula, '18.85' é decimal e stripar o ponto daria 1885."""
+    s = str(v).strip()
+    if not s:
+        raise ValueError("valor vazio")
+    if "," in s:
+        s = s.replace(".", "").replace(",", ".")
+    return float(s)
+
+
+def _competencia(rec: dict) -> str:
+    """DatCompetencia normalizada em YYYY-MM-DD ('' se ausente/inválida)."""
+    c = str(rec.get("DatCompetencia") or "")[:10]
+    return c if len(c) == 10 and c[4] == "-" else ""
+
+
+def _bandeira_mais_recente(records: list) -> dict:
+    """Registro de MAIOR DatCompetencia. Ver REGRA acima: seleção por data,
+    nunca por posição."""
+    validos = [rc for rc in records if _competencia(rc)]
+    return max(validos, key=_competencia) if validos else None
+
+
 def fetch_bandeira() -> dict:
     log.info("ANEEL bandeira tarifária…")
     existing = load_existing("bandeira.json")
 
-    r = get(f"{ANEEL_API}/datastore_search", {
-        "resource_id": ANEEL_BANDEIRA_RES,
-        "limit": 3,
-        "sort": "_id desc",
-    })
-    if r:
+    hoje_br = agora_br()
+    mes_corrente = f"{hoje_br.year:04d}-{hoje_br.month:02d}"
+
+    def _buscar(params):
+        resp = get(f"{ANEEL_API}/datastore_search",
+                   dict(params, resource_id=ANEEL_BANDEIRA_RES))
+        if not resp:
+            return None
         try:
-            records = r.json()["result"]["records"]
-            rec = records[0]
+            return _bandeira_mais_recente(resp.json()["result"]["records"])
+        except Exception as exc:
+            log.warning("  Bandeira resposta ilegível: %s", exc)
+            return None
+
+    # Caminho normal: o datastore ordena por competência e devolve o topo.
+    # Pedimos 12 linhas em vez de 1 para que o max() local ainda tenha o que
+    # comparar — a ordenação do servidor é conveniência, não fonte da verdade.
+    rec = _buscar({"limit": 12, "sort": "DatCompetencia desc"})
+
+    # Se o topo veio atrás do mês corrente, não dá para concluir atraso da
+    # fonte sem descartar a hipótese de o `sort` ter sido ignorado (campo
+    # inexistente já voltou HTTP 200 com a ordem natural). Baixa a série
+    # inteira — são ~140 linhas — e refaz o max() antes de declarar defasagem.
+    if rec is None or _competencia(rec)[:7] < mes_corrente:
+        log.info("  Topo em %s < %s — varrendo a série inteira",
+                 _competencia(rec)[:7] or "—", mes_corrente)
+        rec_full = _buscar({"limit": 5000})
+        if rec_full and (rec is None or _competencia(rec_full) > _competencia(rec)):
+            rec = rec_full
+
+    if rec:
+        try:
             raw = str(rec.get("NomBandeiraAcionada", "")).lower()
             if "escassez" in raw:
                 cor_key = "escassez"
@@ -748,17 +811,18 @@ def fetch_bandeira() -> dict:
             else:
                 cor_key = "amarela"
 
-            # VlrAdicionalBandeira vem em R$/MWh com vírgula (ex.: "18,85")
+            # VlrAdicionalBandeira vem em R$/MWh com vírgula decimal
+            # (ex.: "18,85" = R$ 18,85/MWh = R$ 0,01885/kWh; verde vem ",00").
+            adicional_mwh = None
             adicional = BANDEIRA_META[cor_key]["adicional"]
             try:
-                adicional = round(
-                    float(str(rec.get("VlrAdicionalBandeira", "")).replace(".", "").replace(",", ".")) / 1000,
-                    5,
-                )
-            except (ValueError, TypeError):
-                pass
+                adicional_mwh = round(_num_br(rec.get("VlrAdicionalBandeira")), 2)
+                adicional = round(adicional_mwh / 1000, 5)
+            except (ValueError, TypeError) as exc:
+                log.warning("  Adicional ilegível (%r): %s — usando tabela de %s",
+                            rec.get("VlrAdicionalBandeira"), exc, cor_key)
 
-            comp = str(rec.get("DatCompetencia", ""))[:7]  # YYYY-MM
+            comp = _competencia(rec)[:7]  # YYYY-MM
             ano_ref = mes_num = None
             try:
                 y, m = comp.split("-")
@@ -770,34 +834,47 @@ def fetch_bandeira() -> dict:
             data = {
                 "updated": now_iso(),
                 "mes": mes_ref,
+                # Competência em YYYY-MM: rótulo legível é para o leitor, o
+                # sentinela precisa de um campo que dê para comparar.
+                "competencia": comp,
                 "fonte": "ANEEL — Dados Abertos",
                 "cor": cor_key,
                 "adicional_kwh": adicional,
+                "adicional_mwh": adicional_mwh if adicional_mwh is not None
+                                 else round(adicional * 1000, 2),
                 "descricao": BANDEIRA_META[cor_key]["descricao"],
             }
 
-            # Defasagem: o registro é REAL e fresco pelo sentinela (limite de
-            # 40 dias), mas pode estar apontando para o mês passado enquanto a
-            # manchete da home já fala do mês corrente. O site assume a
-            # defasagem em vez de escondê-la — deduzir a cor do mês novo a
-            # partir de notícia misturaria camada editorial com dado e mataria
-            # a rastreabilidade da fonte.
-            hoje_br = agora_br()
+            # Defasagem: o registro é REAL e fresco pelo sentinela, mas pode
+            # estar apontando para o mês passado enquanto a manchete da home já
+            # fala do mês corrente. O site assume a defasagem em vez de
+            # escondê-la — deduzir a cor do mês novo a partir de notícia
+            # misturaria camada editorial com dado e mataria a rastreabilidade.
+            #
+            # REGRA — AVISO AUTOMÁTICO NÃO ACUSA TERCEIRO (P1.14)
+            # O texto relata apenas o que NÓS não conseguimos obter, nunca a
+            # conduta de uma instituição. Até 17/08/2026 este aviso afirmava
+            # que "a ANEEL ainda não publicou" — e, na ocasião em que apareceu
+            # em produção, a ANEEL havia publicado: quem falhou foi o robô, que
+            # lia a linha errada. Atribuir a falha ao órgão regulador com base
+            # num bug nosso é pior que exibir a cor errada. Não sabemos por que
+            # o dado não veio; sabemos que não o temos. É só isso que se diz.
             if ano_ref and (ano_ref, mes_num) < (hoje_br.year, hoje_br.month):
                 atual = f"{_MESES_PT[hoje_br.month-1]}/{hoje_br.year}"
                 data["defasado"] = True
-                data["aviso"] = (f"Referência: {mes_ref}. A ANEEL ainda não "
-                                 f"publicou o registro de {atual} nos Dados Abertos.")
+                data["aviso"] = (f"Referência: {mes_ref}. Não foi possível "
+                                 f"obter o registro de {atual}.")
                 log.warning("  Bandeira DEFASADA: registro de %s, hoje é %s",
                             mes_ref, atual)
 
             save("bandeira.json", data)
-            log.info("  Bandeira %s: %s (R$ %.5f/kWh)", mes_ref, cor_key, adicional)
+            log.info("  Bandeira %s (comp. %s): %s — R$ %.2f/MWh",
+                     mes_ref, comp or "—", cor_key, data["adicional_mwh"])
             return data
         except Exception as exc:
             log.warning("  Bandeira parse falhou: %s", exc)
 
-    log.warning("  Bandeira fetch falhou — mantendo existente")
+    log.warning("  Bandeira sem registro utilizável — mantendo existente")
     return existing
 
 
@@ -813,7 +890,11 @@ def calc_termometro(pld: dict, ear: dict, carga: dict, bandeira: dict) -> dict:
     # Componente PLD momentum (peso 20%) — PLD acima da média histórica = risco alto
     hist = pld.get("historico", [])
     if hist:
-        latest_pld = hist[-1].get("SE_CO", 200)
+        # max() por semana, não hist[-1]: fetch_pld grava a série ordenada, mas
+        # o termômetro também lê pld.json de disco (run anterior, edição manual)
+        # e não deve depender da ordem de um arquivo que não montou. Ver a REGRA
+        # em ANEEL_BANDEIRA_RES.
+        latest_pld = max(hist, key=lambda w: str(w.get("semana", ""))).get("SE_CO", 200)
         avg_pld = sum(w.get("SE_CO", 200) for w in hist) / max(len(hist), 1)
         ratio = latest_pld / max(avg_pld, 1)
         pld_score = max(0, min(100, round((ratio - 0.5) / 1.5 * 100)))

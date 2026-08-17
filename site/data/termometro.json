@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-17T13:30:40Z",
-  "score": 21,
+  "updated": "2026-08-17T18:05:20Z",
+  "score": 24,
   "nivel": "ótimo",
   "nivel_desc": "Condições hídricas e de preços favoráveis",
   "componentes": {
     "ear": {
       "peso": 35,
-      "valor": 78.2,
+      "valor": 78.0,
       "score": 22
     },
     "ena": {
       "peso": 25,
       "valor": "via EAR",
-      "score": 27
+      "score": 28
     },
     "pld_momentum": {
       "peso": 20,
@@ -26,8 +26,8 @@
     },
     "bandeira": {
       "peso": 10,
-      "valor": "verde",
-      "score": 0
+      "valor": "amarela",
+      "score": 33
     }
   },
   "metodologia": "EAR 35% · ENA 25% · Momentum PLD/CMO 20% · Carga 10% · Bandeira 10%"
