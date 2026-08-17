@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T09:44:36Z",
+  "updated": "2026-08-17T12:29:50Z",
   "total": 60,
   "itens": [
     {
@@ -10,7 +10,7 @@
       "url": "https://megagrid.com.br/#precos",
       "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-17T09:44:36Z"
+      "data": "2026-08-17T12:29:50Z"
     },
     {
       "id": "mercado-livre_86970",
@@ -192,9 +192,9 @@
       "editoria": "regulacao",
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
-        "Belém.com.br",
+        "belem.com.br",
         "Valor Econômico",
-        "Poder360"
+        "poder360.com.br"
       ]
     },
     {
