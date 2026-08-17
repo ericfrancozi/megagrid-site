@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-16T18:35:27Z",
+  "updated": "2026-08-17T09:44:36Z",
   "total": 60,
   "itens": [
     {
-      "id": "dado-2026-08-16",
+      "id": "dado-2026-08-17",
       "titulo": "PLD sobe 14,3% na semana e fecha a R$ 137,71 no Sudeste/CO",
-      "lead": "PLD SE/CO a R$ 137,71/MWh · reservatórios em 78,2% · bandeira amarela. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
+      "lead": "PLD SE/CO a R$ 137,71/MWh · reservatórios em 78,2% · bandeira verde. Leitura diária do Megagrid sobre os dados abertos de CCEE, ONS e ANEEL.",
       "fonte": "Megagrid Dados",
       "url": "https://megagrid.com.br/#precos",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-16T18:35:27Z"
+      "data": "2026-08-17T09:44:36Z"
     },
     {
       "id": "mercado-livre_86970",
@@ -193,7 +193,6 @@
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
         "Belém.com.br",
-        "odairmatias.com.br",
         "Valor Econômico",
         "Poder360"
       ]
@@ -401,7 +400,7 @@
       "editoria": "mercado-livre",
       "data": "2026-08-10T21:32:18Z",
       "tambem_em": [
-        "infomoney.com.br"
+        "InfoMoney"
       ]
     },
     {

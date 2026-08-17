@@ -1,8 +1,10 @@
 {
-  "updated": "2026-08-16T09:30:08Z",
-  "mes": "agosto/2026",
+  "updated": "2026-08-17T09:44:30Z",
+  "mes": "junho/2020",
   "fonte": "ANEEL — Dados Abertos",
-  "cor": "amarela",
-  "adicional_kwh": 0.01885,
-  "descricao": "Condições de atenção"
+  "cor": "verde",
+  "adicional_kwh": 0.0,
+  "descricao": "Condições favoráveis de geração",
+  "defasado": true,
+  "aviso": "Referência: junho/2020. A ANEEL ainda não publicou o registro de agosto/2026 nos Dados Abertos."
 }
