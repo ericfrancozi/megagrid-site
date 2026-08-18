@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-18T09:36:20Z",
+  "updated": "2026-08-18T12:32:06Z",
   "total": 60,
   "itens": [
     {
-      "id": "politica-energetica_21558",
+      "id": "politica-energetica_6430",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
@@ -292,7 +292,8 @@
       "editoria": "regulacao",
       "data": "2026-08-12T20:59:27Z",
       "tambem_em": [
-        "Belém.com.br",
+        "belem.com.br",
+        "odairmatias.com.br",
         "Poder360"
       ]
     },
