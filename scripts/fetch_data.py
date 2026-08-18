@@ -792,11 +792,19 @@ def fetch_bandeira() -> dict:
     # fonte sem descartar a hipótese de o `sort` ter sido ignorado (campo
     # inexistente já voltou HTTP 200 com a ordem natural). Baixa a série
     # inteira — são ~140 linhas — e refaz o max() antes de declarar defasagem.
-    if rec is None or _competencia(rec)[:7] < mes_corrente:
+    # `rec` é None sempre que a ANEEL não respondeu (get() esgotou as
+    # tentativas). _competencia() espera um dict e quebra com None, então a
+    # competência do topo sai para uma variável ANTES do if — inclusive para o
+    # log. Em 18/08/2026 a linha de diagnóstico foi justamente o que derrubou o
+    # robô inteiro numa indisponibilidade passageira da ANEEL: o script morreu
+    # com AttributeError, o commit dos dados bons não aconteceu e o sentinela
+    # foi pulado. Diagnóstico não pode ser mais frágil que o dado que descreve.
+    comp_topo = _competencia(rec) if rec else ""
+    if comp_topo[:7] < mes_corrente:
         log.info("  Topo em %s < %s — varrendo a série inteira",
-                 _competencia(rec)[:7] or "—", mes_corrente)
+                 comp_topo[:7] or "—", mes_corrente)
         rec_full = _buscar({"limit": 5000})
-        if rec_full and (rec is None or _competencia(rec_full) > _competencia(rec)):
+        if rec_full and _competencia(rec_full) > comp_topo:
             rec = rec_full
 
     if rec:
@@ -1504,9 +1512,18 @@ def fetch_noticias(pld: dict = None, ear: dict = None, bandeira: dict = None) ->
 GOATCOUNTER_API  = os.environ.get("GOATCOUNTER_API", "")
 GOATCOUNTER_SITE = os.environ.get("GOATCOUNTER_SITE", "megagrid")
 
-def fetch_mais_lidas(noticias: dict) -> dict:
-    log.info("+ Lidas…")
+# REGRA — ANALYTICS É ACESSÓRIO, DADO É PRODUTO (18/08/2026)
+# PLD, EAR, carga, bandeira e notícias são o produto; audiência é enfeite.
+# Falha no GoatCounter — ou em qualquer analytics que venha depois — NUNCA
+# derruba o robô de dados essenciais. Todo caminho de analytics vive dentro de
+# try/except, degrada para o ranking por recência e registra o motivo em
+# log.warning. Silêncio também é proibido: cair no fallback sem dizer por quê
+# esconde uma integração quebrada por semanas.
+
+def _mais_lidas(noticias: dict) -> dict:
     items = noticias.get("itens", [])
+    # Só entra no ranking quem tem os dois campos que o site renderiza.
+    validos = [n for n in items if n.get("titulo") and n.get("url")]
 
     if GOATCOUNTER_API and GOATCOUNTER_SITE:
         try:
@@ -1515,30 +1532,65 @@ def fetch_mais_lidas(noticias: dict) -> dict:
                 headers={"Authorization": f"Bearer {GOATCOUNTER_API}", **HEADERS},
                 timeout=12,
             )
-            if r.ok:
-                hits = sorted(r.json().get("hits", []), key=lambda h: h.get("count", 0), reverse=True)
+            if not r.ok:
+                # 401/403 de token errado, 5xx do provedor, página de erro em
+                # HTML: o motivo sai do status e do corpo cru, nunca de um
+                # .json() que quebraria em resposta não-JSON.
+                log.warning("  GoatCounter HTTP %s (%s) — caindo para recência",
+                            r.status_code, r.text[:120])
+            else:
+                # Conta nova tem "hits" vazio ou paths que ainda não casam com
+                # nenhuma URL do acervo — cenário normal nos primeiros dias,
+                # tratado como fallback e não como erro.
+                hits = sorted((r.json().get("hits") or []),
+                              key=lambda h: h.get("count") or 0, reverse=True)
                 lidas = []
-                for i, hit in enumerate(hits[:5], 1):
-                    path = hit["path"]
-                    noticia = next((n for n in items if path in n.get("url", "")), None)
+                for hit in hits:
+                    if len(lidas) >= 5:
+                        break
+                    path = hit.get("path") or ""
+                    if not path:
+                        continue
+                    noticia = next((n for n in validos if path in n["url"]), None)
                     if noticia:
-                        lidas.append({"rank": i, "titulo": noticia["titulo"], "url": noticia["url"]})
+                        # rank vem do tamanho da lista, não do índice do hit:
+                        # hit que não casa não pode abrir buraco na numeração.
+                        lidas.append({"rank": len(lidas) + 1,
+                                      "titulo": noticia["titulo"],
+                                      "url": noticia["url"]})
                 if lidas:
                     data = {"updated": now_iso(), "itens": lidas}
                     save("mais-lidas.json", data)
+                    log.info("  Ranking por audiência (GoatCounter): %d itens",
+                             len(lidas))
                     return data
+                log.warning("  GoatCounter respondeu, mas nenhum de %d paths "
+                            "casou com o acervo — caindo para recência", len(hits))
         except Exception as exc:
-            log.warning("  GoatCounter falhou: %s", exc)
+            log.warning("  GoatCounter falhou (%s: %s) — caindo para recência",
+                        type(exc).__name__, exc)
 
     # Fallback: top 5 mais recentes
     lidas = [
         {"rank": i + 1, "titulo": n["titulo"], "url": n["url"]}
-        for i, n in enumerate(items[:5])
+        for i, n in enumerate(validos[:5])
     ]
     data = {"updated": now_iso(), "fallback": True, "itens": lidas}
     save("mais-lidas.json", data)
     log.info("  Ranking por recência (sem GoatCounter)")
     return data
+
+
+def fetch_mais_lidas(noticias: dict) -> dict:
+    log.info("+ Lidas…")
+    try:
+        return _mais_lidas(noticias)
+    except Exception as exc:
+        # Rede de segurança final da REGRA acima: nem o fallback nem a gravação
+        # em disco podem matar o run. Mantém o mais-lidas.json anterior.
+        log.warning("  + Lidas falhou por completo (%s: %s) — mantendo o "
+                    "arquivo anterior", type(exc).__name__, exc)
+        return load_existing("mais-lidas.json")
 
 
 # ── Main ─────────────────────────────────────────────────────────────

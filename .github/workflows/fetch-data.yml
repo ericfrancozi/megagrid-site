@@ -65,5 +65,10 @@ jobs:
 
       # 6. Sentinela: falha VISÍVEL (run vermelho) se alguma fonte estiver parada.
       #    Roda depois do commit para nunca bloquear os dados que atualizaram.
+      #    `if: always()` porque em 18/08/2026 o fetch_data.py quebrou e o
+      #    sentinela foi PULADO — justamente na hora em que ele mais importava.
+      #    Um passo de diagnóstico condicionado ao sucesso do passo que ele
+      #    diagnostica é inútil. O run continua vermelho pela falha do passo 4.
       - name: Verificar frescor das fontes
+        if: always()
         run: python scripts/check_freshness.py
