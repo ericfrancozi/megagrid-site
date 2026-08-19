@@ -1,7 +1,30 @@
 {
-  "updated": "2026-08-19T09:37:03Z",
+  "updated": "2026-08-19T12:32:16Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_49352",
+      "titulo": "Mercado livre de energia: o que muda na conta de luz a partir de 2027 - band.com.br",
+      "lead": "Mercado livre de energia: o que muda na conta de luz a partir de 2027",
+      "fonte": "band.com.br",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbndjNy1UZUlWX3ZLdldHZnZiaDNmdGtmQ19RajZMSkUxVXdoUE9WVUV6UTdTa0h3UDdaSV9kVjBNeTRHYXluSzl3d1hhRWhHLTNweEEyZDdBMVlkZVhaS1h1Mnk3NWs4MGtDNHVDQjVKZi1VbVd2N01YaHo2ZEd6RHFmN0E0RGUtbUkxTTRBS3NCMjBubnBhZVlNWTNSNGRJOWs5dGwzUUhDYUtqYy1ZN2VDUzE4eW80c3ljVmpCclI?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-19T10:00:15Z",
+      "tambem_em": [
+        "politicaetc.com.br"
+      ]
+    },
+    {
+      "id": "tarifas_826",
+      "titulo": "Bandeira tarifária fica verde em fevereiro, e conta de luz continua sem cobrança extra",
+      "lead": "Bandeira tarifária fica verde em fevereiro, e conta de luz continua sem cobrança extra",
+      "fonte": "Jornal O Sul",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbzhvOHhpRmU4UDZBQkRMVk1XMXppUi1hRC1ZLW9LaVBSZ2JaclhRaWgtU1hiMnZjZ0V5QnNDV0NJczdncVN3ZUxNamdybTRlYjc4ZDZIYm5pMm9DZ3RvZUx6Y1YzZktXblVVZnBlWWllOG5FZGxlY3RTVzROeVFPZlRZMjZaM2k0V0h4OGNwS1J2M2U0ZkJqM3lhbmFsQnJTOC1palQ0SV9GYkZ3M082cUdpZzVhVHFXRnFzSlhhdWXSAbQBQVVfeXFMTlBOcTNZTVZNR2JJZy1HYlBTaGF0cW1sT2g3U1BfVmZEZGNiMzdhNFZNZ0dxVU5DX1JtN2NXeTFwMHdvYThtQmVUd1lSVThQVV93aHNpYU5EOEQ5RF9ROTBYUDUtNFdXQWZRbHhFdzNXeGR6b3pScGlnTVpNR1lnRkFsTkNSS2h1bFdjSUZkMTZjbDVHVHRRNDFSVGdTUGVKUWdLOTN3bzZwV2ZDNzZMa20zaDhT?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-18T17:56:09Z"
+    },
     {
       "id": "mercado-livre_92253",
       "titulo": "Decreto Regulamenta Abertura Do Mercado Livre E Define Novas Atribuições Da CCEE - cenarioenergia.com.br",
@@ -43,16 +66,6 @@
       "data": "2026-08-18T16:08:51Z"
     },
     {
-      "id": "mercado-livre_98136",
-      "titulo": "Entenda o que muda na conta de luz com a chegada do Mercado Livre de Energia a partir de 2027 - politicaetc.com.br",
-      "lead": "Entenda o que muda na conta de luz com a chegada do Mercado Livre de Energia a partir de 2027",
-      "fonte": "politicaetc.com.br",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeWdaWW5RQjN1SWZGRzdtY0RnQ1kya0JkdUo3SVpCOVN6RzRnQmtNU2V3aUZ3dF9rbmMtdXd5dkRKR05MWENFcEg0WklBYjFHSXN2QU9aRFdwUWZIbWMydk5tZmNBaHl4UU4yZEpCSWVnZWlRYTJ5TjBZaTl6WWE3bXdCeUFMaE5vbzZ6N0NFcWhWLTc4eUI0MEx5eGx4VGNrb2pWQS1Bc19Od0RwNGpVeTFwZDdDVEVpU1FDcEczWUg3TW9IcHB3MUd5bGZodw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-18T13:59:31Z"
-    },
-    {
       "id": "mercado-livre_35172",
       "titulo": "Dia do Estagiário: CCEE investe na formação de novos profissionais",
       "lead": "Dia do Estagiário: CCEE investe na formação de novos profissionais",
@@ -63,7 +76,7 @@
       "data": "2026-08-18T13:17:00Z"
     },
     {
-      "id": "politica-energetica_42929",
+      "id": "politica-energetica_10608",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
@@ -602,19 +615,6 @@
       "data": "2026-08-10T20:48:19Z",
       "tambem_em": [
         "ES Brasil"
-      ]
-    },
-    {
-      "id": "mercado-livre_19588",
-      "titulo": "Metade da indústria brasileira desconhece mercado livre de energia",
-      "lead": "Metade da indústria brasileira desconhece mercado livre de energia",
-      "fonte": "FIEMG",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb0V2THpkNGlhUWlGcldqSTI3Q19RdWlHdDduTmRTYThGOGVHektBSFBUUmZ2QXZ3ZjBnUk05c2JzLVVOVDJnT2J5aVY2ZlpaQTdUUm5QYW1xLU16bEpMZXVNRkUxNWZfNXpWMjZoSUJ3OTBRa19IS3VCQkFVd1cydUlnWm4yUzQzc2l1eElySkRyUmhxalpWMnA1TEtaUldxS1dJckZQSXpSTVJhUENMWGNPbzNiUHM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-10T19:07:00Z",
-      "tambem_em": [
-        "FIEMG"
       ]
     }
   ]
