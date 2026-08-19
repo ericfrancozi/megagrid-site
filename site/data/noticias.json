@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-19T12:32:16Z",
+  "updated": "2026-08-19T18:40:23Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_74020",
+      "titulo": "Cooperativas gaúchas realizam leilão conjunto para compra de energia de curto prazo",
+      "lead": "Cooperativas gaúchas realizam leilão conjunto para compra de energia de curto prazo",
+      "fonte": "MundoCoop",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcWFYRFdaNXB1dWhJTUI0Y3cxZ2duVzFHc0xQcnlvVGdEMnZ6b0gzYnQ1aDZLcnZqMi1wUVMxU0U4cFhXSGkyOTIySWhkekd6a3dBeFBHS3k3cWhVWENmMDZuNm9tTnVyY1hhRHJQYlZDU3lTdWd6QV9ITUgzd29uOGRLOUZJaTFrV2s2XzhNMHgwdy1XWGxhWmNua0dfSzluVnBDS3B1ZGlmZkVkSk9US1BQZzNTVHlhZ01VTWNZQTVKLU9CblE?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-19T14:50:12Z"
+    },
     {
       "id": "mercado-livre_49352",
       "titulo": "Mercado livre de energia: o que muda na conta de luz a partir de 2027 - band.com.br",
@@ -36,12 +46,25 @@
       "data": "2026-08-18T17:25:44Z"
     },
     {
+      "id": "regulacao_60852",
+      "titulo": "Decreto confirma abertura do mercado livre para consumidores de baixa tensão, mas regulamentação da Aneel...",
+      "lead": "Decreto confirma abertura do mercado livre para consumidores de baixa tensão, mas regulamentação da Aneel...",
+      "fonte": "SEGS Portal Nacional",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxON0ltNkdDOUtUMjNpOFF1d3hSdGtLaWprVzhlNzBEVXdyc0FqMU85eXZqWWpZSHg3NDBmbVRGaVZ6TDJiLWtRclhFZ3Z3VFBSZ2p0eVVnOFBXc2V5UldaWjhKbGlMN29SMFRzUm1nN2stSENHR3pTSTROaWxIeXlINDV5S0RsV1ZlSXFSNGlxOEpDUzVlOEwtX29xR25qa1A0d3cyck5KRURId2pZNTB3SDY4M3VwUVBqcDFrdTJvRktCSEUyeXpPZUFvRWRiUDdaUF9rVHlfQ1VlQVdFV1JaSG4zY0JTVG9PcFpmOU81SUpIWjBIYjVCR2NVLTfSAYICQVVfeXFMT2hXSTgwVThSWTFRYUJoTU53RlFxbXVxVlNKSTY5dWNsUGlWMnNPSmdudmIyaWlyM0duTDdnS0VESXBmbkFsT1B5Nl9xdnFqVEdYVTJaZXRDOFZMRTBUV0FCU1llcHJNeHl2TnlnSk1WMG52ZWJYMzBjZmwyN1RTdEhiQjItSmlPTWY2cWcyOW1kdGhQWlFQTEZYYnpXR2VHbWVEcjhWRDlPQzNINXFjdFJfQkNkM21YRHVHVmwxSlBneW5zaklhdHdjZXVLUEdOeExwQWVmeXc5bkdkd25seWR4OTY0Wmh3Z3lSUm1wbjBrZ1dkVkJWSkR5cWs4MkVVLVVn?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-18T17:20:47Z",
+      "tambem_em": [
+        "segs.com.br"
+      ]
+    },
+    {
       "id": "regulacao_66548",
       "titulo": "Reunião Pública da Diretoria da ANEEL será realizada excepcionalmente na segunda-feira (24)",
       "lead": "Reunião Pública da Diretoria da ANEEL será realizada excepcionalmente na segunda-feira (24) www.gov.br",
       "fonte": "ANEEL",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNamF6cnpoeFBLb3lyOGc1OVZLQUpPUHdQU2w2VjdYOGhBTVN6bDk5NjRNM2lyVzJvVUIyREU2US1aSXVianBJdC1mR2NmSmtfeXlrdVJzOTRCWDhZcE5KZ3Q1b2FKV2NFa3hUcllxSExnZHJQdmVHYkVWSzNIejg0VUduNnBLV0I1aFV1aDhrWEotSVBTdHRvbUpWY2JvdHNnR0dtNGVsYUdTMHZQNjh5eHBhMnRfLUlSLUlrcDV3d0tlWVRVLVdZZGhwMXBoUGxnN1FRaA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-18T16:55:31Z"
     },
@@ -56,16 +79,6 @@
       "data": "2026-08-18T16:52:00Z"
     },
     {
-      "id": "mercado-livre_78763",
-      "titulo": "Decreto confirma abertura do mercado livre para consumidores de baixa tensão, mas regulamentação da Aneel... - segs.com.br",
-      "lead": "Decreto confirma abertura do mercado livre para consumidores de baixa tensão, mas regulamentação da Aneel...",
-      "fonte": "segs.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPaFdJODBVOFJZMVFhQmhNTndGUXFtdXFWU0pJNjl1Y2xQaVYyc09KZ252YjJpaXIzR25MN2dLRURJcGZuQWxPUHk2X3F2cWpUR1hVMlpldEM4VkxFMFRXQUJTWWVwck14eXZOeWdKTVYwbnZlYlgzMGNmbDI3VFN0SGJCMi1KaU9NZjZxZzI5bWR0aFBaUVBMRlhieldHZUdtZURyOFZEOU9DM0g1cWN0Ul9CQ2QzbVhEdUdWbDFKUGd5bnNqSWF0d2NldUtQR054THBBZWZ5dzluR2R3bmx5ZHg5NjRaaHdneVJSbXBuMGtnV2RWQlZKRHlxazgyRVUtVWfSAYICQVVfeXFMT2hXSTgwVThSWTFRYUJoTU53RlFxbXVxVlNKSTY5dWNsUGlWMnNPSmdudmIyaWlyM0duTDdnS0VESXBmbkFsT1B5Nl9xdnFqVEdYVTJaZXRDOFZMRTBUV0FCU1llcHJNeHl2TnlnSk1WMG52ZWJYMzBjZmwyN1RTdEhiQjItSmlPTWY2cWcyOW1kdGhQWlFQTEZYYnpXR2VHbWVEcjhWRDlPQzNINXFjdFJfQkNkM21YRHVHVmwxSlBneW5zaklhdHdjZXVLUEdOeExwQWVmeXc5bkdkd25seWR4OTY0Wmh3Z3lSUm1wbjBrZ1dkVkJWSkR5cWs4MkVVLVVn?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-18T16:08:51Z"
-    },
-    {
       "id": "mercado-livre_35172",
       "titulo": "Dia do Estagiário: CCEE investe na formação de novos profissionais",
       "lead": "Dia do Estagiário: CCEE investe na formação de novos profissionais",
@@ -76,12 +89,12 @@
       "data": "2026-08-18T13:17:00Z"
     },
     {
-      "id": "politica-energetica_10608",
+      "id": "politica-energetica_50580",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT0QyWDZ6WkZhVExjQktuclRORTMxZWtYb1plRV9iUVljbFk5YmR4VUZmRWNVWjNGczkza3RaRGFWT0ZVMTdkazBZZW5LNjRNNlYtTVROM2tLRXprREZKUy1EcW5XTXhPWWNKSGZRcUpJdW5ENUV1V3ZYWDVsc2k0cEZqVGhDQ01KWmZ6aHV2YWhWUWRFOUdTUzZEbzRpd3B3ajNObjRvdUtjSkJua3VwajNqZGpCOEFrY1RrWTVud09UWEk0UnpxWVRMV0FCM3lJeHF2V1lFYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-18T06:35:30Z"
     },
@@ -336,6 +349,16 @@
       "data": "2026-08-13T10:50:25Z"
     },
     {
+      "id": "mercado-livre_36411",
+      "titulo": "Decreto da abertura do mercado livre prevê pagamento a distribuidoras por suprimento de última instância",
+      "lead": "Decreto da abertura do mercado livre prevê pagamento a distribuidoras por suprimento de última instância",
+      "fonte": "Agência eixos",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNY3ZLRjVaREF0R2VkdUdZNmxkZXhQRk52Wm9IZ1IzaDZYNEJnS2JDYVlMZTNyRTJ1LXNfeUwzU1R4am1sRFdUMDliMkhTMVhiQUJVYXdPLTFNeExMYV9aNks2VkdRUmhqalZMUVBzZDlCVURmemw3RnBfeXczeHlXbk5sWV9mcnNQVXJRR2FrWGZiSC1nUW5BaEVFVUs3SVdNdGdzQjd3Z0JJVVl5UGlyMVZ4UUJheTBUdXZYQkdKQ3JXbkFKTWhJaVE3QkhWbFJqb2t5Q292RUs2bjA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-13T10:33:59Z"
+    },
+    {
       "id": "mercado-livre_6754",
       "titulo": "Abertura do mercado livre de energia dá novo passo - valor.globo.com",
       "lead": "Abertura do mercado livre de energia dá novo passo",
@@ -417,7 +440,7 @@
       "lead": "Prazos do MME para energia elétrica",
       "fonte": "Revista O Empreiteiro",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfTG1Ua3pCRVFLQk5QNjl5bkFwY0Vxei1oUUgybHVyTklra1ZKNTFWZ0Q3SUlzNXZyTWhJckI0WlY1Ylk0aWVCN1FnQnJPajV6OERwRTVFVHA2VmFQSTU5Sk5RbWRVSlBQSVFtN2tR?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1587691592099-24045742c181?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-12T17:58:59Z"
     },
@@ -592,29 +615,6 @@
       "data": "2026-08-10T21:32:18Z",
       "tambem_em": [
         "InfoMoney"
-      ]
-    },
-    {
-      "id": "regulacao_81501",
-      "titulo": "Enel SP terá 10 dias para apresentar defesa em processo sobre concessão",
-      "lead": "Enel SP terá 10 dias para apresentar defesa em processo sobre concessão",
-      "fonte": "Canal Solar",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE94anNFbTUyMnVVenFuWC03c0VvNVZBci1SUFdXX1c1NTdDbmFCOWxKWTV6OWlXQUd5N2tMWmhNWGp6c3pjZ2tZUHVldC1xeTV5RU9sRTBieEhwaHdkWWtYcUJlME5ZY0ZSc0E0Nkc4TGJzQQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-10T21:15:26Z"
-    },
-    {
-      "id": "mercado-livre_50474",
-      "titulo": "Mercado livre de energia avança com decreto de baixa tensão",
-      "lead": "Mercado livre de energia avança com decreto de baixa tensão",
-      "fonte": "SpaceMoney",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN3lGdzRvZXVIZ21FeVFENHRyZHVhNkpGbDlQb1JScklKR2Z4V3VwMlpnbUV2Szh0ZXlLbEZKYTZrZ2RpYlgzMjFCUDhiLV81eVVlVjdjMlhkcm11bm40WnlPOVJ5OG9CZmhyR2h0RjZ5ZXlJMW9JWHJxdURyUmdGWHVDR3NNbXdMclFzVXo0cw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-10T20:48:19Z",
-      "tambem_em": [
-        "ES Brasil"
       ]
     }
   ]
