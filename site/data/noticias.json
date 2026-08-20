@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-20T12:33:46Z",
+  "updated": "2026-08-20T18:44:11Z",
   "total": 60,
   "itens": [
+    {
+      "id": "regulacao_23187",
+      "titulo": "Reguladora define prioridades para abertura do mercado de energia",
+      "lead": "Reguladora define prioridades para abertura do mercado de energia",
+      "fonte": "Agência iNFRA",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNczJKN2ZWSmxWcGJoSzVnRGtaRFJxZmdDZ2hSWG5LT09FWmsySkR5MmgwakRRbUt0cG9MNDlqdGpvOU5pN3V5eW9xTzBxU293cHpQemlZMTJkYmxHNU1SWjRjX1o5VUtwSWR5ZWRVR1l3bnlaWmtieE93dndOQTExMGdSa21US01tRVREQ0ZXTmtDenNaa0tSVnJSZDV3aUNVeDhTeUptWQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-20T18:11:15Z"
+    },
+    {
+      "id": "mercado-livre_25446",
+      "titulo": "Colômbia planeja leilão de energia firme para mitigar impacto do El Niño",
+      "lead": "Colômbia planeja leilão de energia firme para mitigar impacto do El Niño",
+      "fonte": "BNamericas",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR1lmNVJWMkRKWC1Nak90LXRjV2M3eHUzUGJ0XzViUUNOaEdySmcySS1LY1A1QmJmSGZ2OV81N3BNd2RnQ3gxRVo2dDRSRW1GZU5UUF9XUktqclJRN1BvT1BnWGJ6VlNzRXhNR2FmcEpaM0JwZWZWeXI2eHFlSWdRNERzY1N1LWhBZkFxeDlTM3hJc20xZW56SlBXMzg5ZzJBbUtCMFdpbEs2LWdNeVhJaA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-20T17:43:41Z"
+    },
+    {
+      "id": "transicao_32999",
+      "titulo": "Primeiro BESS colocalizado com usina solar inaugura nova etapa do armazenamento no Brasil",
+      "lead": "Primeiro BESS colocalizado com usina solar inaugura nova etapa do armazenamento no Brasil",
+      "fonte": "Canal Solar",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85WFFCZmtwLWJCcFFxTHZKWjJ5MXQzc25xU0RLbmxFaTdwcEpOLVJPdWpUR29WUldwQjB3ZGNCS2Mtd3gwQ2VrS2hsTXNuendqVW9ETVVLejJ5WmdQTU5SVTh4TWItbGp0Tkt4WklsZjVLTDA?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-20T14:50:21Z"
+    },
     {
       "id": "tarifas_29030",
       "titulo": "TCU destrava R$ 5 bi em subsídios à conta de luz do Norte e Nordeste",
@@ -25,6 +55,16 @@
         "band.com.br",
         "politicaetc.com.br"
       ]
+    },
+    {
+      "id": "mercado-livre_31911",
+      "titulo": "Após publicação de decreto, CCEE participa de debate sobre abertura de mercado",
+      "lead": "Após publicação de decreto, CCEE participa de debate sobre abertura de mercado",
+      "fonte": "CCEE",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONDlPdkdUYkhrZFg3NEdfc1NlVnc0SlRoSXJZZjBndnFRMDBhelMtNWljRXZyQy1na1R2X21hTGNIYVg3MGFXRWlHTUl3b1FNazJBbFA2eTFHdU9kY01sMzdRUXhYU0p4ckRHRTFONVFuSGlFcHlLeXA4aDNjVTYyUndlR3pUZXVCZEVxOXMxaVhwMFVLQXJPUDRTN0l4UWN0S1R1QXRjZDZJQVkyMzBXNk1OUQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-19T19:52:00Z"
     },
     {
       "id": "regulacao_84270",
@@ -110,12 +150,12 @@
       "data": "2026-08-18T13:17:00Z"
     },
     {
-      "id": "politica-energetica_35632",
+      "id": "politica-energetica_42710",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT0QyWDZ6WkZhVExjQktuclRORTMxZWtYb1plRV9iUVljbFk5YmR4VUZmRWNVWjNGczkza3RaRGFWT0ZVMTdkazBZZW5LNjRNNlYtTVROM2tLRXprREZKUy1EcW5XTXhPWWNKSGZRcUpJdW5ENUV1V3ZYWDVsc2k0cEZqVGhDQ01KWmZ6aHV2YWhWUWRFOUdTUzZEbzRpd3B3ajNObjRvdUtjSkJua3VwajNqZGpCOEFrY1RrWTVud09UWEk0UnpxWVRMV0FCM3lJeHF2V1lFYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-18T06:35:30Z"
     },
@@ -574,46 +614,6 @@
       "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
       "editoria": "tarifas",
       "data": "2026-08-11T16:40:00Z"
-    },
-    {
-      "id": "mercado-livre_76290",
-      "titulo": "De olho na conta de luz, 72% dos consumidores querem migrar para o mercado livre de energia",
-      "lead": "De olho na conta de luz, 72% dos consumidores querem migrar para o mercado livre de energia",
-      "fonte": "Paraíba Total",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORDdvbE1CSm5LZVBxRS0xWl9VUEg2bkNXaTBqSWxUUko0ZWY2b3FfWnZPMmlScE5USUx3QnU4ZmZ0U0tBVzVWUHNrSVBpNHMxOUVpVDJ5Tk9memNJZ1lRVkZXeU1aTF8xTlRQTzl0YjRBYVU3ZGc1eFN2WGszX2ZPbnp4TF80U2JDUnFYMnRNWWx6Snptb2d3LTJkbnRuTTRGNGU1M0lLNENUTW1aQW5KcWZvdTdOTVREMHJzckExUkREWEZlYzZBWA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-11T15:47:16Z"
-    },
-    {
-      "id": "regulacao_23840",
-      "titulo": "ANEEL homologa resultado dos lotes de 7 a 10 do Leilão de Transmissão nº 1/2026",
-      "lead": "ANEEL homologa resultado dos lotes de 7 a 10 do Leilão de Transmissão nº 1/2026 www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNW1YV21waHZmMlUyb0gtd0xZakJaT2lTU1dBSUpoUlFPZWN4S0ZvR0Q0ZHpvUnJudEJ2MmpCZk1HS1Q1UG1yeUhCNjNJa2lqTjh1cThaT3drUFUwMm00UG4za3B4dkk4YnZiSnE2MmlZY0YxTDNISzEtdzcyMWpHSV96SkM3OWJUVlNPRHF6a1hXWUptVzl6b3RNQmRiM2VseG1UVTBzbXUyTUxLRVhqTFJPTm1yeXlqb2w5U2NTdXNWT2R3a09lWmlFNXBiQ0ZBTGd2X01melZnaFMwdTcwN1pBeDM?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-11T15:41:21Z"
-    },
-    {
-      "id": "transicao_81874",
-      "titulo": "ees South America traz novidades do mercado de baterias e debate sobre leilão de armazenamento",
-      "lead": "ees South America traz novidades do mercado de baterias e debate sobre leilão de armazenamento",
-      "fonte": "Gazeta da Semana",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNEFsdHoyQ1RqdUYxbHkzdFZyNUE2WENOUVFHMGlFbDlWWmlDRTgxY19NTUlKNzNSZWdOZlVlVjJrREthRFZWS240X2huTjQwRGJZaE9BWTRTQXFycDJSNDBlc0ZLTUQ5Ml84Nk5ScDh3bzFFVlZqTmVWNTYtTFNLNnlXSkZvUnBpWkpTMlU0WTZQSEVrNGFCMjV3d29ObUtoTnY5c2pqMDZTeTByUk9hMEYxZWNpVGREQWtPSWxkc0ZFcVh4a1RfcEx6VGtRYnFsOWhoajhB?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1595437193398-f24279553f4f?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-11T14:59:06Z"
-    },
-    {
-      "id": "politica-energetica_86930",
-      "titulo": "MME abre prazo para envio das declarações de necessidade dos Leilões de Energia Existente A-1, A-2 e A-3",
-      "lead": "MME abre prazo para envio das declarações de necessidade dos Leilões de Energia Existente A-1, A-2 e A-3 www.gov.br",
-      "fonte": "MME",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQjd3Ylhrdi1jMzhSQXA5QUFDUzNyRGpnUlYwekdYSkhENTZfaDlMM0NGbkh5ZHRVVVFrcEEzb0pQTHBkRXpYVlBqV1JwS2Y4ZnZ5UVZZSzIxVVpIbmlISU9NYkpNUnpCWWsxbENVdksxWDNEY1RVS2pHendRRFlxWVF6SEhQVTZJcDdwdTRTenVCOTA2MDNEcG03SmdjWVlmZlhkSE5vTW5CTHZDRnpuOFh0amR3N1JScEhRTWprTS1URTdpeDZtOWQ0UmVnWDRpMHhYYWZXY3ZWcjQtZkF3U191cTI?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-08-11T12:00:36Z"
     }
   ]
 }
