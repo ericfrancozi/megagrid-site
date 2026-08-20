@@ -1,7 +1,41 @@
 {
-  "updated": "2026-08-19T18:40:23Z",
+  "updated": "2026-08-20T09:37:28Z",
   "total": 60,
   "itens": [
+    {
+      "id": "tarifas_29030",
+      "titulo": "TCU destrava R$ 5 bi em subsídios à conta de luz do Norte e Nordeste",
+      "lead": "TCU destrava R$ 5 bi em subsídios à conta de luz do Norte e Nordeste",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOT1h0a0hnME9BMlNnSTViLXllME0xRzRMVlVqdWIycnJoclpkVnA3eVZCTHRKNGpDT0lrWWFWNDhKcnRiMmhUVzk0T1hOT0t6ZkYwR19ud05XN1B6STU5T0VpUW1jQTFzcWVudVNJa0tLME9kSEhsNDRjQ1NDMXVZUms0SjhzOHk3aWxrenBlS3NxR0ZIUTZkbVlqb3V5N3YxeFdiSmJ5T1pWenNuWHJF?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=70",
+      "editoria": "tarifas",
+      "data": "2026-08-19T22:28:19Z"
+    },
+    {
+      "id": "mercado-livre_15516",
+      "titulo": "Mercado Livre de Energia: o que muda na conta de luz a partir de 2027 - vtvnews.com.br",
+      "lead": "Mercado Livre de Energia: o que muda na conta de luz a partir de 2027",
+      "fonte": "vtvnews.com.br",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNWlRcDNKZmxhUF9feFotZjN3eE5mYUh2cWFKcXMxZlh1RFZoSjIwOFpNSzRlOXlDTkdmeDMxbS1ZNXBDdDZjcV9xQUxPcDd5MDRTQlJZdnRIbHFDRDVzcUNsNlNJR3VpRnV5c01nLTZUektyTnhHUHJvaU1pUko5eGE1cVJKYXI0SzlHRWZB?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-19T22:00:00Z",
+      "tambem_em": [
+        "band.com.br",
+        "politicaetc.com.br"
+      ]
+    },
+    {
+      "id": "regulacao_84270",
+      "titulo": "Reversíveis de ciclo fechado precisarão de outorga para captar água, diz ANA",
+      "lead": "Reversíveis de ciclo fechado precisarão de outorga para captar água, diz ANA",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcl9paXFoaU1tM3FsWWpZWm1TekFvNy1yOGRUMGNSbVEtTnVTdjdaaGVjU3BXRm45Q1BhZFBNWk42WGM0OE9FT0ptczNobDNOcm5idHR2QUNYZDdLWUVuM2pfOGRvYmhqNHpxNTQyVU9MX1BuajN3a09qd0xxRWJ0RE1GYm1FYU9OTVR6bThablU4WFBCcHJuaWFqbkVNMGZuTmw5WHlzNW5oRHFkZnM2THM5VzIxSXNEY0E?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-19T19:48:04Z"
+    },
     {
       "id": "mercado-livre_74020",
       "titulo": "Cooperativas gaúchas realizam leilão conjunto para compra de energia de curto prazo",
@@ -11,19 +45,6 @@
       "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-19T14:50:12Z"
-    },
-    {
-      "id": "mercado-livre_49352",
-      "titulo": "Mercado livre de energia: o que muda na conta de luz a partir de 2027 - band.com.br",
-      "lead": "Mercado livre de energia: o que muda na conta de luz a partir de 2027",
-      "fonte": "band.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbndjNy1UZUlWX3ZLdldHZnZiaDNmdGtmQ19RajZMSkUxVXdoUE9WVUV6UTdTa0h3UDdaSV9kVjBNeTRHYXluSzl3d1hhRWhHLTNweEEyZDdBMVlkZVhaS1h1Mnk3NWs4MGtDNHVDQjVKZi1VbVd2N01YaHo2ZEd6RHFmN0E0RGUtbUkxTTRBS3NCMjBubnBhZVlNWTNSNGRJOWs5dGwzUUhDYUtqYy1ZN2VDUzE4eW80c3ljVmpCclI?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-19T10:00:15Z",
-      "tambem_em": [
-        "politicaetc.com.br"
-      ]
     },
     {
       "id": "tarifas_826",
@@ -41,7 +62,7 @@
       "lead": "Decreto Regulamenta Abertura Do Mercado Livre E Define Novas Atribuições Da CCEE",
       "fonte": "cenarioenergia.com.br",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONGN6a3lhZVJfc3oyRzM3V1pvX3hRaDVoR0xPVlFMU3BWa1NIOFVDQVRTbFBJYlZ0bjkxcUM2bDdOdzZIR2doajFYNHBFMkxCM2hSLU5DZVVnV3dmMUl3bVY4ME01eDJlWk9YYUZGbzliUmVYcVNyZDZmYk5vOG1IYThuZVRqZm9VeTJjZ2lRaGs1bXBlZ0JKSA?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-18T17:25:44Z"
     },
@@ -55,7 +76,7 @@
       "editoria": "regulacao",
       "data": "2026-08-18T17:20:47Z",
       "tambem_em": [
-        "segs.com.br"
+        "SEGS Portal Nacional"
       ]
     },
     {
@@ -89,7 +110,7 @@
       "data": "2026-08-18T13:17:00Z"
     },
     {
-      "id": "politica-energetica_50580",
+      "id": "politica-energetica_94775",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
@@ -445,12 +466,22 @@
       "data": "2026-08-12T17:58:59Z"
     },
     {
+      "id": "transicao_55854",
+      "titulo": "Comerc adquire 100% da Micropower, empresa de soluções em baterias",
+      "lead": "Comerc adquire 100% da Micropower, empresa de soluções em baterias",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSXpwelZHQ042MGFSZTIxN1BwMkhXNXN0SjlCSGFvXzZxN0JGbHVTazJkbzA1N3hQeVlOT2lJT1lRU3FzdDc5NENwdWJaaXhOUnhSSmFqVjNZMlpzZGp5bDdleEZyNGxpc3dnV2Z3MzdUdnpMNkdUNmpseTJiZF9jV0pETEkxQjlFZkRrU05SSjA0U215LWRvS1JNLUYySU5JYkNiaDRoZTc4MDQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-12T13:48:02Z"
+    },
+    {
       "id": "transicao_19649",
       "titulo": "Armazenamento Com Segurança: Por Que Certificar BESS é Vital Para A Energia Solar",
       "lead": "Armazenamento Com Segurança: Por Que Certificar BESS é Vital Para A Energia Solar",
       "fonte": "Cenário Energia",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaF83QjBfUXh0T1pkcW12ai0yUmRsX0txYThKUFJkeTg2WExfeFk3OVBTd2w3M0NBaXRSODN5cmg3TEJ3NGVvM1VxNU1odXpwOWhGald4OThjWEFWYXU3X0wydDlZMk5JeGFjaWFuLVplQjZuVlNRNHZQdjJXektERnpobGRIdGhZeDJ3NGtsckxjY1ZIaXMzNTE5d2V3emEwMlk2czdrNklXdThFdUgtTGt3d0R1NHFmWlRUQlVFbw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1548337138-e87d889cc369?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-12T13:44:19Z"
     },
@@ -583,39 +614,6 @@
       "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-11T12:00:36Z"
-    },
-    {
-      "id": "tarifas_78696",
-      "titulo": "Fevereiro seguirá com bandeira tarifária verde na conta de luz",
-      "lead": "Fevereiro seguirá com bandeira tarifária verde na conta de luz",
-      "fonte": "Jornal Portuário",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUE84YUZyTDFuTHlDaG41NVctX0dCdFFreC1PbVZ5dE9INi1jT0U5UXhyQmJjYmlCa2NJMEY4S29MVFR1aTNwN0ZZSk1QaG5XR25XX19mUG1WT2lnM2NUX3h3V2tpTkE2eVc5dFFtQ0tYY3dwcVVfNU9JdTNCY0tCRFBqa092Vkl0VDN6ZW44TlZsYVJ2NzJOMlFtYXB6YVFYcWJvRmY5VzB3UQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-11T11:19:36Z"
-    },
-    {
-      "id": "mercado-livre_89418",
-      "titulo": "Lula assinará ampliação do mercado livre de energia nos próximos dias",
-      "lead": "Lula assinará ampliação do mercado livre de energia nos próximos dias",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMm94czVxQ2F4dTA1MFAtMnpWWlpQOUg5ZEcwbVRydHAwQjhXaW56NmhVTDZKVjFxTm5fVU12bk5zLWJPX1ZfNUdsRWJtMHE0cUw2NWVqLUhONVJZNmhOZFFFcGR6U3pHRlNoNm5WbzBPOWdoS0NYSkhvN3BtM3BNVEhGWmVXdnE1cngwV1dZbWt1cHlXT211VnhPN2NVZHhVMTZpRVNGNmNFTkdxUVpHVF9n?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-10T21:55:00Z"
-    },
-    {
-      "id": "mercado-livre_4722",
-      "titulo": "Nós próximos dias será assinado decreto para abertura de mercado de energia, diz ministro",
-      "lead": "Nós próximos dias será assinado decreto para abertura de mercado de energia, diz ministro",
-      "fonte": "Agência eixos",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbW5ENUdsVWdjOUtibjFfX1pkMGNiWjBFamNXMjBvS3V4LVNRcGdQcXluZXlMUWJoV0Y4R1kzV2s3OVAwVG1sa09ub0E1THFWTUxydlRNZ1d5Wk5GZnBiNkZ3TWJ2N2c5VnFId3otSGZMRzlCZGVLOHZnNGZUcnIxbm1QS3RwWFFscFJYUF9pVjBiN0k0dnI0a0pnXzNSY0NoM2NLbTF1c2UwUjl4THh1Q3J2LW9GTklqNjh4aUpHd2U0UzUyWFE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-10T21:32:18Z",
-      "tambem_em": [
-        "InfoMoney"
-      ]
     }
   ]
 }
