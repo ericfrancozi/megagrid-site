@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T09:39:32Z",
+  "updated": "2026-08-21T12:33:10Z",
   "total": 60,
   "itens": [
     {
@@ -193,12 +193,12 @@
       ]
     },
     {
-      "id": "politica-energetica_92326",
+      "id": "politica-energetica_65069",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT0QyWDZ6WkZhVExjQktuclRORTMxZWtYb1plRV9iUVljbFk5YmR4VUZmRWNVWjNGczkza3RaRGFWT0ZVMTdkazBZZW5LNjRNNlYtTVROM2tLRXprREZKUy1EcW5XTXhPWWNKSGZRcUpJdW5ENUV1V3ZYWDVsc2k0cEZqVGhDQ01KWmZ6aHV2YWhWUWRFOUdTUzZEbzRpd3B3ajNObjRvdUtjSkJua3VwajNqZGpCOEFrY1RrWTVud09UWEk0UnpxWVRMV0FCM3lJeHF2V1lFYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-18T06:35:30Z"
     },
@@ -392,8 +392,7 @@
       "editoria": "mercado-livre",
       "data": "2026-08-13T22:30:05Z",
       "tambem_em": [
-        "O Estado CE",
-        "Folha de S.Paulo"
+        "O Estado CE"
       ]
     },
     {
