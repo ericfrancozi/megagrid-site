@@ -1,14 +1,44 @@
 {
-  "updated": "2026-08-20T18:44:11Z",
+  "updated": "2026-08-21T09:39:32Z",
   "total": 60,
   "itens": [
+    {
+      "id": "mercado-livre_61563",
+      "titulo": "Especialistas destacam vantagens para pequenas e médias empresas com o mercado livre de energia de baixa tensão",
+      "lead": "Especialistas destacam vantagens para pequenas e médias empresas com o mercado livre de energia de baixa tensão",
+      "fonte": "Diário do Comércio",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mNm1zMjM3RjdWUHYta05tNUVVcmE1Y1FiakNXYTlQNHR1TEZzYVIyOS13dDFFbVRLRzdxRjM0TFU1MFdKZ3czWUh3LWZiZWJ4NEhDYVNiaDlFOXhRZV8tNnp3Qk9VMTVHYzl6UEJ3QzhZd3FiSjNr?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-21T08:01:00Z"
+    },
+    {
+      "id": "regulacao_97659",
+      "titulo": "ANEEL debate impactos do Super El Niño e discute caminhos para fortalecer a resiliência do setor elétrico",
+      "lead": "ANEEL debate impactos do Super El Niño e discute caminhos para fortalecer a resiliência do setor elétrico www.gov.br",
+      "fonte": "ANEEL",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPelRHSlNyVEtEX0Qya2hUQW9zN1YyNnlQTExCUTBFMVprd3dUcDZGaW1SR2Q5a0JyV0J4MWFsZTdhYXE2a0lhQU5GbklFZk44ZFo0TzJiYVlydU1uSWxSTl80WDVZRU80Mks1cWJxdUdjZmtiNHhxUlpBeWctaGRDZllDRUNFMHlOWmV4OGEwWUp6aXJWdmN0TkI5R0hkYVZkUV8zUHMwdmpIZlVmUVE1endmVzQ2UVlzMktYU2hoOWVOakpTYmc3anVrb1Jnd2xvdmFDdTYtbjNaN3ZGRm12aXlBUXNMVV9TYzh4V0R1YncxNTdNZ1RfYTJYZk5IeS1fZXlVZDZuUQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "editoria": "regulacao",
+      "data": "2026-08-20T21:05:00Z"
+    },
+    {
+      "id": "mercado-livre_23178",
+      "titulo": "Vantagens do mercado livre para o consumidor vão além do preço, avaliam agentes",
+      "lead": "Vantagens do mercado livre para o consumidor vão além do preço, avaliam agentes",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQWtYNXFzMHlnbUZJNzJ3UGNqWUMycHVLdEdnSDJDWUVnbUFaR0xORXVQYk1ObGwxcFd4eG5lM2p4TFl5ZUFTYkRLNHgtQ3lPcTdVc0h5ekg0bVg2WVRUMU02TkNQNWdlcGNHTHJWQXljNno2bTVoQldTLVVXN19VVlR6U3FDbkZfc3ZMMjdCMWt2MXlmSkdiTXBmRlFHbE54bkptSUw4eHRBTlhpd0hFMmtFd3FTME0tOE5YNHlKbDR0VmVvY3c?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-20T20:02:34Z"
+    },
     {
       "id": "regulacao_23187",
       "titulo": "Reguladora define prioridades para abertura do mercado de energia",
       "lead": "Reguladora define prioridades para abertura do mercado de energia",
       "fonte": "Agência iNFRA",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNczJKN2ZWSmxWcGJoSzVnRGtaRFJxZmdDZ2hSWG5LT09FWmsySkR5MmgwakRRbUt0cG9MNDlqdGpvOU5pN3V5eW9xTzBxU293cHpQemlZMTJkYmxHNU1SWjRjX1o5VUtwSWR5ZWRVR1l3bnlaWmtieE93dndOQTExMGdSa21US01tRVREQ0ZXTmtDenNaa0tSVnJSZDV3aUNVeDhTeUptWQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-20T18:11:15Z"
     },
@@ -31,6 +61,16 @@
       "imagem": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-20T14:50:21Z"
+    },
+    {
+      "id": "politica-energetica_3511",
+      "titulo": "MME vê necessidade 'imediata' de interligação Brasil–Bolívia",
+      "lead": "MME vê necessidade 'imediata' de interligação Brasil–Bolívia",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTENGXzFaZnpKeGkwQVNremxzSE5yQllHU0R0QmVSbDg4QmloS1c2WHFyYk9tUmFNRmtNUHZvUW5VX0xIZVd1OElXcEJFNzlLUFVBZ1BpWXREZEVacWFLdXZPeWVOemROczFzRnM3ZVBLY2luYW1uR0FKZDE4ajRMcEJHZVFqQ2VjZE1LcEw5SUV5LXBqWjJXNUt4MDZ4R1hzZkpkOHdfNm93OGM?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1587691592099-24045742c181?w=600&q=70",
+      "editoria": "politica-energetica",
+      "data": "2026-08-20T13:03:00Z"
     },
     {
       "id": "tarifas_29030",
@@ -140,22 +180,25 @@
       "data": "2026-08-18T16:52:00Z"
     },
     {
-      "id": "mercado-livre_35172",
+      "id": "mercado-livre_27632",
       "titulo": "Dia do Estagiário: CCEE investe na formação de novos profissionais",
       "lead": "Dia do Estagiário: CCEE investe na formação de novos profissionais",
       "fonte": "CCEE",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVEpKTTZkTTZUSE0zTGRPdWVtTWkzUmloOVU0TjkxZEVwZFdqV0VEV3g4cm03cDFSdF90WERHRk5nLWkydE1JaldpOTd6VnQ5YzJxcXV4X0pzd3d6ZVhwZEIwRm00aGNodTlBSjJJUkphNTBWRXFoMjkyTU82N0hENXZiV1Q0Vi1hM2VhbDJIMEhZTXY5RlZieG9SWC1VQXkxR1Bv?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUxRNnZYdXNnV1ZYZzRGZXhmazBqM0R1czRFWXFGQ1pkWHF2NlAzLS1qY0JtVU03dnVyMFpOdFJhSjNfZ3dzSEhXVDlVcURMTXlHOTdWTlY0cDlVR3pXRnQ2OWJHX1VKMHlRaVdfbmZrcUx4ZzdCcDlxMnhfNVZueTJNemNSODhRWXI0T3pMY1RJV2JxYXc?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-18T13:17:00Z"
+      "data": "2026-08-18T13:17:00Z",
+      "tambem_em": [
+        "CCEE"
+      ]
     },
     {
-      "id": "politica-energetica_42710",
+      "id": "politica-energetica_92326",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT0QyWDZ6WkZhVExjQktuclRORTMxZWtYb1plRV9iUVljbFk5YmR4VUZmRWNVWjNGczkza3RaRGFWT0ZVMTdkazBZZW5LNjRNNlYtTVROM2tLRXprREZKUy1EcW5XTXhPWWNKSGZRcUpJdW5ENUV1V3ZYWDVsc2k0cEZqVGhDQ01KWmZ6aHV2YWhWUWRFOUdTUzZEbzRpd3B3ajNObjRvdUtjSkJua3VwajNqZGpCOEFrY1RrWTVud09UWEk0UnpxWVRMV0FCM3lJeHF2V1lFYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-18T06:35:30Z"
     },
@@ -165,7 +208,7 @@
       "lead": "Mercado Livre de Energia amplia escolha de fornecedor e terá abertura para baixa tensão a partir de 2027",
       "fonte": "acreagora.com",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONDhLVUVzb1pGZlF2eHNvWGlUNDZ2bGpVNVlaRTJlRWkyNklhRXYzbGZaeEc1NHNvWGhvQU5DTWtod0gwb3FvbnpSNkRBdFVqRG82dGV4Y3k5RW5ibndPN0JUaFk0RHdpUU9PY2hFandhQWhGNHRNY1I0WU54QU1kQVNrSG92MDY4NkhjN2IwYUxLemkzZTZZLWhJdFJoY0N3aF9FdzJZc2s1UGtQQTVOSFlocUZ6V0J4dnduZkU1SmJYRWs5SG81YnFDcmFRaDZnM3A1YdIB1AFBVV95cUxONDhLVUVzb1pGZlF2eHNvWGlUNDZ2bGpVNVlaRTJlRWkyNklhRXYzbGZaeEc1NHNvWGhvQU5DTWtod0gwb3FvbnpSNkRBdFVqRG82dGV4Y3k5RW5ibndPN0JUaFk0RHdpUU9PY2hFandhQWhGNHRNY1I0WU54QU1kQVNrSG92MDY4NkhjN2IwYUxLemkzZTZZLWhJdFJoY0N3aF9FdzJZc2s1UGtQQTVOSFlocUZ6V0J4dnduZkU1SmJYRWs5SG81YnFDcmFRaDZnM3A1YQ?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
       "editoria": "mercado-livre",
       "data": "2026-08-18T05:50:44Z"
     },
@@ -347,7 +390,11 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX3FlQnhTOERVbXFEMTA1QlY0Qzk0cjc1ZkdYa1YxQ0kzUng0RzJ6U1lreWtGYzR3NlowRG5STk95elBuXzU1MG45NkIzcnVUUjVkZ0VSMHBwSTZRUWFFTkdhUG1BWUxtTTVuRy1uSlZzbjV6Z1czYmpsSUdKM2pJXzlIbF9oazhWRlFuLUxBcDlKMmJzY2QtdDRMVGUtSnRob1hFQzVwYmtmdXdZLVVfQU9fWGlFZlXSAb8BQVVfeXFMTU90WFdsZkdGUUFaNllHU3JuSldud3R4TVBGZExfSkpkQlZsOHBpQjZmQ0dFb0UyeTdmQnZYeEJkd0s5eFF0OHo2ZUVnNzNUbW00cThJUDJIeW9fdEQtdFlIY3Jyc2VYNTRrUFgxY0tiY043QTd5TG1aWjlHY2R5bkJncXhNOXktSjJMdHhiSjFyb3Q3OVV3bFJRYlNzTUEtLUdaUm9Bbk4xRUt3aFEtZ01MOGVDNjVhZG01UFF4QUk?oc=5",
       "imagem": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&q=70",
       "editoria": "mercado-livre",
-      "data": "2026-08-13T22:30:05Z"
+      "data": "2026-08-13T22:30:05Z",
+      "tambem_em": [
+        "O Estado CE",
+        "Folha de S.Paulo"
+      ]
     },
     {
       "id": "mercado-livre_48047",
@@ -388,16 +435,6 @@
       "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
       "editoria": "empresas",
       "data": "2026-08-13T15:23:33Z"
-    },
-    {
-      "id": "mercado-livre_21742",
-      "titulo": "Veja quando e como clientes residenciais e negócios vão poder migrar para o mercado livre de energia - Folha de S.Paulo",
-      "lead": "Veja quando e como clientes residenciais e negócios vão poder migrar para o mercado livre de energia",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNLWNWZjRyS0d2dFo2bFF2bVdJZ3FuWVpaWGc2RERnakphSDRZZ193X0NfcHdqWUVWWGdJcTJFYW1yRzBfbnFlYU8zZUExaExjc0hWblQyX3ZsT0oxek9WV2ZTMGRwLW1LLURpZW9HZkR0Tl9CMWZrY1Vydkk4d1lhMU82S2VaZE41M3Jfckd4QUtBOWxQMlV1M1JUWVpIX3VsZFo5X3I2SmdNWGJQQ0Uydkx2SElUMmJWY2VYZElTRWtXUGwxTll6QlpQdDNMNWZ0aTZXc1ZKNE9Td0RaT3E1ei1xX1hmaFk?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-13T15:00:00Z"
     },
     {
       "id": "mercado-livre_6655",
@@ -584,36 +621,6 @@
       "imagem": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=70",
       "editoria": "regulacao",
       "data": "2026-08-11T19:58:31Z"
-    },
-    {
-      "id": "regulacao_45633",
-      "titulo": "Disponíveis novos painéis com informações sobre indicadores de Inadimplência e de Segurança do Trabalho e Instalações",
-      "lead": "Disponíveis novos painéis com informações sobre indicadores de Inadimplência e de Segurança do Trabalho e Instalações www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNZXI1ZHFDNWRnRC1jYm93VzVmYXZ1X3R1SHJVNFZuZVpnbXJGb2dna253NlVEa19xakNGNzl1UDlIWENrS0ZwNUxac2JFQ0pPLXpnNHFnTldaSW5kMm5Ob2dSVGVNdXN4QUx0WVFMRU0tWERIOWd0Nll0TlYtTXNTeDFPWDFpSnBnclZxdXZvQ2llNVBCMklYLXpCWTJuM1FkbllYNnNwa1FpVWt0b2gwTE5FeXNTakI4ZTNIWmlLQTBscnc4LWtPNDhIYWhkTmdHb25vTVhsYkFqd010UlVJTmtEOFAxU0QzWkZqZHJ4TmRmdHYxRHlQbzY0cVBrWmZSMnN0MEpGMVI4SERPTUY4OHVoVS1VQ1E?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1435527173128-983b87201f4d?w=600&q=70",
-      "editoria": "regulacao",
-      "data": "2026-08-11T19:35:12Z"
-    },
-    {
-      "id": "politica-energetica_57131",
-      "titulo": "‘Sinal de preço precisa chegar à baixa tensão’, diz MME",
-      "lead": "‘Sinal de preço precisa chegar à baixa tensão’, diz MME",
-      "fonte": "MegaWhat",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM0c0OVRDSnFKRlpMbk9GUHR2UkswZ1JfZmNWU0ZndlB5S2FRWkNVTW9MWVIyN1VzUlAtR0VqODd4VVowVDlCUGVTblQyX0lKdmtIMTUtNkNOcUpmanJNek41ZVRDV2pONEgyUmN1UlA5Q1hWVG1wNm1WTEhxMng5cFhFanU1aDFxU3NaVGxOMlBEMFhVbzJPMVRNdDN0a2ZnUG1B?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
-      "editoria": "politica-energetica",
-      "data": "2026-08-11T19:15:20Z"
-    },
-    {
-      "id": "tarifas_80968",
-      "titulo": "Agência decide nova data para reajuste e revisão de tarifas da CEA (Amapá)",
-      "lead": "Agência decide nova data para reajuste e revisão de tarifas da CEA (Amapá) www.gov.br",
-      "fonte": "ANEEL",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdkl0bE51M21xZ0tlQ3dmX205dUdNWEViTkxHbGhOSXdQeTE1RFlaOEpkUG5RVkphMnNYc1hqdmQzT3ZBc0xwZ1R3dmRoVXhrV0xWdElFSEw2bUM4d3RwMk5vbXNrRzluSW1wY2pzdzJ3MzJBR3lsc2RuWWdBd3F5cW5NcVFVYk1aMWhLWlJWcGhkT3NSbGdyaXh2c2gyUGZKa1JlWm9id3RWdEZyaklfZ05vLURyTWhlWnd2My1MWWNESm92QjRvcjFyc1lLNDJIQ3pjZDRsRjg0NU0?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-11T16:40:00Z"
     }
   ]
 }
