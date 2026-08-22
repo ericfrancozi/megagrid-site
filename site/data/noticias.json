@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-21T18:41:21Z",
+  "updated": "2026-08-22T09:29:24Z",
   "total": 60,
   "itens": [
+    {
+      "id": "transicao_78479",
+      "titulo": "ANEEL sorteia na segunda (24) relator de custos do leilão de baterias",
+      "lead": "ANEEL sorteia na segunda (24) relator de custos do leilão de baterias",
+      "fonte": "Agência iNFRA",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOEVkN0hPclhCZVFyRGVqaWNZX1hHTW1vNm5iM2Y3di14WUkyUzctdEZDSkNuRVQ1UlRFZ1VOeEl1cEJOU1lBNmU2czBuNGlPTkpyT1FtYlVBcGo0U09XdUFFNGZ2LXBuZVozNTVYeGFPeW9XN2kzMjRZYktKUWRiNnl4U2ZZRnl3b2cydjEyUlNqUVRLM21yQ3BVS0Y1MTQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-21T21:14:28Z"
+    },
+    {
+      "id": "transicao_38323",
+      "titulo": "Leilão de armazenamento: setor defende baterias, reversíveis e outras soluções em disputa",
+      "lead": "Leilão de armazenamento: setor defende baterias, reversíveis e outras soluções em disputa",
+      "fonte": "MegaWhat",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcnZuWm1kZ3hIQ3hWU0lpVmdWNmttRURHTU5CWkNVT2w1WEhBRlZNdGM1UXVJSW5paVZMQVg3RDdObGhEcEJCT1VkN0hFS04yZkozQVdKYm1icjlDVFdMRDBRTFF5T3RMNGVQenhzcGV4QncwYU5uOWhiS0o0Rll6VEN5Yl9QdUlOQ1hrMF9CVC0yVV9LRU1OQkpwVHZiaGM5TmhaUWwtcDRhOHQ2YnNfY3RRSnZTbWNVVkVJMFJ6aWxCUQ?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=600&q=70",
+      "editoria": "transicao",
+      "data": "2026-08-21T19:44:47Z"
+    },
+    {
+      "id": "mercado-livre_27644",
+      "titulo": "O efeito das decisões judiciais no mercado livre de energia",
+      "lead": "O efeito das decisões judiciais no mercado livre de energia",
+      "fonte": "Migalhas",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQzlDWVZoWnlKNTM0ZU8ybXlSbE1ITllYZkd0c2lyVk9CcWZlMlUxZlVEck1fanJ1V0tKTnhMdmFLMmNkc054Q0hoTjlNcW1pdUtZYnVGTWRYd0JzdUlNUVRZc3daQmVSNzMyTWlVTTRiQndSM2dLcUdrR29SSGYzTnF4RGl1cVh2bkNST05xaFU3OWxxYWh6UkFJRjl6OUdCOTA0?oc=5",
+      "imagem": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=600&q=70",
+      "editoria": "mercado-livre",
+      "data": "2026-08-21T19:30:44Z"
+    },
     {
       "id": "mercado-livre_81330",
       "titulo": "Trocar de fornecedor de energia não significa trocar de distribuidora; entenda a mudança",
@@ -223,12 +253,12 @@
       ]
     },
     {
-      "id": "politica-energetica_84639",
+      "id": "politica-energetica_40656",
       "titulo": "Portaria_Normativa_MME_nº_136/2026",
       "lead": "Portaria_Normativa_MME_nº_136/2026",
       "fonte": "MME",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT0QyWDZ6WkZhVExjQktuclRORTMxZWtYb1plRV9iUVljbFk5YmR4VUZmRWNVWjNGczkza3RaRGFWT0ZVMTdkazBZZW5LNjRNNlYtTVROM2tLRXprREZKUy1EcW5XTXhPWWNKSGZRcUpJdW5ENUV1V3ZYWDVsc2k0cEZqVGhDQ01KWmZ6aHV2YWhWUWRFOUdTUzZEbzRpd3B3ajNObjRvdUtjSkJua3VwajNqZGpCOEFrY1RrWTVud09UWEk0UnpxWVRMV0FCM3lJeHF2V1lFYw?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=70",
+      "imagem": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=70",
       "editoria": "politica-energetica",
       "data": "2026-08-18T06:35:30Z"
     },
@@ -593,36 +623,6 @@
       "imagem": "https://images.unsplash.com/photo-1548337138-e87d889cc369?w=600&q=70",
       "editoria": "transicao",
       "data": "2026-08-12T13:44:19Z"
-    },
-    {
-      "id": "transicao_46661",
-      "titulo": "As regras de armazenamento de energia e 1º LRCAP de baterias - capitalaberto.com.br",
-      "lead": "As regras de armazenamento de energia e 1º LRCAP de baterias",
-      "fonte": "capitalaberto.com.br",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWlpYmxnX0xmRGdSeXJ0THYweEc0cmdocTU3cGNhd0xuNUJOVm1EMWt0UWZSTVBfMXZlaXIzLWZLY3d6YWVfTENfMDZZaDdMdUxlU1lwXzZ2REpGeEc1WDNGS2ZLWHV5c2MzRnRkLVk5SDN4d1A3ZUlkaFMzM3JaZExqYnBUWVc4SmpnT3Q1YkQzQkladHllekpuOG1WdnlDYl9tNjZIaGJLSlFXc0FwX3lB?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1487875961445-47a00398c267?w=600&q=70",
-      "editoria": "transicao",
-      "data": "2026-08-12T13:31:00Z"
-    },
-    {
-      "id": "mercado-livre_38333",
-      "titulo": "Mercado livre de energia será ampliado para empresas em 2027 - trendsce.com.br",
-      "lead": "Mercado livre de energia será ampliado para empresas em 2027",
-      "fonte": "trendsce.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRDZkYTRxalBfWUxSY3N1eU5RVmc0U2hWR1EwNmhMdldkak1UMVdKVkhOU0RYUWI5MThMN2ROOVNVV3VFS2VpM1o1SzB5akMzd2Y3UjZpeHNEaHpPNUIxOVBYTHM4N1E5LVFfSG1aUkZQUXBHTEN5dTNlT0V2T0xRQnpEeVNqUlJBclBNVGp5WnF6R0ZVODg4RmUwa1dJaFBlMUE?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?w=600&q=70",
-      "editoria": "mercado-livre",
-      "data": "2026-08-12T11:05:19Z"
-    },
-    {
-      "id": "tarifas_34067",
-      "titulo": "Conta de luz: Aneel distribui R$ 5,48 bi para reduzir tarifas no Norte e Nordeste",
-      "lead": "Conta de luz: Aneel distribui R$ 5,48 bi para reduzir tarifas no Norte e Nordeste",
-      "fonte": "Movimento Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaEhfLVpWRDJmaU9rcXZXVDZMRTE2aDJ4X2I2UEwxeXFYU2NldzFQazBlaDBNdUM1Zng0VzR3N1BqUzBBTndONHIzQ2ZCYVY4OFF6TS00dDhBRlYwbjVaRWtqNENrdENON1d5MzlWVERTMEJFbEZVbkdtMW1RNE1BckxBemNveDN2MGluSFYxZ0hqTTFVZ0NhV0hwZVFKSU12MGNWNDBoSUtLVGFfUXZuTGVpejlvQzJyNXpkSVJjVDNKZmhBcW96X1NfdTRQZHVPUkdFb1h6Qjc?oc=5",
-      "imagem": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=70",
-      "editoria": "tarifas",
-      "data": "2026-08-11T21:51:19Z"
     }
   ]
 }
